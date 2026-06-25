@@ -1,0 +1,73 @@
+{
+  "client": "GCAD Construction",
+  "currency": "CAD",
+  "lastUpdated": "2026-06-25",
+  "headlineKpi": "leads",
+  "sheet": {
+    "id": "1zjqdoghFfQbm8ozwQ-MXYPl7ySUOyLY4QrYuSocBtEU",
+    "url": "https://docs.google.com/spreadsheets/d/1zjqdoghFfQbm8ozwQ-MXYPl7ySUOyLY4QrYuSocBtEU/edit"
+  },
+  "periods": {
+    "current": { "label": "May 26 – Jun 24", "start": "2026-05-26", "end": "2026-06-24" },
+    "prior": { "label": "Apr 26 – May 25", "start": "2026-04-26", "end": "2026-05-25" }
+  },
+  "summary": {
+    "combined": {
+      "leads": { "current": 49, "prior": 45 },
+      "spend": { "current": 3579.78, "prior": 4304.0 },
+      "costPerLead": { "current": 73.06, "prior": 95.64 }
+    },
+    "google": {
+      "leads": { "current": 5, "prior": 0 },
+      "spend": { "current": 1176.79, "prior": 810.48 },
+      "conversions": { "current": 4, "prior": 0 },
+      "phoneCalls": { "current": 4, "prior": 0 },
+      "clicks": { "current": 460, "prior": 43 },
+      "impressions": { "current": 14906, "prior": 1086 },
+      "costPerLead": { "current": 235.36, "prior": 0 }
+    },
+    "meta": {
+      "leads": { "current": 44, "prior": 45 },
+      "spend": { "current": 2402.99, "prior": 2493.47 },
+      "linkClicks": { "current": 362, "prior": 250 },
+      "impressions": { "current": 106163, "prior": 269912 },
+      "reach": { "current": 57147, "prior": 122204 },
+      "costPerLead": { "current": 54.61, "prior": 55.41 }
+    }
+  },
+  "daily": [
+    { "date": "2026-06-11", "googleSpend": 35.07, "googleClicks": 3, "googleLeads": 0, "metaSpend": 100.52, "metaClicks": 11, "metaLeads": 0 },
+    { "date": "2026-06-12", "googleSpend": 29.47, "googleClicks": 3, "googleLeads": 0, "metaSpend": 123.05, "metaClicks": 20, "metaLeads": 6 },
+    { "date": "2026-06-13", "googleSpend": 45.84, "googleClicks": 4, "googleLeads": 0, "metaSpend": 88.58, "metaClicks": 22, "metaLeads": 2 },
+    { "date": "2026-06-14", "googleSpend": 36.79, "googleClicks": 4, "googleLeads": 0, "metaSpend": 116.00, "metaClicks": 16, "metaLeads": 0 },
+    { "date": "2026-06-15", "googleSpend": 19.85, "googleClicks": 3, "googleLeads": 0, "metaSpend": 146.51, "metaClicks": 23, "metaLeads": 0 },
+    { "date": "2026-06-16", "googleSpend": 6.86, "googleClicks": 2, "googleLeads": 0, "metaSpend": 106.94, "metaClicks": 13, "metaLeads": 1 },
+    { "date": "2026-06-17", "googleSpend": 12.26, "googleClicks": 1, "googleLeads": 0, "metaSpend": 74.54, "metaClicks": 4, "metaLeads": 0 },
+    { "date": "2026-06-18", "googleSpend": 6.27, "googleClicks": 1, "googleLeads": 0, "metaSpend": 95.38, "metaClicks": 13, "metaLeads": 2 },
+    { "date": "2026-06-19", "googleSpend": 39.95, "googleClicks": 1, "googleLeads": 0, "metaSpend": 59.12, "metaClicks": 6, "metaLeads": 1 },
+    { "date": "2026-06-20", "googleSpend": 12.63, "googleClicks": 1, "googleLeads": 0, "metaSpend": 68.38, "metaClicks": 11, "metaLeads": 2 },
+    { "date": "2026-06-21", "googleSpend": 0.00, "googleClicks": 0, "googleLeads": 0, "metaSpend": 87.74, "metaClicks": 10, "metaLeads": 4 },
+    { "date": "2026-06-22", "googleSpend": 39.03, "googleClicks": 2, "googleLeads": 0, "metaSpend": 101.33, "metaClicks": 14, "metaLeads": 0 },
+    { "date": "2026-06-23", "googleSpend": 33.67, "googleClicks": 1, "googleLeads": 0, "metaSpend": 116.97, "metaClicks": 16, "metaLeads": 0 },
+    { "date": "2026-06-24", "googleSpend": 36.14, "googleClicks": 1, "googleLeads": 0, "metaSpend": 130.18, "metaClicks": 16, "metaLeads": 1 }
+  ],
+  "campaigns": {
+    "google": [
+      { "name": "Basement Renovation 47K$ (12 Dec)", "type": "Search", "spend": 909.62, "clicks": 57, "ctr": 4.29, "cpc": 15.96, "conversions": 2, "phoneCalls": 3, "cpa": 454.81, "impressionShare": 23.02, "budgetLostIS": 39.35, "rankLostIS": 37.63, "dailyBudget": 20 },
+      { "name": "PPC Guru - PMAX", "type": "Performance Max", "spend": 267.17, "clicks": 403, "ctr": 2.97, "cpc": 0.66, "conversions": 2, "phoneCalls": 1, "cpa": 133.59, "impressionShare": 9.99, "budgetLostIS": 11.25, "rankLostIS": 79.26, "dailyBudget": 15 }
+    ],
+    "meta": [
+      { "name": "Gcad Construction Lead Campaign - Basement ($750) - V", "spend": 1391.83, "linkClicks": 232, "linkCtr": 0.43, "cpc": 6.00, "cpm": 25.70, "leads": 26, "costPerLead": 53.53 },
+      { "name": "Gcad Construction Lead Campaign - Home Renovation ($1000)", "spend": 609.46, "linkClicks": 55, "linkCtr": 0.41, "cpc": 11.08, "cpm": 45.08, "leads": 14, "costPerLead": 43.53 },
+      { "name": "Gcad Construction Lead Campaign - Basement ($750) - S", "spend": 344.27, "linkClicks": 65, "linkCtr": 0.52, "cpc": 5.30, "cpm": 27.72, "leads": 4, "costPerLead": 86.07 },
+      { "name": "PPC Guru GCAD Basement Renovation Awareness Ad", "spend": 57.44, "linkClicks": 10, "linkCtr": 0.04, "cpc": 5.74, "cpm": 2.20, "leads": 0, "costPerLead": null }
+    ]
+  },
+  "insights": [
+    { "severity": "high", "title": "No conversion value tracked on Google — ROAS is impossible to calculate", "detail": "Google Conversion Value is $0 across all campaigns. For a renovation client you cannot report return, only cost. Assign an average lead/job value (e.g. $ per qualified lead) so every report shows return, not just spend." },
+    { "severity": "high", "title": "Google Search campaign is budget-starved and inefficient", "detail": "The Basement Search campaign loses 39.4% of impressions to budget and 37.6% to rank; impression share fell from 41.5% to 23%. On $20/day with a $454.81 CPA it is both underfunded and expensive. Tighten keywords/negatives and either fund it properly or move budget to Meta where leads cost $44–54." },
+    { "severity": "medium", "title": "Meta is the real lead engine, but the main campaign is drifting", "detail": "On 'Basement ($750) - V', spend was cut ~30% and cost-per-lead rose 22% ($43.99 → $53.53) with fewer leads. Protect the winner's budget." },
+    { "severity": "medium", "title": "Pause or rework the 'S' variant", "detail": "'Basement ($750) - S' costs $86.07 per lead — roughly 2x the 'V' variant ($53.53) and Home Renovation ($43.53). Shift its budget to the two cheaper campaigns." },
+    { "severity": "low", "title": "Leads live in two systems with no single number", "detail": "Google leads (calls + form conversions) and Meta leads (Messenger conversations) are tracked separately. This dashboard unifies them into one lead count — keep optimizing toward total lead volume." }
+  ]
+}
