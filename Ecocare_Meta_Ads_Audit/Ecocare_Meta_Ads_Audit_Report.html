@@ -94,6 +94,16 @@ tbody tr:nth-child(even){background:var(--zebra)}
 tbody td:first-child{font-weight:600;color:var(--ink)}
 td.up{color:var(--good);font-weight:700} td.dn{color:var(--bad);font-weight:700}
 
+/* priority addendum banner */
+.addendum-banner{margin:26px 0 4px;padding:16px 20px 4px;background:linear-gradient(180deg,var(--tint),transparent);
+  border:1px solid var(--hair);border-left:5px solid var(--accent);border-radius:12px 12px 0 0;border-bottom:none}
+.addendum-banner .tag{display:inline-block;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  font-weight:700;color:#7A4E12;background:#F1DBB2;padding:3px 9px;border-radius:999px}
+:root[data-theme="dark"] .addendum-banner .tag{color:#20140A;background:var(--accent)}
+@media (prefers-color-scheme:dark){.addendum-banner .tag{color:#20140A;background:var(--accent)}}
+:root[data-theme="light"] .addendum-banner .tag{color:#7A4E12;background:#F1DBB2}
+.addendum-banner h2.nb{border-top:none;margin:.35em 0 .1em;padding-top:0;font-size:1.7rem}
+h2.nb{border-top:none}
 /* charts */
 .chart{margin:20px 0 8px;text-align:center}
 .chart img{max-width:100%;height:auto;border:1px solid var(--hair);border-radius:10px;background:#fff;padding:6px}
@@ -166,6 +176,122 @@ li{margin:.25em 0}
 </div>
 
 <p class="idnote"><strong>Account-ID note.</strong> The audit brief listed <span class="mono">276592374807928</span> as the "ad account ID" — that is the <strong>PPC&nbsp;Guru business-portfolio ID</strong>, not an ad account. The Ecocare ad account is <span class="mono">1806978566910515</span>, confirmed before any data was pulled.</p>
+<div class="addendum-banner"><span class="tag">▲ Priority · added 22 Jul 2026</span><h2 id="situation" class="nb">Situation Update — Constrained-Budget Action Plan</h2></div>
+<p><em>Added 22 July 2026, in response to new information from the account team. This section takes priority over the general plan below and updates the cost-control finding in §10/§11 with client-confirmed facts.</em></p>
+<p><strong>The new constraints (as described by the team):</strong></p>
+<ul>
+<li>A <strong>cost-per-lead control was added to the two best campaigns — All In One and Tankless — last week, by mistake</strong>, and it "hit hard."</li>
+<li>The client <strong>cut budget</strong> from ~CA$700–800/day to <strong>~CA$500/day</strong>.</li>
+<li>The client wants <strong>CPL down from ~CA$25 to ~CA$15</strong> without losing lead volume.</li>
+<li><strong>FIFA / World-Cup ads should be removed</strong> (the event is over), but removing them would <strong>drop leads and raise CPL</strong>.</li>
+<li>The team feels it <strong>can't safely change the current campaigns</strong> and <strong>can't afford new test campaigns</strong>.</li>
+</ul>
+<blockquote>
+<p><strong>Bottom line up front.</strong> The recent CPL spike was <em>caused by the changes</em> — the CPL cap, the budget cut, and the learning disruption they triggered — not by the market. So the fastest way to get CPL back down is to <strong>stop fighting the auction and let it recover</strong>, replace FIFA <strong>in place</strong> rather than pausing it, and pull the handful of levers that cost no budget and don't reset learning. A blended <strong>CA$15 CPL is not realistically reachable in the short term</strong> on this account — but <strong>CA$20–24 is</strong>, and that is the honest number to give the client while we work toward lower.</p>
+</blockquote>
+<h3>A1. What happened last week — now confirmed by the data</h3>
+<p>In the 7 days after the cap went on (15–21 Jul vs 8–14 Jul):</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Campaign</th>
+<th>Spend</th>
+<th>Leads</th>
+<th>CPL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>All In One</strong></td>
+<td>CA$1,843 → <strong>CA$1,130</strong> (−39%)</td>
+<td>83 → <strong>37</strong> (−55%)</td>
+<td>CA$22.20 → <strong>CA$30.53</strong></td>
+</tr>
+<tr>
+<td><strong>Tankless</strong></td>
+<td>CA$494 → <strong>CA$140</strong> (−72%)</td>
+<td>18 → <strong>6</strong> (−67%)</td>
+<td>CA$27.43 → CA$23.26</td>
+</tr>
+</tbody>
+</table></div>
+<p>This is the textbook <strong>cost-cap-starvation</strong> signature: a cap set at/near the current CPL, on campaigns that don't generate enough conversions to feed it, so Meta stops bidding — spend and volume collapse. It is the <strong>same failure that hit the old HVAC campaign</strong> (§11). <strong>The cap, not the market, is why CPL jumped</strong> — which upgrades the earlier <em>inferred</em> cost-control finding to <strong>client-confirmed</strong>.</p>
+<p><strong>First action (if not already done):</strong> confirm All In One and Tankless are back on <strong>Highest Volume with no cost/bid cap</strong>. <em>(As of the audit pull they read "Highest volume," so the cap appears reverted — verify it is fully off.)</em> Then <strong>freeze the bids</strong> and let delivery re-stabilise for 7–10 days; CPL will partly self-correct as the campaigns clear the disruption.</p>
+<h3>A2. The honest truth about a CA$15 CPL</h3>
+<p>A bidding switch will not get you there — that is exactly the thinking that just backfired. The evidence:</p>
+<ul>
+<li>Your <strong>best <em>sustained</em> CPL is ~CA$20–24</strong> (Tankless, EV, All In One on good days).</li>
+<li><strong>CA$15 has only ever occurred on isolated exceptional days</strong> (e.g. 27 May CA$13.38, 30 May CA$11.88) — never as a 30-day blended average.</li>
+<li>CPL is driven by <strong>CPM</strong>, and a <strong>smaller CA$500/day budget concentrated on fewer conversions tends to raise CPM/CPL, not lower it</strong>.</li>
+<li>Chasing CA$15 with a cost cap <strong>caps delivery, not cost</strong> — a few cheap leads, then nothing (what just happened).</li>
+</ul>
+<p><strong>Realistic near-term target: CA$22–24 CPL at ~CA$500/day (~21–23 leads/day).</strong> A push toward <strong>~CA$18–20</strong> is achievable over 30–60 days via the creative and tracking work below. <strong>CA$15 blended is a long-term stretch, not a lever you can pull now</strong> — and any target should be re-derived from booked-job value (close rate × job value), not a round number.</p>
+<h3>A3. The FIFA problem — replace in place, don't remove</h3>
+<p>You're right that <strong>pausing FIFA cold would tank leads</strong> — those are among your best videos (FIFA-V1: 45 leads @ CA$25.29, CTR 4.02%; FIFA-V2: best hook at 45%). But the choice isn't "leave stale World-Cup ads running" vs "pause and lose leads." <strong>Do neither — twin them:</strong></p>
+<ol>
+<li><strong>Duplicate</strong> each winning FIFA ad (V1, V2) <strong>inside its existing ad set</strong> — no new campaign, no new budget; it draws on the same ad-set budget.</li>
+<li><strong>Re-edit only the World-Cup references out.</strong> The winning structure isn't the World Cup — it's <em>"stay cool this summer → home comfort → free consultation."</em> Keep that; drop "Canada on the world stage." An evergreen hook ("Stay cool this summer — book a free home-comfort check") carries the same appeal year-round.</li>
+<li><strong>Run the evergreen twin alongside the FIFA original for 5–7 days</strong> so it accumulates delivery and proves out.</li>
+<li><strong>Only then pause the FIFA original</strong> — once its twin is delivering. Leads never drop, because the replacement is live <em>before</em> the original is removed.</li>
+<li>Separately, <strong>replace FIFA-V3 outright</strong> — Meta already flags it "below-average / low quality," so it's not worth twinning.</li>
+</ol>
+<p>This is the <strong>one change worth making now</strong>, because it <em>reduces</em> risk (off-season creative decays and can read as irrelevant) rather than adding it, and adding an ad to an out-of-learning ad set is the least disruptive edit available. <em>Owners: Video Editor / Copywriter to cut the evergreen versions; Meta Ads Manager to launch the twins.</em></p>
+<h3>A4. Five moves that cost no extra budget and don't reset learning</h3>
+<p>You can make real progress without touching bids/budgets or launching new campaigns:</p>
+<ol>
+<li><strong>Let it settle — the highest-value "action" is patience.</strong> The biggest CPL win right now is simply letting the two winners recover on Highest Volume. Undo nothing further for 7–10 days.</li>
+<li><strong>Reconnect the CRM "Quoted" signal.</strong> This is a <strong>back-end / tracking change, not a campaign change</strong> — zero delivery risk, zero budget. It re-enables quality optimisation and lets you eventually optimise for <em>booked</em> leads — the real route to <em>cheaper qualified</em> leads, which is what the client actually wants.</li>
+<li><strong>Concentrate the CA$500 on the cheapest engine.</strong> With less budget, <em>where</em> it goes matters more. Favour All In One (water softener, ~CA$25 CPL, CPM ~CA$17) and Instagram Reels (~CA$26 CPL) over the pricey HVAC-New (CPM ~CA$76). If they share a CBO this happens automatically; if not, a budget-<em>split</em> change is lower-risk than a bid change.</li>
+<li><strong>Test with creative rotation, not new campaigns.</strong> "No budget for new campaigns" ≠ "no testing." Every evergreen FIFA twin and every fresh water-softener hook is a test <em>inside</em> an existing ad set at no extra spend. That is your test lab.</li>
+<li><strong>Piggy-back the free efficiency win.</strong> When you open an ad set to launch a twin, that is also the moment to <strong>exclude the Instream Video placement</strong> (a CA$75-CPL sink) — a free win on a change you're already making, at no extra disruption.</li>
+</ol>
+<h3>A5. What NOT to do (so you don't repeat the hit)</h3>
+<ul>
+<li><strong>Do not add any cost cap / bid cap / cost-per-result goal</strong> to chase CA$15 — that is precisely what starved delivery last week.</li>
+<li><strong>Do not pause FIFA before its evergreen twin is live.</strong></li>
+<li><strong>Do not keep cutting budget while also demanding more leads</strong> — at CA$500/day you can protect CPL <em>or</em> volume, not push both hard at once.</li>
+<li><strong>Do not stack multiple edits at once</strong> — make the one change (the twins), then wait. Simultaneous edits compound the learning disruption.</li>
+</ul>
+<h3>A6. Realistic CPL glide path (at ~CA$500/day)</h3>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Actions</th>
+<th style="text-align: right;">Expected CPL</th>
+<th style="text-align: right;">Leads/day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Now (week 1)</strong></td>
+<td>Remove any residual cap; freeze bids; let it settle; reconnect the CRM signal</td>
+<td style="text-align: right;">CA$25 → <strong>~CA$23</strong></td>
+<td style="text-align: right;">~20–22</td>
+</tr>
+<tr>
+<td><strong>Weeks 2–3</strong></td>
+<td>Launch evergreen FIFA twins; retire originals &amp; FIFA-V3; exclude Instream Video</td>
+<td style="text-align: right;"><strong>~CA$21–22</strong></td>
+<td style="text-align: right;">~22–24</td>
+</tr>
+<tr>
+<td><strong>Weeks 4–8</strong></td>
+<td>Fresh water-softener hooks; concentrate on IG Reels; optimise to "Quoted" once CRM is live</td>
+<td style="text-align: right;"><strong>~CA$18–20</strong></td>
+<td style="text-align: right;">~24–26</td>
+</tr>
+<tr>
+<td><strong>CA$15 target</strong></td>
+<td>Only realistic once quality-optimised on a proven cheaper creative engine — likely needs <em>slightly more</em> budget to exit learning cleanly</td>
+<td style="text-align: right;">stretch</td>
+<td style="text-align: right;">—</td>
+</tr>
+</tbody>
+</table></div>
+<h3>A7. If the client still insists on CA$15 now</h3>
+<p>Give them the trade-off in writing: <strong>at ~CA$500/day you can have a low CPL or high volume, not both — and CA$15 blended has never been sustained on this account.</strong> The credible path to <em>cheaper qualified</em> leads is (a) fix the tracking so we optimise for booked jobs, (b) refresh the creative engine, and (c) let the winners run <strong>un-capped</strong> — over 30–60 days, not overnight. A cost cap will <em>show</em> a low CPL for a day or two and then stop the leads; we now have last week's numbers as proof.</p>
+<hr />
 <h2>2. Audit Scope</h2>
 <p>This audit reviewed <strong>every</strong> campaign, ad set and ad that spent, delivered or generated leads in either 30-day comparison window — not just the top performers — plus all currently-active entities regardless of delivery.</p>
 <ul>

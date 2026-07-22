@@ -24,6 +24,88 @@
 
 ---
 
+## Situation Update — Constrained-Budget Action Plan
+
+*Added 22 July 2026, in response to new information from the account team. This section takes priority over the general plan below and updates the cost-control finding in §10/§11 with client-confirmed facts.*
+
+**The new constraints (as described by the team):**
+
+- A **cost-per-lead control was added to the two best campaigns — All In One and Tankless — last week, by mistake**, and it "hit hard."
+- The client **cut budget** from ~CA$700–800/day to **~CA$500/day**.
+- The client wants **CPL down from ~CA$25 to ~CA$15** without losing lead volume.
+- **FIFA / World-Cup ads should be removed** (the event is over), but removing them would **drop leads and raise CPL**.
+- The team feels it **can't safely change the current campaigns** and **can't afford new test campaigns**.
+
+> **Bottom line up front.** The recent CPL spike was *caused by the changes* — the CPL cap, the budget cut, and the learning disruption they triggered — not by the market. So the fastest way to get CPL back down is to **stop fighting the auction and let it recover**, replace FIFA **in place** rather than pausing it, and pull the handful of levers that cost no budget and don't reset learning. A blended **CA$15 CPL is not realistically reachable in the short term** on this account — but **CA$20–24 is**, and that is the honest number to give the client while we work toward lower.
+
+### A1. What happened last week — now confirmed by the data
+
+In the 7 days after the cap went on (15–21 Jul vs 8–14 Jul):
+
+| Campaign | Spend | Leads | CPL |
+|---|---|---|---|
+| **All In One** | CA$1,843 → **CA$1,130** (−39%) | 83 → **37** (−55%) | CA$22.20 → **CA$30.53** |
+| **Tankless** | CA$494 → **CA$140** (−72%) | 18 → **6** (−67%) | CA$27.43 → CA$23.26 |
+
+This is the textbook **cost-cap-starvation** signature: a cap set at/near the current CPL, on campaigns that don't generate enough conversions to feed it, so Meta stops bidding — spend and volume collapse. It is the **same failure that hit the old HVAC campaign** (§11). **The cap, not the market, is why CPL jumped** — which upgrades the earlier *inferred* cost-control finding to **client-confirmed**.
+
+**First action (if not already done):** confirm All In One and Tankless are back on **Highest Volume with no cost/bid cap**. *(As of the audit pull they read "Highest volume," so the cap appears reverted — verify it is fully off.)* Then **freeze the bids** and let delivery re-stabilise for 7–10 days; CPL will partly self-correct as the campaigns clear the disruption.
+
+### A2. The honest truth about a CA$15 CPL
+
+A bidding switch will not get you there — that is exactly the thinking that just backfired. The evidence:
+
+- Your **best *sustained* CPL is ~CA$20–24** (Tankless, EV, All In One on good days).
+- **CA$15 has only ever occurred on isolated exceptional days** (e.g. 27 May CA$13.38, 30 May CA$11.88) — never as a 30-day blended average.
+- CPL is driven by **CPM**, and a **smaller CA$500/day budget concentrated on fewer conversions tends to raise CPM/CPL, not lower it**.
+- Chasing CA$15 with a cost cap **caps delivery, not cost** — a few cheap leads, then nothing (what just happened).
+
+**Realistic near-term target: CA$22–24 CPL at ~CA$500/day (~21–23 leads/day).** A push toward **~CA$18–20** is achievable over 30–60 days via the creative and tracking work below. **CA$15 blended is a long-term stretch, not a lever you can pull now** — and any target should be re-derived from booked-job value (close rate × job value), not a round number.
+
+### A3. The FIFA problem — replace in place, don't remove
+
+You're right that **pausing FIFA cold would tank leads** — those are among your best videos (FIFA-V1: 45 leads @ CA$25.29, CTR 4.02%; FIFA-V2: best hook at 45%). But the choice isn't "leave stale World-Cup ads running" vs "pause and lose leads." **Do neither — twin them:**
+
+1. **Duplicate** each winning FIFA ad (V1, V2) **inside its existing ad set** — no new campaign, no new budget; it draws on the same ad-set budget.
+2. **Re-edit only the World-Cup references out.** The winning structure isn't the World Cup — it's *"stay cool this summer → home comfort → free consultation."* Keep that; drop "Canada on the world stage." An evergreen hook ("Stay cool this summer — book a free home-comfort check") carries the same appeal year-round.
+3. **Run the evergreen twin alongside the FIFA original for 5–7 days** so it accumulates delivery and proves out.
+4. **Only then pause the FIFA original** — once its twin is delivering. Leads never drop, because the replacement is live *before* the original is removed.
+5. Separately, **replace FIFA-V3 outright** — Meta already flags it "below-average / low quality," so it's not worth twinning.
+
+This is the **one change worth making now**, because it *reduces* risk (off-season creative decays and can read as irrelevant) rather than adding it, and adding an ad to an out-of-learning ad set is the least disruptive edit available. *Owners: Video Editor / Copywriter to cut the evergreen versions; Meta Ads Manager to launch the twins.*
+
+### A4. Five moves that cost no extra budget and don't reset learning
+
+You can make real progress without touching bids/budgets or launching new campaigns:
+
+1. **Let it settle — the highest-value "action" is patience.** The biggest CPL win right now is simply letting the two winners recover on Highest Volume. Undo nothing further for 7–10 days.
+2. **Reconnect the CRM "Quoted" signal.** This is a **back-end / tracking change, not a campaign change** — zero delivery risk, zero budget. It re-enables quality optimisation and lets you eventually optimise for *booked* leads — the real route to *cheaper qualified* leads, which is what the client actually wants.
+3. **Concentrate the CA$500 on the cheapest engine.** With less budget, *where* it goes matters more. Favour All In One (water softener, ~CA$25 CPL, CPM ~CA$17) and Instagram Reels (~CA$26 CPL) over the pricey HVAC-New (CPM ~CA$76). If they share a CBO this happens automatically; if not, a budget-*split* change is lower-risk than a bid change.
+4. **Test with creative rotation, not new campaigns.** "No budget for new campaigns" ≠ "no testing." Every evergreen FIFA twin and every fresh water-softener hook is a test *inside* an existing ad set at no extra spend. That is your test lab.
+5. **Piggy-back the free efficiency win.** When you open an ad set to launch a twin, that is also the moment to **exclude the Instream Video placement** (a CA$75-CPL sink) — a free win on a change you're already making, at no extra disruption.
+
+### A5. What NOT to do (so you don't repeat the hit)
+
+- **Do not add any cost cap / bid cap / cost-per-result goal** to chase CA$15 — that is precisely what starved delivery last week.
+- **Do not pause FIFA before its evergreen twin is live.**
+- **Do not keep cutting budget while also demanding more leads** — at CA$500/day you can protect CPL *or* volume, not push both hard at once.
+- **Do not stack multiple edits at once** — make the one change (the twins), then wait. Simultaneous edits compound the learning disruption.
+
+### A6. Realistic CPL glide path (at ~CA$500/day)
+
+| Phase | Actions | Expected CPL | Leads/day |
+|---|---|--:|--:|
+| **Now (week 1)** | Remove any residual cap; freeze bids; let it settle; reconnect the CRM signal | CA$25 → **~CA$23** | ~20–22 |
+| **Weeks 2–3** | Launch evergreen FIFA twins; retire originals & FIFA-V3; exclude Instream Video | **~CA$21–22** | ~22–24 |
+| **Weeks 4–8** | Fresh water-softener hooks; concentrate on IG Reels; optimise to "Quoted" once CRM is live | **~CA$18–20** | ~24–26 |
+| **CA$15 target** | Only realistic once quality-optimised on a proven cheaper creative engine — likely needs *slightly more* budget to exit learning cleanly | stretch | — |
+
+### A7. If the client still insists on CA$15 now
+
+Give them the trade-off in writing: **at ~CA$500/day you can have a low CPL or high volume, not both — and CA$15 blended has never been sustained on this account.** The credible path to *cheaper qualified* leads is (a) fix the tracking so we optimise for booked jobs, (b) refresh the creative engine, and (c) let the winners run **un-capped** — over 30–60 days, not overnight. A cost cap will *show* a low CPL for a day or two and then stop the leads; we now have last week's numbers as proof.
+
+---
+
 ## 2. Audit Scope
 
 This audit reviewed **every** campaign, ad set and ad that spent, delivered or generated leads in either 30-day comparison window — not just the top performers — plus all currently-active entities regardless of delivery.
