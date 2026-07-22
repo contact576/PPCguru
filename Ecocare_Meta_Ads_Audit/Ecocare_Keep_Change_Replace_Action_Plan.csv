@@ -1,0 +1,15 @@
+action,level,entity,reason,current_CPL_CAD,lead_volume_cur30,trend,recommendation,monitoring_threshold
+KEEP,Campaign,All In One | PPC Guru,47% of leads at CA$25.46; Meta flags as scale candidate (+52% conv),25.46,278,CPL rising (fatigue); 7d CA$30.53,Keep + add fresh creatives; consider +20-25% budget,Pause-review if CPL>CA$34 for 5+ days or hook<12%
+KEEP,Campaign,PPC Guru - Tankless,"New, efficient CA$23.19; Meta flags budget-limited",23.19,65,New/strong,Keep + scale carefully (+20%/wk),CPL>CA$30 or leads/day fall >30%
+KEEP,Ad set,COMPLETE HOME COMFORT PLAN (HVAC-New),"89 leads @ CA$29.44, CTR 3.73%",29.44,89,Volume up,Keep as the anchor ad set when consolidating HVAC,CPL>CA$36
+KEEP,Ad,Water Softener | $29.99/mo (video),"Workhorse, avg quality ranking, 278 leads",25.46,278,Fatiguing,Keep running; build 2-3 refresh variants before pausing,Do NOT pause until 2 replacements live
+KEEP,Ad,FIFA - V1,"CA$25.29 CPL, CTR 4.02%, hook 27%",25.29,45,Strong,Keep through World Cup window; plan post-event replacement,CPL>CA$34
+CHANGE,Campaign,EC | HVAC + Water Heater CBO - New,3 near-identical ad sets = fragmentation (Meta: -27% CPR); CPM CA$76,34.12,185,CPL improving vs prev,Consolidate 3 ad sets into 1 broad ad set,Success: CPL<CA$30 within 14d
+CHANGE,Ad set,All QUALITY_LEAD prospecting ad sets (6),GHL/CRM qualified-lead signal stale since Nov-2025; LEAD_GENERATION ad sets are cheaper (CA$23-25 vs CA$30-40),30-40,varies,mixed,Switch to LEAD_GENERATION (Maximise leads) OR reconnect CRM 'Quoted' signal first,Success: CPL down 10%+ at equal quality
+CHANGE,Ad set,EV Charger Installation,Efficient (CA$20.63) but freq 3.24 and paused,20.63,51,paused,Re-activate at lower freq or fold into prospecting; not core service,Freq<2.5; CPL<CA$28
+CHANGE,Account,65+ age / Feed placement / Instream Video,65+ worst CPL CA$36.82 + CPM CA$63; Feed CPM CA$48; Instream CA$75 CPL,varies,varies,waste,Cap/observe 65+ spend; exclude Instream Video; trim Feed vs Reels,Reallocate to IG Reels (CA$25.99 CPL)
+REPLACE,Ad,FIFA - V3,"Below-average quality (Meta bottom 35%), CPM CA$135",32.78,31,weak,Replace with new HVAC video hook,Deadline 7 days; keep V1 live
+REPLACE,Ad,AC Static V1 | Summer Countdown,"CA$49.48 CPL, CPM CA$79, static",49.48,37,expensive,Replace with product-visible AC static + clear offer,Deadline 7 days
+REPLACE,Ad,Bundles | BROAD | tCPA_$30,"CA$40.12 CPL, weak hold 17%, 'Spring' copy in July",40.12,20,weak,Replace with summer bundle creative; fix seasonal copy,Deadline 10 days
+REPLACE,Campaign,PPC Guru - Whatsapp (paused),REPLIES goal gave CA$160-484 CPL; not form leads,160.32,10,paused-keep,Keep paused; rebuild as Instant-Form lead campaign if messaging desired,Do not re-enable as-is
+REPLACE,Creative,{{product.name}} SHARE ads (Tankless/AC/RT/Ottawa),Dynamic product-name placeholder may not resolve; metadata blank,varies,varies,verify,Verify rendered name/offer; rebuild as standard image/video creatives,Confirm in ad preview

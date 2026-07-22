@@ -1,0 +1,17 @@
+date,entity,level,previous_setting,new_setting,type_of_change_effect,likely_delivery_impact,evidence,confidence
+2025-08-16,Ecocare Website Tracking,Pixel/Dataset,(none),Pixel created,Website tracking set up,n/a,Pixel never fired (epoch last_fired),Confirmed (creation_time)
+2025-08-26,Ecocare Home Comfort,Pixel/Dataset,(none),Primary pixel created,Primary web tracking active (PageView firing today),n/a,last_fired 2026-07-22,Confirmed
+2025-10-19,GHL-Pixels,Pixel/Dataset,(none),GoHighLevel CRM dataset created,CRM->Meta feedback channel,n/a,last_fired 2025-11-01,Confirmed
+2025-11-01,GHL-Pixels,Pixel/Dataset,Active,Stale (stopped firing),Qualified-lead / CRM feedback loop lapses,Undermines QUALITY_LEAD signal thereafter,last_fired_time=2025-11-01,Confirmed (last_fired)
+2026-05-05,EcoCare retargeting audiences + Retargeting campaign,Audience/Campaign,(none),"Created (Video Viewers, Form Abandoners, Page/IG Engagers, Website Visitors)",Retargeting enabled (small pools),n/a,audience+ad created_time,Confirmed
+2026-05-08,All In One | PPC Guru + Water Softener video,Campaign/Ad,(none),Created,Launch of the workhorse (later 47% of leads),Large positive,created_time 8 May,Confirmed
+2026-05-20,EC | EV Charger | PPC Guru,Campaign/Ad,(none),Created,New non-core service test (efficient ~$20 CPL),Positive,created_time 20 May,Confirmed
+2026-06-02,"PPC Guru Customer Lookalike (CUSTOM ~1,200) + LAL 1%",Audience,(none),Created,Prospecting via 1% lookalike of small seed,Mixed (small seed),time_created 2 Jun,Confirmed
+2026-06-02,EC | HVAC + Water Heater CBO - New; PPC Guru - Whatsapp,Campaign,(none),Created,New HVAC CBO (Highest volume) + WhatsApp (REPLIES),HVAC positive; WhatsApp very poor,created_time 2 Jun,Confirmed
+2026-06-03 (approx),"EC | HVAC + Water Heater CBO (old, id ...810472)",Campaign,Bid: Cost per result goal,Paused; replaced by '-New' (Highest volume),Cost-cap starved delivery (only CA$555 / ~$50 of $100 daily),Volume collapse under cost cap; fixed by rebuild,bid_strategy + updated_time 3 Jun + delivery pattern,INFERRED (no change log)
+2026-06-12..14,Account daily budget,Account/Campaign,~CA$400/day,~CA$900/day (surge),Spend nearly doubled for ~3 days,CPL spiked to CA$43-48; spend outpaced conversions,Daily spend/CPL series,INFERRED (delivery pattern)
+2026-06-15,FIFA V1-V6 (World Cup themed) ads,Ad,(none),Created,Topical creative burst in HVAC CBO,"Mixed (V1 strong, V3 low quality)",created_time 15 Jun,Confirmed
+2026-06-29,PPC Guru - Tankless + Tankless Static ad,Campaign/Ad,(none),Created,Tankless split into own campaign,Positive (~$23 CPL),created_time 29 Jun,Confirmed
+2026-07-14,All In One / Water Softener ad,Ad,—,Edited (updated_time),Edit to workhorse ad/ad set,Possible minor learning nudge,updated_time 14 Jul,Confirmed (updated_time)
+2026-07-17,PPC Guru - Whatsapp; EC | EV Charger,Campaign,Active,Paused,Removed WhatsApp waste but also cut efficient EV leads,Spend collapsed to CA$106-252/day 17-19 Jul; 7d CPL rose,updated_time 17 Jul + daily collapse,INFERRED (delivery pattern)
+2026-07-20,Ottawa - Water Softner & Tankless,Campaign/Ad,(none),Created,New Ottawa geo campaign,Learning reset; early CPL CA$35-51,created_time 20 Jul,Confirmed
