@@ -1,0 +1,20 @@
+breakdown_type,placement,spend_CAD,impressions,reach,frequency_or_blank,ctr_pct,cpm_CAD,link_clicks,cost_per_link_click,link_ctr_pct,leads,CPL_CAD
+publisher_platform,Facebook,9363.78,268608,111632,2.41,1.67,34.86,2392,3.91,0.89,301,31.11
+publisher_platform,Instagram,8484.88,376183,176711,2.13,0.99,22.56,2677,3.17,0.71,295,28.76
+publisher_platform,Unknown,14.23,247,232,1.06,0.81,57.61,1,14.23,0.4,,
+platform_position,Facebook Reels,6168.92,189358,89279,2.12,1.64,32.58,1784,3.46,0.94,210,29.38
+platform_position,Instagram Reels,4833.48,271462,141948,1.91,0.63,17.81,1005,4.81,0.37,186,25.99
+platform_position,Feed (FB+IG),4362.33,91147,48838,1.87,1.64,47.86,623,7.0,0.68,130,33.56
+platform_position,Instagram Stories,2234.67,61011,34704,1.76,2.78,36.63,1519,1.47,2.49,68,32.86
+platform_position,Instream Video,150.44,22093,6902,3.2,0.48,6.81,72,2.09,0.33,2,75.22
+platform_position,FB Reels Overlay,31.79,5190,2503,,0.83,6.13,43,0.74,0.83,0,
+platform_position,Marketplace,31.23,2310,1134,2.04,0.52,13.52,14,2.23,0.61,0,
+platform_position,Search,26.62,2075,1608,1.29,0.43,12.83,9,2.96,0.43,0,
+platform_position,IG lead-gen multi-submit,6.76,30,30,1.0,0.0,225.34,0,,,0,
+platform_position,FB Stories,1.53,26,23,1.13,0.0,58.85,0,,,0,
+platform_position,FB Profile Feed,0.72,51,49,1.04,0.0,14.12,0,,,0,
+platform_position,IG Explore Grid,0.17,38,28,1.36,0.0,4.47,0,,,0,
+device_platform,Mobile app,17670.58,642541,273404,2.35,1.27,27.5,5054,3.5,0.79,590,29.95
+device_platform,Desktop,144.66,1633,754,2.17,2.94,88.59,13,11.13,0.8,5,28.93
+device_platform,Mobile web,34.01,631,334,1.89,0.95,53.9,2,17.01,0.32,1,34.01
+device_platform,Unknown,14.23,247,232,1.06,0.81,57.61,1,14.23,0.4,,
