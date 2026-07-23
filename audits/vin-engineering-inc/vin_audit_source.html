@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 16mm 18mm 16mm;
+    @bottom-left { content: "PPC Guru  ·  Confidential"; font-family: "DejaVu Sans"; font-size: 7.5pt; color: #8a94a6; }
+    @bottom-center { content: "Vin Engineering INC — Google Ads Audit"; font-family: "DejaVu Sans"; font-size: 7.5pt; color: #8a94a6; }
+    @bottom-right { content: "Page " counter(page) " of " counter(pages); font-family: "DejaVu Sans"; font-size: 7.5pt; color: #8a94a6; }
+  }
+  @page :first { margin: 0; @bottom-left { content: none; } @bottom-center { content: none; } @bottom-right { content: none; } }
+
+  * { box-sizing: border-box; }
+  html { -weasy-hyphens: none; }
+  body {
+    font-family: "DejaVu Sans", sans-serif;
+    color: #1c2431;
+    font-size: 9.6pt;
+    line-height: 1.5;
+    margin: 0;
+  }
+  h1, h2, h3, h4 { font-family: "DejaVu Serif", serif; color: #0F2443; font-weight: 700; }
+
+  /* ---------- COVER ---------- */
+  .cover {
+    height: 297mm; width: 210mm;
+    background: linear-gradient(150deg, #0F2443 0%, #17335e 55%, #1d3d6e 100%);
+    color: #eef2f8; padding: 28mm 22mm; position: relative; page-break-after: always;
+  }
+  .cover .brandrow { display: flex; align-items: center; gap: 8px; letter-spacing: 3px; font-size: 10pt; color: #d7b46a; font-weight: 700; text-transform: uppercase; }
+  .cover .dot { width: 9px; height: 9px; background: #d7b46a; border-radius: 50%; display:inline-block; }
+  .cover h1 { color: #ffffff; font-size: 33pt; line-height: 1.1; margin: 60mm 0 6mm 0; }
+  .cover .sub { font-size: 13pt; color: #c7d3e6; font-weight: 400; }
+  .cover .client { margin-top: 4mm; font-size: 17pt; color: #d7b46a; font-family: "DejaVu Serif", serif; font-weight: 700; }
+  .cover .metabox { position: absolute; bottom: 26mm; left: 22mm; right: 22mm; border-top: 1px solid rgba(215,180,106,0.4); padding-top: 6mm; display: flex; justify-content: space-between; font-size: 9.5pt; color: #c7d3e6; }
+  .cover .metabox b { color: #ffffff; font-weight: 700; display:block; font-size: 10.5pt; margin-bottom: 2px;}
+
+  /* ---------- SECTIONS ---------- */
+  h2.step {
+    font-size: 15pt; margin: 0 0 4mm 0; padding: 3mm 0 2mm 0;
+    border-bottom: 2.5px solid #0F2443;
+  }
+  h2.step .num {
+    display: inline-block; background: #0F2443; color: #d7b46a; font-family: "DejaVu Sans";
+    font-size: 10pt; padding: 1.5mm 3mm; border-radius: 3px; margin-right: 4mm; vertical-align: middle;
+  }
+  h3 { font-size: 11.5pt; margin: 5mm 0 2mm 0; color: #17335e; }
+  h4 { font-size: 10pt; margin: 3mm 0 1mm 0; color: #17335e; }
+  p { margin: 0 0 2.4mm 0; }
+  .section { page-break-inside: auto; margin-bottom: 4mm; }
+  .pb { page-break-before: auto; }
+  h2.step { page-break-after: avoid; }
+  h3, h4 { page-break-after: avoid; }
+  .callout, .kpis, .scorewrap, .lede { page-break-inside: avoid; }
+  tr { page-break-inside: avoid; }
+  table { page-break-inside: auto; }
+  .toc-line > span:nth-child(2) { display: none; }
+  .toc-line { border-bottom: 0.5px solid #e3e8f0; }
+  ul, ol { margin: 0 0 3mm 0; padding-left: 6mm; }
+  li { margin-bottom: 1.4mm; }
+  b, strong { color: #0F2443; }
+  em { color: #7a3b00; font-style: italic; }
+  a { color: #1d3d6e; text-decoration: none; }
+
+  /* ---------- TABLES ---------- */
+  table { width: 100%; border-collapse: collapse; margin: 2mm 0 4mm 0; font-size: 8.5pt; }
+  th { background: #0F2443; color: #fff; text-align: left; padding: 1.8mm 2mm; font-weight: 700; font-family: "DejaVu Sans"; }
+  td { padding: 1.5mm 2mm; border-bottom: 0.5px solid #dbe1ea; vertical-align: top; }
+  tr:nth-child(even) td { background: #f4f7fb; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .tot td { font-weight: 700; background: #eaeef5 !important; border-top: 1.5px solid #0F2443; }
+
+  /* ---------- KPI GRID ---------- */
+  .kpis { display: flex; flex-wrap: wrap; gap: 3mm; margin: 3mm 0 4mm 0; }
+  .kpi { flex: 1 1 30%; min-width: 42mm; border: 1px solid #dbe1ea; border-left: 3px solid #0F2443; border-radius: 4px; padding: 2.5mm 3mm; background: #fbfcfe; }
+  .kpi .v { font-family: "DejaVu Serif", serif; font-size: 15pt; font-weight: 700; color: #0F2443; }
+  .kpi .l { font-size: 7.6pt; color: #64707f; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kpi.warn { border-left-color: #c0392b; } .kpi.warn .v { color: #c0392b; }
+  .kpi.good { border-left-color: #1e8449; } .kpi.good .v { color: #1e8449; }
+  .kpi.amber { border-left-color: #b7791f; } .kpi.amber .v { color: #b7791f; }
+
+  /* ---------- CALLOUTS ---------- */
+  .callout { border-radius: 4px; padding: 3mm 3.5mm; margin: 3mm 0; font-size: 9pt; }
+  .callout .ct { font-weight: 700; font-family: "DejaVu Serif", serif; margin-bottom: 1mm; display: block; }
+  .c-red { background: #fdecea; border-left: 3px solid #c0392b; } .c-red .ct { color: #a5281b; }
+  .c-green { background: #e9f7ef; border-left: 3px solid #1e8449; } .c-green .ct { color: #14663a; }
+  .c-amber { background: #fef6e7; border-left: 3px solid #b7791f; } .c-amber .ct { color: #8a5a12; }
+  .c-navy { background: #eef2f8; border-left: 3px solid #0F2443; } .c-navy .ct { color: #0F2443; }
+
+  .pill { display: inline-block; font-size: 7.4pt; font-weight: 700; padding: 0.4mm 2mm; border-radius: 10px; color: #fff; vertical-align: middle; }
+  .p-crit { background: #c0392b; } .p-high { background: #d35400; } .p-med { background: #b7791f; } .p-low { background: #5d6d7e; } .p-good { background: #1e8449; }
+
+  .lede { font-size: 10.5pt; color: #2b3849; border-left: 3px solid #d7b46a; padding-left: 4mm; margin: 0 0 4mm 0; }
+  .small { font-size: 8pt; color: #64707f; }
+  .toc-line { display:flex; justify-content: space-between; border-bottom: 0.5px dotted #c3ccd8; padding: 1.2mm 0; font-size: 9.5pt; }
+  .toc-line .n { color: #0F2443; font-weight: 700; }
+  .scorewrap { display:flex; gap:4mm; align-items:center; margin: 3mm 0; }
+  .scorebadge { font-family:"DejaVu Serif"; font-size: 22pt; font-weight:700; color:#b7791f; border: 2px solid #b7791f; border-radius: 8px; padding: 3mm 5mm; }
+</style>
+</head>
+<body>
+
+<!-- ============ COVER ============ -->
+<div class="cover">
+  <div class="brandrow"><span class="dot"></span> PPC GURU &nbsp;·&nbsp; PAID SEARCH AUDIT</div>
+  <h1>Google Ads<br>Account Audit</h1>
+  <div class="sub">Full-funnel performance review, diagnosis &amp; optimization roadmap</div>
+  <div class="client">Vin Engineering INC</div>
+  <div class="metabox">
+    <div><b>Reporting period</b>Last 30 days · Jun 23 – Jul 22, 2026</div>
+    <div><b>Account</b>Google Ads 566-536-4039 (CAD)</div>
+    <div><b>Prepared</b>July 23, 2026</div>
+  </div>
+</div>
+
+<!-- ============ CONTENTS + EXEC SUMMARY ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">i</span>What's inside</h2>
+  <div class="toc-line"><span><span class="n">Executive summary</span> — the one-paragraph diagnosis &amp; scorecard</span><span>1</span></div>
+  <div class="toc-line"><span><span class="n">Step 1</span> — Account performance snapshot (all metrics)</span><span>2</span></div>
+  <div class="toc-line"><span><span class="n">Step 2</span> — Conversion tracking &amp; lead quality</span><span>2</span></div>
+  <div class="toc-line"><span><span class="n">Step 3</span> — Campaign structure &amp; settings</span><span>3</span></div>
+  <div class="toc-line"><span><span class="n">Step 4</span> — Visibility &amp; impression share</span><span>3</span></div>
+  <div class="toc-line"><span><span class="n">Step 5</span> — Keywords &amp; Quality Score</span><span>4</span></div>
+  <div class="toc-line"><span><span class="n">Step 6</span> — Search terms &amp; wasted spend</span><span>5</span></div>
+  <div class="toc-line"><span><span class="n">Step 7</span> — Landing page experience</span><span>6</span></div>
+  <div class="toc-line"><span><span class="n">Step 8</span> — Ad copy &amp; creative</span><span>6</span></div>
+  <div class="toc-line"><span><span class="n">Step 9</span> — Geography, devices &amp; schedule</span><span>7</span></div>
+  <div class="toc-line"><span><span class="n">Step 10</span> — Bidding &amp; budget</span><span>8</span></div>
+  <div class="toc-line"><span><span class="n">What's working well</span></span><span>8</span></div>
+  <div class="toc-line"><span><span class="n">Areas requiring optimization</span> — prioritized checklist</span><span>9</span></div>
+  <div class="toc-line"><span><span class="n">30 / 60 / 90-day action plan</span></span><span>10</span></div>
+
+  <h2 class="step" style="margin-top:8mm;"><span class="num">✦</span>Executive summary</h2>
+  <p class="lede">Vin Engineering's Google Ads account is a <b>young, single-campaign account with genuinely good fundamentals that is being held back by a small number of fixable issues.</b> In the last 30 days it spent <b>CAD&nbsp;$1,472</b> and produced <b>13 leads</b> (9 form fills + 4 calls) at a <b>$113 cost-per-lead</b>. Nothing here is "broken" — but roughly a third of every dollar is being taxed by a weak landing page, and about a quarter of available searches are missed because of it.</p>
+
+  <p><b>The single biggest lever:</b> Google's own <b>landing-page (post-click) Quality Score is <span style="color:#c0392b">Below&nbsp;Average</span> on nearly every keyword.</b> That low score is why the average click costs <b>$7.44</b> (high for this niche) and why the campaign <b>loses 43.8% of available impressions to Ad Rank</b>. Fix the landing page and three things improve at once: lower CPCs, more impressions inside the same budget, and a better conversion rate — compounding into a materially lower cost-per-lead.</p>
+
+  <div class="kpis">
+    <div class="kpi"><div class="v">$1,472</div><div class="l">Spend (30 days)</div></div>
+    <div class="kpi"><div class="v">13</div><div class="l">Leads (forms + calls)</div></div>
+    <div class="kpi amber"><div class="v">$113</div><div class="l">Cost / lead</div></div>
+    <div class="kpi"><div class="v">6.21%</div><div class="l">Click-through rate</div></div>
+    <div class="kpi warn"><div class="v">$7.44</div><div class="l">Avg. cost-per-click</div></div>
+    <div class="kpi warn"><div class="v">43.8%</div><div class="l">Impr. lost to Ad Rank</div></div>
+  </div>
+
+  <h3>Top 5 things that went wrong (or are holding it back)</h3>
+  <ol>
+    <li><b>Landing-page experience is rated Below Average by Google</b> across almost all keywords — the root cause of high CPCs and lost impressions. <span class="pill p-crit">Critical</span></li>
+    <li><b>Quality Scores are low</b> (many keywords at 1–5 out of 10), so you pay a premium on every click.<span class="pill p-high">High</span></li>
+    <li><b>Wasted spend on off-target searches</b> — municipal permit-portal, out-of-area, DIY/how-to and wrong-service (deck/pool) queries leaking through phrase-match close variants. <span class="pill p-high">High</span></li>
+    <li><b>Geo-targeting error:</b> the campaign targets <b>Cambridge, England (UK)</b> alongside the Ontario cities. <span class="pill p-med">Medium</span></li>
+    <li><b>Automated bidding with no guardrail:</b> Maximize Conversions is running with no Target CPA, and Optimization Score sits at 55.5%. <span class="pill p-med">Medium</span></li>
+  </ol>
+
+  <h3>Conversion-tracking trust score</h3>
+  <div class="scorewrap">
+    <div class="scorebadge">70<span style="font-size:11pt;">/100</span></div>
+    <div style="font-size:9pt;">The tracked conversions are <b>real business actions</b> — lead-form submissions and phone calls, not shallow page-views — which is exactly what you want, and it means the $113 cost-per-lead is trustworthy at face value. Points deducted because (a) tag firing, de-duplication and primary/secondary settings <b>cannot be verified through the reporting API</b> and need a manual check in Google Ads; (b) there are <b>two separate call actions</b> that may be double-counting the same calls; and (c) <b>booked/qualified jobs are not imported</b>, so Google is optimizing for lead <em>volume</em>, not revenue.</div>
+  </div>
+</div>
+
+<!-- ============ STEP 1 ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">1</span>Account performance snapshot</h2>
+  <p>Every core metric for the account over the last 30 days. All figures are pulled live from the Google Ads API — nothing is estimated.</p>
+  <table>
+    <tr><th>Metric</th><th class="num">Last 30 days</th><th>Read</th></tr>
+    <tr><td>Cost</td><td class="num">CAD $1,472.35</td><td>~$49/day against a $50/day budget</td></tr>
+    <tr><td>Impressions</td><td class="num">3,188</td><td>Small, local footprint</td></tr>
+    <tr><td>Clicks</td><td class="num">198</td><td>—</td></tr>
+    <tr><td>Click-through rate (CTR)</td><td class="num">6.21%</td><td>Healthy for search — ads are relevant</td></tr>
+    <tr><td>Average CPC</td><td class="num">$7.44</td><td><b style="color:#c0392b">High</b> — driven by low Quality Scores</td></tr>
+    <tr><td>Conversions (leads)</td><td class="num">13</td><td>9 form fills + 4 phone calls</td></tr>
+    <tr><td>Conversion rate</td><td class="num">6.57%</td><td>Reasonable; capped by landing page</td></tr>
+    <tr><td>Cost / lead (CPA)</td><td class="num">$113.26</td><td>Acceptable for this vertical <em>pending close-rate confirmation</em></td></tr>
+    <tr><td>Search impression share</td><td class="num">34.0%</td><td>You appear for only 1 in 3 eligible searches</td></tr>
+    <tr><td>Impr. share lost to rank</td><td class="num">43.8%</td><td><b style="color:#c0392b">The big leak</b> — quality/relevance, not budget</td></tr>
+    <tr><td>Impr. share lost to budget</td><td class="num">22.2%</td><td>Budget is a secondary constraint</td></tr>
+    <tr><td>Optimization score</td><td class="num">55.5%</td><td>Google sees meaningful room to improve</td></tr>
+  </table>
+  <div class="callout c-navy"><span class="ct">Context that matters: this is an early-stage campaign.</span>Daily data begins on Jun 23 and ramps up from a near-zero start, and every ad asset is still marked "Pending" (not enough data to grade). This account is likely only ~30–45 days old. That is <b>good news</b> — most of what we flag is normal early-stage tuning, not damage, and low-volume days should be read as "monitor," not "fail."</div>
+</div>
+
+<!-- ============ STEP 2 ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">2</span>Conversion tracking &amp; lead quality</h2>
+  <p>Before trusting any performance number, we inventory <b>what is actually being counted as a "conversion."</b> A cheap cost-per-lead built on junk events (page views, button clicks) is a mirage. Here, the picture is encouraging.</p>
+  <table>
+    <tr><th>Conversion action</th><th>Type</th><th class="num">Conversions (30d)</th></tr>
+    <tr><td>Submit lead form – Pop Up</td><td>Lead form</td><td class="num">8</td></tr>
+    <tr><td>Calls from Ads</td><td>Phone call</td><td class="num">3</td></tr>
+    <tr><td>Call ((647) 548-8764)</td><td>Phone call</td><td class="num">1</td></tr>
+    <tr><td>Submit lead form</td><td>Lead form</td><td class="num">1</td></tr>
+    <tr class="tot"><td>Total</td><td></td><td class="num">13</td></tr>
+  </table>
+  <div class="callout c-green"><span class="ct">Good: these are real business outcomes.</span>All four actions are genuine lead events — form submissions and phone calls — so the $113 cost-per-lead reflects actual enquiries, not vanity metrics.</div>
+  <div class="callout c-amber"><span class="ct">Verify manually (cannot be confirmed via the API):</span>
+    <ul style="margin-bottom:0;">
+      <li><b>Possible double-counting of calls.</b> "Calls from Ads" and "Call ((647) 548-8764)" may be recording the same phone calls twice — confirm one is not inflating your lead count.</li>
+      <li><b>Tag firing, de-duplication, attribution model and count settings</b> (every-vs-one) are not visible in reporting. Do a one-time check in Google Ads &gt; Conversions.</li>
+      <li><b>No offline / booked-job import.</b> Google currently optimizes for <em>number of leads</em>, not <em>booked revenue</em>. Importing "qualified lead" and "job booked" from your CRM would let bidding chase profit, not just volume.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ STEP 3 ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">3</span>Campaign structure &amp; settings</h2>
+  <p>The whole account is <b>one Search campaign → one ad group ("Residential") → 26 keywords → 1 responsive search ad.</b></p>
+  <table>
+    <tr><th>Setting</th><th>Current</th><th>Assessment</th></tr>
+    <tr><td>Campaign</td><td>"Vin - City Permit - $1200 offer"</td><td>Enabled &amp; serving</td></tr>
+    <tr><td>Channel</td><td>Search only</td><td><b style="color:#1e8449">Good</b></td></tr>
+    <tr><td>Networks</td><td>Google Search only (Search Partners &amp; Display OFF)</td><td><b style="color:#1e8449">Good</b> — no low-quality network leakage</td></tr>
+    <tr><td>Location targeting type</td><td>Presence ("people <em>in</em> your areas")</td><td><b style="color:#1e8449">Correct</b> for a local service</td></tr>
+    <tr><td>Ad group structure</td><td>1 ad group, all themes mixed</td><td><b style="color:#b7791f">Too broad</b> — hurts ad relevance</td></tr>
+    <tr><td>Ads per ad group</td><td>1 responsive search ad</td><td><b style="color:#b7791f">Thin</b> — add a 2nd RSA to test</td></tr>
+    <tr><td>Bidding</td><td>Maximize Conversions, <b>no Target CPA</b></td><td><b style="color:#b7791f">No guardrail</b></td></tr>
+    <tr><td>Daily budget</td><td>$50/day (~$1,520/mo)</td><td>Losing 22% of impressions to budget</td></tr>
+  </table>
+  <div class="callout c-amber"><span class="ct">One ad group is doing too many jobs.</span>Basement-permit terms, generic building-permit terms, "city permit" terms and "drawings" terms all sit in a single ad group pointing at one ad and one landing page. Splitting them into <b>tightly themed ad groups</b> (e.g. <i>Legal Basement / Second Unit</i>, <i>Basement Permit Drawings</i>, <i>Building Permit — Residential</i>) lets the ad headline and landing message match the search — which directly lifts Quality Score and conversion rate.</div>
+</div>
+
+<!-- ============ STEP 4 ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">4</span>Visibility &amp; impression share</h2>
+  <p>Impression share tells you how much of the available audience you actually reach. You are capturing only <b>34%</b> — and the reason is mostly quality, not money.</p>
+  <div class="kpis">
+    <div class="kpi good"><div class="v">34.0%</div><div class="l">Impressions won</div></div>
+    <div class="kpi warn"><div class="v">43.8%</div><div class="l">Lost to Ad Rank (quality/bid)</div></div>
+    <div class="kpi amber"><div class="v">22.2%</div><div class="l">Lost to budget</div></div>
+  </div>
+  <p>The <b>43.8% lost to rank is nearly double the 22.2% lost to budget.</b> That is the account telling you, in Google's own words, that <b>relevance and Quality Score — not spend — are the ceiling.</b> Raising the budget today would simply buy more expensive, low-Quality-Score clicks. The correct sequence is: <b>fix landing page &amp; Quality Score first, then scale budget</b> into the headroom that opens up.</p>
+</div>
+
+<!-- ============ STEP 5 ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">5</span>Keywords &amp; Quality Score</h2>
+  <p>The 15 keywords that received clicks, ranked by spend. Watch the <b>Post-Click (landing-page) column</b> — it is <span style="color:#c0392b">Below Average almost everywhere.</span></p>
+  <table>
+    <tr><th>Keyword</th><th>Match</th><th class="num">Cost</th><th class="num">Clicks</th><th class="num">Conv</th><th class="num">CPA</th><th class="num">QS</th><th>Landing-page QS</th></tr>
+    <tr><td>Building Permits Ontario</td><td>Phrase</td><td class="num">$407.09</td><td class="num">60</td><td class="num">2.0</td><td class="num">$203.54</td><td class="num">n/a</td><td>—</td></tr>
+    <tr><td>Legal Basement Permit</td><td>Phrase</td><td class="num">$242.33</td><td class="num">35</td><td class="num">3.5</td><td class="num">$69.24</td><td class="num">5</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>City Building Permits</td><td>Phrase</td><td class="num">$190.85</td><td class="num">25</td><td class="num">0</td><td class="num">—</td><td class="num">4</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Basement Building Permit</td><td>Phrase</td><td class="num">$163.47</td><td class="num">14</td><td class="num">5.0</td><td class="num">$32.71</td><td class="num">5</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Apply For Building Permit</td><td>Phrase</td><td class="num">$144.57</td><td class="num">16</td><td class="num">0</td><td class="num">—</td><td class="num">3</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Permit To Finish Basement</td><td>Phrase</td><td class="num">$105.43</td><td class="num">15</td><td class="num">0.5</td><td class="num">$209.92</td><td class="num">3</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Basement Permit Drawings</td><td>Phrase</td><td class="num">$59.93</td><td class="num">7</td><td class="num">1.0</td><td class="num">$59.93</td><td class="num">8</td><td style="color:#1e8449">Average</td></tr>
+    <tr><td>Basement Remodel Permit</td><td>Phrase</td><td class="num">$48.03</td><td class="num">7</td><td class="num">0</td><td class="num">—</td><td class="num">n/a</td><td>—</td></tr>
+    <tr><td>Basement Drawing For Permit</td><td>Phrase</td><td class="num">$35.33</td><td class="num">5</td><td class="num">0</td><td class="num">—</td><td class="num">7</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Residential Building Permits</td><td>Phrase</td><td class="num">$27.70</td><td class="num">5</td><td class="num">1.0</td><td class="num">$27.70</td><td class="num">2</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Basement Permit</td><td>Exact</td><td class="num">$20.84</td><td class="num">3</td><td class="num">0</td><td class="num">—</td><td class="num">3</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Permit For Basement Renovation</td><td>Phrase</td><td class="num">$14.12</td><td class="num">2</td><td class="num">0</td><td class="num">—</td><td class="num">5</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Building Permit Application</td><td>Phrase</td><td class="num">$7.01</td><td class="num">2</td><td class="num">0</td><td class="num">—</td><td class="num">1</td><td style="color:#c0392b">Below avg</td></tr>
+    <tr><td>Building Permit For House</td><td>Phrase</td><td class="num">$3.72</td><td class="num">1</td><td class="num">0</td><td class="num">—</td><td class="num">n/a</td><td>—</td></tr>
+    <tr><td>How To Legalize Basement</td><td>Exact</td><td class="num">$1.93</td><td class="num">1</td><td class="num">0</td><td class="num">—</td><td class="num">3</td><td style="color:#c0392b">Below avg</td></tr>
+  </table>
+  <div class="callout c-red"><span class="ct">The pattern is unmistakable.</span>Of every keyword with a Quality Score, only one ("Basement Permit Drawings", QS 8) has a landing-page score that isn't Below Average — and it happens to be the page's best-matched theme. <b>The landing page is dragging the entire account's Quality Score down</b>, which is why CPCs are $7+. The lowest scorer, "Building Permit Application" (QS 1), scores below average on all three components.</div>
+  <h4>Other keyword notes</h4>
+  <ul>
+    <li><b>Two relevant terms are spending with zero leads:</b> "City Building Permits" ($190.85) and "Apply For Building Permit" ($144.57) — $335 combined, 0 conversions. They are <em>on-target</em>, so the likely cause is the landing page, not the keyword. Keep them, fix the page, and re-judge in 30 days.</li>
+    <li><b>11 keywords have essentially no traffic</b> (0 clicks), several with 0 impressions — including a stray single-word keyword <em>"requirements"</em> and off-core terms like <em>"Kitchen Remodel Permit," "Permit To Convert Garage To Living Space," "Homeowners Permit."</em> These add clutter; prune or rehome them.</li>
+    <li><b>Match-type discipline is good</b> — everything is Phrase or Exact (no broad match spraying). The leakage comes from phrase <em>close variants</em>, which negatives will contain (Step 6).</li>
+  </ul>
+</div>
+
+<!-- ============ STEP 6 ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">6</span>Search terms &amp; wasted spend</h2>
+  <p>This is where we find money leaking to searches that will never become customers. An important caveat first:</p>
+  <div class="callout c-navy"><span class="ct">Only ~34% of spend is visible here — and that's normal.</span>Google only itemizes search terms that clear a privacy threshold; low-volume queries stay hidden. The visible slice ($507 of the $1,472) still reveals the <b>waste patterns</b>, which almost certainly repeat in the hidden long tail. So treat the dollar figures below as the <b>visible floor, not the ceiling.</b></p>
+  <h4>Wasted-spend categories (visible search terms, 30 days)</h4>
+  <table>
+    <tr><th>Category</th><th>What people were really after</th><th class="num">Visible waste</th></tr>
+    <tr><td>Government / city-portal</td><td>"permit department", "city of toronto building permits", permit lookup/status</td><td class="num">$82.46</td></tr>
+    <tr><td>Informational / DIY</td><td>"how to…", "legal basement requirements", "how long/how much"</td><td class="num">$73.84</td></tr>
+    <tr><td>Wrong service / property</td><td>"drawing for deck permit" ($31.68), plumbing-only</td><td class="num">$35.39</td></tr>
+    <tr><td>Out-of-area</td><td>"building permit waterloo", Kitchener, London, Calgary, Edmonton</td><td class="num">$9.46</td></tr>
+    <tr class="tot"><td>Visible off-target total</td><td></td><td class="num">$201.15</td></tr>
+  </table>
+  <p>That is <b>~40% of the visible spend</b> going to searches Vin cannot convert — and a strong signal that a similar share of the hidden 66% is doing the same. Note that <b>close variants of phrase keywords drive 68% of visible spend and essentially all of this waste</b>: the bare query <b>"building permit"</b> was the #1 visible spender ($37.81, 9 clicks, 0 leads) and is the doorway most junk enters through.</p>
+  <div class="callout c-green"><span class="ct">Some negative work has already started — good.</span>Several wasteful terms already show an "Excluded" status (e.g. "permit department", "legal basement requirements", "city of brampton building permit"). The list below completes and systematizes it.</div>
+  <h4>Recommended action — a structured negative-keyword list (attached as CSV)</h4>
+  <p>A ready-to-import file of <b>76 negative keywords across 7 categories</b> accompanies this report (<i>Vin_Engineering_Negative_Keywords.csv</i>). Highlights:</p>
+  <ul>
+    <li><b>Government/portal</b> — block "permit department", "portal", "lookup", "inquiry", plus <em>exact</em> negatives for "[city of toronto building permit]" so you keep genuine in-area buyers.</li>
+    <li><b>DIY/informational</b> — "how to", "how long", "do i need", "without a permit", "requirements", "checklist", "diy", "pdf".</li>
+    <li><b>Wrong service</b> — "deck", "pool", "fence", "shed", "driveway", "commercial", "demolition", "plumbing", "electrical".</li>
+    <li><b>Out-of-area</b> — "london ontario", "hamilton", "ottawa", "guelph", "barrie", "calgary", "edmonton" (keep your targeted GTA cities).</li>
+    <li><b>Hygiene</b> — "free", "cheap", "job", "salary", "course", plus competitor "[metro permits and design brampton]".</li>
+  </ul>
+  <p class="small"><b>Two terms flagged for your judgment:</b> negatives on "cost"/"how much" and "requirements" also block price/spec researchers — some of whom might still buy your fixed $1,199 offer. Consider testing before making them permanent. Also confirm your true service radius before excluding Waterloo/Kitchener/Cambridge, which are currently <em>targeted</em> yet spent with no leads.</p>
+</div>
+
+<!-- ============ STEP 7 ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">7</span>Landing page experience — the #1 lever</h2>
+  <p>Ad destination: <b>vingcinc.com/offers/vingcin-landing.html</b></p>
+  <p>We could not crawl the page directly for this audit (the site blocks automated requests), but we don't need to guess — <b>Google has already graded it for us.</b> The Below-Average post-click Quality Score repeating across virtually every keyword (Step 5) <b>is</b> Google's landing-page verdict, and it is the root cause of the account's two most expensive symptoms: the $7.44 CPC and the 43.8% of impressions lost to rank.</p>
+  <div class="callout c-red"><span class="ct">Why this is the highest-ROI fix in the account.</span>Landing-page experience feeds Quality Score → Quality Score sets your CPC and your Ad Rank → Ad Rank governs impression share and position. Improving the page moves <b>all four at once</b>: cheaper clicks, more impressions in the same budget, better positions, and a higher conversion rate. No other single change compounds like this.</div>
+  <h4>Recommended landing-page priorities (standard high-intent local-service best practice)</h4>
+  <ul>
+    <li><b>Message-match the ad, section by section.</b> The hero should repeat the exact promises the ads make — "Legal Basement Permit – $1,199", "drawings + permit + build, one team", "licensed engineers / BCIN-certified", "avoid fines", "unlock rental income". Congruence between ad and page is precisely what the post-click score measures.</li>
+    <li><b>Build dedicated pages per theme</b> so "basement permit drawings" traffic and "legal basement / second unit" traffic each land on a page about <em>that</em>, not a generic offer. (Pairs with the ad-group split in Step 3.)</li>
+    <li><b>Above-the-fold conversion path:</b> a click-to-call phone number (tel: link) <em>and</em> a short form (name, phone, postal code, brief message) visible without scrolling — mobile is 72% of your traffic.</li>
+    <li><b>Trust signals:</b> BCIN / licensed-engineer credentials, Google review stars, number of basements legalized, service-area map, and a visible privacy link.</li>
+    <li><b>Speed &amp; mobile:</b> ensure fast mobile load and a responsive layout — both are inputs to the landing-page experience score.</li>
+  </ul>
+  <p class="small">Recommendation: a manual UX + PageSpeed review of the live page is the natural next step to convert this diagnosis into a specific fix list.</p>
+</div>
+
+<!-- ============ STEP 8 ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">8</span>Ad copy &amp; creative</h2>
+  <p>The single responsive search ad is a <b>relative strength.</b> Ad Strength is <b>"Good,"</b> all 15 headlines and 4 descriptions are approved, and the copy is benefit-led and specific.</p>
+  <div class="callout c-green"><span class="ct">What's working in the copy.</span>Strong, varied headlines — "Legal Basement Permit – $1199", "Licensed Engineers &amp; Builders", "BCIN-certified Permit Designs", "Rent Your Basement Legally", "Avoid Fines, Build Legally", "Free Basement Assessment" — cover price, credibility, outcome and urgency. This is a well-constructed ad.</div>
+  <h4>Where to push it further</h4>
+  <ul>
+    <li><b>Add a second RSA</b> to each ad group so Google can test creative and your assets can graduate from "Pending" to graded faster.</li>
+    <li><b>Review the keyword-insertion headline</b> "{KeyWord:Vin Engineering Inc.}" — confirm the inserted search terms always read cleanly; consider pinning a brand or offer headline to position 1 for consistency.</li>
+    <li><b>Add / confirm ad assets:</b> sitelinks, callouts, structured snippets, a call asset and a lead-form asset all lift CTR and Ad Rank at no extra CPC — quick wins while the page is being rebuilt.</li>
+    <li><b>Tighten relevance</b> once ad groups are split (Step 3): a "drawings" ad group should lead with drawings headlines, a "second-unit / rental" group with rental-income headlines.</li>
+  </ul>
+</div>
+
+<!-- ============ STEP 9 ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">9</span>Geography, devices &amp; schedule</h2>
+  <h3>Where the leads are (by user location)</h3>
+  <table>
+    <tr><th>City</th><th class="num">Cost</th><th class="num">Clicks</th><th class="num">Leads</th><th class="num">CPA</th><th>Read</th></tr>
+    <tr><td>Toronto</td><td class="num">$771.52</td><td class="num">111</td><td class="num">8</td><td class="num">$96.44</td><td><b style="color:#1e8449">Your engine</b> — 62% of leads</td></tr>
+    <tr><td>Mississauga</td><td class="num">$176.65</td><td class="num">19</td><td class="num">2</td><td class="num">$88.33</td><td><b style="color:#1e8449">Efficient</b></td></tr>
+    <tr><td>Richmond Hill</td><td class="num">$66.41</td><td class="num">8</td><td class="num">1</td><td class="num">$66.41</td><td>Good</td></tr>
+    <tr><td>Cambridge (ON)</td><td class="num">$23.08</td><td class="num">3</td><td class="num">1</td><td class="num">$23.08</td><td>Tiny but efficient</td></tr>
+    <tr><td>Brampton</td><td class="num">$234.10</td><td class="num">34</td><td class="num">1</td><td class="num">$234.10</td><td><b style="color:#b7791f">Expensive</b> — watch</td></tr>
+    <tr><td>Vaughan</td><td class="num">$71.92</td><td class="num">7</td><td class="num">0</td><td class="num">—</td><td>0 leads — monitor</td></tr>
+    <tr><td>Markham</td><td class="num">$54.28</td><td class="num">7</td><td class="num">0</td><td class="num">—</td><td>0 leads — monitor</td></tr>
+    <tr><td>Oakville / Waterloo / Kitchener</td><td class="num">$74.39</td><td class="num">9</td><td class="num">0</td><td class="num">—</td><td>0 leads — confirm service area</td></tr>
+  </table>
+  <div class="callout c-red"><span class="ct">Geo-targeting error to fix now.</span>The campaign's targeted-location list includes <b>Cambridge, England (United Kingdom)</b> — almost certainly picked by mistake instead of (or alongside) Cambridge, Ontario. No UK spend has landed yet thanks to "Presence" targeting, but it should be removed before it ever does. (The United States is correctly excluded.)</div>
+  <div class="row" style="display:flex; gap:5mm;">
+    <div style="flex:1;">
+      <h3>Devices</h3>
+      <table>
+        <tr><th>Device</th><th class="num">Cost</th><th class="num">Leads</th><th class="num">CPA</th></tr>
+        <tr><td>Mobile</td><td class="num">$1,031.61</td><td class="num">10</td><td class="num">$103.16</td></tr>
+        <tr><td>Desktop</td><td class="num">$435.68</td><td class="num">3</td><td class="num">$145.23</td></tr>
+        <tr><td>Tablet</td><td class="num">$5.06</td><td class="num">0</td><td class="num">—</td></tr>
+      </table>
+      <p class="small"><b>Mobile is 70% of spend and 40% cheaper per lead than desktop.</b> This makes the above-the-fold mobile experience (Step 7) doubly important. A modest desktop bid adjustment can be tested once tracking is confirmed.</p>
+    </div>
+    <div style="flex:1;">
+      <h3>Day of week</h3>
+      <table>
+        <tr><th>Day</th><th class="num">Cost</th><th class="num">Leads</th><th class="num">CPA</th></tr>
+        <tr><td>Thursday</td><td class="num">$159.96</td><td class="num">7</td><td class="num">$22.86</td></tr>
+        <tr><td>Sunday</td><td class="num">$338.66</td><td class="num">3</td><td class="num">$112.80</td></tr>
+        <tr><td>Mon / Tue</td><td class="num">$567.82</td><td class="num">2</td><td class="num">$283.91</td></tr>
+        <tr><td>Fri / Sat</td><td class="num">$218.66</td><td class="num">0</td><td class="num">—</td></tr>
+      </table>
+      <p class="small">Thursday is a standout and Fri/Sat produced no leads — but at only 13 total leads this is <b>too little data to daypart yet.</b> Watch it; don't cut on it.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ STEP 10 ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">10</span>Bidding &amp; budget</h2>
+  <ul>
+    <li><b>Strategy:</b> Maximize Conversions with <b>no Target CPA</b>. This tells Google to spend the full budget for as many leads as possible with no efficiency ceiling — fine to <em>start</em>, but now that you have conversion history, add a <b>Target CPA</b> (begin near your current ~$113 and tighten as Quality Score improves) so bidding chases efficiency, not just volume.</li>
+    <li><b>Budget:</b> $50/day is losing <b>22% of impressions to budget</b>. Do <b>not</b> raise it yet — first fix the landing page and Quality Score so each dollar buys cheaper clicks, <em>then</em> scale into the rank headroom that opens up.</li>
+    <li><b>Optimization score 55.5%:</b> review Google's recommendations tab and apply only the ones consistent with this audit (ignore broad-match / Display-expansion / Search-Partners suggestions, which would undo your clean setup).</li>
+  </ul>
+</div>
+
+<!-- ============ WHAT'S WORKING ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">✓</span>What's working well</h2>
+  <p>A credible audit is balanced. Several things here are done right and should be <b>protected</b>, not "fixed":</p>
+  <ul>
+    <li><b>Clean network setup</b> — Google Search only; no Search Partners or Display draining budget.</li>
+    <li><b>Correct local targeting type</b> — "Presence," so you pay for people actually in your service area.</li>
+    <li><b>Disciplined match types</b> — Phrase/Exact only, no broad-match spray.</li>
+    <li><b>Real conversion tracking</b> — lead forms and calls, not vanity events.</li>
+    <li><b>Strong ad copy</b> — "Good" Ad Strength, specific and benefit-led.</li>
+    <li><b>Healthy 6.21% CTR</b> — your ads earn clicks; the constraints are downstream (page &amp; Quality Score).</li>
+    <li><b>Negative-keyword work already begun</b> — several waste terms already excluded.</li>
+  </ul>
+</div>
+
+<!-- ============ OPTIMIZATION CHECKLIST ============ -->
+<div class="section pb">
+  <h2 class="step"><span class="num">★</span>Areas requiring optimization — prioritized checklist</h2>
+  <p>Every recommendation in this audit, ranked by impact. This is your working punch-list.</p>
+  <table>
+    <tr><th style="width:6%">#</th><th style="width:20%">Area</th><th>What to do</th><th style="width:13%">Priority</th></tr>
+    <tr><td>1</td><td>Landing page</td><td>Rebuild the landing experience to message-match the ads (price, one-team, BCIN/licensed, avoid-fines, rental income); above-the-fold click-to-call + short form; trust signals; fast mobile. <b>Root cause of low QS &amp; high CPC.</b></td><td><span class="pill p-crit">Critical</span></td></tr>
+    <tr><td>2</td><td>Quality Score</td><td>Treat as the outcome of #1 + #4. Re-check landing-page &amp; expected-CTR components after the page and ad-group split ship.</td><td><span class="pill p-crit">Critical</span></td></tr>
+    <tr><td>3</td><td>Negative keywords</td><td>Import the attached 76-keyword CSV (government/portal, DIY, wrong-service, out-of-area, hygiene, competitor). Then review the hidden search-term tail monthly.</td><td><span class="pill p-high">High</span></td></tr>
+    <tr><td>4</td><td>Account structure</td><td>Split the single "Residential" ad group into 3–4 tightly themed ad groups so ads &amp; pages match intent.</td><td><span class="pill p-high">High</span></td></tr>
+    <tr><td>5</td><td>Conversion tracking</td><td>Verify tag firing/dedup/primary settings; resolve the possible double-counted call actions; import qualified-lead / booked-job from CRM.</td><td><span class="pill p-high">High</span></td></tr>
+    <tr><td>6</td><td>"building permit" close variants</td><td>Contain the bare "building permit" query (top spender, 0 leads) — isolate it in a well-negatived ad group or lean on basement-specific exact match.</td><td><span class="pill p-high">High</span></td></tr>
+    <tr><td>7</td><td>Geo targeting</td><td>Remove <b>Cambridge, England (UK)</b>. Confirm service radius for Waterloo/Kitchener/Cambridge-ON (spend, no leads).</td><td><span class="pill p-med">Medium</span></td></tr>
+    <tr><td>8</td><td>Bidding guardrail</td><td>Add a Target CPA to Maximize Conversions (~$113 to start; tighten as QS improves).</td><td><span class="pill p-med">Medium</span></td></tr>
+    <tr><td>9</td><td>Ad creative</td><td>Add a 2nd RSA per ad group; add sitelinks, callouts, structured snippets, call &amp; lead-form assets; sanity-check the keyword-insertion headline.</td><td><span class="pill p-med">Medium</span></td></tr>
+    <tr><td>10</td><td>Zero-traffic / off-core keywords</td><td>Prune the stray "requirements" keyword and off-core terms (kitchen/bathroom/garage remodel); rehome the rest into themed ad groups.</td><td><span class="pill p-med">Medium</span></td></tr>
+    <tr><td>11</td><td>Underperforming relevant keywords</td><td>Keep but monitor "City Building Permits" &amp; "Apply For Building Permit" ($335, 0 leads) — re-judge 30 days after the page fix.</td><td><span class="pill p-low">Watch</span></td></tr>
+    <tr><td>12</td><td>Budget scaling</td><td>Once QS improves and CPCs fall, raise budget to reclaim the 22% lost to budget — <b>not before.</b></td><td><span class="pill p-low">Watch</span></td></tr>
+    <tr><td>13</td><td>Device bids</td><td>Consider a small negative desktop adjustment (CPA $145 vs mobile $103) after tracking is verified.</td><td><span class="pill p-low">Watch</span></td></tr>
+    <tr><td>14</td><td>Ad schedule</td><td>Monitor the Thursday strength / Fri–Sat softness; revisit dayparting once you have 50+ leads of data.</td><td><span class="pill p-low">Watch</span></td></tr>
+  </table>
+</div>
+
+<!-- ============ 30/60/90 ============ -->
+<div class="section">
+  <h2 class="step"><span class="num">→</span>30 / 60 / 90-day action plan</h2>
+  <h4>First 30 days — stop the leaks, verify the foundation</h4>
+  <ul>
+    <li>Import the negative-keyword CSV; remove Cambridge (UK); prune the stray/off-core keywords.</li>
+    <li>Verify conversion tracking (firing, dedup, the double-counted calls) and mark the true primary action.</li>
+    <li>Add a Target CPA (~$113) to the bidding strategy.</li>
+    <li>Brief and begin the landing-page rebuild.</li>
+  </ul>
+  <h4>Days 30–60 — fix the foundation, lift Quality Score</h4>
+  <ul>
+    <li>Ship the rebuilt, message-matched landing page(s).</li>
+    <li>Split into 3–4 themed ad groups; add a 2nd RSA and all ad assets per group.</li>
+    <li>Import qualified-lead / booked-job conversions from the CRM.</li>
+  </ul>
+  <h4>Days 60–90 — scale what works</h4>
+  <ul>
+    <li>Re-measure Quality Score, CPC and impression share; expect cheaper clicks and higher impression share.</li>
+    <li>Tighten Target CPA; scale budget into the reclaimed rank/budget headroom.</li>
+    <li>Expand into proven themes (e.g. second-unit/rental, basement drawings) and top cities (Toronto, Mississauga).</li>
+  </ul>
+  <div class="callout c-navy"><span class="ct">Realistic expectation — and what we won't over-promise.</span>Fixing the landing page and Quality Score should lower your cost-per-click and raise impression share, which together should bring the cost-per-lead down over 60–90 days while increasing lead volume within the same budget. We <b>can't</b> guarantee a specific number: this is a young, low-volume account, results depend on the rebuilt page and on your close rate, and Google's auction is outside anyone's control. What we <em>can</em> commit to is removing the waste, fixing the root cause, and measuring honestly.</div>
+  <p class="small" style="margin-top:5mm; border-top:0.5px solid #dbe1ea; padding-top:2mm;"><b>Data &amp; method:</b> All figures pulled live from the Google Ads API (PPC Guru Google Ads MCP) for account 566-536-4039, last 30 days (Jun 23 – Jul 22, 2026), CAD. Costs converted from micros. <b>Assumptions to confirm:</b> target cost-per-lead and lead→job close rate (used to judge the $113 CPA), and exact service-area radius. <b>Limitations:</b> conversion tag firing, de-duplication, attribution settings and the live landing-page HTML are not readable via the API and require a manual in-platform check; search-term dollar figures reflect the ~34% of spend Google itemizes, so true waste is somewhat higher.</p>
+</div>
+
+</body>
+</html>
