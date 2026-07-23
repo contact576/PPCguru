@@ -1,0 +1,75 @@
+Negative Keyword,Match Type,Level,Category,Reason / What it blocks,Confidence
+permit department,Phrase,Campaign,Government / city-portal,People looking for the municipal permit office (cannot be served),High
+"city of toronto building permit",Exact,Campaign,Government / city-portal,Users going straight to the City of Toronto portal,High
+"city of toronto building permits",Exact,Campaign,Government / city-portal,Users going straight to the City of Toronto portal,High
+"city of toronto construction permits",Exact,Campaign,Government / city-portal,Users going straight to the City of Toronto portal,High
+"city of brampton building permit",Exact,Campaign,Government / city-portal,Users going straight to the City of Brampton portal,High
+"city of mississauga building permit",Exact,Campaign,Government / city-portal,Users going straight to the City of Mississauga portal,High
+lookup,Phrase,Campaign,Government / city-portal,"Permit lookup / status research, not buyers",High
+portal,Phrase,Campaign,Government / city-portal,Municipal permit portal seekers,High
+inquiry,Phrase,Campaign,Government / city-portal,Permit inquiry (city process),High
+inquiries,Phrase,Campaign,Government / city-portal,Permit inquiries (city process),High
+cloudpermit,Phrase,Campaign,Government / city-portal,Cloudpermit municipal software brand,High
+cloud permit,Phrase,Campaign,Government / city-portal,Cloudpermit municipal software brand,High
+open building permit,Phrase,Campaign,Government / city-portal,Checking existing/open permits,High
+permit status,Phrase,Campaign,Government / city-portal,Checking status of an existing permit,High
+how to,Phrase,Campaign,Informational / DIY,DIY research intent,High
+how much,Phrase,Campaign,Informational / DIY,Price-only research (see note - test),Medium
+how long,Phrase,Campaign,Informational / DIY,Timeline research,High
+do i need,Phrase,Campaign,Informational / DIY,Do-I-need-a-permit research,High
+without permit,Phrase,Campaign,Informational / DIY,Trying to avoid a permit,High
+without a permit,Phrase,Campaign,Informational / DIY,Trying to avoid a permit,High
+requirements,Phrase,Campaign,Informational / DIY,Requirements/spec research (not done-for-you buyers),Medium
+checklist,Phrase,Campaign,Informational / DIY,DIY checklist research,High
+diy,Phrase,Campaign,Informational / DIY,Do-it-yourself intent,High
+pdf,Phrase,Campaign,Informational / DIY,Form/document downloaders,High
+deck,Phrase,Campaign,Wrong service / property,Deck permits (not core basement service),High
+pool,Phrase,Campaign,Wrong service / property,Pool permits,High
+fence,Phrase,Campaign,Wrong service / property,Fence permits,High
+shed,Phrase,Campaign,Wrong service / property,Shed permits,High
+garage,Phrase,Campaign,Wrong service / property,Garage permits/conversions (confirm),Medium
+driveway,Phrase,Campaign,Wrong service / property,Driveway/curb-cut permits,High
+patio,Phrase,Campaign,Wrong service / property,Patio permits,High
+pergola,Phrase,Campaign,Wrong service / property,Pergola permits,High
+porch,Phrase,Campaign,Wrong service / property,Porch permits,High
+plumbing,Phrase,Campaign,Wrong service / property,Plumbing-only permits,High
+electrical,Phrase,Campaign,Wrong service / property,Electrical-only permits,High
+hvac,Phrase,Campaign,Wrong service / property,HVAC-only permits,High
+commercial,Phrase,Campaign,Wrong service / property,Commercial permits,High
+demolish,Phrase,Campaign,Wrong service / property,Demolition permits,High
+demolition,Phrase,Campaign,Wrong service / property,Demolition permits,High
+mobile home,Phrase,Campaign,Wrong service / property,Mobile-home permits,High
+restaurant,Phrase,Campaign,Wrong service / property,Restaurant/patio permits,High
+site alteration,Phrase,Campaign,Wrong service / property,Site-alteration permits,High
+zoning,Phrase,Campaign,Wrong service / property,Zoning-only enquiries,Medium
+build a house,Phrase,Campaign,Wrong service / property,New-home builds,High
+house construction,Phrase,Campaign,Wrong service / property,New-home builds,High
+new home,Phrase,Campaign,Wrong service / property,New-home builds,High
+london ontario,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+hamilton,Phrase,Campaign,Out-of-area,Outside targeted cities (confirm),Medium
+ottawa,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+guelph,Phrase,Campaign,Out-of-area,Outside targeted cities,High
+brantford,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+welland,Phrase,Campaign,Out-of-area,Niagara region - outside GTA,High
+port colborne,Phrase,Campaign,Out-of-area,Niagara region - outside GTA,High
+st catharines,Phrase,Campaign,Out-of-area,Niagara region - outside GTA,High
+haldimand,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+lambton,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+barrie,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+innisfil,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+orangeville,Phrase,Campaign,Out-of-area,Outside GTA service area,High
+calgary,Phrase,Campaign,Out-of-area,Alberta - out of province,High
+edmonton,Phrase,Campaign,Out-of-area,Alberta - out of province,High
+vancouver,Phrase,Campaign,Out-of-area,BC - out of province,High
+free,Phrase,Campaign,Free / cheap (hygiene),Freebie seekers,High
+cheap,Phrase,Campaign,Free / cheap (hygiene),Bargain-only intent,High
+no cost,Phrase,Campaign,Free / cheap (hygiene),Freebie seekers,High
+job,Phrase,Campaign,Job / career (hygiene),Job seekers,High
+jobs,Phrase,Campaign,Job / career (hygiene),Job seekers,High
+salary,Phrase,Campaign,Job / career (hygiene),Salary research,High
+career,Phrase,Campaign,Job / career (hygiene),Career research,High
+course,Phrase,Campaign,Job / career (hygiene),Training/course seekers,High
+training,Phrase,Campaign,Job / career (hygiene),Training seekers,High
+how to become,Phrase,Campaign,Job / career (hygiene),Career-path research,High
+"metro permits and design brampton",Exact,Campaign,Competitor / brand,Competitor firm name,High
+permit runner,Phrase,Campaign,Competitor / brand,Permit-expediter competitor type,Medium
