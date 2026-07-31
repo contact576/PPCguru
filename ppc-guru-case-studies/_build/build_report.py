@@ -251,10 +251,157 @@ table.simple td{{padding:7px 10px;text-align:right;border-bottom:1px solid var(-
 .avoid-break{{break-inside:avoid;}}
 """
 
+COMPACT_CSS = f"""
+:root{{--navy:{NAVY};--blue:{BLUE};--green:{GREEN};--grey:{GREY};--ink:{INK};--border:{BORDER};--lgrey:{LGREY};}}
+*{{box-sizing:border-box;}}
+@page{{size:A4;margin:11mm 12mm;}}
+html,body{{margin:0;padding:0;}}
+body{{font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);font-size:10.2pt;line-height:1.45;}}
+h1,h2,h3{{color:var(--navy);margin:0;}}
+p{{margin:0 0 6px;}}
+.wrap{{max-width:820px;margin:0 auto;}}
+/* header band */
+.hdr{{background:linear-gradient(120deg,var(--navy),#1c3a63 62%,#215891);color:#fff;border-radius:12px;padding:20px 22px;}}
+.hdr .top{{display:flex;justify-content:space-between;align-items:center;font-size:9pt;}}
+.hdr .brand{{display:flex;align-items:center;gap:8px;font-weight:800;font-size:13pt;letter-spacing:.2px;}}
+.hdr .dot{{width:18px;height:18px;border-radius:5px;background:var(--blue);display:inline-block;}}
+.hdr .tag{{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);padding:3px 10px;border-radius:999px;
+  text-transform:uppercase;letter-spacing:.5px;font-weight:600;font-size:8pt;}}
+.hdr .client{{color:#8fc4ff;font-size:12.5pt;font-weight:800;letter-spacing:.2px;margin-top:13px;}}
+.hdr h1{{color:#fff;font-size:17.5pt;line-height:1.16;margin:3px 0 6px;font-weight:800;letter-spacing:-.2px;}}
+.hdr .sub{{color:#cfe0f4;font-size:9.5pt;}}
+.method{{font-size:7.6pt;color:#9aa4b2;font-style:italic;margin-top:7px;}}
+/* kpi tiles */
+.kpis{{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0;}}
+.kpi{{background:#fff;border:1px solid var(--border);border-top:3px solid var(--green);border-radius:10px;padding:11px 13px;}}
+.kpi .v{{font-size:20pt;font-weight:800;color:var(--navy);line-height:1;}}
+.kpi .l{{font-size:8.6pt;color:var(--grey);text-transform:uppercase;letter-spacing:.4px;margin-top:5px;font-weight:600;}}
+.kpi .n{{font-size:8.4pt;color:var(--green);font-weight:700;margin-top:3px;}}
+/* section headers */
+h2.s{{font-size:11.5pt;font-weight:800;margin:13px 0 6px;display:flex;align-items:center;gap:8px;}}
+h2.s:before{{content:"";width:5px;height:15px;background:var(--blue);border-radius:2px;display:inline-block;}}
+.lead{{color:var(--ink);}}
+/* two-col */
+.cols{{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;align-items:start;}}
+/* changes table */
+table.chg{{border-collapse:collapse;width:100%;font-size:9.4pt;}}
+table.chg td{{padding:6px 8px;border-bottom:1px solid var(--border);vertical-align:top;}}
+table.chg td.w{{font-weight:700;color:var(--navy);white-space:nowrap;width:1%;padding-right:12px;}}
+table.chg td.y{{color:#3a4658;}}
+/* under the hood */
+.hood{{background:var(--lgrey);border:1px solid var(--border);border-radius:10px;padding:12px 14px;}}
+.hood h3{{font-size:9.5pt;text-transform:uppercase;letter-spacing:.5px;color:var(--blue);margin-bottom:8px;}}
+.hood .row{{display:flex;justify-content:space-between;gap:10px;padding:4px 0;border-bottom:1px dotted var(--border);font-size:9.2pt;}}
+.hood .row:last-child{{border-bottom:none;}}
+.hood .k{{color:var(--grey);}}
+.hood .val{{font-weight:600;text-align:right;color:var(--ink);}}
+/* results */
+table.cmp{{border-collapse:collapse;width:100%;font-size:9.6pt;margin:4px 0;}}
+table.cmp th,table.cmp td{{padding:7px 9px;text-align:right;border-bottom:1px solid var(--border);}}
+table.cmp th{{background:var(--navy);color:#fff;font-weight:700;font-size:9pt;}}
+table.cmp th.m,table.cmp td.m{{text-align:left;}}
+table.cmp tbody tr:nth-child(even){{background:var(--lgrey);}}
+table.cmp td.m{{font-weight:600;}}
+.up{{color:var(--green);font-weight:800;}}.neu{{color:var(--grey);font-weight:700;}}
+.chartbox{{margin:8px 0 2px;border:1px solid var(--border);border-radius:10px;padding:10px 12px 6px;}}
+.chart-title{{font-weight:700;color:var(--navy);font-size:10pt;margin-bottom:2px;}}
+.chart-cap{{font-size:8.2pt;color:var(--grey);}}
+ul.why{{margin:4px 0;padding-left:0;list-style:none;}}
+ul.why li{{position:relative;padding:4px 0 4px 22px;font-size:9.6pt;}}
+ul.why li:before{{content:"✔";position:absolute;left:2px;top:4px;color:var(--green);font-weight:800;}}
+.bench{{font-size:8.8pt;color:var(--grey);font-style:italic;margin-top:4px;}}
+.cta{{background:linear-gradient(120deg,var(--navy),#215891);color:#fff;border-radius:11px;padding:13px 16px;margin-top:12px;display:flex;justify-content:space-between;align-items:center;gap:14px;}}
+.cta b{{font-size:11pt;}}.cta p{{margin:2px 0 0;color:#dbe7f8;font-size:9pt;}}
+.cta .go{{background:var(--green);color:#fff;font-weight:700;padding:8px 14px;border-radius:8px;white-space:nowrap;font-size:9.5pt;}}
+.disc{{margin-top:9px;font-size:7.4pt;color:#9aa4b2;border-top:1px solid var(--border);padding-top:6px;}}
+.foot{{margin-top:6px;font-size:8pt;color:var(--grey);display:flex;justify-content:space-between;}}
+.avoid{{break-inside:avoid;}}
+"""
+
+def _hood_panel(items):
+    if not items:
+        return ""
+    rows = "".join(f'<div class="row"><span class="k">{esc(i.get("label",""))}</span>'
+                   f'<span class="val">{esc(i.get("value",""))}</span></div>' for i in items)
+    return f'<div class="hood"><h3>Under the Hood</h3>{rows}</div>'
+
+def _changes_table(items):
+    if not items:
+        return ""
+    body = "".join(f'<tr><td class="w">{esc(i.get("change",""))}</td><td class="y">{esc(i.get("why",""))}</td></tr>' for i in items)
+    return f'<table class="chg"><tbody>{body}</tbody></table>'
+
+def _kpi_band(items):
+    if not items:
+        return ""
+    cells = "".join(f'<div class="kpi"><div class="v">{esc(i.get("value",""))}</div>'
+                    f'<div class="l">{esc(i.get("label",""))}</div>'
+                    f'<div class="n">{esc(i.get("note",""))}</div></div>' for i in items[:3])
+    return f'<div class="kpis">{cells}</div>'
+
+def _cmp_compact(cmp):
+    if not cmp or not cmp.get("rows"):
+        return ""
+    head = (f'<tr><th class="m">Metric</th><th>{esc(cmp.get("col_before","Before"))}</th>'
+            f'<th>{esc(cmp.get("col_after","After"))}</th><th>Change</th></tr>')
+    body = []
+    for r in cmp["rows"]:
+        d = r.get("dir", "neutral")
+        cls = "up" if d in ("up", "down-good") else "neu"
+        arrow = "▲ " if d == "up" else ("▼ " if d == "down-good" else "")
+        body.append(f'<tr><td class="m">{esc(r.get("metric",""))}</td><td>{esc(r.get("before",""))}</td>'
+                    f'<td>{esc(r.get("after",""))}</td><td class="{cls}">{arrow}{esc(r.get("change",""))}</td></tr>')
+    return f'<table class="cmp"><thead>{head}</thead><tbody>{"".join(body)}</tbody></table>'
+
+def build_compact(folder, d, m):
+    chart_html = render_chart(d["charts"][0]) if d.get("charts") else ""
+    why = "".join(f"<li>{esc(w)}</li>" for w in d.get("why_it_worked", [])[:4])
+    bench = f'<div class="bench">{esc(d.get("benchmark",""))}</div>' if d.get("benchmark") else ""
+    parts = [f'<div class="wrap">']
+    sub_bits = [b for b in [m.get("industry",""), m.get("market",""),
+                (f"Managed since {m.get('managed_since','')}" if m.get("managed_since") else m.get("reporting_period",""))] if b]
+    parts.append(f'''<div class="hdr"><div class="top"><div class="brand"><span class="dot"></span>PPC&nbsp;Guru</div>
+      <div class="tag">{esc(m.get("platform",""))} Case Study</div></div>
+      <div class="client">{esc(m.get("client_display",""))}</div>
+      <h1>{esc(d.get("headline",""))}</h1>
+      <div class="sub">{esc(" · ".join(sub_bits))}</div></div>''')
+    parts.append(_kpi_band(d.get("kpis", [])))
+    parts.append(f'<div class="lead">{esc(d.get("summary_line",""))}</div>')
+    parts.append(f'<h2 class="s">The Challenge</h2><p>{esc(d.get("challenge",""))}</p>')
+    parts.append('<div class="cols avoid">')
+    parts.append(f'<div><h2 class="s">What PPC Guru Did &amp; Why</h2>{_changes_table(d.get("changes",[]))}</div>')
+    parts.append(f'<div>{_hood_panel(d.get("technical",[]))}</div>')
+    parts.append('</div>')
+    parts.append(f'<h2 class="s">Results</h2>{_cmp_compact(d.get("comparison"))}{bench}<div class="avoid">{chart_html}</div>')
+    parts.append(f'<h2 class="s">Why It Worked</h2><ul class="why">{why}</ul>')
+    parts.append(f'<h2 class="s">The Outcome</h2><p>{esc(d.get("outcome",""))}</p>')
+    parts.append(f'''<div class="cta"><div><b>Want results like these?</b><p>{esc(d.get("cta",""))}</p></div>
+      <div class="go">Book a strategy call</div></div>''')
+    disc = ("Advertising results vary based on industry, market conditions, competition, budget, campaign history, offer, "
+            "website experience, conversion tracking, and other factors. The results reflect the specific account and "
+            "reporting periods shown and do not guarantee future performance.")
+    method = d.get("methodology", "")
+    if method:
+        parts.append(f'<div class="method">{esc(method)}</div>')
+    parts.append(f'<div class="disc">{esc(disc)}</div>')
+    parts.append(f'<div class="foot"><span>© PPC Guru — Canadian Digital Marketing Agency</span><span>ppcguru.ca</span></div>')
+    parts.append('</div>')
+    doc = (f'<!doctype html><html lang="en-CA"><head><meta charset="utf-8">'
+           f'<meta name="viewport" content="width=device-width,initial-scale=1">'
+           f'<title>{esc(m.get("seo_title",""))}</title>'
+           f'<meta name="description" content="{esc(m.get("meta_description",""))}">'
+           f'<style>{COMPACT_CSS}</style></head><body>{"".join(parts)}</body></html>')
+    out = os.path.join(folder, "case-study.html")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(doc)
+    return out
+
 def build(folder):
     with open(os.path.join(folder, "case-study.json"), encoding="utf-8") as f:
         d = json.load(f)
     m = d.get("meta", {})
+    if m.get("layout") == "compact":
+        return build_compact(folder, d, m)
 
     charts_html = ""
     charts = d.get("charts", [])

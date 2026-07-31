@@ -13,9 +13,59 @@ def md_table(headers, rows):
         out.append("| " + " | ".join(str(c) for c in r) + " |")
     return "\n".join(out)
 
+def build_compact_md(folder, d, m):
+    L = []
+    L.append(f"# {m.get('industry','')} {m.get('platform','')} Case Study — {m.get('client_display','')}\n")
+    L.append("## SEO")
+    L.append(f"- **Title:** {m.get('seo_title','')}")
+    L.append(f"- **Meta description:** {m.get('meta_description','')}")
+    L.append(f"- **Slug:** `{m.get('slug','')}`")
+    L.append(f"- **Primary keyword:** {m.get('primary_keyword','')}")
+    L.append(f"- **Secondary keywords:** {', '.join(m.get('secondary_keywords',[]))}")
+    L.append(f"- **Confidence:** {m.get('confidence','')} | **Status:** {m.get('status','')}\n")
+    L.append(f"## {d.get('headline','')}\n")
+    if d.get("kpis"):
+        L.append("**Headline results:** " + " · ".join(f"{k.get('value','')} {k.get('label','')}" for k in d["kpis"]) + "\n")
+    L.append(d.get("summary_line", "") + "\n")
+    L.append("### The Challenge")
+    L.append(d.get("challenge", "") + "\n")
+    L.append("### What PPC Guru Did & Why")
+    if d.get("changes"):
+        L.append(md_table(["Change", "Why"], [[c.get("change",""), c.get("why","")] for c in d["changes"]]))
+    L.append("")
+    if d.get("technical"):
+        L.append("### Under the Hood (account configuration)")
+        for t in d["technical"]:
+            L.append(f"- **{t.get('label','')}:** {t.get('value','')}")
+        L.append("")
+    L.append("### Results")
+    cmp = d.get("comparison", {})
+    if cmp.get("rows"):
+        rows = [[r.get("metric",""), r.get("before",""), r.get("after",""), r.get("change","")] for r in cmp["rows"]]
+        L.append(md_table(["Metric", cmp.get("col_before","Before"), cmp.get("col_after","After"), "Change"], rows))
+    if d.get("benchmark"):
+        L.append(f"\n_{d['benchmark']}_")
+    L.append("")
+    L.append("### Why It Worked")
+    for w in d.get("why_it_worked", []):
+        L.append(f"- {w}")
+    L.append("")
+    L.append("### The Outcome")
+    L.append(d.get("outcome", "") + "\n")
+    L.append("### Get in touch")
+    L.append(d.get("cta", "") + "\n")
+    L.append("---")
+    L.append(f"*{DISCLAIMER}*\n")
+    out = os.path.join(folder, "case-study.md")
+    with open(out, "w", encoding="utf-8") as f:
+        f.write("\n".join(L))
+    return out
+
 def build(folder):
     d = json.load(open(os.path.join(folder, "case-study.json"), encoding="utf-8"))
     m = d.get("meta", {})
+    if m.get("layout") == "compact":
+        return build_compact_md(folder, d, m)
     L = []
     L.append(f"# {m.get('industry','')} {m.get('platform','')} Case Study — {m.get('client_display','')}\n")
     L.append("## 1. SEO Meta Information")
