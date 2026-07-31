@@ -1,0 +1,37 @@
+{
+  "account": {
+    "ad_account_id": "1692783531965804",
+    "ad_account_name": "SoldbyKaushik",
+    "business_id": "1178766565319943",
+    "business_name": "Sold by Kaushik Aslaliya",
+    "currency": "CAD",
+    "platform": "Meta Ads",
+    "mcp": "Meta_Ads"
+  },
+  "match_confirmation": {
+    "by_ad_account_id": "1692783531965804",
+    "by_account_name": "SoldbyKaushik",
+    "by_business_name": "Sold by Kaushik Aslaliya",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Real estate. 'Sold by Kaushik' is a realtor personal brand; campaigns run WhatsApp and Instant-Form lead objectives typical of a real estate agent generating buyer/seller enquiries.",
+  "detected_takeover": "PPC Guru-managed campaigns (prefixed 'PPC -') began delivering in July 2026. Account-level and campaign-level monthly pulls across 2022-2026 returned data only for July 2026, indicating the account launched / began active delivery under PPC Guru in July 2026.",
+  "queries": {
+    "account_monthly": "ads_get_ad_entities(ad_account_id='1692783531965804', level='ad_account', fields=['amount_spent','impressions','reach','clicks','ctr','cpc','frequency','actions:link_click','lead','results','landing_page_view','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly')",
+    "campaign_monthly": "ads_get_ad_entities(ad_account_id='1692783531965804', level='campaign', fields=['name','amount_spent','impressions','reach','clicks','ctr','cpc','lead','results','actions:link_click','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly', limit=100)"
+  },
+  "notes": [
+    "Meta returns metric values as formatted strings (e.g. 'CA$496.25 CAD', '17,444', '0.91%'); these were parsed to numbers.",
+    "THIN DATA: only one month of delivery exists (July 2026). There is no prior period to compare against, so this is a single-month launch snapshot, not a before/after story. Status set to 'Needs Review' and confidence 'Low' accordingly.",
+    "Genuine enquiries = 8 Instant-Form leads (campaign 'PPC - Sold by kaushik - Instant Form') plus 8 WhatsApp messaging conversations (campaign 'PPC - Sold by kaushik - Whatsapp'). Messaging conversations are reported honestly as conversations, separate from form leads.",
+    "Account-level cost_per_lead (CA$62.03) divides total account spend by the 8 form leads only and is therefore misleading; the form campaign's own CPL is CA$19.33. Blended cost across all 16 enquiries = 496.25 / 16 = CA$31.02.",
+    "No landing-page-view, placement or audience data was available from the account-level pull (returned 'Not available')."
+  ],
+  "account_monthly_raw": [
+    {"month": "2026-07", "amount_spent": "CA$496.25 CAD", "amount_spent_cents": 49625, "impressions": 17444, "reach": 6374, "clicks": 159, "ctr_pct": 0.91, "cpc": 3.12, "frequency": 2.74, "link_click": 72, "lead": 8, "cost_per_lead": 62.03}
+  ],
+  "campaign_july_2026_raw": [
+    {"name": "PPC - Sold by kaushik - Instant Form", "id": "120248114183830296", "amount_spent": 154.65, "impressions": 3877, "reach": 2269, "clicks": 51, "ctr_pct": 1.32, "cpc": 3.03, "results": "8 (Leads (form))", "lead": 8, "cost_per_lead": 19.33, "link_click": 24},
+    {"name": "PPC - Sold by kaushik - Whatsapp", "id": "120247745814280296", "amount_spent": 341.60, "impressions": 13567, "reach": 4729, "clicks": 108, "ctr_pct": 0.80, "cpc": 3.16, "results": "8 (Messaging conversations started)", "lead": null, "link_click": 48}
+  ]
+}

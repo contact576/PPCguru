@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Ace Equity",
+    "slug": "/case-studies/financial-services-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Financial Services",
+    "market": "Canada",
+    "managed_since": "Jul 2026",
+    "seo_title": "Financial Services Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched Meta Ads for a Canadian financial services firm, generating 5 Instant-Form leads and 11 WhatsApp conversations in the first month.",
+    "primary_keyword": "financial services Meta Ads",
+    "secondary_keywords": ["Meta Ads case study", "financial services lead generation", "Facebook lead ads", "finance advertising", "Meta Ads agency in Toronto"],
+    "pdf_filename": "financial-services-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jul 2026 (launch month)",
+    "comparison_period": "First month under PPC Guru (Jul 2026)",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Needs Review"
+  },
+  "headline": "A Financial Services Firm's First Month on Meta Ads: 5 Leads + 11 WhatsApp Chats",
+  "kpis": [
+    {"value": "5", "label": "Instant-Form leads", "note": "July 2026 · first month"},
+    {"value": "~$45.17", "label": "Cost per form lead", "note": "Lead-form campaign"},
+    {"value": "11", "label": "WhatsApp chats", "note": "Messaging conversations"}
+  ],
+  "summary_line": "PPC Guru launched Meta advertising for Ace Equity, a Canadian financial services firm, in July 2026. In its first month the account produced 5 Instant-Form leads at about CA$45.17 each and opened 11 WhatsApp conversations — genuine enquiries the team could follow up with. This is an early launch snapshot based on a single month of data.",
+  "client_context": "Ace Equity is a Canadian financial services firm that helps clients with their financial goals. In financial services, trust and timely contact matter: growth depends on reaching people who are actively considering their options and giving them an easy, credible way to start a conversation. Meta (Facebook and Instagram) lets the firm reach that audience and open a direct line — through a lead form or a WhatsApp chat — while interest is high.",
+  "background": "The firm partnered with PPC Guru to build a measurable enquiry source on Meta. PPC Guru launched the account in July 2026 with two complementary campaigns under a 'Loyalty' theme: a native Instant-Form campaign to capture contact details, and a WhatsApp messaging campaign to start direct conversations with interested prospects.",
+  "analysis": "As a fresh launch, the focus was on clean lead capture and measurement from day one, and on testing two contact routes side by side — a form for people who prefer to leave details and WhatsApp for those who prefer to chat. The first month sets a baseline cost per enquiry that PPC Guru will optimise against as more data accumulates.",
+  "analysis_points": [
+    "Launch a native Instant-Form campaign to capture client enquiries on-platform.",
+    "Run a parallel WhatsApp messaging campaign to open direct conversations with prospects.",
+    "Measure cost per form lead and cost per conversation from the first day.",
+    "Use month-one results as the baseline for ongoing optimisation."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "July 2026", "what": "PPC Guru launched two Meta campaigns — Instant Form and WhatsApp — producing 5 form leads and 11 WhatsApp conversations in the first month."},
+    {"when": "Next", "what": "Gather more data across a full quarter to confirm cost per enquiry and scale the better-performing objective."}
+  ],
+  "challenge": "As a new launch, the account had no Meta history to build on — no proven audiences, creative or cost benchmarks. In a considered category like financial services, the task was to establish credible lead capture across two objectives and produce genuine enquiries the team could act on, while keeping a clean read on what each enquiry costs.",
+  "changes": [
+    {"change": "Instant-Form lead campaign", "why": "Captures contact details on-platform so the team can follow up quickly with interested prospects."},
+    {"change": "WhatsApp messaging campaign", "why": "Opens a direct chat with prospects who prefer to message rather than complete a form."},
+    {"change": "Two objectives side by side", "why": "Tests which route produces better enquiries for the cost before concentrating budget."},
+    {"change": "Enquiry-level measurement", "why": "Tracks cost per form lead and cost per conversation from launch, not clicks or reach."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objectives", "value": "Leads (Instant Form) + Messaging (WhatsApp)"},
+    {"label": "Form campaign", "value": "PPC - Loyalty - IF"},
+    {"label": "Messaging campaign", "value": "PPC - Loyalty - WA"},
+    {"label": "Month-one budget", "value": "≈ $812 CAD"},
+    {"label": "Data window", "value": "1 month (Jul 2026)"}
+  ],
+  "comparison": {
+    "col_before": "Metric",
+    "col_after": "Month one (Jul 2026)",
+    "rows": [
+      {"metric": "Instant-Form leads", "before": "Instant-Form leads", "after": "5", "change": "≈ $45.17 / lead", "dir": "up"},
+      {"metric": "WhatsApp conversations", "before": "WhatsApp conversations", "after": "11", "change": "≈ $53 / chat", "dir": "up"},
+      {"metric": "Total tracked leads", "before": "Total tracked leads", "after": "9", "change": "Form + messaging", "dir": "up"},
+      {"metric": "Ad spend", "before": "Ad spend", "after": "≈ $812", "change": "Launch month", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "These figures cover a single launch month (July 2026), so they are an early snapshot rather than a trend. Cost per enquiry should be read as a starting baseline that PPC Guru will work to improve as the account gathers more data and creative and audience testing matures.",
+  "lessons_title": "Lessons for Financial Services Firms",
+  "lessons": [
+    "Give prospects two ways to reach you — a form for details and WhatsApp for a quick chat.",
+    "Capture contact details on-platform so enquiries are fast and credible for a considered category.",
+    "Measure cost per genuine enquiry from day one, not clicks or reach.",
+    "Treat the first month as a baseline and optimise from real data rather than assumptions.",
+    "Follow up quickly — in financial services, timely, trusted contact wins the conversation."
+  ],
+  "why_it_worked": [
+    "Two lead objectives launched together gave the firm both form leads and live conversations.",
+    "On-platform capture kept enquiries fast and frictionless for a mobile audience.",
+    "Clean measurement from day one set an honest cost-per-enquiry baseline.",
+    "The launch produced 16 genuine enquiries across form and WhatsApp in the first month."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In its first month on Meta with PPC Guru (July 2026), Ace Equity generated 5 Instant-Form leads at about $45.17 each and 11 WhatsApp conversations. As a launch snapshot from a single month, these results are an encouraging start rather than a settled trend. PPC Guru will confirm cost per enquiry over a fuller window and scale the objective that proves most efficient.",
+  "cta": "PPC Guru helps Canadian financial services firms turn Facebook and Instagram into a steady, measurable source of client enquiries.",
+  "methodology": "All figures are pulled directly from the client's Meta Ads account for July 2026, the account's first and only month of delivery to date. 'Leads' are genuine Instant-Form submissions; WhatsApp conversations are reported separately as messaging conversations. Because only one month of data exists, this is a launch snapshot and is marked for review as more data accumulates.",
+  "teaser": "📈 Financial services Meta Ads launch: PPC Guru's first month for Ace Equity delivered 5 Instant-Form leads at ~$45.17 each plus 11 WhatsApp conversations.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "First-Month Enquiries by Type",
+      "period": "July 2026 · Meta Ads launch",
+      "labels": ["Instant-Form leads", "WhatsApp chats"],
+      "values": [5, 11],
+      "colors": ["green", "blue"]
+    }
+  ]
+}

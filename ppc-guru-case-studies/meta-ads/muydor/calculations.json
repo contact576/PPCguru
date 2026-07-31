@@ -1,0 +1,63 @@
+{
+  "story_type": "Launch (Method B) - PPC Guru launched a dedicated Meta lead-generation campaign in July 2026.",
+  "genuine_lead_definition": "Form leads ('Leads (form)') + 'Meta leads'. Excludes Facebook likes and generic messaging conversations, which are engagement/vanity actions.",
+  "periods": {
+    "baseline_then": {
+      "label": "Feb-Jun 2026 (client-run engagement era, pre PPC Guru lead campaign)",
+      "months": ["2026-02", "2026-03", "2026-04", "2026-05", "2026-06"]
+    },
+    "now": {
+      "label": "July 2026 (first full month of PPC Guru's Instant-Form lead campaign)",
+      "months": ["2026-07"]
+    }
+  },
+  "monthly_genuine_leads": {
+    "2026-02": 0,
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 3,
+    "2026-06": 1,
+    "2026-07": 112
+  },
+  "monthly_spend_cad": {
+    "2026-02": 66.58,
+    "2026-03": 107.73,
+    "2026-04": 105.29,
+    "2026-05": 253.34,
+    "2026-06": 60.99,
+    "2026-07": 455.44
+  },
+  "baseline_then_aggregates": {
+    "spend_total_cad": 593.93,
+    "spend_arithmetic": "66.58+107.73+105.29+253.34+60.99 = 593.93",
+    "genuine_leads_total": 4,
+    "leads_arithmetic": "0+0+0+3+1 = 4",
+    "avg_leads_per_month": 0.8,
+    "avg_leads_arithmetic": "4 / 5 months = 0.8",
+    "avg_monthly_spend_cad": 118.79,
+    "avg_spend_arithmetic": "593.93 / 5 = 118.79",
+    "cost_per_lead_when_leads_appeared_cad": 78.58,
+    "cpl_arithmetic": "(May 253.34 + Jun 60.99) / 4 leads = 314.33 / 4 = 78.58 ; leads only appeared in May-Jun, and spend was engagement-focused so leads were incidental"
+  },
+  "now_july_2026_aggregates": {
+    "campaign": "PPC - Muydor - IF (Instant Form)",
+    "spend_cad": 455.44,
+    "genuine_form_leads": 112,
+    "cost_per_lead_cad": 4.07,
+    "cpl_arithmetic": "455.44 / 112 = 4.066 -> 4.07",
+    "impressions": 16246,
+    "clicks": 856,
+    "link_clicks": 439,
+    "link_ctr_pct": 5.27,
+    "lead_rate_from_link_clicks_pct": 25.5,
+    "lead_rate_arithmetic": "112 / 439 link clicks = 25.5% (form completion vs link clicks)"
+  },
+  "then_vs_now": {
+    "genuine_leads_per_month": {"then": 0.8, "now": 112, "direction": "up"},
+    "cost_per_lead_cad": {"then": 78.58, "now": 4.07, "pct_reduction": 94.8, "arithmetic": "(78.58 - 4.07) / 78.58 = 0.948 -> 94.8% lower", "direction": "down-good"},
+    "monthly_spend_cad": {"then": 118.79, "now": 455.44, "scale_x": 3.83, "arithmetic": "455.44 / 118.79 = 3.83x", "direction": "neutral"}
+  },
+  "chart_series": {
+    "monthly_genuine_leads": {"x": ["Feb'26", "Mar", "Apr", "May", "Jun", "Jul"], "values": [0, 0, 0, 3, 1, 112]}
+  }
+}

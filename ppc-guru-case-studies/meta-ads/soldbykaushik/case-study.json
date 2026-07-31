@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Sold by Kaushik",
+    "slug": "/case-studies/real-estate-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Real Estate",
+    "market": "Canada",
+    "managed_since": "Jul 2026",
+    "seo_title": "Real Estate Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched Meta Ads for a Canadian real estate agent, delivering 8 Instant-Form leads at about CA$19 each plus 8 WhatsApp chats in month one.",
+    "primary_keyword": "real estate Meta Ads",
+    "secondary_keywords": ["Meta Ads case study", "real estate lead generation", "Facebook lead ads", "realtor advertising", "Meta Ads agency in Toronto"],
+    "pdf_filename": "real-estate-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jul 2026 (launch month)",
+    "comparison_period": "First month under PPC Guru (Jul 2026)",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Needs Review"
+  },
+  "headline": "A Real Estate Agent's First Month on Meta Ads: 8 Leads + 8 WhatsApp Chats",
+  "kpis": [
+    {"value": "8", "label": "Instant-Form leads", "note": "July 2026 · first month"},
+    {"value": "~$19.33", "label": "Cost per form lead", "note": "Lead-form campaign"},
+    {"value": "8", "label": "WhatsApp chats", "note": "Messaging conversations"}
+  ],
+  "summary_line": "PPC Guru launched Meta advertising for a Canadian real estate agent in July 2026. In its first month the account produced 8 Instant-Form leads at about CA$19.33 each and opened 8 WhatsApp conversations, giving the agent 16 genuine buyer and seller enquiries to follow up. This is an early launch snapshot based on a single month of data.",
+  "client_context": "Sold by Kaushik is a Canadian real estate professional who helps buyers and sellers through the property process. For an individual agent, a dependable flow of enquiries — people ready to talk about buying or selling — is the engine of the business. Meta (Facebook and Instagram) lets an agent reach local prospects and open a direct conversation, whether through a lead form or a WhatsApp chat, at the moment they are considering a move.",
+  "background": "The agent partnered with PPC Guru to build a measurable lead source on Meta rather than relying on referrals and organic reach alone. PPC Guru launched the account in July 2026 with two complementary campaigns: a native Instant-Form campaign to capture contact details, and a WhatsApp messaging campaign to start direct conversations with interested prospects.",
+  "analysis": "Because this is a fresh launch, the priority was to stand up clean lead capture and measurement from day one and to test two ways of reaching prospects side by side — a form for people who prefer to leave details, and WhatsApp for people who prefer to chat. The first month establishes a baseline cost per enquiry that PPC Guru will optimise against as more data accumulates.",
+  "analysis_points": [
+    "Launch a native Instant-Form campaign to capture buyer and seller contact details on-platform.",
+    "Run a parallel WhatsApp messaging campaign to open direct conversations with prospects.",
+    "Measure cost per form lead and cost per conversation from the first day.",
+    "Use month-one results as the baseline for ongoing optimisation."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "July 2026", "what": "PPC Guru launched two Meta campaigns — Instant Form and WhatsApp — producing 8 form leads and 8 WhatsApp conversations in the first month."},
+    {"when": "Next", "what": "Gather more data across a full quarter to confirm cost per enquiry and scale the better-performing objective."}
+  ],
+  "challenge": "As a new launch, the account had no Meta history to build on — no proven audiences, creative or cost benchmarks. The task was to establish reliable lead capture across two objectives and produce genuine enquiries the agent could act on, while keeping a clean read on what each enquiry costs.",
+  "changes": [
+    {"change": "Instant-Form lead campaign", "why": "Captures a name and contact details on-platform so the agent can follow up quickly with interested buyers and sellers."},
+    {"change": "WhatsApp messaging campaign", "why": "Opens a direct chat with prospects who prefer to message rather than fill in a form."},
+    {"change": "Two objectives side by side", "why": "Tests which route produces better enquiries for the cost before concentrating budget."},
+    {"change": "Enquiry-level measurement", "why": "Tracks cost per form lead and cost per conversation from launch, not clicks or reach."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objectives", "value": "Leads (Instant Form) + Messaging (WhatsApp)"},
+    {"label": "Form campaign", "value": "PPC - Sold by kaushik - Instant Form"},
+    {"label": "Messaging campaign", "value": "PPC - Sold by kaushik - Whatsapp"},
+    {"label": "Month-one budget", "value": "≈ $496 CAD"},
+    {"label": "Data window", "value": "1 month (Jul 2026)"}
+  ],
+  "comparison": {
+    "col_before": "Metric",
+    "col_after": "Month one (Jul 2026)",
+    "rows": [
+      {"metric": "Instant-Form leads", "before": "Instant-Form leads", "after": "8", "change": "≈ $19.33 / lead", "dir": "up"},
+      {"metric": "WhatsApp conversations", "before": "WhatsApp conversations", "after": "8", "change": "≈ $42.70 / chat", "dir": "up"},
+      {"metric": "Total enquiries", "before": "Total enquiries", "after": "16", "change": "≈ $31 blended", "dir": "up"},
+      {"metric": "Ad spend", "before": "Ad spend", "after": "≈ $496", "change": "Launch month", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "These figures cover a single launch month (July 2026), so they are an early snapshot rather than a trend. Cost per enquiry should be read as a starting baseline that PPC Guru will work to improve as the account gathers more data.",
+  "lessons_title": "Lessons for Real Estate Agents",
+  "lessons": [
+    "Give prospects two ways to reach you — a form for details and WhatsApp for a quick chat.",
+    "Capture contact details on-platform so no enquiry slips away to a slow landing page.",
+    "Measure cost per genuine enquiry from day one, not clicks or reach.",
+    "Treat the first month as a baseline and optimise from real data rather than assumptions.",
+    "Follow up with new leads fast — speed to contact matters in real estate."
+  ],
+  "why_it_worked": [
+    "Two lead objectives launched together gave the agent both form leads and live conversations.",
+    "On-platform capture kept enquiries fast and frictionless for a mobile audience.",
+    "Clean measurement from day one set an honest cost-per-enquiry baseline.",
+    "The form campaign delivered leads at about $19.33 each in its first month."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In its first month on Meta with PPC Guru (July 2026), Sold by Kaushik generated 16 genuine enquiries — 8 Instant-Form leads at about $19.33 each and 8 WhatsApp conversations. As a launch snapshot from a single month, these results are an encouraging start rather than a settled trend. PPC Guru will confirm cost per enquiry over a fuller window and scale the objective that proves most efficient.",
+  "cta": "PPC Guru helps Canadian real estate agents turn Facebook and Instagram into a steady, measurable source of buyer and seller enquiries.",
+  "methodology": "All figures are pulled directly from the client's Meta Ads account for July 2026, the account's first and only month of delivery to date. 'Leads' are genuine Instant-Form submissions; WhatsApp conversations are reported separately as messaging conversations. Because only one month of data exists, this is a launch snapshot and is marked for review as more data accumulates.",
+  "teaser": "📈 Real estate Meta Ads launch: PPC Guru's first month for Sold by Kaushik delivered 8 Instant-Form leads at ~$19.33 each plus 8 WhatsApp chats — 16 genuine enquiries in month one.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "First-Month Enquiries by Type",
+      "period": "July 2026 · Meta Ads launch",
+      "labels": ["Instant-Form leads", "WhatsApp chats"],
+      "values": [8, 8],
+      "colors": ["green", "blue"]
+    }
+  ]
+}

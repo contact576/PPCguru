@@ -1,0 +1,53 @@
+{
+  "account": {
+    "ad_account_id": "810012461793038",
+    "ad_account_name": "livingwellwithmuydor",
+    "business_id": "339328064666222",
+    "business_name": "Olaronke Alabi-Fakunle",
+    "currency": "CAD",
+    "platform": "Meta Ads",
+    "mcp": "Meta_Ads"
+  },
+  "match_confirmation": {
+    "by_ad_account_id": "810012461793038",
+    "by_account_name": "livingwellwithmuydor",
+    "by_business_name": "Olaronke Alabi-Fakunle",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Health & wellness / coaching. Account handle 'livingwellwithmuydor' and campaign structure (Instant-Form lead campaign) are consistent with a personal wellness / lifestyle coaching brand.",
+  "detected_takeover": "PPC Guru launched a dedicated lead-generation campaign 'PPC - Muydor - IF' (Instant Form) in July 2026. The 'PPC -' prefix distinguishes PPC Guru-managed campaigns from the account's earlier client-run campaigns ('New Engagement Campaign', 'New Engagement Campaign - Copy', 'New Leads Campaign'), which ran Feb-Jun 2026 optimised mostly for Facebook likes and messaging. Launch / management start: July 2026.",
+  "queries": {
+    "account_monthly": "ads_get_ad_entities(ad_account_id='810012461793038', level='ad_account', fields=['amount_spent','impressions','reach','clicks','ctr','cpc','frequency','actions:link_click','lead','results','landing_page_view','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly')",
+    "campaign_lifetime": "ads_get_ad_entities(ad_account_id='810012461793038', level='campaign', fields=['name','amount_spent','impressions','reach','clicks','ctr','cpc','lead','results','actions:link_click','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, limit=100)",
+    "campaign_monthly_2026": "ads_get_ad_entities(ad_account_id='810012461793038', level='campaign', fields=['name','amount_spent','impressions','clicks','ctr','lead','results','cost_per_lead'], time_range={since:'2026-01-01',until:'2026-07-31'}, time_increment='monthly', limit=100)"
+  },
+  "notes": [
+    "Meta returns metric values as formatted strings (e.g. 'CA$455.44 CAD', '16,246', '5.27%'); these were parsed to numbers. 'amount_spent_cents' gives the integer spend.",
+    "Genuine leads for this account = form leads ('Leads (form)' objective) plus 'Meta leads'. Facebook likes (engagement objective) and generic messaging 'conversations' are treated as engagement, NOT counted as genuine leads. WhatsApp/messaging conversations are noted separately where relevant.",
+    "Feb-Jun 2026 the account ran engagement/likes-focused campaigns (client-managed) that produced Facebook likes and a handful of messaging conversations but almost no form leads (0 in Feb/Mar/Apr, 3 in May, 1 in Jun).",
+    "July 2026 PPC Guru launched 'PPC - Muydor - IF', a dedicated Instant-Form lead campaign: CA$455.44 spend, 112 form leads, CA$4.07 cost per lead in its first month.",
+    "Only one full month (July 2026) of the PPC Guru lead campaign exists, so confidence is Medium and the story is framed as a launch. No full quarter of the lead campaign yet, so leads are shown monthly rather than quarterly.",
+    "No placement, audience or landing-page-view data was available from the account-level pull (returned 'Not available')."
+  ],
+  "account_monthly_raw": [
+    {"month": "2026-02", "amount_spent": "CA$66.58 CAD", "amount_spent_cents": 6658, "impressions": 4168, "reach": 3415, "clicks": 435, "ctr_pct": 10.44, "cpc": 0.15, "frequency": 1.22, "link_click": 355, "lead": null, "note": "engagement/likes campaigns only"},
+    {"month": "2026-03", "amount_spent": "CA$107.73 CAD", "amount_spent_cents": 10773, "impressions": 5720, "reach": 3323, "clicks": 347, "ctr_pct": 6.07, "cpc": 0.31, "frequency": 1.72, "link_click": 31, "lead": null, "note": "Facebook likes (67+45)"},
+    {"month": "2026-04", "amount_spent": "CA$105.29 CAD", "amount_spent_cents": 10529, "impressions": 13461, "reach": 8190, "clicks": 1117, "ctr_pct": 8.30, "cpc": 0.09, "frequency": 1.64, "link_click": 22, "lead": null, "note": "Facebook likes (760+21)"},
+    {"month": "2026-05", "amount_spent": "CA$253.34 CAD", "amount_spent_cents": 25334, "impressions": 9631, "reach": 6292, "clicks": 555, "ctr_pct": 5.76, "cpc": 0.46, "frequency": 1.53, "link_click": 74, "lead": 3, "cost_per_lead": 84.45},
+    {"month": "2026-06", "amount_spent": "CA$60.99 CAD", "amount_spent_cents": 6099, "impressions": 1480, "reach": 1223, "clicks": 169, "ctr_pct": 11.42, "cpc": 0.36, "frequency": 1.21, "link_click": 73, "lead": 1, "cost_per_lead": 60.99},
+    {"month": "2026-07", "amount_spent": "CA$455.44 CAD", "amount_spent_cents": 45544, "impressions": 16246, "reach": 10085, "clicks": 856, "ctr_pct": 5.27, "cpc": 0.53, "frequency": 1.61, "link_click": 439, "lead": 112, "cost_per_lead": 4.07, "note": "PPC - Muydor - IF Instant-Form campaign launch"}
+  ],
+  "campaign_monthly_2026_raw": [
+    {"name": "PPC - Muydor - IF", "month": "2026-07", "amount_spent": 455.44, "impressions": 16246, "clicks": 856, "ctr_pct": 5.27, "results": "112 (Leads (form))", "lead": 112, "cost_per_lead": 4.07},
+    {"name": "New Engagement Campaign", "month": "2026-05", "amount_spent": 32.21, "impressions": 564, "clicks": 83, "results": "8 (Messaging conversations started)", "lead": 2, "cost_per_lead": 16.11},
+    {"name": "New Engagement Campaign", "month": "2026-06", "amount_spent": 45.41, "impressions": 918, "clicks": 143, "results": "28 (Messaging conversations started)", "lead": 1, "cost_per_lead": 45.41},
+    {"name": "New Leads Campaign", "month": "2026-05", "amount_spent": 76.43, "impressions": 895, "clicks": 42, "results": "1 (Meta leads)", "lead": 1, "cost_per_lead": 76.43},
+    {"name": "New Engagement Campaign - Copy", "month": "2026-03", "amount_spent": 45.06, "results": "67 (Facebook likes)", "lead": null},
+    {"name": "New Engagement Campaign - Copy", "month": "2026-04", "amount_spent": 85.63, "results": "760 (Facebook likes)", "lead": null},
+    {"name": "New Engagement Campaign - Copy", "month": "2026-05", "amount_spent": 81.79, "results": "249 (Facebook likes)", "lead": null},
+    {"name": "New Engagement Campaign - Copy", "month": "2026-06", "amount_spent": 15.58, "results": "8 (Facebook likes)", "lead": null},
+    {"name": "New Engagement Campaign", "month": "2026-03", "amount_spent": 57.93, "results": "45 (Facebook likes)", "lead": null},
+    {"name": "New Engagement Campaign", "month": "2026-04", "amount_spent": 19.66, "results": "21 (Facebook likes)", "lead": null},
+    {"name": "New Engagement Campaign", "month": "2026-05", "amount_spent": 62.91, "results": "17 (Facebook likes)", "lead": null}
+  ]
+}

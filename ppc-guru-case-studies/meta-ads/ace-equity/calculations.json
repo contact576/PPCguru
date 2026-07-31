@@ -1,0 +1,45 @@
+{
+  "story_type": "Launch snapshot (single month). PPC Guru began delivery in July 2026; only one month of data exists, so no before/after comparison is possible.",
+  "data_sufficiency": "THIN - one complete month (July 2026). Confidence Low, status Needs Review.",
+  "genuine_lead_definition": "Instant-Form leads ('Leads (form)') counted as form leads. WhatsApp campaign reported separately as messaging conversations, with its Meta-attributed leads noted.",
+  "period_now": {
+    "label": "July 2026 (first month of delivery under PPC Guru)",
+    "months": ["2026-07"]
+  },
+  "july_2026": {
+    "account_spend_cad": 812.01,
+    "account_impressions": 32141,
+    "account_reach": 15428,
+    "account_clicks": 379,
+    "account_ctr_pct": 1.18,
+    "account_cpc_cad": 2.14,
+    "account_frequency": 2.08,
+    "account_link_clicks": 194,
+    "account_total_leads": 9,
+    "form_leads": 5,
+    "whatsapp_conversations": 11,
+    "whatsapp_attributed_leads": 4,
+    "form_campaign": {
+      "name": "PPC - Loyalty - IF",
+      "spend_cad": 225.84,
+      "leads": 5,
+      "cost_per_lead_cad": 45.17,
+      "cpl_arithmetic": "225.84 / 5 = 45.17"
+    },
+    "whatsapp_campaign": {
+      "name": "PPC - Loyalty - WA",
+      "spend_cad": 586.17,
+      "conversations": 11,
+      "cost_per_conversation_cad": 53.29,
+      "cpc_conv_arithmetic": "586.17 / 11 = 53.29",
+      "attributed_leads": 4
+    },
+    "blended_cost_per_lead_cad": 90.22,
+    "blended_arithmetic": "812.01 / 9 leads = 90.22",
+    "spend_check": "225.84 + 586.17 = 812.01 (matches account total)",
+    "lead_check": "5 form + 4 WhatsApp-attributed = 9 (matches account-level lead field)"
+  },
+  "chart_series": {
+    "first_month_enquiries_by_type": {"labels": ["Instant-Form leads", "WhatsApp chats"], "values": [5, 11]}
+  }
+}
