@@ -1,0 +1,48 @@
+{
+  "account_chosen": "4741764649 (actively managed PPC Guru launch). NOT 5853975594 (dormant legacy account).",
+  "method": "Method B (launch / early-management story). Launch = February 2026. Baseline 'then' = first complete month (Feb 2026). 'Now' = most recent complete quarter (Q2 2026, Apr-Jun).",
+  "genuine_lead_basis": "PHONE_CALL_LEAD only (all realized leads are inbound calls). OUTBOUND_CLICK 'Janeapp_click' excluded (inflates raw conversions from Jun 2026).",
+  "monthly_genuine_calls": {
+    "2026-02": 2,
+    "2026-03": 4,
+    "2026-04": 9,
+    "2026-05": 8,
+    "2026-06": 20,
+    "2026-07": 10
+  },
+  "quarterly_genuine_leads": {
+    "Q1_2026": {"months": "Feb(2)+Mar(4)", "total": 6, "note": "account started Feb 2026"},
+    "Q2_2026": {"months": "Apr(9)+May(8)+Jun(20)", "total": 37, "avg_per_month": 12.3}
+  },
+  "then_feb_2026": {
+    "period": "2026-02 (first complete month / launch)",
+    "genuine_calls": 2,
+    "clicks": 46,
+    "cost_cad": 287.99,
+    "cost_per_lead": 144.00,
+    "conv_rate_pct": 4.35
+  },
+  "now_q2_2026": {
+    "period": "2026-04 to 2026-06 (first complete quarter)",
+    "genuine_calls": 37,
+    "avg_leads_per_month": 12.3,
+    "clicks": 257,
+    "cost_cad": 1283.79,
+    "avg_monthly_spend": 427.93,
+    "cost_per_lead": 34.70,
+    "conv_rate_pct": 14.40
+  },
+  "changes_then_to_now": {
+    "leads_per_month": {"from": 2, "to": 12.3, "pct": "+515%", "arithmetic": "(12.3-2)/2*100"},
+    "cost_per_lead": {"from": 144.00, "to": 34.70, "pct": "-75.9%", "arithmetic": "(34.70-144.00)/144.00*100"},
+    "conv_rate_pct": {"from": 4.35, "to": 14.40, "pct": "+231%", "arithmetic": "(14.40-4.35)/4.35*100"},
+    "monthly_spend": {"from": 287.99, "to": 427.93, "pct": "+48.6%", "note": "scaled with results (neutral)"}
+  },
+  "arithmetic_detail": {
+    "q2_cost_per_lead": "1283.79 / 37 = 34.70",
+    "q2_conv_rate": "37 / 257 = 0.1440 = 14.40%",
+    "q2_avg_leads": "37 / 3 = 12.3",
+    "feb_cost_per_lead": "287.99 / 2 = 144.00",
+    "feb_conv_rate": "2 / 46 = 0.0435 = 4.35%"
+  }
+}
