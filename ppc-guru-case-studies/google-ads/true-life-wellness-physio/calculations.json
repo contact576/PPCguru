@@ -1,0 +1,30 @@
+{
+  "pre_period": "2021-05 to 2022-04 (12 mo, legacy structure)",
+  "post_period": "2023-04 to 2024-03 (first 12 mo under PPC Guru)",
+  "pre": {
+    "clicks": 2449,
+    "conv": 19,
+    "cost": 7319.525999999999,
+    "imp": 77534,
+    "ctr": 3.1586142853457835,
+    "cpc": 2.988781543487137,
+    "cvr": 0.7758268681094325,
+    "cpl": 385.23821052631575
+  },
+  "post": {
+    "clicks": 2003,
+    "conv": 191,
+    "cost": 6547.501639,
+    "imp": 341589,
+    "ctr": 0.5863771959869901,
+    "cpc": 3.2688475481777335,
+    "cvr": 9.535696455317025,
+    "cpl": 34.280113293193715
+  },
+  "changes": {
+    "conversions_pct_inc": 905,
+    "cpl_pct_red": 91,
+    "cvr_pct_inc": 1129,
+    "ctr_pct_inc": -81
+  }
+}
