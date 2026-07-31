@@ -1,0 +1,96 @@
+{
+  "account_ambiguity": {
+    "issue": "Two Google Ads accounts share the Palmdale name under the same MCC.",
+    "candidate_A": {
+      "customer_id": "1894456190",
+      "name": "Palmdale Health Center",
+      "data_span": "2026-02 to 2026-07",
+      "total_impressions_span": 7450,
+      "raw_conversions_span": 77,
+      "status": "ACTIVE — spend and conversions every month through Jul 2026, scaling"
+    },
+    "candidate_B": {
+      "customer_id": "3656378143",
+      "name": "Palmdale Health",
+      "data_span": "2023-10 to 2026-02",
+      "total_impressions_span": 121820,
+      "raw_conversions_span": 248,
+      "status": "INACTIVE — delivery stops after Feb 2026 (no data Mar-Jul 2026)"
+    },
+    "chosen_account": "1894456190",
+    "choice_reason": "Account A (Palmdale Health Center) is the account PPC Guru actively manages: it has continuous spend and rising conversions in every month from Feb 2026 through Jul 2026 (the most recent, currently scaled account). Account B (Palmdale Health) is larger historically but its delivery ends after Feb 2026 with no data in Mar-Jul 2026, indicating it was wound down. The client appears to have migrated to the new Account A around Feb 2026. Per brief instructions the two accounts are NOT combined; the case study is built solely on the active Account A.",
+    "candidate_B_monthly_reference": [
+      {"month": "2025-08", "clicks": 80, "conversions": 9, "impressions": 1401},
+      {"month": "2025-09", "clicks": 191, "conversions": 40.002648, "impressions": 3366},
+      {"month": "2025-10", "clicks": 129, "conversions": 44, "impressions": 1964},
+      {"month": "2025-11", "clicks": 144, "conversions": 45.997352, "impressions": 2385},
+      {"month": "2025-12", "clicks": 150, "conversions": 61.004511, "impressions": 2209},
+      {"month": "2026-01", "clicks": 168, "conversions": 35.995489, "impressions": 2269},
+      {"month": "2026-02", "clicks": 53, "conversions": 12, "impressions": 787}
+    ]
+  },
+  "account": {
+    "name": "Palmdale Health Center",
+    "customer_id": "1894456190",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "market": "Toronto (Scarborough / North York), Ontario, Canada"
+  },
+  "match_confirmation": {
+    "by_name": "Palmdale Health Center (account name)",
+    "by_services": "Campaigns 'Palmadle Physiotherapist Search Ad $500 06-02' and 'PPC - RMT ($250)'; JaneApp booking conversion action 'RCC HomeHealth Inc (web) jane_app_booking'",
+    "by_geography": "Search terms include 'physiotherapy scarborough', 'physiotherapy north york', 'registered massage therapist scarborough'; call tracking number 416-672-0769 (Toronto area code)",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Physiotherapy and registered massage therapy (RMT) health centre. Top search terms: 'physiotherapy near me', 'massage therapy near me', 'physiotherapy scarborough', 'massage therapist near me', 'aquatherapy near me'. JaneApp used for bookings; a home-health entity (RCC HomeHealth Inc) is tied to the booking conversion.",
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2026-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'",
+    "search_terms": "SELECT search_term_view.search_term, metrics.clicks FROM search_term_view WHERE segments.date DURING LAST_30_DAYS ORDER BY metrics.clicks DESC LIMIT 15"
+  },
+  "monthly_trend": [
+    {"month": "2026-02", "clicks": 48, "conversions_raw": 1, "all_conversions": 1, "cost_micros": 293391303, "cost_cad": 293.39, "impressions": 643},
+    {"month": "2026-03", "clicks": 74, "conversions_raw": 2, "all_conversions": 2, "cost_micros": 462192296, "cost_cad": 462.19, "impressions": 876},
+    {"month": "2026-04", "clicks": 96, "conversions_raw": 5, "all_conversions": 21, "cost_micros": 487865072, "cost_cad": 487.87, "impressions": 1246},
+    {"month": "2026-05", "clicks": 86, "conversions_raw": 11, "all_conversions": 58, "cost_micros": 429053336, "cost_cad": 429.05, "impressions": 1240},
+    {"month": "2026-06", "clicks": 131, "conversions_raw": 25, "all_conversions": 94, "cost_micros": 748312305, "cost_cad": 748.31, "impressions": 1708},
+    {"month": "2026-07", "clicks": 127, "conversions_raw": 33, "all_conversions": 83, "cost_micros": 743588006, "cost_cad": 743.59, "impressions": 1737}
+  ],
+  "genuine_leads_by_category": [
+    {"month": "2026-02", "PHONE_CALL_LEAD": 1},
+    {"month": "2026-03", "PHONE_CALL_LEAD": 2},
+    {"month": "2026-04", "PHONE_CALL_LEAD": 5},
+    {"month": "2026-05", "PHONE_CALL_LEAD": 11},
+    {"month": "2026-06", "PHONE_CALL_LEAD": 12, "OUTBOUND_CLICK": 13},
+    {"month": "2026-07", "PHONE_CALL_LEAD": 7, "OUTBOUND_CLICK": 26}
+  ],
+  "conversion_actions": [
+    {"name": "Submit lead form", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true, "note": "Enabled but records no volume in the Conversions column for this period"},
+    {"name": "Call (416-672-0769)", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Calls from ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "RCC HomeHealth Inc (web) jane_app_booking", "type": "GOOGLE_ANALYTICS_4_CUSTOM", "category": "BOOK_APPOINTMENT", "counted_as_genuine": true, "note": "Enabled; no volume in Conversions column for this period"},
+    {"name": "Confimed Booking - Janeapp Integration", "type": "UPLOAD_CLICKS", "category": "PURCHASE", "counted_as_genuine": false, "note": "Offline upload action, no recorded volume in this window; excluded to stay conservative"},
+    {"name": "RCC HomeHealth Inc (web) janeapp_click", "type": "GOOGLE_ANALYTICS_4_CUSTOM", "category": "OUTBOUND_CLICK", "counted_as_genuine": false, "note": "Booking-page button click. Inflates raw metrics.conversions from Jun 2026 (13 in Jun, 26 in Jul) — EXCLUDED from genuine leads"},
+    {"name": "Clicks to call", "type": "GOOGLE_HOSTED", "category": "CONTACT", "counted_as_genuine": false, "note": "Google Business Profile local action"},
+    {"name": "Local actions - Directions", "type": "GOOGLE_HOSTED", "category": "GET_DIRECTIONS", "counted_as_genuine": false},
+    {"name": "Local actions - Website visits", "type": "GOOGLE_HOSTED", "category": "PAGE_VIEW", "counted_as_genuine": false},
+    {"name": "Local actions - Menu views", "type": "GOOGLE_HOSTED", "category": "PAGE_VIEW", "counted_as_genuine": false},
+    {"name": "Local actions - Other engagements", "type": "GOOGLE_HOSTED", "category": "ENGAGEMENT", "counted_as_genuine": false}
+  ],
+  "campaigns": [
+    {"name": "Palmadle Physiotherapist Search Ad $500 06-02", "channel": "SEARCH", "bidding": "MANUAL_CPC", "status": "ENABLED"},
+    {"name": "PPC - RMT ($250)", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "top_search_terms_last30": ["physiotherapy near me (7)", "massage therapy near me (7)", "physiotherapy north york (3)", "physiotherapy scarborough (3)", "massage therapist near me (3)", "aquatherapy near me (2)", "registered massage therapist scarborough (2)", "physio near me (2)", "best physiotherapy near me (1)"],
+  "notes": [
+    "Account A launched under PPC Guru around Feb 2026 (first data month). This is a LAUNCH story (Method B) — baseline is the first month under management (Feb 2026); 'now' is the most recent complete quarter Q2 2026 (Apr-Jun).",
+    "Genuine leads counted = PHONE_CALL_LEAD (website call + calls from ads). Lead-form and JaneApp booking actions are enabled but record no volume in the Conversions column during this window.",
+    "IMPORTANT: raw metrics.conversions is inflated from Jun 2026 by the OUTBOUND_CLICK action 'janeapp_click' (booking-button clicks): Jun raw 25 = 12 phone + 13 janeapp_click; Jul raw 33 = 7 phone + 26 janeapp_click. Genuine phone-lead counts are used throughout.",
+    "all_conversions is heavily inflated by Google Business Profile local actions (directions, menu views, website visits) — excluded.",
+    "Two enabled campaigns: a $500/day-named Physiotherapist Search campaign (Manual CPC) and a $250-named RMT Search campaign (Maximize Conversions). Approx combined monthly spend Q2 2026 ~ $555 CAD (actuals: Apr $488, May $429, Jun $748).",
+    "Confidence Medium: only ~6 months of history and phone-lead-only genuine tracking."
+  ]
+}

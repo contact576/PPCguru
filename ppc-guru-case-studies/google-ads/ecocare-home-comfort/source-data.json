@@ -1,0 +1,63 @@
+{
+  "account": {
+    "name": "EcoCare Home Comfort",
+    "customer_id": "4713437297",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "industry": "HVAC / Home Comfort (heating, cooling, air conditioning)"
+  },
+  "match_confirmation": {
+    "by_conversion_action": "Submit Form Lead EHC (EHC = EcoCare Home Comfort)",
+    "by_campaign_name": "PPC Guru - PMAX - AC (AC = air conditioning / HVAC)",
+    "by_currency": "CAD",
+    "by_phone": "Toll-free +1 (888) 929-2270 tracked as WEBSITE_CALL conversion"
+  },
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2025-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'"
+  },
+  "conversion_actions": [
+    {"name": "Calls from ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD"},
+    {"name": "Calls From Ads - PPC Guru", "type": "AD_CALL", "category": "PHONE_CALL_LEAD"},
+    {"name": "Call (+1 (888) 929-2270) (1)", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD"},
+    {"name": "Submit Form Lead EHC", "type": "WEBPAGE_CODELESS", "category": "SUBMIT_LEAD_FORM"},
+    {"name": "Submit lead form - PPC Guru", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM"},
+    {"name": "offline (Upload) (1)", "type": "UPLOAD_CLICKS", "category": "QUALIFIED_LEAD"}
+  ],
+  "genuine_lead_categories_counted": ["PHONE_CALL_LEAD", "SUBMIT_LEAD_FORM"],
+  "campaigns": [
+    {"name": "PPC Guru - PMAX - AC", "channel": "PERFORMANCE_MAX", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "monthly_raw": [
+    {"month": "2025-11", "clicks": 42, "conversions": 0, "all_conversions": 0, "cost_cad": 406.75, "impressions": 918},
+    {"month": "2025-12", "clicks": 91, "conversions": 19, "all_conversions": 19, "cost_cad": 1045.61, "impressions": 2398},
+    {"month": "2026-01", "clicks": 151, "conversions": 15, "all_conversions": 15, "cost_cad": 1040.42, "impressions": 3476},
+    {"month": "2026-02", "clicks": 73, "conversions": 5, "all_conversions": 5, "cost_cad": 312.92, "impressions": 1834},
+    {"month": "2026-03", "clicks": 102, "conversions": 11, "all_conversions": 11, "cost_cad": 646.47, "impressions": 2632},
+    {"month": "2026-04", "clicks": 267, "conversions": 20, "all_conversions": 20, "cost_cad": 2163.86, "impressions": 6445},
+    {"month": "2026-05", "clicks": 172, "conversions": 15, "all_conversions": 15, "cost_cad": 1206.51, "impressions": 4968},
+    {"month": "2026-06", "clicks": 95, "conversions": 7, "all_conversions": 7, "cost_cad": 409.74, "impressions": 2332},
+    {"month": "2026-07", "clicks": 3367, "conversions": 62, "all_conversions": 72, "cost_cad": 1240.53, "impressions": 92643}
+  ],
+  "genuine_leads_by_month": {
+    "2025-12": {"PHONE_CALL_LEAD": 19, "SUBMIT_LEAD_FORM": 0, "genuine": 19},
+    "2026-01": {"PHONE_CALL_LEAD": 15, "SUBMIT_LEAD_FORM": 0, "genuine": 15},
+    "2026-02": {"PHONE_CALL_LEAD": 5, "SUBMIT_LEAD_FORM": 0, "genuine": 5},
+    "2026-03": {"PHONE_CALL_LEAD": 11, "SUBMIT_LEAD_FORM": 0, "genuine": 11},
+    "2026-04": {"PHONE_CALL_LEAD": 19, "SUBMIT_LEAD_FORM": 1, "genuine": 20},
+    "2026-05": {"PHONE_CALL_LEAD": 8, "SUBMIT_LEAD_FORM": 7, "genuine": 15},
+    "2026-06": {"PHONE_CALL_LEAD": 3, "SUBMIT_LEAD_FORM": 4, "genuine": 7},
+    "2026-07": {"PHONE_CALL_LEAD": 3, "SUBMIT_LEAD_FORM": 59, "genuine": 62}
+  },
+  "detected_launch": "PPC Guru management begins ~November 2025 (first spend Nov 2025, $407 / 42 clicks / 0 conversions = launch ramp). First complete lead-producing month = December 2025. PPC-Guru-branded conversion actions and the 'PPC Guru - PMAX - AC' campaign confirm PPC Guru rebuilt/launched the account.",
+  "notes": [
+    "Method B launch story: baseline = first complete quarter under management (Q1 2026, Jan-Mar); 'now' = most recent complete quarter (Q2 2026, Apr-Jun). July 2026 is a partial quarter (Q3) and is EXCLUDED from the headline comparison.",
+    "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM only. No GBP local-action, outbound-click, or page-view categories appear in this account's category data, so raw metrics.conversions equals genuine leads for Dec 2025 - Jun 2026.",
+    "July 2026 anomaly: clicks jump to 3,367 (vs ~95-267 prior months) with 59 form submissions in a single month, driven by a Performance Max traffic/asset expansion. Because July is a partial quarter AND the form volume looks unusual versus history, July is excluded from the case study and flagged for review before any future reporting.",
+    "An offline QUALIFIED_LEAD import ('offline (Upload)') is configured for closed-loop tracking of booked/installed jobs but shows no recorded conversions in the queried window.",
+    "Campaign type is Performance Max with Maximize Conversions bidding (single active campaign)."
+  ]
+}

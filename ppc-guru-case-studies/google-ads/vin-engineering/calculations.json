@@ -1,0 +1,27 @@
+{
+  "method": "B (launch story), very thin data. PPC Guru launched Search ~June 2026. Only two months exist; June is a partial launch-ramp month, so July 2026 is the first full month.",
+  "genuine_lead_definition": "PHONE_CALL_LEAD + SUBMIT_LEAD_FORM. No local-action / outbound-click categories exist; raw metrics.conversions = genuine leads. Fractional conversion values rounded to whole leads.",
+  "monthly_genuine_leads": {"2026-06_launch_ramp": 2, "2026-07_first_full_month": 12},
+  "monthly_cost_cad": {"2026-06": 648.10, "2026-07": 1486.02},
+  "launch_ramp_June_2026": {
+    "period": "2026-06",
+    "genuine_leads": 2,
+    "form_leads": 2,
+    "phone_leads": 0,
+    "cost_cad": 648.10,
+    "note": "partial launch-ramp month, 90 clicks"
+  },
+  "first_full_month_July_2026": {
+    "period": "2026-07",
+    "genuine_leads": 12,
+    "form_leads": 8,
+    "phone_leads": 4,
+    "cost_cad": 1486.02,
+    "cost_per_lead": 123.83,
+    "conv_rate_pct": 5.5,
+    "arithmetic_cpl": "1486.02 / 12",
+    "arithmetic_cvr": "12 / 218 clicks"
+  },
+  "headline_basis": "First full month (Jul 2026) = 12 genuine leads (8 form quote requests + 4 calls) at ~$124 each. Very early launch; treat June as ramp only.",
+  "caveats": "Only ~1 full month of meaningful data. Not enough for a trend claim. Re-pull after Q3 2026 completes."
+}

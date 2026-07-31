@@ -1,0 +1,62 @@
+{
+  "account": {
+    "name": "Bindra World Immigration Terminal",
+    "customer_id": "6609617684",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "market": "Brampton, Ontario, Canada (serving Ontario)"
+  },
+  "match_confirmation": {
+    "by_name": "Search term 'bindra immigration' matches the client name Bindra World Immigration Terminal",
+    "by_services": "Campaign 'PPC Guru Work Permit PGWP Search Ad $1000' (PGWP = Post-Graduation Work Permit); conversion actions for lead forms, WhatsApp, and calls",
+    "by_geography": "Search terms reference Brampton, Etobicoke and Sudbury (Ontario); 'immigration consultant in brampton', 'immigration office brampton'",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Immigration consultancy / services. Top search terms: 'immigration office near me', 'immigration near me', 'immigration consultant near me', 'best immigration consultants in brampton', 'immigration services near me', 'bindra immigration', 'immigration agents near me'.",
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2026-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'",
+    "search_terms": "SELECT search_term_view.search_term, metrics.clicks FROM search_term_view WHERE segments.date DURING LAST_30_DAYS ORDER BY metrics.clicks DESC LIMIT 15"
+  },
+  "monthly_trend": [
+    {"month": "2026-03", "clicks": 8, "conversions_raw": 0, "all_conversions": 0, "cost_micros": 40559276, "cost_cad": 40.56, "impressions": 94},
+    {"month": "2026-04", "clicks": 83, "conversions_raw": 10, "all_conversions": 10, "cost_micros": 511325499, "cost_cad": 511.33, "impressions": 1720},
+    {"month": "2026-05", "clicks": 57, "conversions_raw": 6, "all_conversions": 115, "cost_micros": 210577145, "cost_cad": 210.58, "impressions": 1024},
+    {"month": "2026-06", "clicks": 278, "conversions_raw": 46, "all_conversions": 479, "cost_micros": 962772096, "cost_cad": 962.77, "impressions": 5696},
+    {"month": "2026-07", "clicks": 346, "conversions_raw": 62, "all_conversions": 716, "cost_micros": 988158091, "cost_cad": 988.16, "impressions": 6197}
+  ],
+  "genuine_leads_by_category": [
+    {"month": "2026-04", "OUTBOUND_CLICK": 10, "genuine_phone_form": 0, "note": "April's raw 10 conversions were all WhatsApp button clicks (OUTBOUND_CLICK); phone-call tracking not yet firing"},
+    {"month": "2026-05", "PHONE_CALL_LEAD": 6, "genuine_phone_form": 6},
+    {"month": "2026-06", "PHONE_CALL_LEAD": 43, "SUBMIT_LEAD_FORM": 1, "OUTBOUND_CLICK": 2, "genuine_phone_form": 44},
+    {"month": "2026-07", "PHONE_CALL_LEAD": 56, "OUTBOUND_CLICK": 6, "genuine_phone_form": 56}
+  ],
+  "conversion_actions": [
+    {"name": "Lead form - Submit", "type": "LEAD_FORM_SUBMIT", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true},
+    {"name": "Contact Form", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true},
+    {"name": "Calls from Ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Call From Website", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Calls from ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Whatsapp Button Click", "type": "WEBPAGE", "category": "OUTBOUND_CLICK", "counted_as_genuine": false, "note": "WhatsApp button click. All of April's raw conversions were this action. Excluded from genuine leads (still a real engagement signal, but not counted as a lead to stay conservative)"},
+    {"name": "Clicks to call", "type": "GOOGLE_HOSTED", "category": "CONTACT", "counted_as_genuine": false, "note": "Google Business Profile local action"},
+    {"name": "Local actions - Directions", "type": "GOOGLE_HOSTED", "category": "GET_DIRECTIONS", "counted_as_genuine": false},
+    {"name": "Local actions - Website visits", "type": "GOOGLE_HOSTED", "category": "PAGE_VIEW", "counted_as_genuine": false},
+    {"name": "Local actions - Other engagements", "type": "GOOGLE_HOSTED", "category": "ENGAGEMENT", "counted_as_genuine": false}
+  ],
+  "campaigns": [
+    {"name": "PPC Guru Work Permit PGWP Search Ad $1000", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "top_search_terms_last30": ["immigration office near me (72)", "immigration near me (48)", "immigration consultant near me (44)", "best immigration consultants in brampton (5)", "immigration (5)", "immigration office brampton (5)", "bindra immigration (4)", "immigration consultant brampton (4)", "immigration services near me (3)", "immigration sudbury (3)"],
+  "notes": [
+    "LAUNCH story (Method B). Data spans Mar–Jul 2026. March is a partial launch month (8 clicks, 0 conversions).",
+    "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM. IMPORTANT: phone-call tracking only began recording in May 2026. In April, the account's raw 10 conversions were entirely WhatsApp Button Clicks (OUTBOUND_CLICK) — so genuine phone/form leads in April = 0.",
+    "Genuine phone/form leads: Apr 0, May 6, Jun 44, Jul 56 — strong ramp once call tracking was live.",
+    "all_conversions is massively inflated by Google Business Profile local actions and WhatsApp clicks (May 115, Jun 479, Jul 716 vs genuine 6/44/56). Excluded.",
+    "Because Q2 2026 (Apr-Jun) contains the April tracking gap (genuine 0), the primary comparison uses first tracked month (May 2026) vs most recent complete month (Jul 2026), per the brief's launch-story allowance. The quarterly bar still shows Q2 2026 genuine total (50).",
+    "Single Search campaign, Maximize Conversions, ~$1000 named budget. Actual monthly spend: Jun $963, Jul $988.",
+    "Cost per lead improved as volume scaled: May ~$35, Jun ~$22, Jul ~$18. Confidence Medium (clear, honest ramp but only ~4 months of genuine-lead data)."
+  ]
+}

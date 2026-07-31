@@ -1,0 +1,90 @@
+{
+  "account": {
+    "name": "Therapy Villa",
+    "customer_id": "4333176282",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "timezone": "America/Toronto",
+    "platform": "Google Ads"
+  },
+  "match_confirmation": {
+    "by_name": "Therapy Villa (list_accounts)",
+    "by_currency": "CAD",
+    "by_timezone": "America/Toronto",
+    "by_search_terms": "psychologist near me, therapist near me, psychotherapist, emdr therapy, couples therapy etobicoke",
+    "by_campaigns": "PPC Guru - Psychotherapy Lead Search / Anxiety Therapy / Trauma Therapy"
+  },
+  "industry_determination": "PSYCHOTHERAPY / mental-health therapy. Confirmed by enabled campaign names (Psychotherapy Lead Search, Anxiety Therapy, Trauma Therapy) and top search terms (psychologist, therapist, psychotherapist, EMDR, couples therapy). NOT physiotherapy. pdf_filename kept as psychotherapy-google-ads-case-study-ppc-guru.pdf.",
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2023-12-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns_history": "SELECT campaign.name, campaign.status, segments.month, metrics.cost_micros, metrics.conversions FROM campaign WHERE segments.date BETWEEN '2025-06-01' AND '2026-07-31' AND metrics.cost_micros > 0 ORDER BY segments.month",
+    "search_terms": "SELECT search_term_view.search_term, metrics.clicks FROM search_term_view WHERE segments.date DURING LAST_30_DAYS ORDER BY metrics.clicks DESC LIMIT 15"
+  },
+  "conversion_actions": [
+    {"name": "Calls from Ads - PPC Guru", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Calls From Website (416-883-3001) - PPC Guru", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Submit lead form", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true},
+    {"name": "Contact Form - PPC Guru", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true},
+    {"name": "Smart campaign ad clicks to call", "category": "CONTACT", "counted_as_genuine": true, "note": "legacy Smart-campaign call clicks; only lead signal in the pre-2026 period"},
+    {"name": "Smart campaign map clicks to call", "category": "CONTACT", "counted_as_genuine": true},
+    {"name": "therapyvilla.com janeapp_appointment_booked", "category": "BOOK_APPOINTMENT", "counted_as_genuine": true},
+    {"name": "(web) janeapp_appointment_booked_new - PPC Guru", "category": "BOOK_APPOINTMENT", "counted_as_genuine": true},
+    {"name": "Booking Final - Janeapp Integration", "category": "PURCHASE", "counted_as_genuine": true, "note": "offline-uploaded confirmed JaneApp booking; appears Jul 2026"},
+    {"name": "book_a_free_consult_click", "category": "OUTBOUND_CLICK", "counted_as_genuine": false, "note": "button click - excluded"},
+    {"name": "Phone Number", "category": "OUTBOUND_CLICK", "counted_as_genuine": false, "note": "button click - excluded"},
+    {"name": "Smart campaign map directions", "category": "GET_DIRECTIONS", "counted_as_genuine": false},
+    {"name": "Page view TV", "category": "PAGE_VIEW", "counted_as_genuine": false},
+    {"name": "therapyvilla.com janeapp_appointment", "category": "PAGE_VIEW", "counted_as_genuine": false},
+    {"name": "CONVERTED_LEAD (offline import category)", "category": "CONVERTED_LEAD", "counted_as_genuine": false, "note": "excluded to avoid double-counting the same lead already counted as SUBMIT_LEAD_FORM"}
+  ],
+  "enabled_campaigns": [
+    {"name": "PPC Guru - Psychotherapy Lead Search - New", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS"},
+    {"name": "PPC Guru - Trauma Therapy $500 - New", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS"},
+    {"name": "PPC Guru - Anxiety Therapy $500 - New", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS"}
+  ],
+  "takeover_evidence": "First PPC Guru-named campaign ('PPC Guru - Psychotherapy Lead Search', id 23509922782) began spending January 2026 ($128, 2 conv) and scaled from February 2026 ($2,006, 36 conv). Pre-2026 campaigns carried other naming conventions (e.g. 'CA Therapy Villa | Search Campaign | generic', 'DM I Performance Max', 'Aug Generic Reworked', 'Trauma Therapy Campaign_TDS'), indicating a prior/other setup. PPC Guru takeover = January 2026. Dedicated PHONE_CALL_LEAD tracking also appears only from 2026.",
+  "monthly_raw": [
+    {"month": "2023-12", "clicks": 188, "conversions": 0, "all_conversions": 0, "cost_cad": 441.42, "impressions": 5915},
+    {"month": "2024-01", "clicks": 70, "conversions": 0, "all_conversions": 0, "cost_cad": 136.47, "impressions": 2315},
+    {"month": "2024-02", "clicks": 233, "conversions": 0, "all_conversions": 0, "cost_cad": 507.09, "impressions": 6842},
+    {"month": "2024-03", "clicks": 256, "conversions": 0, "all_conversions": 0, "cost_cad": 510.10, "impressions": 6702},
+    {"month": "2024-04", "clicks": 229, "conversions": 3, "all_conversions": 3, "cost_cad": 314.60, "impressions": 6662},
+    {"month": "2024-05", "clicks": 402, "conversions": 4, "all_conversions": 7, "cost_cad": 547.16, "impressions": 9898},
+    {"month": "2024-06", "clicks": 374, "conversions": 3, "all_conversions": 9, "cost_cad": 542.51, "impressions": 7746},
+    {"month": "2024-07", "clicks": 352, "conversions": 15, "all_conversions": 17, "cost_cad": 547.05, "impressions": 8162},
+    {"month": "2024-08", "clicks": 304, "conversions": 9, "all_conversions": 11, "cost_cad": 546.03, "impressions": 5780},
+    {"month": "2024-09", "clicks": 211, "conversions": 9, "all_conversions": 11, "cost_cad": 456.29, "impressions": 3566},
+    {"month": "2024-10", "clicks": 272, "conversions": 5, "all_conversions": 11, "cost_cad": 576.37, "impressions": 4660},
+    {"month": "2024-11", "clicks": 416, "conversions": 16, "all_conversions": 25, "cost_cad": 649.26, "impressions": 5029},
+    {"month": "2024-12", "clicks": 465, "conversions": 15, "all_conversions": 24, "cost_cad": 786.98, "impressions": 8491},
+    {"month": "2025-01", "clicks": 692, "conversions": 40, "all_conversions": 68, "cost_cad": 1737.90, "impressions": 16864},
+    {"month": "2025-02", "clicks": 823, "conversions": 37.01, "all_conversions": 57.01, "cost_cad": 1762.57, "impressions": 16136},
+    {"month": "2025-03", "clicks": 700, "conversions": 21, "all_conversions": 27, "cost_cad": 2161.82, "impressions": 19381},
+    {"month": "2025-04", "clicks": 765, "conversions": 37.26, "all_conversions": 50.26, "cost_cad": 1738.70, "impressions": 13905},
+    {"month": "2025-05", "clicks": 287, "conversions": 9.49, "all_conversions": 9.49, "cost_cad": 701.58, "impressions": 5069},
+    {"month": "2025-06", "clicks": 446, "conversions": 42.50, "all_conversions": 42.50, "cost_cad": 1613.56, "impressions": 9186},
+    {"month": "2025-07", "clicks": 1252, "conversions": 169.75, "all_conversions": 169.75, "cost_cad": 1890.09, "impressions": 20946},
+    {"month": "2025-08", "clicks": 2146, "conversions": 138, "all_conversions": 235, "cost_cad": 2369.56, "impressions": 71367},
+    {"month": "2025-09", "clicks": 1059, "conversions": 25, "all_conversions": 37, "cost_cad": 2386.79, "impressions": 37041},
+    {"month": "2025-10", "clicks": 642, "conversions": 14, "all_conversions": 18, "cost_cad": 1159.35, "impressions": 161840},
+    {"month": "2025-11", "clicks": 586, "conversions": 0, "all_conversions": 5, "cost_cad": 971.65, "impressions": 491790},
+    {"month": "2025-12", "clicks": 717, "conversions": 0, "all_conversions": 1, "cost_cad": 1853.22, "impressions": 46231},
+    {"month": "2026-01", "clicks": 495, "conversions": 5, "all_conversions": 11, "cost_cad": 774.09, "impressions": 30655},
+    {"month": "2026-02", "clicks": 398, "conversions": 36, "all_conversions": 36, "cost_cad": 2005.64, "impressions": 7978},
+    {"month": "2026-03", "clicks": 411, "conversions": 40.00, "all_conversions": 40.00, "cost_cad": 2002.07, "impressions": 8337},
+    {"month": "2026-04", "clicks": 368, "conversions": 32.00, "all_conversions": 32.00, "cost_cad": 2110.75, "impressions": 6886},
+    {"month": "2026-05", "clicks": 405, "conversions": 25, "all_conversions": 25, "cost_cad": 2469.94, "impressions": 7609},
+    {"month": "2026-06", "clicks": 468, "conversions": 49.02, "all_conversions": 53.02, "cost_cad": 2506.78, "impressions": 9585},
+    {"month": "2026-07", "clicks": 760, "conversions": 91.98, "all_conversions": 97.98, "cost_cad": 3794.34, "impressions": 14427}
+  ],
+  "genuine_leads_by_category_note": "Raw metrics.conversions is contaminated in this account: many months set OUTBOUND_CLICK (book_a_free_consult / phone-number button clicks) and PAGE_VIEW as counting conversions (e.g. Jul 2025 OUTBOUND_CLICK = 142.75, Aug 2025 = 108). Genuine leads recomputed from segments.conversion_action_category = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM + CONTACT + BOOK_APPOINTMENT (+ PURCHASE where present). See calculations.json.",
+  "notes": [
+    "Takeover = January 2026 (first PPC Guru campaign live). Baseline period = calendar 2025 (pre-PPC-Guru, prior setup); 'now' = Q2 2026 (first complete quarter fully under PPC Guru management).",
+    "Massive Display-style impression spikes in Oct-Nov 2025 (161,840 then 491,790 impressions) with near-zero genuine leads indicate a prior broad/Performance Max misfire that was later cleaned up; Nov-Dec 2025 produced 0 genuine leads.",
+    "Dedicated phone-call tracking (PHONE_CALL_LEAD) exists only from 2026, so pre-2026 genuine-lead counts UNDERSTATE true demand (calls were not captured). The reported before/after growth is therefore conservative.",
+    "OUTBOUND_CLICK, PAGE_VIEW, GET_DIRECTIONS and CONVERTED_LEAD categories excluded from genuine leads.",
+    "Confidence Medium: rich data but a messy multi-campaign pre-history and only ~6 months / one complete quarter under PPC Guru."
+  ]
+}

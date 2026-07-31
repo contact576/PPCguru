@@ -1,0 +1,50 @@
+{
+  "method": "B (launch story) - PPC Guru launched/rebuilt the account ~Nov 2025; compare first complete quarter (Q1 2026) with most recent complete quarter (Q2 2026).",
+  "genuine_lead_definition": "PHONE_CALL_LEAD + SUBMIT_LEAD_FORM conversion categories. No local-action / outbound-click categories present in this account.",
+  "monthly_genuine_leads": {
+    "2025-12": 19,
+    "2026-01": 15,
+    "2026-02": 5,
+    "2026-03": 11,
+    "2026-04": 20,
+    "2026-05": 15,
+    "2026-06": 7,
+    "2026-07_excluded_partial_quarter": 62
+  },
+  "quarterly_genuine_leads": {
+    "Q4_2025_launch_Dec_only": 19,
+    "Q1_2026": {"Jan": 15, "Feb": 5, "Mar": 11, "total": 31, "avg_per_month": 10.3},
+    "Q2_2026": {"Apr": 20, "May": 15, "Jun": 7, "total": 42, "avg_per_month": 14.0}
+  },
+  "then_Q1_2026": {
+    "period": "2026-01-01 to 2026-03-31 (first complete quarter under management)",
+    "genuine_leads": 31,
+    "avg_leads_per_month": 10.3,
+    "clicks": 326,
+    "spend_cad": 1999.81,
+    "avg_monthly_spend": 666.60,
+    "cost_per_lead": 64.51,
+    "conv_rate_pct": 9.5
+  },
+  "now_Q2_2026": {
+    "period": "2026-04-01 to 2026-06-30 (most recent complete quarter)",
+    "genuine_leads": 42,
+    "avg_leads_per_month": 14.0,
+    "clicks": 534,
+    "spend_cad": 3780.11,
+    "avg_monthly_spend": 1260.04,
+    "cost_per_lead": 90.00,
+    "conv_rate_pct": 7.9,
+    "phone_leads": 30,
+    "form_leads": 12,
+    "phone_share_pct": 71.4
+  },
+  "changes": {
+    "genuine_leads_qoq_pct_inc": {"value": 35.5, "arithmetic": "(42 - 31) / 31 * 100 = 35.5%"},
+    "avg_monthly_leads": {"from": 10.3, "to": 14.0, "arithmetic": "31/3 -> 42/3"},
+    "avg_monthly_spend": {"from": 666.60, "to": 1260.04, "dir": "neutral (scaled with results)", "arithmetic": "1999.81/3 -> 3780.11/3, ~1.89x"},
+    "cost_per_lead": {"from": 64.51, "to": 90.00, "note": "rose as budget scaled ~1.89x while leads grew ~1.35x; presented as neutral, not spun as a cut"}
+  },
+  "headline_basis": "Q2 2026 = ~14 genuine phone & form leads per month; +35% vs Q1 2026; ~71% of leads are phone calls.",
+  "excluded": "July 2026 (partial Q3 quarter; 3,367 clicks & 59 form submissions from a Performance Max expansion look anomalous and are flagged for review)."
+}

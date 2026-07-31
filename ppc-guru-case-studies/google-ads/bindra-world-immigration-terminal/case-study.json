@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Bindra World Immigration Terminal",
+    "slug": "/case-studies/immigration-services-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Immigration Services",
+    "market": "Brampton, Ontario, Canada",
+    "managed_since": "Mar 2026",
+    "seo_title": "Immigration Services Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched an Ontario immigration consultancy on Google Ads and scaled genuine phone and form leads from 6 to about 56 a month at roughly $18 each, with cost per lead cut in half.",
+    "primary_keyword": "immigration services Google Ads",
+    "secondary_keywords": ["immigration consultant marketing", "immigration lead generation", "Google Ads case study", "conversion tracking", "Google Ads agency in Ontario"],
+    "pdf_filename": "immigration-services-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Mar 2026 – Jul 2026",
+    "comparison_period": "May 2026 (first tracked) vs Jul 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How an Ontario Immigration Consultancy Scaled to ~56 Google Ads Leads a Month",
+  "kpis": [
+    {"value": "~56", "label": "Genuine leads / month", "note": "July 2026"},
+    {"value": "~$18", "label": "Cost per lead", "note": "July 2026 · down from ~$35"},
+    {"value": "~16%", "label": "Conversion rate", "note": "▲ from ~11% in May"}
+  ],
+  "summary_line": "PPC Guru launched an Ontario immigration consultancy on Google Ads in early 2026 and, once genuine call tracking was live, scaled it from 6 tracked phone and form leads in May to about 56 a month by July — while cutting cost per lead from roughly $35 to about $18 and lifting the conversion rate to around 16%.",
+  "client_context": "Bindra World Immigration Terminal is an immigration consultancy based in Brampton, Ontario, serving clients across the province on matters such as work permits and post-graduation work permits (PGWP). Prospective clients typically search for a local, trustworthy consultant and then reach out by phone, contact form or WhatsApp. Because those enquiries are the start of a high-value consulting relationship, capturing and measuring genuine phone and form leads is central to the account's success.",
+  "background": "The consultancy came to PPC Guru to build a measurable Google Ads presence and reach people actively searching for immigration help across Ontario. PPC Guru launched a focused Search campaign in early 2026, and once phone-call tracking was firing, the account's genuine lead volume scaled quickly.",
+  "analysis": "The plan was to capture high-intent immigration searches on Search, wire up genuine lead tracking (calls and forms), and then scale budget as the real enquiry data proved out — keeping WhatsApp button clicks and Google Business Profile local actions separate from the true lead count.",
+  "analysis_points": [
+    "Focus a Search campaign on high-intent queries like 'immigration consultant near me' and work-permit searches.",
+    "Establish genuine phone-call and form tracking so reporting reflects real client enquiries.",
+    "Separate WhatsApp button clicks and local actions from the genuine lead count.",
+    "Scale budget as tracked phone and form leads grew and cost per lead fell."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Mar 2026", "what": "Search campaign launched — a partial first month while the account gathered data."},
+    {"when": "Apr 2026", "what": "Traffic built up; early enquiries came through WhatsApp button clicks before phone-call tracking was firing."},
+    {"when": "May 2026", "what": "Genuine phone-call tracking went live — 6 tracked phone leads at about $35 each."},
+    {"when": "Jun–Jul 2026", "what": "Leads scaled to 44 then about 56 a month as budget grew, with cost per lead falling to roughly $18 and a conversion rate near 16%."}
+  ],
+  "challenge": "For an immigration consultancy, the enquiries that matter are phone calls and form submissions from people ready to talk about their case. Early in the launch the account was capturing WhatsApp button clicks but not yet recording phone calls, so the genuine lead picture only became clear once call tracking was firing. The task was to establish that tracking, then scale spend on the searches that produced real enquiries — not just clicks or button taps.",
+  "changes": [
+    {"change": "Focused work-permit Search campaign", "why": "Concentrated budget on high-intent immigration and PGWP work-permit searches across Ontario."},
+    {"change": "Genuine call and form tracking", "why": "Website-call, call-from-ads and lead-form tracking captured real client enquiries, reported separately from WhatsApp clicks and local actions."},
+    {"change": "Maximize Conversions bidding", "why": "Once genuine lead signals were trustworthy, automated bidding could chase real enquiries efficiently."},
+    {"change": "Scaled budget on proof", "why": "As tracked phone and form leads climbed and cost per lead fell, monthly budget was increased on demonstrated results."},
+    {"change": "Search-term hygiene", "why": "Ongoing negative-keyword work kept traffic on genuine immigration-intent searches."}
+  ],
+  "technical": [
+    {"label": "Campaign type", "value": "Search"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Approx monthly budget", "value": "≈ $960–990 CAD (recent)"},
+    {"label": "Focus", "value": "Work permits / PGWP · Ontario"},
+    {"label": "Lead signals", "value": "Phone calls · Form submissions"},
+    {"label": "Reporting", "value": "Genuine leads only (WhatsApp / local actions excluded)"}
+  ],
+  "comparison": {
+    "col_before": "First tracked (May 2026)",
+    "col_after": "Now (Jul 2026)",
+    "rows": [
+      {"metric": "Genuine leads / month (calls + forms)", "before": "6", "after": "≈ 56", "change": "Strong growth", "dir": "up"},
+      {"metric": "Cost per lead", "before": "≈ $35", "after": "≈ $18", "change": "Roughly halved", "dir": "down-good"},
+      {"metric": "Conversion rate", "before": "≈ 11%", "after": "≈ 16%", "change": "Higher", "dir": "up"},
+      {"metric": "Monthly ad spend", "before": "≈ $211", "after": "≈ $988", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "Figures use genuine phone and form leads only. April's raw conversions were entirely WhatsApp button clicks (phone tracking was not yet firing), and the account's all-conversions total is heavily inflated by Google Business Profile local actions — both are excluded so the numbers reflect real client enquiries.",
+  "gradual": "Once phone-call tracking went live in May, genuine leads scaled quickly: 6 in May, 44 in June and about 56 in July. Crucially, this was not just more spend buying more clicks — cost per lead roughly halved over the same window, from about $35 to $18, and the conversion rate rose from around 11% to 16%. The added budget brought proportionally more genuine enquiries, not just more traffic.",
+  "spotlight": {
+    "title": "Why Call Tracking Changed the Picture",
+    "body": "For the first weeks after launch, the account could see WhatsApp button clicks but not phone calls — so the true number of client enquiries was understated. Once website-call and call-from-ads tracking was firing in May 2026, the account could finally optimize toward real phone enquiries rather than button taps. That is what let Maximize Conversions bidding find more of the searches that turn into genuine immigration consultations, and it is why lead volume climbed while cost per lead fell."
+  },
+  "lessons_title": "Lessons for Immigration Consultants",
+  "lessons": [
+    "Track phone calls and form submissions — for a consultancy, those are the enquiries worth measuring.",
+    "Keep WhatsApp button clicks and Google Business Profile local actions separate from your genuine lead count.",
+    "Get call tracking firing early — until it is, your reported lead numbers understate reality.",
+    "Scale budget on proven, tracked leads and a falling cost per lead, not on raw clicks.",
+    "Keep negative keywords current so budget reaches genuine immigration-intent searches."
+  ],
+  "why_it_worked": [
+    "Genuine call and form tracking let bidding optimize toward real client enquiries.",
+    "Budget concentrated on high-intent immigration and work-permit searches.",
+    "Cost per lead fell as volume scaled, so growth was efficient rather than just bigger spend.",
+    "Ongoing search-term work kept traffic on genuine immigration intent."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "Within months of launch, Bindra World Immigration Terminal scaled from 6 tracked phone and form leads in its first fully-tracked month to about 56 a month by July 2026 — while cost per lead roughly halved to $18 and the conversion rate climbed to around 16%. The account now has clean genuine-lead tracking, a focused Search structure and a demonstrated, efficient path to scale as demand for immigration services continues.",
+  "cta": "PPC Guru helps Canadian immigration consultants turn high-intent searches into genuine client enquiries with conversion-focused Google Ads and transparent reporting.",
+  "methodology": "All figures are pulled directly from the account's Google Ads data and shown on a monthly basis. 'Leads' are genuine phone calls and form submissions only — WhatsApp button clicks and Google Business Profile local actions are excluded so counts reflect real enquiries. Phone-call tracking began firing in May 2026, so that is the first fully-tracked month; 'now' is the most recent complete month (July 2026).",
+  "lead_quality": "The large majority of tracked leads are direct phone calls — the highest-intent enquiry type for an immigration consultancy — alongside contact-form submissions.",
+  "teaser": "📈 Immigration services Google Ads case study: PPC Guru launched Bindra World Immigration Terminal on Google Ads and scaled genuine phone & form leads from 6 to ~56 a month by July 2026 at ~$18 each — cost per lead roughly halved.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "Apr–Jul 2026 · phone calls + form submissions",
+      "x": ["Apr'26*","May","Jun","Jul"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [0,6,44,56]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Quarterly Genuine Leads Since Launch",
+      "period": "Genuine leads per quarter · Google Ads",
+      "labels": ["Q1'26","Q2'26"],
+      "values": [0,50],
+      "colors": ["blue","green"]
+    }
+  ]
+}

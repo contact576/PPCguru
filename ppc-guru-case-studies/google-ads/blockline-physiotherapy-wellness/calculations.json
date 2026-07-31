@@ -1,0 +1,45 @@
+{
+  "method": "B (launch story), thin data. PPC Guru launched Search ~May 2026. Only three months exist (May-Jul 2026); no full quarter, so first complete month is the baseline.",
+  "genuine_lead_definition": "PHONE_CALL_LEAD + SUBMIT_LEAD_FORM. Excludes OUTBOUND_CLICK (book_appointment_click), CONTACT/GET_DIRECTIONS/ENGAGEMENT/PAGE_VIEW (GBP local actions), and YouTube engagement categories.",
+  "monthly_genuine_leads": {
+    "2026-05": 12,
+    "2026-06": 14,
+    "2026-07_current_month_still_settling": 7
+  },
+  "monthly_cost_cad": {"2026-05": 722.59, "2026-06": 747.55, "2026-07": 721.00},
+  "monthly_cost_per_lead": {
+    "2026-05": {"value": 60.22, "arithmetic": "722.59 / 12"},
+    "2026-06": {"value": 53.40, "arithmetic": "747.55 / 14"},
+    "2026-07": {"value": 103.00, "arithmetic": "721.00 / 7 (current month, still settling)"}
+  },
+  "conversion_rate_pct": {
+    "2026-05": {"value": 14.6, "arithmetic": "12 / 82 clicks"},
+    "2026-06": {"value": 12.5, "arithmetic": "14 / 112 clicks"}
+  },
+  "then_first_month_May_2026": {
+    "period": "2026-05",
+    "genuine_leads": 12,
+    "cost_cad": 722.59,
+    "cost_per_lead": 60.22,
+    "conv_rate_pct": 14.6
+  },
+  "now_latest_settled_month_June_2026": {
+    "period": "2026-06",
+    "genuine_leads": 14,
+    "cost_cad": 747.55,
+    "cost_per_lead": 53.40,
+    "conv_rate_pct": 12.5
+  },
+  "first_two_months_avg": {
+    "genuine_leads_per_month": 13.0,
+    "avg_monthly_spend": 735.07,
+    "cost_per_lead": 56.54,
+    "arithmetic": "(12+14)/2 leads; (722.59+747.55)/2 spend; 1470.14/26 CPL"
+  },
+  "changes": {
+    "leads_may_to_jun": {"from": 12, "to": 14, "pct_inc": 16.7, "arithmetic": "(14-12)/12*100"},
+    "cost_per_lead_may_to_jun": {"from": 60.22, "to": 53.40, "dir": "down-good"}
+  },
+  "headline_basis": "First full months (May-Jun 2026) averaged ~13 genuine phone/form leads a month at ~$56 each, ~13% conversion rate. Early launch, thin data — flagged Needs Review.",
+  "caveats": "Only three months of data; July 2026 dipped to 7 genuine leads but is the current in-progress month. Re-pull after Q3 2026 for a full-quarter story."
+}

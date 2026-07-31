@@ -1,0 +1,48 @@
+{
+  "method": "Method B (launch / early-management story). Baseline = first complete producing month under management (Feb 2026). 'Now' = most recent complete quarter (Q2 2026, Apr-Jun).",
+  "genuine_lead_basis": "metrics.conversions (all conversion actions are PHONE_CALL_LEAD or SUBMIT_LEAD_FORM; conversions == all_conversions every month).",
+  "monthly_genuine_leads": {
+    "2026-01": 0,
+    "2026-02": 22,
+    "2026-03": null,
+    "2026-04": 43,
+    "2026-05": 42,
+    "2026-06": 35,
+    "2026-07": 66
+  },
+  "quarterly_genuine_leads": {
+    "Q1_2026": {"months": "Jan(0)+Feb(22)+Mar(0)", "total": 22},
+    "Q2_2026": {"months": "Apr(43)+May(42)+Jun(35)", "total": 120, "avg_per_month": 40.0}
+  },
+  "then_feb_2026": {
+    "period": "2026-02 (first complete producing month)",
+    "genuine_leads": 22,
+    "clicks": 130,
+    "cost_cad": 1106.82,
+    "cost_per_lead": 50.31,
+    "conv_rate_pct": 16.92
+  },
+  "now_q2_2026": {
+    "period": "2026-04 to 2026-06 (most recent complete quarter)",
+    "genuine_leads": 120,
+    "avg_leads_per_month": 40.0,
+    "clicks": 565,
+    "cost_cad": 4050.09,
+    "avg_monthly_spend": 1350.03,
+    "cost_per_lead": 33.75,
+    "conv_rate_pct": 21.24
+  },
+  "changes_then_to_now": {
+    "leads_per_month": {"from": 22, "to": 40.0, "pct": "+81.8%", "arithmetic": "(40.0-22)/22*100"},
+    "cost_per_lead": {"from": 50.31, "to": 33.75, "pct": "-32.9%", "arithmetic": "(33.75-50.31)/50.31*100"},
+    "conv_rate_pct": {"from": 16.92, "to": 21.24, "pct": "+25.5%", "arithmetic": "(21.24-16.92)/16.92*100"},
+    "monthly_spend": {"from": 1106.82, "to": 1350.03, "pct": "+22.0%", "note": "scaled with results (neutral)"}
+  },
+  "arithmetic_detail": {
+    "q2_cost_per_lead": "4050.09 / 120 = 33.75",
+    "q2_conv_rate": "120 / 565 = 0.2124 = 21.24%",
+    "q2_avg_leads": "120 / 3 = 40.0",
+    "feb_cost_per_lead": "1106.82 / 22 = 50.31",
+    "feb_conv_rate": "22 / 130 = 0.1692 = 16.92%"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Blockline Physiotherapy & Wellness",
+    "slug": "/case-studies/physiotherapy-wellness-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Physiotherapy & Wellness Clinic",
+    "market": "Kitchener–Waterloo, Ontario, Canada",
+    "managed_since": "May 2026",
+    "seo_title": "Physiotherapy Clinic Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a Kitchener physiotherapy and wellness clinic on Google Ads to about 13 genuine phone and form leads a month at roughly $56 each in its first months.",
+    "primary_keyword": "physiotherapy clinic Google Ads",
+    "secondary_keywords": ["physiotherapy lead generation", "wellness clinic marketing", "Google Ads case study", "conversion tracking", "Google Ads agency in Ontario"],
+    "pdf_filename": "physiotherapy-wellness-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "May 2026 – Jul 2026",
+    "comparison_period": "May 2026 vs Jun 2026 (first full months)",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Needs Review"
+  },
+  "headline": "Launching a Physiotherapy Clinic to ~13 Google Ads Leads a Month",
+  "kpis": [
+    {"value": "~13", "label": "Genuine leads / month", "note": "First full months (May–Jun 2026)"},
+    {"value": "~$56", "label": "Cost per lead", "note": "May–Jun 2026"},
+    {"value": "~13%", "label": "Conversion rate", "note": "Clicks to genuine leads"}
+  ],
+  "summary_line": "PPC Guru launched Blockline Physiotherapy & Wellness on Google Ads with call and lead-form tracking in place, and the clinic's first full months produced about 13 genuine phone and form leads a month at roughly $56 each — with genuine enquiries counted separately from Google Business Profile map actions and booking-button clicks.",
+  "client_context": "Blockline Physiotherapy & Wellness is a physiotherapy and wellness clinic serving patients in the Kitchener–Waterloo area of Ontario, Canada. The clinic provides hands-on physiotherapy and related wellness care, and depends on a steady flow of new-patient enquiries — phone calls and online contact requests from people searching for treatment nearby. Google Ads is the clinic's channel for reaching those high-intent local searchers, which makes clean measurement of calls and form submissions important from the very first month.",
+  "background": "Blockline Physiotherapy & Wellness partnered with PPC Guru in spring 2026 to launch its Google Ads presence. As a fresh build, the priority was a focused local Search campaign paired with proper conversion tracking, so the clinic could see genuine phone and form enquiries rather than vanity map actions.",
+  "analysis": "PPC Guru built the account around a single local Search campaign for Kitchener and set up call tracking (ads and website), lead-form conversions, and clear separation of genuine leads from Google Business Profile local actions. That separation matters: the raw account activity is dominated by directions, website visits and booking-button clicks, so counting only real calls and forms keeps the numbers honest from day one.",
+  "analysis_points": [
+    "Launch a single, focused local Search campaign targeting Kitchener–Waterloo.",
+    "Set up call tracking for both ad calls and website calls to the clinic line.",
+    "Add lead-form conversions for online contact requests.",
+    "Separate genuine calls and forms from Google Business Profile local actions and booking-button clicks so reporting reflects real enquiries."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "May 2026", "what": "PPC Guru launch — local Search campaign live with call and lead-form tracking; first full month delivered about 12 genuine leads."},
+    {"when": "Jun 2026", "what": "About 14 genuine leads at roughly $53 each as targeting settled — the clinic's strongest month so far."},
+    {"when": "Jul 2026", "what": "Current in-progress month at time of reporting; genuine-lead totals still finalizing as call and offline imports settle."}
+  ],
+  "challenge": "As a brand-new Google Ads account, the clinic had no history to build on and had to establish genuine local demand from a standing start. A further challenge was measurement clarity: most of the account's recorded activity is Google Business Profile map actions and booking-button clicks, which can badly overstate results if counted as leads. Isolating true phone and form enquiries was essential to report honestly and to steer bidding correctly.",
+  "changes": [
+    {"change": "Focused local Search campaign", "why": "Concentrated budget on high-intent physiotherapy searches in Kitchener–Waterloo."},
+    {"change": "Call tracking (ads + website)", "why": "Captured phone enquiries — the primary way patients reach a clinic — as measurable conversions."},
+    {"change": "Lead-form conversions", "why": "Tracked online contact requests alongside calls."},
+    {"change": "Genuine-lead separation", "why": "Excluded map directions, website visits and booking-button clicks so reporting reflects real enquiries, not vanity actions."},
+    {"change": "Maximize Conversions bidding", "why": "Let bidding optimize toward genuine calls and forms as early data accumulated."}
+  ],
+  "technical": [
+    {"label": "Campaign type", "value": "Search"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Monthly budget", "value": "≈ $735 CAD"},
+    {"label": "Lead signals", "value": "Ad calls · Website calls · Lead forms"},
+    {"label": "Excluded from leads", "value": "GBP local actions · booking-button clicks"},
+    {"label": "Market", "value": "Kitchener–Waterloo, Ontario"}
+  ],
+  "comparison": {
+    "col_before": "First month (May 2026)",
+    "col_after": "Latest full month (Jun 2026)",
+    "rows": [
+      {"metric": "Genuine leads (calls + forms)", "before": "12", "after": "14", "change": "Growing", "dir": "up"},
+      {"metric": "Cost per lead", "before": "≈ $60", "after": "≈ $53", "change": "Lower", "dir": "down-good"},
+      {"metric": "Conversion rate", "before": "≈ 15%", "after": "≈ 13%", "change": "Strong for a new account", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "Figures cover the clinic's first three months on Google Ads, so this is an early launch snapshot rather than a long-run trend. Genuine leads count only real phone calls and form submissions — the account's map actions and booking-button clicks (which run far higher) are excluded.",
+  "gradual": "In its first full month (May 2026) the account produced about 12 genuine leads, then grew to about 14 in June at a lower cost per lead as targeting settled — a healthy early trajectory for a brand-new clinic account. July is the current in-progress month, with genuine-lead totals still finalizing as call and offline imports settle, so the story is best confirmed once the next full quarter completes.",
+  "lessons_title": "Lessons for Clinic Owners",
+  "lessons": [
+    "Count real calls and form submissions — not map directions or booking-button clicks — so early results are honest.",
+    "Set up call tracking before launch; in a clinic, most enquiries come by phone.",
+    "Start with one focused local Search campaign to concentrate budget and data.",
+    "Give a new account a full quarter before drawing firm conclusions.",
+    "Keep the search terms clean early so budget reaches treatment-intent searches."
+  ],
+  "why_it_worked": [
+    "Call and lead-form tracking was in place from the first day of spend.",
+    "Budget was concentrated on high-intent local physiotherapy searches.",
+    "Genuine leads were separated from vanity map actions, keeping reporting honest.",
+    "Early cost per lead improved as targeting settled."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In its opening months on Google Ads, Blockline Physiotherapy & Wellness is generating about 13 genuine phone and form enquiries a month at roughly $56 each, with a strong early conversion rate and clean measurement that separates real leads from map actions. This is an early launch snapshot on a young account; PPC Guru's recommended next step is to let the account complete a full quarter and re-confirm the trend before scaling budget.",
+  "cta": "PPC Guru helps Canadian clinics launch on Google Ads with honest call-and-form tracking and focused local Search.",
+  "methodology": "All figures are pulled directly from the client's Google Ads account and shown on a monthly basis. 'Genuine leads' are phone calls and lead-form submissions only; Google Business Profile local actions and booking-button clicks are excluded. The account has only three months of history (May–Jul 2026), so this is an early launch snapshot and July is treated as still settling.",
+  "lead_quality": "Almost all genuine leads in the opening months are direct phone calls to the clinic's Kitchener line — the highest-intent enquiry type for physiotherapy.",
+  "teaser": "🏥 Physiotherapy Google Ads launch: PPC Guru started Blockline Physiotherapy & Wellness (Kitchener) at ~13 genuine phone & form leads a month at ~$56 each in its first full months — with map actions and booking clicks kept out of the count.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "May – Jul 2026 · calls & form submissions (Jul in progress)",
+      "x": ["May'26", "Jun", "Jul*"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [12, 14, 7]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Monthly Genuine Leads Since PPC Guru Launch",
+      "period": "Genuine leads (calls + forms) per month · Google Ads · Jul in progress",
+      "labels": ["May'26", "Jun'26", "Jul'26*"],
+      "values": [12, 14, 7],
+      "colors": ["blue", "green", "blue"]
+    }
+  ]
+}

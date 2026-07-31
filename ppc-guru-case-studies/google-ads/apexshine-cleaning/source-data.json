@@ -1,0 +1,53 @@
+{
+  "account": {
+    "name": "Apexshine Cleaning Inc.",
+    "customer_id": "8136510768",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "industry": "Cleaning Services (commercial & residential)"
+  },
+  "match_confirmation": {
+    "by_campaign_name": "PPC Guru - Commercial and PPC - Residential (cleaning service split)",
+    "by_currency": "CAD",
+    "by_phone": "Call From Website - 416-613-7702 (Toronto / GTA 416 area code)",
+    "by_channel": "Google Local Services (LSA) campaign present — typical of home-services / cleaning"
+  },
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2025-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'"
+  },
+  "conversion_actions": [
+    {"name": "Calls From Ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "Call From Website - 416-613-7702", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "Form Submission", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted": true},
+    {"name": "Local actions - Other engagements", "type": "GOOGLE_HOSTED", "category": "ENGAGEMENT", "counted": false, "reason": "GBP local action"},
+    {"name": "Local actions - Website visits", "type": "GOOGLE_HOSTED", "category": "PAGE_VIEW", "counted": false, "reason": "GBP local action"},
+    {"name": "Local actions - Directions", "type": "GOOGLE_HOSTED", "category": "GET_DIRECTIONS", "counted": false, "reason": "GBP local action"},
+    {"name": "Clicks to call", "type": "GOOGLE_HOSTED", "category": "CONTACT", "counted": false, "reason": "GBP local action"}
+  ],
+  "genuine_lead_categories_counted": ["PHONE_CALL_LEAD", "SUBMIT_LEAD_FORM"],
+  "campaigns": [
+    {"name": "LocalServicesCampaign (system generated)", "channel": "LOCAL_SERVICES", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"},
+    {"name": "PPC Guru - Commercial", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"},
+    {"name": "PPC - Residential", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "monthly_raw": [
+    {"month": "2026-06", "clicks": 200, "conversions": 30, "all_conversions": 129, "cost_cad": 1990.17, "impressions": 5499},
+    {"month": "2026-07", "clicks": 182, "conversions": 38, "all_conversions": 101, "cost_cad": 1892.93, "impressions": 6007}
+  ],
+  "genuine_leads_by_month": {
+    "2026-06": {"PHONE_CALL_LEAD": 24, "SUBMIT_LEAD_FORM": 6, "genuine": 30},
+    "2026-07": {"PHONE_CALL_LEAD": 24, "SUBMIT_LEAD_FORM": 14, "genuine": 38}
+  },
+  "detected_launch": "PPC Guru launch ~June 2026 (first spend June 2026). Two complete months of data (Jun, Jul 2026). July 2026 is complete (pull date 2026-07-31).",
+  "notes": [
+    "EARLY LAUNCH: only two months of data (Jun, Jul 2026). Both are complete calendar months. No pre-management or full-quarter baseline exists; confidence is Low and the story is an early launch snapshot.",
+    "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM only. Raw metrics.conversions (30/38) already equals genuine leads; all_conversions (129/101) is inflated by GBP local actions (directions, website visits, other engagements, clicks-to-call), which are excluded.",
+    "Genuine monthly leads: Jun 30, Jul 38 (+27%). Cost per lead improved from ~$66 to ~$50.",
+    "Structure: three campaigns — Google Local Services (LSA), a Commercial Search campaign, and a Residential Search campaign — all on Maximize Conversions.",
+    "Recommend re-pull after Q3 2026 for a fuller multi-month / quarterly trend."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "method": "Method A (takeover with pre-management baseline). Takeover = January 2026. Baseline 'then' = calendar 2025 (pre-PPC-Guru). 'Now' = Q2 2026 (Apr-Jun), the first complete quarter fully under PPC Guru management.",
+  "genuine_lead_definition": "PHONE_CALL_LEAD + SUBMIT_LEAD_FORM + CONTACT (legacy smart-campaign call clicks) + BOOK_APPOINTMENT (+ PURCHASE / confirmed JaneApp booking where present). Excludes OUTBOUND_CLICK, PAGE_VIEW, GET_DIRECTIONS, CONVERTED_LEAD (double-count guard).",
+  "monthly_genuine_leads": {
+    "2024-04": 3, "2024-05": 2, "2024-06": 2, "2024-07": 10, "2024-08": 4, "2024-09": 6, "2024-10": 3, "2024-11": 16, "2024-12": 15,
+    "2025-01": 31, "2025-02": 26, "2025-03": 9, "2025-04": 26, "2025-05": 7, "2025-06": 13, "2025-07": 27, "2025-08": 30, "2025-09": 25, "2025-10": 14, "2025-11": 0, "2025-12": 0,
+    "2026-01": 5, "2026-02": 36, "2026-03": 40, "2026-04": 32, "2026-05": 25, "2026-06": 37, "2026-07": 47
+  },
+  "monthly_genuine_breakdown_examples": {
+    "2026-06": "PHONE_CALL_LEAD 11 + SUBMIT_LEAD_FORM 25 + BOOK_APPOINTMENT 1 = 37 (excl PAGE_VIEW 1, OUTBOUND_CLICK 11.02)",
+    "2026-07": "PHONE_CALL_LEAD 18 + SUBMIT_LEAD_FORM 20 + BOOK_APPOINTMENT 3 + PURCHASE 6 = 47 (excl PAGE_VIEW 3, OUTBOUND_CLICK 41.98)",
+    "2025-07": "SUBMIT_LEAD_FORM 12 + CONTACT 15 = 27 (excl OUTBOUND_CLICK 142.75)"
+  },
+  "quarterly_genuine_leads": {
+    "Q2_2024": {"m": "Apr3+May2+Jun2", "total": 7},
+    "Q3_2024": {"m": "Jul10+Aug4+Sep6", "total": 20},
+    "Q4_2024": {"m": "Oct3+Nov16+Dec15", "total": 34},
+    "Q1_2025": {"m": "Jan31+Feb26+Mar9", "total": 66},
+    "Q2_2025": {"m": "Apr26+May7+Jun13", "total": 46},
+    "Q3_2025": {"m": "Jul27+Aug30+Sep25", "total": 82},
+    "Q4_2025": {"m": "Oct14+Nov0+Dec0", "total": 14},
+    "Q1_2026": {"m": "Jan5+Feb36+Mar40", "total": 81, "note": "PPC Guru takeover quarter (Jan)"},
+    "Q2_2026": {"m": "Apr32+May25+Jun37", "total": 94, "avg_per_month": 31.3, "note": "first full quarter under PPC Guru"}
+  },
+  "then_2025": {
+    "period": "2025-01 to 2025-12 (pre-PPC-Guru, prior setup)",
+    "genuine_leads_total": 208,
+    "months": 12,
+    "avg_leads_per_month": 17.3,
+    "clicks": 10115,
+    "spend_cad": 20346.79,
+    "avg_monthly_spend": 1695.57,
+    "cost_per_lead": 97.82,
+    "conv_rate_pct": 2.06,
+    "note": "phone calls largely untracked pre-2026, so this understates true demand"
+  },
+  "now_q2_2026": {
+    "period": "2026-04 to 2026-06 (first complete quarter under PPC Guru)",
+    "genuine_leads_total": 94,
+    "avg_leads_per_month": 31.3,
+    "clicks": 1241,
+    "spend_cad": 7087.47,
+    "avg_monthly_spend": 2362.49,
+    "cost_per_lead": 75.40,
+    "conv_rate_pct": 7.57
+  },
+  "changes_then_to_now": {
+    "leads_per_month": {"from": 17.3, "to": 31.3, "pct": "+80.9%", "arithmetic": "(31.3-17.3)/17.3*100"},
+    "cost_per_lead": {"from": 97.82, "to": 75.40, "pct": "-22.9%", "arithmetic": "(75.40-97.82)/97.82*100"},
+    "conv_rate_pct": {"from": 2.06, "to": 7.57, "pct": "+267%", "arithmetic": "(7.57-2.06)/2.06*100"},
+    "monthly_spend": {"from": 1695.57, "to": 2362.49, "pct": "+39.3%", "note": "scaled with results (neutral)"}
+  },
+  "arithmetic_detail": {
+    "q2_cost_per_lead": "7087.47 / 94 = 75.40",
+    "q2_conv_rate": "94 / 1241 = 0.0757 = 7.57%",
+    "q2_avg_leads": "94 / 3 = 31.3",
+    "2025_cost_per_lead": "20346.79 / 208 = 97.82",
+    "2025_conv_rate": "208 / 10115 = 0.0206 = 2.06%"
+  }
+}

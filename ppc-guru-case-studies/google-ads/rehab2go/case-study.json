@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Rehab2Go",
+    "slug": "/case-studies/mobile-physiotherapy-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Mobile Physiotherapy / Rehabilitation",
+    "market": "Toronto, Ontario, Canada",
+    "managed_since": "Mar 2026",
+    "seo_title": "Mobile Physiotherapy Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a Toronto mobile physiotherapy service on Google Ads with clean lead tracking, building an early flow of 4 to 9 genuine leads a month and expanding reach with Performance Max.",
+    "primary_keyword": "mobile physiotherapy Google Ads",
+    "secondary_keywords": ["in-home physiotherapy marketing", "rehabilitation lead generation", "Google Ads case study", "Performance Max", "Google Ads agency in Toronto"],
+    "pdf_filename": "mobile-physiotherapy-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Mar 2026 – Jul 2026",
+    "comparison_period": "Mar 2026 (launch) vs Jul 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Needs Review"
+  },
+  "headline": "Launching a Mobile Physiotherapy Service on Google Ads",
+  "kpis": [
+    {"value": "4–9", "label": "Genuine leads / month", "note": "Mar–Jul 2026"},
+    {"value": "~38x", "label": "Reach expansion", "note": "475 → 18,021 impressions/mo"},
+    {"value": "2", "label": "Campaign types live", "note": "Search + Performance Max"}
+  ],
+  "summary_line": "PPC Guru launched a Toronto mobile physiotherapy service on Google Ads in early 2026 with clean lead tracking in place from day one. In its first five months the account has produced a steady early flow of four to nine genuine phone and form leads a month, and reach expanded sharply after a Performance Max campaign was added — an early-stage foundation now being scaled.",
+  "client_context": "Rehab2Go is a mobile physiotherapy and rehabilitation service that brings treatment to patients in their own homes across Toronto. Its patients often search specifically for at-home care — in-home physiotherapy, home-visit rehab, and physiotherapy for seniors or post-surgery recovery. Because the service is delivered at home rather than at a clinic, phone calls and form enquiries are the core way new patients get in touch, which makes reliable lead tracking essential from the outset.",
+  "background": "Rehab2Go came to PPC Guru to build a Google Ads presence from scratch and reach people actively searching for at-home physiotherapy. PPC Guru launched the account in early 2026 with call and form tracking in place, starting on Search and later adding Performance Max to widen reach.",
+  "analysis": "As a brand-new account, the priority was a clean measurement foundation and tightly relevant early traffic. PPC Guru set up genuine-lead tracking first, focused Search on high-intent at-home queries, and then introduced Performance Max to expand reach once the tracking was trusted.",
+  "analysis_points": [
+    "Set up genuine-lead tracking (phone calls and form submissions) before scaling spend.",
+    "Focus Search on high-intent at-home queries such as 'in home physiotherapy toronto' and 'mobile physiotherapist'.",
+    "Add a Performance Max campaign to widen reach beyond core Search once tracking was trusted.",
+    "Keep early traffic relevant with ongoing search-term and negative-keyword work."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Mar 2026", "what": "Search campaign launched with call and form tracking — 7 genuine leads in the first month."},
+    {"when": "Apr–May 2026", "what": "Account settled into a steady 4–5 genuine leads a month as targeting was refined."},
+    {"when": "Jun 2026", "what": "Performance Max added; reach began expanding (impressions to ~6,500) at 7 genuine leads."},
+    {"when": "Jul 2026", "what": "Reach expanded sharply to about 18,000 impressions a month at 9 genuine leads — the account's best month so far."}
+  ],
+  "challenge": "Starting a brand-new mobile-physiotherapy account means building demand and data at the same time. At-home physiotherapy is a specific, lower-volume search category, so the early goal was a clean tracking foundation and relevant traffic rather than large lead numbers — and then a way to widen reach without losing that relevance.",
+  "changes": [
+    {"change": "Genuine-lead tracking from launch", "why": "Phone-call and form-submission tracking captured real enquiries from day one, with no vanity actions inflating the counts."},
+    {"change": "Intent-focused Search", "why": "Budget concentrated on at-home and mobile physiotherapy searches so early spend reached people wanting home visits."},
+    {"change": "Performance Max for reach", "why": "Added once tracking was trusted, to widen reach across Google's surfaces and grow impressions and clicks."},
+    {"change": "Search-term hygiene", "why": "Ongoing negative-keyword work kept the small early budget on relevant, treatment-intent queries."}
+  ],
+  "technical": [
+    {"label": "Campaign types", "value": "Search + Performance Max"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Approx monthly budget", "value": "≈ $500–750 CAD"},
+    {"label": "Service model", "value": "At-home / mobile physiotherapy"},
+    {"label": "Lead signals", "value": "Phone calls · Form submissions"},
+    {"label": "Reporting", "value": "Genuine leads only (no vanity actions)"}
+  ],
+  "comparison": {
+    "col_before": "Launch (Mar 2026)",
+    "col_after": "Now (Jul 2026)",
+    "rows": [
+      {"metric": "Genuine leads / month (calls + forms)", "before": "7", "after": "9", "change": "Early growth", "dir": "up"},
+      {"metric": "Monthly reach (impressions)", "before": "475", "after": "18,021", "change": "Reach scaled", "dir": "neutral"},
+      {"metric": "Monthly clicks", "before": "67", "after": "275", "change": "More visits", "dir": "up"},
+      {"metric": "Cost per lead", "before": "≈ $52", "after": "≈ $84", "change": "Scaled reach", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "This is an early-stage account with only about five months of history and low overall lead volume, so figures are shown honestly as a launch snapshot rather than a matured result. Cost per lead rose as reach was deliberately expanded; the next few months will show whether that reach converts efficiently at scale.",
+  "gradual": "Across its first five months the account produced 7, 4, 5, 7 and 9 genuine leads a month — a low but steady flow while the campaigns gathered data. The clearest shift so far is in reach: after Performance Max was added, monthly impressions grew from a few hundred to about 18,000 by July, with clicks rising from 67 to 275. Lead count is growing more gradually, which is expected for a specialised at-home service in its first months.",
+  "lessons_title": "Lessons for At-Home Care Providers",
+  "lessons": [
+    "Put genuine-lead tracking in place before scaling — phone calls and forms are the enquiries that matter.",
+    "Expect specialised, at-home search categories to start at lower volume than clinic-based ones.",
+    "Prove relevance on Search before widening reach with Performance Max.",
+    "Give a new account several months of data before judging cost per lead.",
+    "Watch reach and lead count together, so growth in impressions translates into real enquiries."
+  ],
+  "why_it_worked": [
+    "A clean tracking foundation meant every reported lead was a genuine phone or form enquiry.",
+    "Early Search budget stayed on high-intent at-home queries.",
+    "Performance Max expanded reach once the account had trustworthy conversion signals.",
+    "Ongoing search-term work kept a small budget relevant."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "Rehab2Go is early in its Google Ads journey. In its first five months the account has built a clean tracking foundation and a steady early flow of four to nine genuine phone and form leads a month, and reach has expanded roughly 38-fold since launch after Performance Max was introduced. The next phase is about converting that widened reach into a higher, efficient lead volume — the account is a work in progress with the fundamentals in place, and is flagged for continued review as more data accumulates.",
+  "cta": "PPC Guru helps Canadian healthcare and at-home care providers launch Google Ads with honest lead tracking and a clear plan to scale.",
+  "methodology": "All figures are pulled directly from the account's Google Ads data and shown on a monthly basis. 'Leads' are genuine phone calls and form submissions only; this account records no vanity local actions. 'Now' is the most recent complete month (July 2026); the launch month (March 2026) is the baseline. Given the short history and low volume, this study is flagged for review.",
+  "lead_quality": "All tracked leads are direct phone calls and form submissions from people searching for at-home physiotherapy — no button-click or local-action inflation is included.",
+  "teaser": "🏥 Mobile physiotherapy Google Ads: PPC Guru launched Rehab2Go's at-home physio account with clean lead tracking, building an early 4–9 leads/month and expanding reach ~38x with Performance Max. Early-stage and scaling.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "Mar–Jul 2026 · phone calls + form submissions",
+      "x": ["Mar'26","Apr","May","Jun","Jul"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [7,4,5,7,9]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Quarterly Genuine Leads Since Launch",
+      "period": "Genuine leads per quarter · Google Ads",
+      "labels": ["Q1'26*","Q2'26"],
+      "values": [7,16],
+      "colors": ["blue","green"]
+    }
+  ]
+}

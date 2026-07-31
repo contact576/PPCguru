@@ -1,0 +1,56 @@
+{
+  "method": "Method B launch story. No account data before Sep 2025; PPC Guru launched at ~$720/mo. Budget flat since. Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM (phone calls dominant).",
+  "periods": {
+    "launch": "Sep 2025 (first complete month)",
+    "now": "Q2 2026 = Apr-Jun 2026"
+  },
+  "genuine_leads_by_month": {
+    "2025-09": 55.0,
+    "2025-10": 66.0,
+    "2025-11": 56,
+    "2025-12": 57,
+    "2026-01": 75.0,
+    "2026-02": 96.0,
+    "2026-03": 120.0,
+    "2026-04": 124.0,
+    "2026-05": 84.0,
+    "2026-06": 78.0,
+    "2026-07": 61
+  },
+  "quarterly_genuine_leads": {
+    "2025Q3 (Sep only, partial)": 55,
+    "2025Q4": 179,
+    "2026Q1": 291,
+    "2026Q2": 286
+  },
+  "then_first_month_sep2025": {
+    "genuine_leads": 55,
+    "spend_cad": 724.22,
+    "clicks": 385,
+    "cost_per_lead": 13.17,
+    "conv_rate_pct": 14.3
+  },
+  "now_q2_2026": {
+    "genuine_leads": 286,
+    "genuine_leads_by_month": {
+      "Apr": 124,
+      "May": 84,
+      "Jun": 78
+    },
+    "avg_per_month": 95.3,
+    "spend_cad": 2287.08,
+    "avg_monthly_spend": 762.36,
+    "clicks": 1293,
+    "cost_per_lead": 8.0,
+    "conv_rate_pct": 22.1
+  },
+  "arithmetic": {
+    "cpl_then": "724.22 / 55 = 13.17",
+    "cpl_now": "2287.08 / 286 = 8.00",
+    "cpl_reduction_pct": "(13.17-8.00)/13.17 = 39.3%",
+    "leads_growth": "55 -> 95.3/mo = ~1.7x",
+    "conv_rate": "14.3% -> 22.1%",
+    "peak_month": "Apr 2026 = 124 genuine leads"
+  },
+  "presentation_note": "Short 11-month history. Flat ~$770/mo budget. Headline = Q2 2026 monthly average (~95 leads/mo) at ~$8 CPL."
+}

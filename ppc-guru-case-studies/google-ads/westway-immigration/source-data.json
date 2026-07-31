@@ -1,0 +1,173 @@
+{
+  "account": {
+    "name": "Westway Immigration",
+    "customer_id": "6156091078",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "website": "westwayimmigration.com"
+  },
+  "match_confirmation": {
+    "by_conversion_action_domain": "westwayimmigration.com GA4 conversion actions",
+    "by_campaigns": "Westway Immigration - Search - Lead Gen; Westway Immigration - PMAX Campaign",
+    "by_phone": "Call +1(437)772-7711 - Website (WEBSITE_CALL)",
+    "by_currency": "CAD"
+  },
+  "industry": "Immigration consultancy",
+  "queries": {
+    "monthly_trend": "SELECT segments.year,segments.month,metrics.cost_micros,metrics.impressions,metrics.clicks,metrics.conversions,metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year,segments.month",
+    "conversion_actions": "SELECT conversion_action.name,conversion_action.type,conversion_action.category,conversion_action.status FROM conversion_action",
+    "genuine_leads": "SELECT segments.month,segments.conversion_action_category,metrics.conversions FROM customer WHERE segments.date BETWEEN '2025-09-01' AND '2026-07-31' AND segments.conversion_action_category IN ('PHONE_CALL_LEAD','SUBMIT_LEAD_FORM','BOOK_APPOINTMENT')",
+    "campaigns": "SELECT campaign.name,campaign.advertising_channel_type,campaign.bidding_strategy_type,campaign.status FROM campaign WHERE campaign.status='ENABLED'"
+  },
+  "campaigns_enabled": [
+    {
+      "name": "Westway Immigration - Search - Lead Gen",
+      "type": "SEARCH",
+      "bidding": "MAXIMIZE_CONVERSIONS",
+      "status": "ENABLED"
+    },
+    {
+      "name": "Westway Immigration - PMAX Campaign",
+      "type": "PERFORMANCE_MAX",
+      "bidding": "MAXIMIZE_CONVERSIONS",
+      "status": "ENABLED"
+    }
+  ],
+  "conversion_actions_summary": {
+    "counted_as_genuine_leads": [
+      "Calls from ads (AD_CALL, PHONE_CALL_LEAD)",
+      "Call +1(437)772-7711 - Website (WEBSITE_CALL, PHONE_CALL_LEAD)",
+      "Submit lead form (WEBPAGE, SUBMIT_LEAD_FORM)"
+    ],
+    "note": "Genuine count = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM. Phone calls are the dominant genuine action; form submissions are a small trickle (0-1/mo).",
+    "excluded": [
+      "Arrange A Free Consultation - Clicks (BOOK_APPOINTMENT button click - 0 counted)",
+      "Pop Up - Click (OUTBOUND_CLICK)",
+      "Clicks to call (GOOGLE_HOSTED, CONTACT - local)",
+      "Local actions - Directions/Website visits/Menu views/Other engagements"
+    ]
+  },
+  "genuine_lead_by_month": {
+    "2025-09": 55.000353,
+    "2025-10": 65.999647,
+    "2025-11": 56,
+    "2025-12": 57,
+    "2026-01": 75.001349,
+    "2026-02": 95.998651,
+    "2026-03": 120.003792,
+    "2026-04": 123.996208,
+    "2026-05": 84.002027,
+    "2026-06": 77.997973,
+    "2026-07": 61
+  },
+  "monthly": [
+    {
+      "month": "2025-09",
+      "clicks": 385,
+      "conversions": 55.000353,
+      "cost_micros": 724224467,
+      "cost_cad": 724.22,
+      "all_conversions": 59.000353,
+      "impressions": 24590
+    },
+    {
+      "month": "2025-10",
+      "clicks": 708,
+      "conversions": 65.999647,
+      "cost_micros": 778750697,
+      "cost_cad": 778.75,
+      "all_conversions": 70.999647,
+      "impressions": 37133
+    },
+    {
+      "month": "2025-11",
+      "clicks": 209,
+      "conversions": 56,
+      "cost_micros": 698789332,
+      "cost_cad": 698.79,
+      "all_conversions": 60,
+      "impressions": 7229
+    },
+    {
+      "month": "2025-12",
+      "clicks": 336,
+      "conversions": 57,
+      "cost_micros": 806854023,
+      "cost_cad": 806.85,
+      "all_conversions": 57,
+      "impressions": 27225
+    },
+    {
+      "month": "2026-01",
+      "clicks": 410,
+      "conversions": 75.001349,
+      "cost_micros": 794756625,
+      "cost_cad": 794.76,
+      "all_conversions": 82.001349,
+      "impressions": 14588
+    },
+    {
+      "month": "2026-02",
+      "clicks": 464,
+      "conversions": 95.998651,
+      "cost_micros": 795968708,
+      "cost_cad": 795.97,
+      "all_conversions": 104.998651,
+      "impressions": 15629
+    },
+    {
+      "month": "2026-03",
+      "clicks": 511,
+      "conversions": 120.003792,
+      "cost_micros": 778709732,
+      "cost_cad": 778.71,
+      "all_conversions": 146.003792,
+      "impressions": 18104
+    },
+    {
+      "month": "2026-04",
+      "clicks": 511,
+      "conversions": 123.996208,
+      "cost_micros": 790401599,
+      "cost_cad": 790.4,
+      "all_conversions": 366.996208,
+      "impressions": 16893
+    },
+    {
+      "month": "2026-05",
+      "clicks": 446,
+      "conversions": 84.002027,
+      "cost_micros": 750478685,
+      "cost_cad": 750.48,
+      "all_conversions": 489.002027,
+      "impressions": 15276
+    },
+    {
+      "month": "2026-06",
+      "clicks": 336,
+      "conversions": 77.997973,
+      "cost_micros": 746195586,
+      "cost_cad": 746.2,
+      "all_conversions": 349.997973,
+      "impressions": 9545
+    },
+    {
+      "month": "2026-07",
+      "clicks": 271,
+      "conversions": 61,
+      "cost_micros": 788094755,
+      "cost_cad": 788.09,
+      "all_conversions": 251,
+      "impressions": 7174
+    }
+  ],
+  "detected_takeover": "Launch ~Sep 2025 (Method B). No account data before 2025-09; the first month runs a full ~$720 budget and 24,590 impressions, indicating PPC Guru launched the program in September 2025. Budget has stayed flat (~$700-810/mo) since.",
+  "notes": [
+    "Short history: 11 months (Sep 2025 - Jul 2026). Confidence Medium.",
+    "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM. metrics.conversions ~= genuine phone leads; metrics.all_conversions is heavily inflated from Apr 2026 (e.g. 2026-05 conv 84 vs allConv 489) by Google local actions and button clicks (Arrange consultation / Pop Up) - excluded.",
+    "'Then' = first complete month Sep 2025: 55 genuine leads, $724.22 spend, CPL $13.17, conv rate 14.3%.",
+    "'Now' = Q2 2026 (Apr-Jun): 286 genuine leads (avg 95.3/mo), $2,287.08 spend (avg $762.36/mo), CPL $8.00, genuine-lead conv rate 22.1%.",
+    "Full quarters under management: Q4 2025 (179), Q1 2026 (291), Q2 2026 (286). Q3 2025 partial (Sep only)."
+  ]
+}
