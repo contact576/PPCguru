@@ -10,7 +10,21 @@ selectable / searchable and needs no external assets.
 Usage:  python3 build_report.py <path-to-client-folder>
 The folder must contain case-study.json; outputs case-study.html beside it.
 """
-import json, sys, os, html, math
+import json, sys, os, html, math, io, base64
+
+def make_qr_datauri(url):
+    try:
+        import qrcode
+        qr = qrcode.QRCode(version=None, box_size=10, border=1,
+                           error_correction=qrcode.constants.ERROR_CORRECT_M)
+        qr.add_data(url); qr.make(fit=True)
+        img = qr.make_image(fill_color="#12294a", back_color="white")
+        buf = io.BytesIO(); img.save(buf, format="PNG")
+        return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
+    except Exception:
+        return ""
+
+PUBLISH_DATE = "2026-07-31"
 
 # ---------- brand ----------
 NAVY   = "#12294a"   # deep navy
@@ -304,15 +318,21 @@ table.cmp tbody tr:nth-child(even){{background:var(--lgrey);}}
 table.cmp td.m{{font-weight:600;}}
 .up{{color:var(--green);font-weight:800;}}.neu{{color:var(--grey);font-weight:700;}}
 .chartbox{{margin:8px 0 2px;border:1px solid var(--border);border-radius:10px;padding:10px 12px 6px;}}
-.chart-title{{font-weight:700;color:var(--navy);font-size:10pt;margin-bottom:2px;}}
-.chart-cap{{font-size:8.2pt;color:var(--grey);}}
+.chart-title{{font-weight:700;color:var(--navy);font-size:9.6pt;margin-bottom:2px;}}
+.chart-cap{{font-size:8pt;color:var(--grey);}}
+.charts-2{{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:start;}}
+.quality{{background:#eaf7f0;border:1px solid #bfe6d0;border-left:4px solid var(--green);border-radius:8px;
+  padding:8px 12px;font-size:9.4pt;margin:8px 0 2px;color:#14603a;}}
+.quality b{{color:#0f5c37;}}
 ul.why{{margin:4px 0;padding-left:0;list-style:none;}}
 ul.why li{{position:relative;padding:4px 0 4px 22px;font-size:9.6pt;}}
 ul.why li:before{{content:"✔";position:absolute;left:2px;top:4px;color:var(--green);font-weight:800;}}
 .bench{{font-size:8.8pt;color:var(--grey);font-style:italic;margin-top:4px;}}
-.cta{{background:linear-gradient(120deg,var(--navy),#215891);color:#fff;border-radius:11px;padding:13px 16px;margin-top:12px;display:flex;justify-content:space-between;align-items:center;gap:14px;}}
+.cta{{background:linear-gradient(120deg,var(--navy),#215891);color:#fff;border-radius:11px;padding:13px 16px;margin-top:12px;display:flex;justify-content:space-between;align-items:center;gap:16px;}}
 .cta b{{font-size:11pt;}}.cta p{{margin:2px 0 0;color:#dbe7f8;font-size:9pt;}}
-.cta .go{{background:var(--green);color:#fff;font-weight:700;padding:8px 14px;border-radius:8px;white-space:nowrap;font-size:9.5pt;}}
+.cta .qr{{display:flex;flex-direction:column;align-items:center;gap:3px;background:#fff;border-radius:8px;padding:6px 6px 4px;}}
+.cta .qr img{{width:62px;height:62px;display:block;}}
+.cta .qr span{{font-size:6.8pt;color:var(--navy);font-weight:800;letter-spacing:.2px;}}
 .disc{{margin-top:9px;font-size:7.4pt;color:#9aa4b2;border-top:1px solid var(--border);padding-top:6px;}}
 .foot{{margin-top:6px;font-size:8pt;color:var(--grey);display:flex;justify-content:space-between;}}
 .avoid{{break-inside:avoid;}}
@@ -354,9 +374,29 @@ def _cmp_compact(cmp):
     return f'<table class="cmp"><thead>{head}</thead><tbody>{"".join(body)}</tbody></table>'
 
 def build_compact(folder, d, m):
-    chart_html = render_chart(d["charts"][0]) if d.get("charts") else ""
+    charts = d.get("charts", [])
+    rendered = [render_chart(c) for c in charts[:2]]
+    rendered = [r for r in rendered if r]
+    if len(rendered) == 2:
+        chart_html = f'<div class="charts-2">{rendered[0]}{rendered[1]}</div>'
+    else:
+        chart_html = "".join(rendered)
     why = "".join(f"<li>{esc(w)}</li>" for w in d.get("why_it_worked", [])[:4])
     bench = f'<div class="bench">{esc(d.get("benchmark",""))}</div>' if d.get("benchmark") else ""
+    quality = f'<div class="quality"><b>Lead quality:</b> {esc(d.get("lead_quality",""))}</div>' if d.get("lead_quality") else ""
+    # QR code CTA -> tracked contact link
+    slug_tail = (m.get("slug", "") or "").rstrip("/").split("/")[-1] or "case-study"
+    qr_url = f'https://ppcguru.ca/contact?utm_source=case_study&utm_medium=pdf&utm_campaign={slug_tail}'
+    qr = make_qr_datauri(qr_url)
+    qr_html = (f'<div class="qr"><img src="{qr}" alt="Scan to book a strategy call"><span>SCAN TO BOOK</span></div>' if qr else "")
+    # JSON-LD for SEO / AI search
+    ld = {"@context": "https://schema.org", "@type": "Article",
+          "headline": d.get("headline", ""), "description": m.get("meta_description", ""),
+          "about": m.get("industry", ""), "keywords": ", ".join([m.get("primary_keyword","")] + m.get("secondary_keywords", [])),
+          "datePublished": PUBLISH_DATE, "inLanguage": "en-CA",
+          "author": {"@type": "Organization", "name": "PPC Guru", "url": "https://ppcguru.ca"},
+          "publisher": {"@type": "Organization", "name": "PPC Guru", "url": "https://ppcguru.ca"}}
+    jsonld = f'<script type="application/ld+json">{json.dumps(ld)}</script>'
     parts = [f'<div class="wrap">']
     sub_bits = [b for b in [m.get("industry",""), m.get("market",""),
                 (f"Managed since {m.get('managed_since','')}" if m.get("managed_since") else m.get("reporting_period",""))] if b]
@@ -372,11 +412,11 @@ def build_compact(folder, d, m):
     parts.append(f'<div><h2 class="s">What PPC Guru Did &amp; Why</h2>{_changes_table(d.get("changes",[]))}</div>')
     parts.append(f'<div>{_hood_panel(d.get("technical",[]))}</div>')
     parts.append('</div>')
-    parts.append(f'<h2 class="s">Results</h2>{_cmp_compact(d.get("comparison"))}{bench}<div class="avoid">{chart_html}</div>')
+    parts.append(f'<h2 class="s">Results</h2>{_cmp_compact(d.get("comparison"))}{bench}{quality}<div class="avoid">{chart_html}</div>')
     parts.append(f'<h2 class="s">Why It Worked</h2><ul class="why">{why}</ul>')
     parts.append(f'<h2 class="s">The Outcome</h2><p>{esc(d.get("outcome",""))}</p>')
     parts.append(f'''<div class="cta"><div><b>Want results like these?</b><p>{esc(d.get("cta",""))}</p></div>
-      <div class="go">Book a strategy call</div></div>''')
+      {qr_html}</div>''')
     disc = ("Advertising results vary based on industry, market conditions, competition, budget, campaign history, offer, "
             "website experience, conversion tracking, and other factors. The results reflect the specific account and "
             "reporting periods shown and do not guarantee future performance.")
@@ -390,10 +430,18 @@ def build_compact(folder, d, m):
            f'<meta name="viewport" content="width=device-width,initial-scale=1">'
            f'<title>{esc(m.get("seo_title",""))}</title>'
            f'<meta name="description" content="{esc(m.get("meta_description",""))}">'
-           f'<style>{COMPACT_CSS}</style></head><body>{"".join(parts)}</body></html>')
+           f'{jsonld}<style>{COMPACT_CSS}</style></head><body>{"".join(parts)}</body></html>')
     out = os.path.join(folder, "case-study.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(doc)
+    # teaser for email / WhatsApp
+    teaser = d.get("teaser", "")
+    if not teaser and d.get("kpis"):
+        k = d["kpis"][0]
+        teaser = f'{m.get("industry","")} · {m.get("platform","")}: {d.get("summary_line","")}'
+    if teaser:
+        with open(os.path.join(folder, "teaser.txt"), "w", encoding="utf-8") as f:
+            f.write(teaser.strip() + "\n\nRead the full case study: https://ppcguru.ca" + (m.get("slug","") or "") + "\n")
     return out
 
 def build(folder):

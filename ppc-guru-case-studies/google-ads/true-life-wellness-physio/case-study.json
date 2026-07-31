@@ -62,12 +62,23 @@
   "outcome": "Today the clinic runs on a predictable, scalable lead engine: roughly 25 genuine phone, form and booking enquiries a month in 2026, at a conversion rate near 5% — up from about three tracked conversions a month in 2021. Because every dollar of spend is now measurable all the way to a booked appointment, the clinic scaled its budget with confidence and has a clear, data-backed basis for growing further.",
   "cta": "PPC Guru helps Canadian clinics turn search traffic into booked appointments with conversion-focused Google Ads and transparent reporting.",
   "methodology": "All figures are pulled directly from the client's Google Ads account. 'Leads' are phone calls, form submissions and completed bookings only — Google Business Profile local actions and booking-page clicks are excluded so counts reflect genuine enquiries. 2021 is the pre-management baseline; 2026 covers January–July.",
+  "lead_quality": "About 95% of tracked leads in 2026 are direct phone calls — the highest-intent enquiry type for a clinic — and each is tracked from ad click through to a JaneApp booking.",
+  "teaser": "📈 Physiotherapy Google Ads case study: PPC Guru grew True Life Wellness Physio from ~3 tracked conversions a month (2021) to ~25 genuine phone/booking leads a month in 2026 — with full closed-loop tracking from ad click to booked appointment.",
   "charts": [
     {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "2024–2026 · calls, forms & bookings",
+      "x": ["Jan'24","Feb","Mar","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan'25","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan'26","Feb","Mar","Apr","May","Jun","Jul"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [7,10,4,4,24,15,8,13,17,15,14,15,6,30,20,26,23,16,26,36,10,4,11,6,3,35,49,41,28,16]}
+      ]
+    },
+    {
       "type": "bar",
-      "title": "Average Monthly Genuine Leads by Year",
-      "period": "Calls, forms & bookings · Google Ads · CAD",
-      "labels": ["2021", "2024", "2025", "2026 YTD"],
+      "title": "Avg. Monthly Leads by Year",
+      "period": "Calls, forms & bookings · CAD",
+      "labels": ["2021", "2024", "2025", "2026"],
       "values": [3, 12, 19, 25],
       "colors": ["navy", "blue", "blue", "green"]
     }
