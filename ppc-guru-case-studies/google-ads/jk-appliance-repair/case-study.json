@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "JK Appliance Repair",
+    "slug": "/case-studies/appliance-repair-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Appliance Repair",
+    "market": "Toronto & GTA, Canada",
+    "managed_since": "Jan 2026",
+    "seo_title": "Appliance Repair Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched an appliance repair Google Ads account to about 40 tracked phone and form leads a month at roughly $34 each in its first full quarter.",
+    "primary_keyword": "appliance repair Google Ads",
+    "secondary_keywords": ["appliance repair lead generation", "Google Ads case study", "home services Google Ads", "call tracking", "Google Ads agency in Toronto"],
+    "pdf_filename": "appliance-repair-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jan 2026 – Jul 2026",
+    "comparison_period": "First full month (Feb 2026) vs Q2 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How an Appliance Repair Company Reached ~40 Google Ads Leads a Month in One Quarter",
+  "kpis": [
+    {"value": "~40", "label": "Leads / month", "note": "Q2 2026 (Apr–Jun)"},
+    {"value": "~$34", "label": "Cost per lead", "note": "Apr–Jun 2026"},
+    {"value": "~21%", "label": "Conversion rate", "note": "Q2 2026"}
+  ],
+  "summary_line": "PPC Guru launched a focused Google Ads account for JK Appliance Repair with call and form tracking from day one. Within its first full quarter under management (Apr–Jun 2026) the account was generating about 40 genuine phone and form leads a month at roughly $34 per lead, with a conversion rate above 20% on high-intent repair searches.",
+  "client_context": "JK Appliance Repair Inc. is an appliance repair company serving Toronto and the surrounding GTA. The business fixes refrigerators, air conditioners, small kitchen appliances, vacuums and similar household units, and depends on a steady flow of urgent, local service calls. Most of that demand shows up on Google at the exact moment something breaks, which makes search advertising a natural fit and reliable call tracking essential to measuring real jobs.",
+  "background": "JK Appliance Repair came to PPC Guru to build a measurable Google Ads presence from the ground up. Rather than run traffic and hope, the goal was a lean Search account aimed only at people actively looking to repair an appliance nearby, with every phone call and form submission tracked so the business could see which searches turned into real service enquiries.",
+  "analysis": "PPC Guru set the account up around measurement first. Because appliance repair is an urgent, phone-driven service, the priority was capturing calls (from both ads and the website) alongside contact-form submissions, then concentrating budget on the highest-intent repair searches so automated bidding had clean signals to optimize toward.",
+  "analysis_points": [
+    "Stand up call tracking for both ad call extensions and website calls, plus a contact-form conversion.",
+    "Target high-intent repair queries by appliance and by neighbourhood across Toronto and the GTA.",
+    "Run a single focused Search campaign so budget and conversion data stay concentrated.",
+    "Use Maximize Conversions bidding once the tracking was live and gathering data."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "January 2026", "what": "Account launch and setup — tracking wired up and the first budget went live while the campaign ramped."},
+    {"when": "February 2026", "what": "First full month of delivery — 22 tracked phone and form leads at about $50 each."},
+    {"when": "April 2026", "what": "Campaign relaunched and scaled — 43 tracked leads in the month at about $34 each."},
+    {"when": "Q2 2026 (Apr–Jun)", "what": "About 40 genuine leads a month at roughly $34 per lead and a conversion rate above 20%."}
+  ],
+  "challenge": "Building a new Google Ads account means there is no history for the system to learn from and no proof yet of which searches produce paying jobs. For an urgent service like appliance repair, the account also has to capture phone calls reliably from the very first week, because most enquiries are calls rather than form fills. The task was to reach dependable lead volume quickly without letting spend drift onto low-intent or out-of-area searches.",
+  "changes": [
+    {"change": "Call-first conversion tracking", "why": "Wired up website call tracking and ad call tracking so phone enquiries — the main way people book a repair — are measured, not guessed."},
+    {"change": "Contact-form conversion", "why": "Captured online enquiries alongside calls for a complete view of genuine leads."},
+    {"change": "Single focused Search campaign", "why": "Kept budget and conversion data concentrated on high-intent repair searches instead of spreading it thin."},
+    {"change": "Appliance and location targeting", "why": "Reached people searching to fix a specific appliance in a specific part of the GTA, where intent to book is highest."},
+    {"change": "Maximize Conversions bidding", "why": "Once tracking was trustworthy, automated bidding could chase genuine leads efficiently."}
+  ],
+  "technical": [
+    {"label": "Campaign type", "value": "Search"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Monthly budget (Q2 2026)", "value": "≈ $1,350 CAD"},
+    {"label": "Lead signals", "value": "Website calls · Ad calls · Contact form"},
+    {"label": "Coverage", "value": "Toronto & GTA repair searches"},
+    {"label": "Measurement", "value": "Call + form tracking from launch"}
+  ],
+  "comparison": {
+    "col_before": "First full month (Feb 2026)",
+    "col_after": "Now (Q2 2026, avg/mo)",
+    "rows": [
+      {"metric": "Tracked leads / month (calls + forms)", "before": "22", "after": "≈ 40", "change": "Strong growth", "dir": "up"},
+      {"metric": "Cost per lead", "before": "≈ $50", "after": "≈ $34", "change": "Lower", "dir": "down-good"},
+      {"metric": "Conversion rate", "before": "≈ 17%", "after": "≈ 21%", "change": "Higher", "dir": "up"},
+      {"metric": "Monthly ad spend", "before": "≈ $1,107", "after": "≈ $1,350", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "Leads are genuine phone calls and contact-form submissions only. Because the account uses a single lead conversion setup with no vanity actions, tracked conversions equal genuine leads with no filtering required.",
+  "early_stage": {
+    "title": "The First Full Month & Early Ramp",
+    "intro": "After a January setup month while tracking and the campaign settled in, February 2026 delivered the first full month of results: 22 tracked leads at about $50 each. Following a brief pause, the campaign relaunched in April and immediately stepped up to 43 tracked leads at roughly $34 each — the point at which the account found its stride.",
+    "headers": ["Period", "Spend", "Tracked Leads", "Cost / Lead"],
+    "rows": [
+      ["Launch / setup (Jan 2026)", "$319", "0", "—"],
+      ["First full month (Feb 2026)", "$1,107", "22", "$50.31"],
+      ["Scaled month (Apr 2026)", "$1,481", "43", "$34.45"]
+    ]
+  },
+  "gradual": "From April onward the account held a steady, high level of demand rather than spiking once and fading. April, May and June produced 43, 42 and 35 tracked leads respectively — about 40 a month — while cost per lead stayed around $34. The monthly trend below shows the ramp from launch into a consistent lead flow, with the natural month-to-month variation of a real account.",
+  "lessons_title": "Lessons for Home-Service Owners",
+  "lessons": [
+    "Track phone calls from day one — for repair services, calls are the majority of real enquiries.",
+    "Start focused: one tight Search campaign on high-intent searches beats spreading budget across everything.",
+    "Target by appliance and by area so budget reaches people ready to book a nearby repair.",
+    "Give a new account a few weeks to gather data before judging cost per lead.",
+    "Scale budget only once the lead volume and cost per lead are proven, not before."
+  ],
+  "why_it_worked": [
+    "Call and form tracking from launch meant bidding optimized toward real enquiries, not clicks.",
+    "Budget stayed concentrated on high-intent repair searches across the GTA.",
+    "A single focused Search campaign gathered conversion data quickly and cleanly.",
+    "Cost per lead settled around $34 as the account matured, keeping growth efficient."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In its first complete quarter under PPC Guru (April–June 2026) JK Appliance Repair was generating about 40 genuine phone and form leads a month at roughly $34 per lead, with more than one in five clicks turning into a tracked enquiry. That is up from 22 leads in the first full month, at a lower cost per lead — and the trend has continued into July. With clean call tracking and a focused Search account, the business now has a measurable, scalable source of new repair jobs and a clear basis for increasing budget as demand grows.",
+  "cta": "PPC Guru helps Canadian home-service businesses turn urgent local searches into tracked phone calls with conversion-focused Google Ads.",
+  "methodology": "All figures are pulled directly from the client's Google Ads account and shown on a monthly basis. 'Leads' are genuine phone calls and contact-form submissions; the account uses a single lead conversion setup, so tracked conversions equal genuine leads. 'Now' is the most recent complete quarter (April–June 2026); the baseline is the first complete producing month (February 2026). July 2026 is shown for trend context only.",
+  "lead_quality": "Leads are tracked phone calls (from ads and the website) and contact-form submissions — the direct enquiries that lead to booked repair jobs for an urgent service.",
+  "teaser": "🔧 Appliance repair Google Ads case study: PPC Guru launched JK Appliance Repair to ~40 tracked phone and form leads a month at ~$34 each in its first full quarter (Apr–Jun 2026), with call tracking from day one.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Tracked Leads",
+      "period": "2026 · calls & form submissions",
+      "x": ["Jan'26", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+      "series": [
+        {"name": "Tracked leads", "color": "green", "values": [0, 22, null, 43, 42, 35, 66]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Quarterly Tracked Leads Under PPC Guru",
+      "period": "Genuine leads (calls & forms) per quarter · Google Ads",
+      "labels": ["Q1'26", "Q2'26"],
+      "values": [22, 120],
+      "colors": ["blue", "green"]
+    }
+  ]
+}

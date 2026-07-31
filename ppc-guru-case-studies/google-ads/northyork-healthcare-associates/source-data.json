@@ -1,0 +1,54 @@
+{
+  "account_chosen": {
+    "name": "NorthYork Healthcare Associates",
+    "customer_id": "4741764649",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "timezone": "America/Toronto",
+    "platform": "Google Ads"
+  },
+  "ambiguity_resolution": {
+    "two_accounts_same_name": [
+      {"customer_id": "4741764649", "role": "CHOSEN SUBJECT", "why": "Actively managed by PPC Guru. Launched February 2026 with the 'NYHA Lead Search Campiagn 04-02 $500' Search campaign, PPC Guru-branded conversion actions and JaneApp booking tracking. Scaling from 2 to 20 phone-call leads a month across Feb–Jun 2026. Small lifetime footprint (~8.7k impressions) but current and growing."},
+      {"customer_id": "5853975594", "role": "NOT USED (legacy / dormant)", "why": "Long history (Sep 2020 – Feb 2026, ~697k impressions, ~212 lifetime conversions) but conversions collapsed to near zero through 2025 and into 2026 (most months 0), with spend winding down and last data February 2026. No PPC Guru-branded campaigns or fresh scaling. Represents an older/other setup, not PPC Guru's active work."}
+    ],
+    "decision": "Subject = 4741764649 (the current, actively scaled PPC Guru account). The two accounts are NOT combined.",
+    "note": "Both accounts share the exact display name 'NorthYork Healthcare Associates' in the MCC, which is the source of the ambiguity."
+  },
+  "industry_determination": "Healthcare clinic — specifically a PHYSIOTHERAPY & sports-injury clinic. Confirmed by top search terms: 'north york physiotherapy & sports injury clinic', 'physiotherapy near me', 'physiotherapy north york', 'physiotherapy toronto'. pdf_filename kept as given: healthcare-clinic-google-ads-case-study-ppc-guru.pdf.",
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2026-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'",
+    "search_terms": "SELECT search_term_view.search_term, metrics.clicks FROM search_term_view WHERE segments.date DURING LAST_30_DAYS ORDER BY metrics.clicks DESC LIMIT 25"
+  },
+  "conversion_actions": [
+    {"name": "Lead form - Submit", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true, "note": "0 volume in period"},
+    {"name": "Submit lead form", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true, "note": "0 volume in period"},
+    {"name": "Calls From Website ((416) 497-7100)", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Calls from Ads", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "North York HealthCare Associates (web) jane_app_booking_ppc_guru", "category": "BOOK_APPOINTMENT", "counted_as_genuine": true, "note": "0 volume in period"},
+    {"name": "North York HealthCare Associates (web) Janeapp_click", "category": "OUTBOUND_CLICK", "counted_as_genuine": false, "note": "button click; began counting in Jun (3) & Jul (10) 2026 and inflates raw metrics.conversions those months — excluded"},
+    {"name": "Confimed Booking - Janeapp Integration", "category": "PURCHASE", "counted_as_genuine": true, "note": "offline booking upload; 0 volume in period"}
+  ],
+  "campaigns": [
+    {"name": "NYHA Lead Search Campiagn 04-02 $500", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "genuine_lead_definition": "Genuine leads = PHONE_CALL_LEAD (all realized leads in this account are inbound phone calls). Raw metrics.conversions is inflated from June 2026 by the OUTBOUND_CLICK 'Janeapp_click' button action (Jun +3, Jul +10), which is excluded. Feb–May raw conversions == PHONE_CALL_LEAD (already clean).",
+  "monthly": [
+    {"month": "2026-02", "clicks": 46,  "raw_conversions": 2,  "genuine_calls": 2,  "cost_cad": 287.99, "impressions": 722},
+    {"month": "2026-03", "clicks": 84,  "raw_conversions": 4,  "genuine_calls": 4,  "cost_cad": 500.91, "impressions": 994},
+    {"month": "2026-04", "clicks": 76,  "raw_conversions": 9,  "genuine_calls": 9,  "cost_cad": 338.89, "impressions": 1170},
+    {"month": "2026-05", "clicks": 92,  "raw_conversions": 8,  "genuine_calls": 8,  "cost_cad": 445.90, "impressions": 1937},
+    {"month": "2026-06", "clicks": 89,  "raw_conversions": 23, "genuine_calls": 20, "cost_cad": 499.00, "impressions": 1605, "note": "raw 23 = 20 calls + 3 outbound clicks"},
+    {"month": "2026-07", "clicks": 113, "raw_conversions": 20, "genuine_calls": 10, "cost_cad": 488.65, "impressions": 2355, "note": "raw 20 = 10 calls + 10 outbound clicks; Q3 - trend only"}
+  ],
+  "notes": [
+    "Launch/takeover = February 2026 (first spend and first data on the PPC Guru 'NYHA Lead Search' campaign). Baseline = first complete month (Feb 2026); 'now' = Q2 2026 (Apr-Jun), the first complete quarter.",
+    "All genuine leads in the period are inbound PHONE CALLS; form-submit, booking and purchase actions are enabled but recorded 0 conversions so far.",
+    "June and July raw conversions are inflated by the JaneApp button-click (OUTBOUND_CLICK) action; genuine call counts used instead (Jun 20 not 23, Jul 10 not 20).",
+    "July 2026 falls in the incomplete Q3 and is shown for trend context only.",
+    "Confidence Medium: clean call tracking and a clear scaling trend, but short history (one complete quarter under management)."
+  ]
+}

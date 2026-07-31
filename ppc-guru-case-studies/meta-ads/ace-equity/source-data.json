@@ -1,0 +1,39 @@
+{
+  "account": {
+    "ad_account_id": "723449714074872",
+    "ad_account_name": "Ace Equity",
+    "business_id": "681383034867069",
+    "business_name": "Ace Equity",
+    "currency": "CAD",
+    "platform": "Meta Ads",
+    "mcp": "Meta_Ads"
+  },
+  "match_confirmation": {
+    "by_ad_account_id": "723449714074872",
+    "by_account_name": "Ace Equity",
+    "by_business_name": "Ace Equity",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Financial services. Business name 'Ace Equity' and campaign naming ('Loyalty') indicate a financial / equity services firm generating client enquiries via lead forms and WhatsApp. The specific sub-vertical (mortgage vs. equity release vs. investment) could not be confirmed from available data, so the neutral 'Financial Services' label is used and the PDF renamed from 'mortgage-' to 'financial-services-'.",
+  "detected_takeover": "PPC Guru-managed campaigns (prefixed 'PPC -') began delivering in July 2026. Account-level and campaign-level monthly pulls across 2022-2026 returned data only for July 2026. An older campaign 'Ace equity' exists but showed no delivery ('Not available') in the queried window. Launch / active delivery under PPC Guru: July 2026.",
+  "queries": {
+    "account_monthly": "ads_get_ad_entities(ad_account_id='723449714074872', level='ad_account', fields=['amount_spent','impressions','reach','clicks','ctr','cpc','frequency','actions:link_click','lead','results','landing_page_view','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly')",
+    "campaign_monthly": "ads_get_ad_entities(ad_account_id='723449714074872', level='campaign', fields=['name','amount_spent','impressions','reach','clicks','ctr','cpc','lead','results','actions:link_click','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly', limit=100)"
+  },
+  "notes": [
+    "Meta returns metric values as formatted strings (e.g. 'CA$812.01 CAD', '32,141', '1.18%'); these were parsed to numbers.",
+    "THIN DATA: only one month of delivery exists (July 2026). No prior period to compare against, so this is a single-month launch snapshot. Status 'Needs Review', confidence 'Low'.",
+    "Genuine enquiries = 5 Instant-Form leads (campaign 'PPC - Loyalty - IF') plus the WhatsApp campaign 'PPC - Loyalty - WA' which recorded 11 messaging conversations and 4 attributed leads. Account-level lead field = 9 (5 form + 4 WhatsApp-attributed).",
+    "Account-level cost_per_lead (CA$90.22 = 812.01 / 9) is a blended figure; the Instant-Form campaign's own CPL is CA$45.17.",
+    "Older 'Ace equity' campaign returned 'Not available' for all metrics in the window (no delivery).",
+    "No landing-page-view, placement or audience data was available from the account-level pull (returned 'Not available')."
+  ],
+  "account_monthly_raw": [
+    {"month": "2026-07", "amount_spent": "CA$812.01 CAD", "amount_spent_cents": 81201, "impressions": 32141, "reach": 15428, "clicks": 379, "ctr_pct": 1.18, "cpc": 2.14, "frequency": 2.08, "link_click": 194, "lead": 9, "cost_per_lead": 90.22}
+  ],
+  "campaign_july_2026_raw": [
+    {"name": "PPC - Loyalty - IF", "id": "120250281018890542", "amount_spent": 225.84, "impressions": 3142, "reach": 1751, "clicks": 55, "ctr_pct": 1.75, "cpc": 4.11, "results": "5 (Leads (form))", "lead": 5, "cost_per_lead": 45.17, "link_click": 35},
+    {"name": "PPC - Loyalty - WA", "id": "120249904606360542", "amount_spent": 586.17, "impressions": 28999, "reach": 14186, "clicks": 324, "ctr_pct": 1.12, "cpc": 1.81, "results": "11 (Messaging conversations started)", "lead": 4, "cost_per_lead": 146.54, "link_click": 159},
+    {"name": "Ace equity", "id": "120233278020540542", "amount_spent": null, "note": "no delivery in window (Not available)"}
+  ]
+}

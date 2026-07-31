@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "True Life Wellness Physio",
+    "slug": "/case-studies/physiotherapy-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Physiotherapy Clinic",
+    "market": "Ontario, Canada",
+    "managed_since": "Jun 2026",
+    "seo_title": "Physiotherapy Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a physiotherapy clinic's Meta Ads and grew to 50 lead-form enquiries a month at under $10 each, with cost per lead down 36% in the first full month.",
+    "primary_keyword": "physiotherapy Meta Ads",
+    "secondary_keywords": ["Facebook Ads for physiotherapy", "physiotherapy lead generation", "Meta Ads case study", "clinic Facebook Ads", "Meta Ads agency in Toronto"],
+    "pdf_filename": "physiotherapy-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jun 2026 – Jul 2026",
+    "comparison_period": "Jun 2026 (launch) vs Jul 2026",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Completed"
+  },
+  "headline": "How a Physiotherapy Clinic Launched Meta Ads at Under $10 a Lead",
+  "kpis": [
+    {"value": "50", "label": "Leads / month", "note": "Jul 2026"},
+    {"value": "$9.95", "label": "Cost per lead", "note": "▼ from $15.62 in Jun"},
+    {"value": "3.03%", "label": "Click-through rate", "note": "Jul 2026"}
+  ],
+  "summary_line": "PPC Guru launched a Meta Ads lead program for True Life Wellness Physio and improved it fast: in the first two months the clinic went from 32 lead-form enquiries in June 2026 to 50 in July 2026, while cost per lead fell 36% to under $10 — all on a steady budget of about $500 a month.",
+  "client_context": "True Life Wellness Physio is a physiotherapy and wellness clinic serving patients in Ontario, Canada. The practice provides hands-on physiotherapy, injury rehabilitation and related wellness treatments, and depends on a steady flow of new-patient enquiries to fill its schedule. Alongside its search advertising, the clinic added Meta Ads to reach people on Facebook and Instagram and capture new-patient enquiries directly through lead forms.",
+  "background": "The clinic partnered with PPC Guru to open a new lead channel on Meta. This was a fresh launch rather than a takeover: PPC Guru built a single focused Instant Form lead campaign, set up the form and tracking, and began optimizing from the first weeks of delivery. The program's first full month was June 2026.",
+  "analysis": "With a modest starting budget, the plan was to prove the channel before scaling it. A single Instant Form campaign kept spend concentrated and learning fast, so PPC Guru could optimize audiences and creative against a clear signal — genuine form submissions — and drive cost per lead down before adding budget.",
+  "analysis_points": [
+    "Launch one focused Instant Form lead campaign to capture new-patient enquiries in-platform.",
+    "Optimize toward genuine form submissions, not clicks or reach.",
+    "Refine audience and creative weekly on a controlled budget before scaling.",
+    "Track cost per lead month over month as the core success metric."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Jun 2026", "what": "Meta Ads launch — first full month delivered 32 lead-form enquiries at about $15.62 each."},
+    {"when": "Jul 2026", "what": "50 lead-form enquiries at $9.95 each — leads up 56% and cost per lead down 36% on a steady budget."}
+  ],
+  "challenge": "As a new Meta Ads program on a modest budget, the account had to prove that Facebook and Instagram could produce genuine new-patient enquiries at a sustainable cost before any scaling. The goal for the first two months was simple: grow lead volume while bringing cost per lead down.",
+  "changes": [
+    {"change": "Single Instant Form lead campaign", "why": "Captured patient enquiries directly in-platform and concentrated a modest budget so the account learned quickly."},
+    {"change": "Optimized to form submissions", "why": "Told Meta to find people who actually submit an enquiry, not just click, so spend chased genuine leads."},
+    {"change": "Weekly audience and creative refinement", "why": "Tightened targeting and messaging month one to month two, driving cost per lead down 36%."},
+    {"change": "Steady budget while proving the channel", "why": "Held spend near $500 a month so month-over-month gains reflected efficiency, not extra budget."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objective", "value": "Leads (OUTCOME_LEADS)"},
+    {"label": "Lead type", "value": "Instant Forms"},
+    {"label": "Structure", "value": "Single focused lead campaign"},
+    {"label": "Monthly budget", "value": "≈ $500 CAD"},
+    {"label": "Lead signal", "value": "Form submissions"}
+  ],
+  "comparison": {
+    "col_before": "Launch (Jun 2026)",
+    "col_after": "Latest (Jul 2026)",
+    "rows": [
+      {"metric": "Lead-form enquiries / month", "before": "32", "after": "50", "change": "+56%", "dir": "up"},
+      {"metric": "Cost per lead", "before": "$15.62", "after": "$9.95", "change": "▼ 36%", "dir": "down-good"},
+      {"metric": "Click-through rate", "before": "2.87%", "after": "3.03%", "change": "Higher", "dir": "up"},
+      {"metric": "Cost per click", "before": "$1.54", "after": "$1.10", "change": "▼ 29%", "dir": "down-good"},
+      {"metric": "Monthly ad spend", "before": "≈ $500", "after": "≈ $497", "change": "Held steady", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "This is an early-stage launch: results cover the first two complete months only. The trend is strong — more leads at a lower cost on the same budget — but a longer run of data is needed before it can be read as a settled, quarter-over-quarter average.",
+  "gradual": "In just its second month, the account did what a healthy launch should: more genuine enquiries at a lower cost, without spending more. Lead-form enquiries rose from 32 to 50 while cost per lead fell from $15.62 to $9.95 and click-through rate ticked up from 2.87% to 3.03%. The chart below shows the first two months of the program.",
+  "lessons_title": "Lessons for Clinic Owners",
+  "lessons": [
+    "Start a new Meta channel with one focused lead campaign so the account learns fast on a modest budget.",
+    "Optimize toward genuine form submissions, not clicks, so spend chases real enquiries.",
+    "Prove cost per lead before scaling — a lower cost per lead on a steady budget is the signal to invest more.",
+    "Refine audience and creative every week in the early going; small changes move cost per lead quickly.",
+    "Judge a launch on its trend, and give it a longer run before drawing firm conclusions."
+  ],
+  "why_it_worked": [
+    "A single focused campaign concentrated a modest budget and sped up learning.",
+    "Optimizing to form submissions kept the account chasing genuine enquiries.",
+    "Weekly creative and audience refinement drove cost per lead down 36% in one month.",
+    "Holding budget steady meant the gains came from efficiency, not extra spend."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "Two months into its Meta Ads program, True Life Wellness Physio has an early but encouraging lead channel. In July 2026 it generated 50 lead-form enquiries at $9.95 each — up from 32 at $15.62 in the launch month — on a steady budget of about $500. The direction is exactly what a healthy launch should show: more genuine enquiries at a lower cost. With efficiency proven, the account is well positioned to scale budget carefully in the months ahead.",
+  "cta": "PPC Guru helps Canadian clinics open new patient-enquiry channels with focused, conversion-first Meta Ads and transparent reporting.",
+  "methodology": "All figures are pulled directly from the client's Meta Ads account and shown on a monthly basis. 'Leads' are Instant Form submissions counted by Meta's lead metric. This is a launch story covering the first two complete months (June and July 2026); confidence is marked Low because no full quarter of data exists yet.",
+  "lead_quality": "Leads are patient-submitted Instant Forms, so the clinic receives contact details to follow up on genuine new-patient enquiries.",
+  "teaser": "📈 Physiotherapy Meta Ads case study: PPC Guru launched True Life Wellness Physio on Facebook & Instagram and, in month two, grew to 50 lead-form enquiries at under $10 each — cost per lead down 36% on a steady budget.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Lead-Form Enquiries",
+      "period": "Jun–Jul 2026 · Meta lead forms",
+      "x": ["Jun'26","Jul'26"],
+      "series": [
+        {"name": "Leads", "color": "green", "values": [32,50]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Lead-Form Enquiries by Month Since Launch",
+      "period": "Genuine lead-form enquiries · Meta Ads",
+      "labels": ["Jun'26","Jul'26"],
+      "values": [32,50],
+      "colors": ["blue","green"]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "GCAD Construction",
+    "slug": "/case-studies/construction-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Construction & Basement Renovation",
+    "market": "Canada",
+    "managed_since": "Jul 2026",
+    "seo_title": "Construction Meta Ads Case Study | PPC Guru",
+    "meta_description": "First-month Meta Ads launch snapshot for a construction and basement-renovation firm: about 30 direct homeowner conversations at roughly $70 each in July 2026.",
+    "primary_keyword": "construction Meta Ads",
+    "secondary_keywords": ["Facebook Ads for construction", "basement renovation leads", "Meta Ads case study", "messaging conversations", "Facebook Ads agency in Toronto"],
+    "pdf_filename": "construction-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jul 2026 (launch month)",
+    "comparison_period": "First month only (launch)",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Needs Review"
+  },
+  "headline": "A Construction Firm's First Month on Meta Ads: ~30 Homeowner Conversations",
+  "kpis": [
+    {"value": "~30", "label": "Conversations", "note": "First month (Jul 2026)"},
+    {"value": "~$70", "label": "Cost per conversation", "note": "Launch month, settling"},
+    {"value": "30,553", "label": "Homeowners reached", "note": "Jul 2026"}
+  ],
+  "summary_line": "PPC Guru launched GCAD Construction on Meta Ads in July 2026. In its first complete month the account reached about 30,600 homeowners and produced roughly 30 direct messaging conversations about basement and renovation projects at about $70 each. This is an early launch snapshot — more months of data are needed before growth can be measured.",
+  "client_context": "GCAD Construction is a construction and basement-renovation company serving homeowners in Canada. Its growth depends on a steady flow of project enquiries from homeowners planning basement finishing and renovation work. Meta Ads (Facebook and Instagram) is being used to reach those homeowners and open a direct conversation at the point of interest, so the number and cost of genuine conversations is the measure that matters for the account.",
+  "background": "GCAD Construction partnered with PPC Guru to build a paid-social presence from scratch. The account was launched in July 2026 around a messaging objective — so interested homeowners can start a direct conversation — alongside a smaller instant-form campaign. This case study reports the first complete month as an early launch snapshot.",
+  "analysis": "PPC Guru launched the account with two Basement-focused messaging campaigns to generate direct conversations and a smaller instant-form campaign to test lead capture. The first priority was to establish reach and a workable cost per conversation before scaling or drawing conclusions.",
+  "analysis_points": [
+    "Launch messaging campaigns so high-intent homeowners start a direct conversation about their project.",
+    "Test an instant-form campaign alongside messaging to compare lead-capture methods.",
+    "Establish reach and a baseline cost per conversation in month one.",
+    "Gather at least two to three months of data before measuring growth or optimizing hard."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Jul 2026", "what": "Account launched — two Basement messaging campaigns plus an instant-form test reached about 30,600 homeowners and produced roughly 30 direct conversations."},
+    {"when": "Next steps", "what": "Additional months of delivery are needed to establish a trend, stabilise cost per conversation, and build a baseline for a full case study."}
+  ],
+  "challenge": "GCAD Construction was starting from zero on paid social, with no existing Meta Ads history, audience data or proven creative. The immediate task was to establish reach among the right homeowners and open genuine project conversations at a workable cost while the account gathered its first data.",
+  "changes": [
+    {"change": "Messaging-first launch", "why": "Two Basement-focused campaigns routed high-intent homeowners into a direct conversation rather than a passive form."},
+    {"change": "Instant-form test alongside", "why": "A smaller instant-form campaign was run to compare lead-capture methods early."},
+    {"change": "Reach-and-learn first month", "why": "The launch month focused on establishing reach and a baseline cost per conversation before scaling."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objective", "value": "Messaging conversations + instant-form test"},
+    {"label": "Result signal", "value": "Direct messaging conversations"},
+    {"label": "First-month spend", "value": "≈ $2,303 CAD"},
+    {"label": "Market", "value": "Canada"},
+    {"label": "Currency", "value": "CAD"}
+  ],
+  "early_stage": {
+    "title": "First-Month Launch Snapshot",
+    "intro": "In July 2026, its first complete month, the account reached about 30,600 homeowners and generated roughly 30 direct conversations from the two Basement messaging campaigns at about $70 each. The instant-form test did not yet produce form leads. These are early launch figures and are expected to settle as the account matures.",
+    "headers": ["Campaign", "Spend", "Conversations", "Cost / Conversation"],
+    "rows": [
+      ["Basement messaging (V)", "$1,230", "23", "$53.47"],
+      ["Basement messaging (S)", "$870", "7", "$124.29"],
+      ["Instant-form test", "$203", "0 form leads", "—"],
+      ["Account total", "$2,303", "30 conversations", "$70.00"]
+    ]
+  },
+  "gradual": "This is a first-month launch snapshot rather than a growth story. In July 2026 the account established reach among about 30,600 homeowners and opened roughly 30 direct conversations about basement and renovation projects. Cost per conversation of about $70 is a typical starting point for a brand-new construction account and is expected to improve as the audience and creative mature. A full before-and-after case study will follow once several more months of data are available.",
+  "lessons_title": "Lessons for Construction & Renovation Firms",
+  "lessons": [
+    "Open a direct conversation with homeowners rather than relying on passive form fills.",
+    "Expect a higher cost per conversation in the first month while an account learns.",
+    "Test messaging and instant-form capture side by side to see which fits your offer.",
+    "Give a new account two to three months before judging performance or scaling hard.",
+    "Measure genuine conversations, not clicks or reach alone."
+  ],
+  "why_it_worked": [
+    "A messaging objective opened direct conversations with high-intent homeowners from day one.",
+    "The launch reached about 30,600 homeowners, establishing a base to optimize from.",
+    "Running messaging and instant-form campaigns together created an early read on what converts.",
+    "Focusing month one on reach and baseline cost set up disciplined scaling later."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "GCAD Construction has completed its first month on Meta Ads. In July 2026 the account reached about 30,600 homeowners and produced roughly 30 direct project conversations at about $70 each. This is a promising launch, but it is a single month of data — more delivery is needed before growth can be measured and cost per conversation settles. PPC Guru will continue to optimize the account and report a full case study once a reliable trend is established.",
+  "cta": "PPC Guru helps Canadian construction and renovation firms turn Facebook and Instagram into a steady stream of homeowner enquiries with conversion-focused Meta Ads and transparent reporting.",
+  "methodology": "All figures are pulled directly from the client's Meta Ads account. The headline metric is 'messaging conversations started' — genuine direct enquiries from homeowners. Account-level results are reported by Meta as unavailable because they were aggregated across different attribution settings, so campaign-level figures were used to count conversations. This is a first-month launch snapshot (July 2026); no baseline or prior history exists, so no growth comparison is drawn.",
+  "teaser": "🏗️ Construction Meta Ads launch: PPC Guru launched GCAD Construction on Facebook & Instagram in July 2026 — ~30 direct homeowner conversations and 30,600 reached in month one. Early snapshot; full case study to follow.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "First-Month Messaging Conversations by Campaign",
+      "period": "July 2026 · direct homeowner conversations · Meta Ads",
+      "labels": ["Basement (V)","Basement (S)"],
+      "values": [23,7],
+      "colors": ["green","blue"]
+    }
+  ]
+}

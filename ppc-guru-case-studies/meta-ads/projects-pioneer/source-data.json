@@ -1,0 +1,40 @@
+{
+  "account": {
+    "name": "Projects Pioneer",
+    "ad_account_id": "913181101087258",
+    "platform": "Meta Ads",
+    "currency": "CAD",
+    "objective": "Messaging conversations (Click-to-message lead generation)",
+    "industry": "Construction / home renovation"
+  },
+  "match_confirmation": {
+    "by_ad_account_id": "913181101087258",
+    "by_name": "Projects Pioneer",
+    "by_currency": "CAD (all spend reported in CA$)",
+    "by_objective": "Single campaign 'Projects Pioneer' running a Messaging-conversations objective"
+  },
+  "detected_launch": "First spend appears February 2026 (partial launch month, CA$105.42 / 10 conversations). First complete month = March 2026. Account is a recent LAUNCH story managed by PPC Guru.",
+  "notes": "Primary result metric = 'Messaging conversations started' (results.value), reported honestly as 'conversations/leads' for a click-to-message campaign. The separate 'lead' (instant-form) field is small and secondary (Feb 2 / Mar 4 / Apr 1 / May 1 / Jun 4 / Jul 2) and is NOT used as the headline metric. Only one full calendar quarter of data exists (Q2 2026, Apr-Jun); Q1 2026 is incomplete (data starts Feb). July 2026 is a complete month but conversation volume dipped to 38 (natural month-to-month variation) - shown honestly in the line chart. 'Now' basis = Q2 2026 (most recent complete quarter). 'Then' baseline = March 2026 (first complete month). No pre-PPC-Guru data exists (PPC Guru launched the account), so this is a Method B launch story. Values in MCP are formatted strings (e.g. 'CA$1,020.03 CAD', '35,290', '1.41%') and were parsed to numbers.",
+  "queries": {
+    "monthly_account_trend": "ads_get_ad_entities(ad_account_id='913181101087258', level='ad_account', fields=['name','amount_spent','impressions','reach','clicks','ctr','cpc','frequency','actions:link_click','lead','results','landing_page_view','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly')",
+    "campaign_objective": "ads_get_ad_entities(ad_account_id='913181101087258', level='campaign', fields=['name','amount_spent','impressions','reach','lead','results','cpc','ctr','actions:link_click'], time_range={since:'2022-01-01',until:'2026-07-31'})"
+  },
+  "monthly": [
+    {"month": "2026-02", "amount_spent_cad": 105.42, "impressions": 3260, "reach": 1637, "clicks": 90, "ctr_pct": 2.76, "cpc_cad": 1.17, "frequency": 1.99, "link_clicks": 21, "messaging_conversations": 10, "form_leads": 2, "cost_per_conversation_cad": 10.54, "partial_launch_month": true},
+    {"month": "2026-03", "amount_spent_cad": 1020.03, "impressions": 35290, "reach": 12236, "clicks": 497, "ctr_pct": 1.41, "cpc_cad": 2.05, "frequency": 2.88, "link_clicks": 112, "messaging_conversations": 43, "form_leads": 4, "cost_per_conversation_cad": 23.72},
+    {"month": "2026-04", "amount_spent_cad": 1425.79, "impressions": 84899, "reach": 30630, "clicks": 883, "ctr_pct": 1.04, "cpc_cad": 1.61, "frequency": 2.77, "link_clicks": 372, "messaging_conversations": 63, "form_leads": 1, "cost_per_conversation_cad": 22.63},
+    {"month": "2026-05", "amount_spent_cad": 1437.34, "impressions": 91756, "reach": 36801, "clicks": 766, "ctr_pct": 0.83, "cpc_cad": 1.88, "frequency": 2.49, "link_clicks": 433, "messaging_conversations": 80, "form_leads": 1, "cost_per_conversation_cad": 17.97},
+    {"month": "2026-06", "amount_spent_cad": 1420.98, "impressions": 73341, "reach": 37312, "clicks": 801, "ctr_pct": 1.09, "cpc_cad": 1.77, "frequency": 1.97, "link_clicks": 464, "messaging_conversations": 70, "form_leads": 4, "cost_per_conversation_cad": 20.30},
+    {"month": "2026-07", "amount_spent_cad": 1589.57, "impressions": 86259, "reach": 38930, "clicks": 825, "ctr_pct": 0.96, "cpc_cad": 1.93, "frequency": 2.22, "link_clicks": 446, "messaging_conversations": 38, "form_leads": 2, "cost_per_conversation_cad": 41.83}
+  ],
+  "campaign_alltime": {
+    "name": "Projects Pioneer",
+    "amount_spent_cad": 6999.13,
+    "impressions": 374805,
+    "reach": 121153,
+    "messaging_conversations_total": 304,
+    "results_value": "304 (Messaging conversations started)",
+    "form_leads_total": 14,
+    "note": "Confirms a single messaging-objective campaign; account totals Feb-Jul 2026 reconcile (spend 6999.13, conversations 304)."
+  }
+}

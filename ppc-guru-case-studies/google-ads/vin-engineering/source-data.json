@@ -1,0 +1,48 @@
+{
+  "account": {
+    "name": "Vin Engineering INC",
+    "customer_id": "5665364039",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "industry": "Engineering Services (permit / structural engineering drawings)"
+  },
+  "match_confirmation": {
+    "by_campaign_name": "Vin - City Permit - $1200 offer (city permit / engineering drawings)",
+    "by_currency": "CAD",
+    "by_phone": "Call ((647) 548-8764) — Toronto (647) area code",
+    "by_conversion_action": "Submit lead form and Submit lead form - Pop Up on the Vin Engineering site"
+  },
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2025-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'"
+  },
+  "conversion_actions": [
+    {"name": "Call ((647) 548-8764)", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "Calls from Ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "Submit lead form", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted": true},
+    {"name": "Submit lead form - Pop Up", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted": true}
+  ],
+  "genuine_lead_categories_counted": ["PHONE_CALL_LEAD", "SUBMIT_LEAD_FORM"],
+  "campaigns": [
+    {"name": "Vin - City Permit - $1200 offer", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "monthly_raw": [
+    {"month": "2026-06", "clicks": 90, "conversions": 2.002229, "all_conversions": 2.002229, "cost_cad": 648.10, "impressions": 1234},
+    {"month": "2026-07", "clicks": 218, "conversions": 11.997771, "all_conversions": 11.997771, "cost_cad": 1486.02, "impressions": 3535}
+  ],
+  "genuine_leads_by_month": {
+    "2026-06": {"PHONE_CALL_LEAD": 0, "SUBMIT_LEAD_FORM": 2, "genuine": 2},
+    "2026-07": {"PHONE_CALL_LEAD": 4, "SUBMIT_LEAD_FORM": 8, "genuine": 12}
+  },
+  "detected_launch": "PPC Guru Search launch ~June 2026 (first spend June 2026, $648 / 90 clicks / 2 leads = launch ramp). July 2026 is the first full month with meaningful spend and volume.",
+  "notes": [
+    "VERY THIN DATA: only two months (Jun, Jul 2026), and June is effectively a partial launch-ramp month (90 clicks, 2 leads). Only July 2026 is a full month of volume. Status is Needs Review and confidence is Low.",
+    "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM only. No local-action or outbound-click categories exist in this account, so raw metrics.conversions equals genuine leads. (Conversion values carry fractional decimals from Google's modelling, e.g. 11.997771 -> reported as 12.)",
+    "Genuine monthly leads: Jun 2 (launch ramp), Jul 12 (first full month; 8 forms + 4 calls).",
+    "Single Search campaign: 'Vin - City Permit - $1200 offer' (Maximize Conversions) — a permit / engineering-drawing offer.",
+    "Do NOT read the Jun->Jul jump as a steady growth rate; June is a partial launch month. Re-pull after Q3 2026 for a first full-quarter view before drawing conclusions."
+  ]
+}

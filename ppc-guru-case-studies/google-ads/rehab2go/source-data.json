@@ -1,0 +1,58 @@
+{
+  "account": {
+    "name": "Rehab2Go",
+    "customer_id": "6991748795",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "market": "Toronto, Ontario, Canada"
+  },
+  "match_confirmation": {
+    "by_name": "Conversion action 'Click on App rehab2Go' references the Rehab2Go brand",
+    "by_services": "Campaigns 'PPC Guru Physiotherapy 25-02 $500' (Search) and 'PPC - PMAX - RMT' (Performance Max)",
+    "by_geography": "Search terms 'in home physiotherapy toronto', 'physiotherapy home service', call number 647-407-3422 (Toronto area code)",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Mobile / in-home physiotherapy and rehabilitation. Top search terms: 'in home physiotherapy toronto', 'physiotherapy home service', 'home visit physiotherapy', 'mobile physiotherapist', 'physiotherapist at home', 'at home physical therapy for knee replacement', 'physiotherapy at home for seniors'.",
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2026-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'",
+    "search_terms": "SELECT search_term_view.search_term, metrics.clicks FROM search_term_view WHERE segments.date DURING LAST_30_DAYS ORDER BY metrics.clicks DESC LIMIT 15"
+  },
+  "monthly_trend": [
+    {"month": "2026-03", "clicks": 67, "conversions_raw": 7, "all_conversions": 7, "cost_micros": 365783347, "cost_cad": 365.78, "impressions": 475},
+    {"month": "2026-04", "clicks": 72, "conversions_raw": 4, "all_conversions": 4, "cost_micros": 496831879, "cost_cad": 496.83, "impressions": 643},
+    {"month": "2026-05", "clicks": 71, "conversions_raw": 5.001929, "all_conversions": 5.001929, "cost_micros": 487326400, "cost_cad": 487.33, "impressions": 527},
+    {"month": "2026-06", "clicks": 154, "conversions_raw": 6.998071, "all_conversions": 6.998071, "cost_micros": 540034554, "cost_cad": 540.03, "impressions": 6506},
+    {"month": "2026-07", "clicks": 275, "conversions_raw": 9, "all_conversions": 9, "cost_micros": 757293939, "cost_cad": 757.29, "impressions": 18021}
+  ],
+  "genuine_leads_by_category": [
+    {"month": "2026-03", "PHONE_CALL_LEAD": 6, "SUBMIT_LEAD_FORM": 1, "genuine_total": 7},
+    {"month": "2026-04", "PHONE_CALL_LEAD": 3, "SUBMIT_LEAD_FORM": 1, "genuine_total": 4},
+    {"month": "2026-05", "PHONE_CALL_LEAD": 4.001929, "SUBMIT_LEAD_FORM": 1, "genuine_total": 5},
+    {"month": "2026-06", "PHONE_CALL_LEAD": 4.998071, "SUBMIT_LEAD_FORM": 2, "genuine_total": 7},
+    {"month": "2026-07", "PHONE_CALL_LEAD": 8, "SUBMIT_LEAD_FORM": 1, "genuine_total": 9}
+  ],
+  "conversion_actions": [
+    {"name": "Submit lead form", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true},
+    {"name": "Call (647-407-3422)", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Calls from Ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Click on App rehab2Go", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true},
+    {"name": "Phone call lead (1)", "type": "WEBPAGE", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true}
+  ],
+  "campaigns": [
+    {"name": "PPC Guru Physiotherapy 25-02 $500", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"},
+    {"name": "PPC - PMAX - RMT", "channel": "PERFORMANCE_MAX", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "top_search_terms_last30": ["in home physiotherapy toronto (3)", "physiotherapy home service (3)", "home visit physiotherapy (2)", "in home physiotherapy (2)", "physiotherapy home service near me (2)", "mobile physiotherapist (1)", "physiotherapist at home (1)", "at home physical therapy for knee replacement (1)", "physiotherapy at home for seniors (1)"],
+  "notes": [
+    "LAUNCH story (Method B). Account has only ~5 months of data (Mar–Jul 2026), so this is genuinely early-stage.",
+    "All recorded conversions are genuine leads (phone calls + form submissions). No vanity local-action or outbound-click inflation is present in metrics.conversions for this account.",
+    "Monthly genuine leads are roughly flat: Mar 7, Apr 4, May 5, Jun 7, Jul 9. The launch month (Mar) is already near the recent run-rate, so quarter-over-quarter growth in lead COUNT is modest.",
+    "The notable change is REACH: a Performance Max campaign was added and impressions jumped from ~475–643/mo (Mar–Apr) to 6,506 (Jun) and 18,021 (Jul). Cost per lead rose as reach expanded (~$52 in Mar to ~$84 in Jul) — marked neutral (scaled reach), not a cut.",
+    "Because lead volume is low and roughly flat with only five months of history, status is 'Needs Review' and confidence 'Low'. The account has a clean tracking foundation and a growing reach base, but needs more time to prove a scaled cost per lead.",
+    "Approx monthly budget: Search named '$500'; recent total monthly spend ~$487–757 CAD."
+  ]
+}

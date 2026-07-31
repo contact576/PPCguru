@@ -1,0 +1,47 @@
+{
+  "account": {
+    "name": "JK Appliance Repair Inc.",
+    "customer_id": "4933437358",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "timezone": "America/Toronto",
+    "platform": "Google Ads"
+  },
+  "match_confirmation": {
+    "by_name": "JK Appliance Repair Inc. (list_accounts)",
+    "by_currency": "CAD",
+    "by_timezone": "America/Toronto",
+    "by_search_terms": "appliance repair toronto, fridge repair toronto, portable air conditioner repair, vacuum repair near me"
+  },
+  "industry": "Appliance repair (fridge, AC, small-appliance, vacuum repair) — Toronto / GTA",
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'",
+    "search_terms": "SELECT search_term_view.search_term, metrics.clicks FROM search_term_view WHERE segments.date DURING LAST_30_DAYS ORDER BY metrics.clicks DESC LIMIT 20"
+  },
+  "conversion_actions": [
+    {"name": "Calls From Website ( 647-560-8966)", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Calls from Ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted_as_genuine": true},
+    {"name": "Contact Form", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted_as_genuine": true}
+  ],
+  "campaigns": [
+    {"name": "JK Appliances Search Ad 06-01 1250", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "genuine_lead_definition": "All three enabled conversion actions are genuine lead categories (PHONE_CALL_LEAD x2, SUBMIT_LEAD_FORM). In every month metrics.conversions equals metrics.all_conversions, so no vanity actions (GBP local actions, outbound clicks, page views) inflate the count. Genuine leads = metrics.conversions.",
+  "monthly": [
+    {"month": "2026-01", "clicks": 29,  "conversions": 0,  "all_conversions": 0,  "cost_micros": 319380000,  "cost_cad": 319.38,  "impressions": 414},
+    {"month": "2026-02", "clicks": 130, "conversions": 22, "all_conversions": 22, "cost_micros": 1106818058, "cost_cad": 1106.82, "impressions": 1632},
+    {"month": "2026-04", "clicks": 185, "conversions": 43, "all_conversions": 43, "cost_micros": 1481454270, "cost_cad": 1481.45, "impressions": 2376},
+    {"month": "2026-05", "clicks": 177, "conversions": 42, "all_conversions": 42, "cost_micros": 1205792292, "cost_cad": 1205.79, "impressions": 2525},
+    {"month": "2026-06", "clicks": 203, "conversions": 35, "all_conversions": 35, "cost_micros": 1362852583, "cost_cad": 1362.85, "impressions": 2638},
+    {"month": "2026-07", "clicks": 221, "conversions": 66, "all_conversions": 66, "cost_micros": 1520520742, "cost_cad": 1520.52, "impressions": 3377}
+  ],
+  "notes": [
+    "Account is a recent launch: first spend appears January 2026 (setup/ramp month, 0 conversions on $319). First productive month is February 2026 (22 leads).",
+    "March 2026 has no data (no active spend that month) — the account resumed and scaled from April 2026. Baseline uses the first complete producing month (Feb 2026); 'now' uses the most recent complete quarter (Q2 2026, Apr-Jun).",
+    "Clean single-campaign Search account on Maximize Conversions with call + form tracking only; conversions == all_conversions so no filtering needed.",
+    "July 2026 (66 leads) falls in the incomplete Q3 and is shown for trend context only, not used in the headline comparison.",
+    "Confidence Medium: strong clean data but short history (one complete quarter under management)."
+  ]
+}

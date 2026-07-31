@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Living Well with Muydor",
+    "slug": "/case-studies/wellness-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Health & Wellness Coaching",
+    "market": "Canada",
+    "managed_since": "Jul 2026",
+    "seo_title": "Wellness Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a Meta Ads lead campaign for a Canadian wellness coach and delivered 112 Instant-Form leads at about CA$4 each in the first month.",
+    "primary_keyword": "wellness Meta Ads",
+    "secondary_keywords": ["Meta Ads case study", "Facebook lead generation", "Instagram lead ads", "wellness lead generation", "Meta Ads agency in Toronto"],
+    "pdf_filename": "wellness-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Feb 2026 – Jul 2026",
+    "comparison_period": "Feb–Jun 2026 (engagement era) vs Jul 2026 (first lead-campaign month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How a Wellness Coach Launched Meta Ads and Landed 112 Leads in Month One",
+  "kpis": [
+    {"value": "112", "label": "Leads in month one", "note": "July 2026 · Instant Form"},
+    {"value": "~$4.07", "label": "Cost per lead", "note": "▼ from $60+ earlier"},
+    {"value": "5.27%", "label": "Link CTR", "note": "Jul 2026 lead campaign"}
+  ],
+  "summary_line": "PPC Guru launched a dedicated Instant-Form lead campaign on Meta for a Canadian wellness coach and, in its first full month (July 2026), generated 112 genuine enquiries at about CA$4.07 each. In the months before, the account had been spending on engagement and page-like campaigns that produced almost no real leads.",
+  "client_context": "Living Well with Muydor is a Canadian health and wellness coaching brand that helps people build healthier daily habits and lifestyles. Growth for a personal coaching brand depends on a steady flow of genuine enquiries from people who want to start a program, so the ability to turn ad spend into real contact details matters far more than surface-level engagement such as likes or reactions. Meta (Facebook and Instagram) is the natural channel for reaching that audience where they already spend their time.",
+  "background": "Before partnering with PPC Guru, the account had been active on Meta for several months, but the campaigns were built around engagement objectives — earning Facebook likes and the occasional message rather than capturing contact details. Spend was buying reach and reactions, yet very few of those interactions turned into a genuine enquiry the coach could follow up with. The brand brought the account to PPC Guru to convert that audience interest into measurable leads.",
+  "analysis": "PPC Guru reviewed the account's recent history and found a clear pattern: money was going toward likes and messaging volume, not lead capture. February through April produced hundreds of page likes but no tracked form leads, and May and June added only a small handful. The plan was to keep the audience insight the earlier activity had built, but point the budget at a proper lead objective with an on-platform Instant Form so enquiries could be captured and counted.",
+  "analysis_points": [
+    "Shift the objective from engagement / page likes to lead generation with a native Instant Form.",
+    "Capture contact details on-platform to remove landing-page friction for a mobile wellness audience.",
+    "Concentrate budget on the lead campaign rather than spreading it across like-focused ads.",
+    "Measure genuine form leads and cost per lead from day one, not likes or reactions."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Feb–Apr 2026", "what": "Engagement era — the account ran page-like campaigns that earned hundreds of Facebook likes but no tracked form leads."},
+    {"when": "May–Jun 2026", "what": "A few genuine leads trickled in (three in May, one in June) at roughly $60–$84 each, but lead capture was not the focus."},
+    {"when": "July 2026", "what": "PPC Guru launched a dedicated Instant-Form lead campaign — 112 genuine leads in the first month at about $4.07 each."}
+  ],
+  "challenge": "The account was already spending on Meta, but it was optimised for the wrong outcome. Engagement campaigns earned plenty of page likes and reach, yet almost none of that translated into a genuine enquiry: February through April tracked zero form leads, and May and June added only four combined. The brand had audience interest but no reliable way to capture and follow up with the people behind it.",
+  "changes": [
+    {"change": "Dedicated Instant-Form lead campaign", "why": "Replaced like-and-engagement objectives with a lead objective that captures a name and contact details for every enquiry."},
+    {"change": "Native on-platform form", "why": "Meta Instant Forms remove landing-page friction, which suits a mostly-mobile wellness audience and lifts completion rates."},
+    {"change": "Budget focused on lead capture", "why": "Concentrated spend on the campaign that produces enquiries instead of spreading it across page-like ads."},
+    {"change": "Lead-first measurement", "why": "Tracked genuine form leads and cost per lead from launch, so performance is judged on enquiries rather than likes."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objective", "value": "Leads (Instant Form)"},
+    {"label": "Lead capture", "value": "Native Meta Instant Form"},
+    {"label": "Launch campaign", "value": "PPC - Muydor - IF"},
+    {"label": "Month-one budget", "value": "≈ $455 CAD"},
+    {"label": "Prior objective", "value": "Engagement / page likes"}
+  ],
+  "comparison": {
+    "col_before": "Then (Feb–Jun 2026, avg/mo)",
+    "col_after": "Now (Jul 2026)",
+    "rows": [
+      {"metric": "Genuine form leads / month", "before": "≈ 1", "after": "112", "change": "Strong growth", "dir": "up"},
+      {"metric": "Cost per lead", "before": "≈ $79*", "after": "≈ $4.07", "change": "Much lower", "dir": "down-good"},
+      {"metric": "Monthly ad spend", "before": "≈ $119", "after": "≈ $455", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "* Before the lead campaign, spend was aimed at engagement, so the few leads that appeared in May and June were incidental — that ≈$79 figure is the cost of those occasional leads, not an optimised lead rate. With a dedicated Instant-Form campaign the first month captured 112 genuine leads at about $4.07 each.",
+  "gradual": "The contrast is stark rather than gradual, because the account changed what it was buying. Through February, March and April the budget bought Facebook likes and reach but no tracked form leads. May and June added only a few genuine enquiries. Then, in the first full month of the dedicated Instant-Form campaign (July 2026), the account captured 112 real leads. The chart below shows the flat engagement months followed by the July step-change once the objective moved to lead capture.",
+  "lessons_title": "Lessons for Coaches & Wellness Brands",
+  "lessons": [
+    "Likes and reach are not leads — optimise campaigns for the contact details you can actually follow up with.",
+    "A native Instant Form removes friction for a mobile audience and lifts completion rates.",
+    "Concentrate budget on the objective that produces enquiries rather than spreading it across engagement ads.",
+    "Measure cost per genuine lead from day one so you know what an enquiry really costs.",
+    "Audience interest built by earlier content can be redirected into lead capture with the right campaign structure."
+  ],
+  "why_it_worked": [
+    "The objective moved from engagement to genuine lead capture, so spend produced enquiries instead of likes.",
+    "A native Meta Instant Form made it easy for a mobile wellness audience to leave contact details.",
+    "Budget was concentrated on the lead campaign rather than page-like ads.",
+    "Performance was measured on real form leads and cost per lead from the first day."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In its first full month on Meta with PPC Guru (July 2026), Living Well with Muydor captured 112 genuine leads at about $4.07 each — a step-change from the earlier engagement campaigns that had produced almost none. The account now has a repeatable lead engine and clear cost-per-lead visibility. As the first complete month of a newly launched campaign, these results are an encouraging starting point that PPC Guru will confirm and refine over the coming months.",
+  "cta": "PPC Guru helps Canadian wellness and coaching brands turn Facebook and Instagram interest into real, measurable leads.",
+  "methodology": "All figures are pulled directly from the client's Meta Ads account. 'Leads' are genuine Instant-Form submissions — Facebook likes and generic messaging interactions are excluded so counts reflect real enquiries. 'Now' is July 2026, the first full month of PPC Guru's lead campaign; the baseline is the account's earlier engagement-focused months (Feb–Jun 2026).",
+  "teaser": "📈 Wellness Meta Ads case study: PPC Guru launched an Instant-Form lead campaign for a Canadian wellness coach and captured 112 leads at ~$4.07 each in the first month — up from almost none under the earlier like-focused campaigns.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "2026 · Instant-Form submissions",
+      "x": ["Feb'26", "Mar", "Apr", "May", "Jun", "Jul"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [0, 0, 0, 3, 1, 112]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Monthly Form Leads Since PPC Guru Launch",
+      "period": "Genuine Instant-Form leads per month · Meta Ads",
+      "labels": ["Feb'26", "Mar", "Apr", "May", "Jun", "Jul"],
+      "values": [0, 0, 0, 3, 1, 112],
+      "colors": ["blue", "blue", "blue", "blue", "blue", "green"]
+    }
+  ]
+}

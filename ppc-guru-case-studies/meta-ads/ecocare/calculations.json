@@ -1,0 +1,46 @@
+{
+  "story_type": "Meta Ads launch (baseline = first complete month; now = most recent complete quarter)",
+  "genuine_lead_definition": "Genuine leads = account-level Meta 'lead' metric per month = form-lead submissions (Instant Forms + website pixel leads). Excludes messaging conversations and awareness-objective engagement; those small early campaigns do not contribute to the 'lead' count, so no inflation adjustment was required.",
+  "baseline_period": "2025-08 (Aug 2025, first complete month under PPC Guru)",
+  "now_period": "2026-04 to 2026-06 (Q2 2026, most recent complete quarter)",
+  "monthly_genuine_leads": {
+    "2025-08": 32, "2025-09": 26, "2025-10": 107, "2025-11": 101, "2025-12": 44,
+    "2026-01": 215, "2026-02": 205, "2026-03": 154, "2026-04": 141, "2026-05": 493,
+    "2026-06": 553, "2026-07": 577
+  },
+  "quarterly_genuine_leads": {
+    "Q3_2025_Aug_Sep_launch_partial": {"leads": 58, "months": 2, "note": "launch quarter, only Aug + Sep have delivery"},
+    "Q4_2025": {"leads": 252, "spend_cad": 9271.30, "cpl_cad": 36.79, "avg_leads_per_month": 84.0},
+    "Q1_2026": {"leads": 574, "spend_cad": 15595.16, "cpl_cad": 27.17, "avg_leads_per_month": 191.3},
+    "Q2_2026": {"leads": 1187, "spend_cad": 30817.07, "cpl_cad": 25.96, "avg_leads_per_month": 395.7, "avg_spend_per_month": 10272.36, "ctr_pct": 1.26}
+  },
+  "baseline_aug_2025": {
+    "leads": 32,
+    "spend_cad": 593.20,
+    "cost_per_lead_cad": 18.54,
+    "ctr_pct": 1.63,
+    "cpc_cad": 1.98,
+    "clicks": 300
+  },
+  "now_q2_2026": {
+    "leads_total": 1187,
+    "avg_leads_per_month": 395.7,
+    "spend_total_cad": 30817.07,
+    "avg_spend_per_month_cad": 10272.36,
+    "cost_per_lead_cad": 25.96,
+    "ctr_pct": 1.26,
+    "clicks": 15616
+  },
+  "comparison_math": {
+    "leads_per_month": "32 (Aug 2025) -> ~396 (Q2 2026 avg) = 1187/3 = 395.7; growth factor 395.7/32 = 12.4x",
+    "cost_per_lead": "CA$18.54 (Aug 2025) -> CA$25.96 (Q2 2026) = +40% while monthly spend scaled from CA$593 to CA$10,272 (~17.3x). Marked neutral (scaled with results).",
+    "monthly_spend": "CA$593.20 -> CA$10,272.36 = 17.3x",
+    "ctr": "1.63% (Aug 2025) -> 1.26% (Q2 2026): omitted from public table (declined as reach expanded)"
+  },
+  "twelve_month_context": {
+    "total_leads_aug25_jul26": 2648,
+    "total_spend_cad": 73522.63,
+    "blended_cpl_cad": 27.77,
+    "note": "Shown for context only; headline uses Q2 2026 monthly basis per methodology (no cumulative hero number in public copy)."
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "EcoCare Home Comfort",
+    "slug": "/case-studies/hvac-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "HVAC / Home Comfort",
+    "market": "Ontario, Canada",
+    "managed_since": "Nov 2025",
+    "seo_title": "HVAC Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru grew an Ontario HVAC company to about 14 genuine Google Ads leads a month, up 35% quarter over quarter, with call and form tracking built in from launch.",
+    "primary_keyword": "HVAC Google Ads",
+    "secondary_keywords": ["HVAC lead generation", "Google Ads case study", "Performance Max", "conversion tracking", "Google Ads agency in Toronto", "air conditioning marketing"],
+    "pdf_filename": "hvac-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Nov 2025 – Jun 2026",
+    "comparison_period": "Q1 2026 vs Q2 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How an HVAC Company Grew to ~14 Google Ads Leads a Month in Two Quarters",
+  "kpis": [
+    {"value": "~14", "label": "Genuine leads / month", "note": "Q2 2026 (Apr–Jun)"},
+    {"value": "+35%", "label": "More leads vs prior quarter", "note": "Q1 → Q2 2026"},
+    {"value": "~7 in 10", "label": "Leads by phone call", "note": "Highest-intent enquiries"}
+  ],
+  "summary_line": "PPC Guru launched EcoCare Home Comfort on Google Ads with call and form tracking wired in from day one, then grew it from about 10 genuine leads a month in its first full quarter to roughly 14 a month in the most recent quarter (Apr–Jun 2026) — a 35% quarter-over-quarter increase, with about seven in ten leads arriving as direct phone calls.",
+  "client_context": "EcoCare Home Comfort is a home-comfort and HVAC company serving homeowners across Ontario, Canada. The business installs and services heating, cooling and air-conditioning systems, and its growth depends on a steady flow of homeowner enquiries — phone calls and quote requests from people who need a repair, a replacement or a new system installed. Google Ads is the company's channel for reaching those high-intent searchers at the exact moment they are looking for help, which makes reliable call and form tracking central to the account.",
+  "background": "EcoCare Home Comfort brought its home-comfort advertising to PPC Guru in late 2025 for a fresh, measurement-first Google Ads build. Rather than chase clicks, the goal was a lead engine the business could trust — one where every phone call and quote request is tracked, so budget could be scaled on proven demand rather than guesswork.",
+  "analysis": "Before spending began, PPC Guru set up the measurement first: call tracking on ads and the website, a lead-form conversion, and an offline import path for booked jobs. A Performance Max campaign was then launched to reach homeowners across Search, Maps and Google's wider inventory, with automated bidding pointed at genuine leads rather than surface-level clicks.",
+  "analysis_points": [
+    "Build call tracking for both ad calls and website calls to the toll-free line.",
+    "Add a lead-form conversion for online quote requests.",
+    "Configure an offline import path so booked and completed jobs can be fed back to Google.",
+    "Launch a Performance Max campaign with Maximize Conversions bidding aimed at genuine phone and form leads."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Nov 2025", "what": "PPC Guru launch — account built with call and form tracking, first budget live as the campaign ramped."},
+    {"when": "Dec 2025", "what": "First full month delivered about 19 genuine leads, almost all direct phone calls."},
+    {"when": "Q1 2026 (Jan–Mar)", "what": "Account settled into its first complete quarter at about 10 genuine leads a month while targeting was refined."},
+    {"when": "Q2 2026 (Apr–Jun)", "what": "About 14 genuine leads a month — a 35% increase over the prior quarter — as budget was scaled into peak cooling season."}
+  ],
+  "challenge": "As a fresh Google Ads build, the account had to prove the channel from a standing start — establishing trustworthy tracking, learning which homeowner searches turn into booked work, and building enough conversion volume for automated bidding to optimize against. HVAC demand is also seasonal and phone-heavy, so measuring calls accurately was essential before any budget could be scaled with confidence.",
+  "changes": [
+    {"change": "Performance Max campaign", "why": "Reached homeowners across Search, Maps and Google's wider inventory from a single, conversion-focused campaign."},
+    {"change": "Call tracking (ads + website)", "why": "Captured both ad-call and website-call leads to the toll-free line — the primary way homeowners get in touch."},
+    {"change": "Lead-form conversion", "why": "Tracked online quote requests so form enquiries counted alongside calls."},
+    {"change": "Offline import path", "why": "Set up so booked and completed jobs can be fed back to Google, pointing bidding toward real work rather than surface actions."},
+    {"change": "Maximize Conversions bidding", "why": "Let automated bidding chase genuine phone and form leads once enough conversion data existed."},
+    {"change": "Scaled budget into season", "why": "As genuine leads proved out, monthly budget was increased ahead of the peak cooling months."}
+  ],
+  "technical": [
+    {"label": "Campaign type", "value": "Performance Max"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Monthly budget (Q2 2026)", "value": "≈ $1,260 CAD"},
+    {"label": "Lead signals", "value": "Ad calls · Website calls · Lead forms"},
+    {"label": "Offline import", "value": "Configured for booked jobs"},
+    {"label": "Market", "value": "Ontario, Canada"}
+  ],
+  "comparison": {
+    "col_before": "First quarter (Q1 2026, avg/mo)",
+    "col_after": "Now (Q2 2026, avg/mo)",
+    "rows": [
+      {"metric": "Genuine leads / month (calls + forms)", "before": "≈ 10", "after": "≈ 14", "change": "+35% quarter over quarter", "dir": "up"},
+      {"metric": "Leads per quarter", "before": "31", "after": "42", "change": "Strong growth", "dir": "up"},
+      {"metric": "Share of leads by phone call", "before": "—", "after": "≈ 71%", "change": "Phone-led", "dir": "up"},
+      {"metric": "Monthly ad spend", "before": "≈ $667", "after": "≈ $1,260", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "Cost per lead sat near $90 in Q2 2026 as budget was scaled about 1.9x into peak cooling season, while genuine leads grew about 35% quarter over quarter. For HVAC — where a single install can be worth thousands — the account is being grown on measurable phone and form demand rather than clicks.",
+  "gradual": "The account did not spike once and fade. After a strong first full month (about 19 leads in December 2025, almost all phone calls), it settled through Q1 2026 into roughly 10 genuine leads a month while targeting and negative keywords were refined. As homeowner demand picked up into spring and budget was scaled, Q2 2026 climbed to about 14 genuine leads a month. The monthly trend below shows the natural month-to-month variation of a real, seasonal HVAC account rather than a manufactured straight line.",
+  "spotlight": {
+    "title": "Why Call Tracking Comes First in HVAC",
+    "body": "Homeowners with a broken furnace or air conditioner call — they rarely fill in a form and wait. That is why the account was built around call tracking from day one, capturing both clicks-to-call on ads and calls placed from the website's toll-free line. About seven in ten genuine leads in the most recent quarter arrived by phone. Tracking those calls as conversions — rather than counting button clicks or map views — is what lets automated bidding find more of the searches that turn into booked service calls, and gives the business an honest line of sight from ad spend to real enquiries."
+  },
+  "lessons_title": "Lessons for Home-Services Owners",
+  "lessons": [
+    "Track phone calls as conversions — in home services, the phone is the primary lead, not the form.",
+    "Set up tracking before you scale spend, so growth is based on real enquiries.",
+    "Give a new account a full quarter to gather data before judging automated bidding.",
+    "Plan budget around season — HVAC demand swings, so scale into the peaks.",
+    "Feed booked and completed jobs back to Google so bidding optimizes toward real work."
+  ],
+  "why_it_worked": [
+    "Call and form tracking was built in from launch, so every genuine enquiry was measured.",
+    "Performance Max reached homeowners across Search, Maps and beyond from one focused campaign.",
+    "Budget was scaled only after leads proved out, into the peak cooling season.",
+    "The account leaned into phone calls — the highest-intent enquiry type for HVAC."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In just two full quarters under management, EcoCare Home Comfort has a working, measurable Google Ads lead engine. The most recent complete quarter (April–June 2026) generated about 14 genuine phone and form leads a month — a 35% increase over the prior quarter — with roughly seven in ten arriving as direct phone calls. Because calls and forms are tracked from the click, the business can see which spend produces real enquiries and has a clear, data-backed basis to keep scaling through the seasons.",
+  "cta": "PPC Guru helps Canadian home-services companies turn search demand into tracked phone calls and quote requests with conversion-focused Google Ads.",
+  "methodology": "All figures are pulled directly from the client's Google Ads account and shown on a monthly and quarterly basis. 'Genuine leads' are phone calls and lead-form submissions only. 'Now' is the most recent complete quarter (April–June 2026); the first complete quarter (January–March 2026) is the baseline. July 2026 is a partial quarter and is excluded.",
+  "lead_quality": "About seven in ten genuine leads in the most recent quarter are direct phone calls — the highest-intent enquiry type for an HVAC business — tracked from ad click and website through to the call.",
+  "teaser": "🔧 HVAC Google Ads case study: PPC Guru launched EcoCare Home Comfort with call & form tracking from day one and grew it to ~14 genuine leads a month in Q2 2026 — up 35% quarter over quarter, ~7 in 10 by phone.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "Dec 2025 – Jun 2026 · calls & form submissions",
+      "x": ["Dec'25", "Jan'26", "Feb", "Mar", "Apr", "May", "Jun"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [19, 15, 5, 11, 20, 15, 7]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Quarterly Genuine Leads Since PPC Guru Launch",
+      "period": "Genuine leads (calls + forms) per quarter · Google Ads · Q4'25 = launch (December only)",
+      "labels": ["Q4'25*", "Q1'26", "Q2'26"],
+      "values": [19, 31, 42],
+      "colors": ["blue", "blue", "green"]
+    }
+  ]
+}

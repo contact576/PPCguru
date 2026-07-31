@@ -1,0 +1,35 @@
+{
+  "method": "B (launch story), early snapshot. PPC Guru launched ~June 2026. Two complete months (Jun, Jul 2026): first complete month vs most recent complete month.",
+  "genuine_lead_definition": "PHONE_CALL_LEAD + SUBMIT_LEAD_FORM. Excludes GBP local actions (ENGAGEMENT, PAGE_VIEW, GET_DIRECTIONS, CONTACT).",
+  "monthly_genuine_leads": {"2026-06": 30, "2026-07": 38},
+  "monthly_cost_cad": {"2026-06": 1990.17, "2026-07": 1892.93},
+  "then_first_month_June_2026": {
+    "period": "2026-06",
+    "genuine_leads": 30,
+    "phone_leads": 24,
+    "form_leads": 6,
+    "cost_cad": 1990.17,
+    "cost_per_lead": 66.34,
+    "conv_rate_pct": 15.0,
+    "arithmetic_cpl": "1990.17 / 30",
+    "arithmetic_cvr": "30 / 200 clicks"
+  },
+  "now_latest_month_July_2026": {
+    "period": "2026-07",
+    "genuine_leads": 38,
+    "phone_leads": 24,
+    "form_leads": 14,
+    "cost_cad": 1892.93,
+    "cost_per_lead": 49.81,
+    "conv_rate_pct": 20.9,
+    "arithmetic_cpl": "1892.93 / 38",
+    "arithmetic_cvr": "38 / 182 clicks"
+  },
+  "changes": {
+    "genuine_leads_pct_inc": {"value": 26.7, "arithmetic": "(38 - 30) / 30 * 100"},
+    "cost_per_lead_pct_red": {"value": 24.9, "arithmetic": "(66.34 - 49.81) / 66.34 * 100", "dir": "down-good"},
+    "conv_rate": {"from": 15.0, "to": 20.9, "dir": "up"}
+  },
+  "headline_basis": "Latest full month (Jul 2026) = 38 genuine phone/form leads at ~$50 each; +27% vs first month (Jun 2026), with cost per lead down ~25%.",
+  "caveats": "Only two months of data; early launch snapshot. Re-pull after Q3 2026 for a quarterly view."
+}

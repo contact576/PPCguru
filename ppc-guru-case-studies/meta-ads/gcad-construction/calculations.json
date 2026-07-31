@@ -1,0 +1,29 @@
+{
+  "status": "Needs Review — single month of data (July 2026 launch). No baseline; a full before/after case study is not yet possible.",
+  "metric_definition": "Genuine first-month result = 'Messaging conversations started' (from the two Basement campaigns). The instant-form campaign produced 0 form leads in its first month.",
+  "period": {
+    "launch_month": "2026-07 (July 2026, first and only complete month)"
+  },
+  "first_month_july_2026": {
+    "messaging_conversations": 30,
+    "conversations_by_campaign": {"Basement_V": 23, "Basement_S": 7, "InstantForm": 0},
+    "amount_spent_total_cad": 2302.61,
+    "messaging_spend_cad": 2099.89,
+    "cost_per_conversation_cad": 70.00,
+    "arithmetic_cpc": "2099.89 / 30 = 70.00",
+    "account_metrics": {
+      "impressions": 105635,
+      "reach": 30553,
+      "clicks": 1071,
+      "ctr_pct": 1.01,
+      "avg_cpc_cad": 2.15,
+      "frequency": 3.46
+    }
+  },
+  "no_comparison": "No 'then vs now' calculation is possible: the account has one complete month and no prior baseline. Additional months are required before growth percentages can be computed honestly.",
+  "missing_for_full_study": [
+    "At least 2-3 more complete months to establish a trend and a stable cost per conversation.",
+    "Time for the instant-form (IF) campaign to generate form leads.",
+    "A defined baseline period to measure improvement against."
+  ]
+}

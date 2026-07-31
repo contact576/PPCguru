@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Physiotherapy & Rehabilitation Clinics",
+    "slug": "/case-studies/physiotherapy-clinics-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Physiotherapy & Rehabilitation",
+    "market": "Canada",
+    "seo_title": "Physiotherapy Clinics Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru grows a portfolio of physiotherapy and rehabilitation clinics with Google Ads — around 105 booked-lead enquiries a month across six clinics.",
+    "primary_keyword": "physiotherapy Google Ads",
+    "secondary_keywords": ["physiotherapy lead generation", "rehabilitation clinic marketing", "Google Ads for clinics", "healthcare Google Ads", "Google Ads agency in Toronto"],
+    "pdf_filename": "physiotherapy-clinics-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "2022 – Jul 2026",
+    "comparison_period": "Per clinic: baseline / launch vs Q2 2026",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How PPC Guru Grows Physiotherapy Clinics with Google Ads",
+  "kpis": [
+    {"value": "6", "label": "Clinics managed", "note": "physiotherapy & rehab"},
+    {"value": "~105", "label": "Combined leads / month", "note": "Q2 2026"},
+    {"value": "~$55", "label": "Avg. cost per lead", "note": "across clinics"}
+  ],
+  "summary_line": "PPC Guru manages Google Ads for a portfolio of physiotherapy and rehabilitation clinics across Canada. Using one repeatable playbook — genuine call and booking tracking, high-intent search targeting, and disciplined optimization — the clinics together generate roughly 105 tracked patient enquiries a month in the most recent quarter (Apr–Jun 2026), at an average of about $55 per lead.",
+  "client_context": "This case study covers a group of physiotherapy, rehabilitation and sports-injury clinics that PPC Guru manages on Google Ads. They range from long-established practices to clinics launched in 2026, and most schedule patients through booking systems such as JaneApp. For every one of them, growth depends on a steady flow of new-patient enquiries — mainly phone calls and online bookings from people searching for treatment nearby — which makes reliable measurement of calls and bookings the foundation of the account.",
+  "background": "The clinics came to PPC Guru in two situations. Some were new to Google Ads or had recently launched and needed a lead-generation account built from scratch. Others had an existing presence — steady traffic, but conversion tracking that captured page views and map actions rather than genuine phone-and-booking enquiries. In both cases the opportunity was the same: build a clean, measurable Search account focused on patients ready to book.",
+  "analysis": "PPC Guru applies the same audit to each clinic: confirm what is actually being tracked, map the high-intent treatment searches, and identify where budget is going to informational or low-value clicks. The shared plan is measurement first, then concentrate spend on the searches that produce booked appointments, then scale only where the booking data proves it.",
+  "analysis_points": [
+    "Rebuild conversion tracking to capture phone calls, form submissions and completed bookings — importing bookings as offline conversions where the clinic's system supports it.",
+    "Separate treatment-intent searches from informational queries and general wellness terms.",
+    "Consolidate into focused Search campaigns so budget and conversion data are concentrated.",
+    "Scale budget per clinic only once genuine lead volume and cost per lead are proven."
+  ],
+  "changes": [
+    {"change": "Genuine-lead tracking", "why": "Call tracking plus booking imports so each clinic optimizes toward real patients, not clicks or map views."},
+    {"change": "High-intent Search structure", "why": "Focused campaigns on physiotherapy and injury-treatment queries in each clinic's service area."},
+    {"change": "Maximize Conversions bidding", "why": "Automated bidding toward booked appointments once the conversion signals were trustworthy."},
+    {"change": "Per-clinic budget scaling", "why": "Budget increased only where booking data confirmed the channel was working."},
+    {"change": "Ongoing search-term hygiene", "why": "Continuous negative-keyword and search-term work to keep traffic relevant per clinic."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Google Ads (Search)"},
+    {"label": "Bidding", "value": "Maximize Conversions"},
+    {"label": "Lead signals", "value": "Calls · Forms · Bookings"},
+    {"label": "Booking systems", "value": "JaneApp & similar (offline import)"},
+    {"label": "Measurement", "value": "Closed-loop: click → lead → booking"},
+    {"label": "Clinics in portfolio", "value": "6 (this study)"}
+  ],
+  "comparison": {
+    "col_before": "Before / at launch",
+    "col_after": "Now (Q2 2026, leads/mo)",
+    "rows": [
+      {"metric": "True Life Wellness Physio", "before": "≈ 3", "after": "≈ 39", "change": "Strong growth", "dir": "up"},
+      {"metric": "Rehab Clinic", "before": "Not measured*", "after": "≈ 22", "change": "Now measured", "dir": "up"},
+      {"metric": "Blockline Physiotherapy", "before": "12", "after": "≈ 14", "change": "New account, growing", "dir": "up"},
+      {"metric": "NorthYork Healthcare", "before": "2", "after": "≈ 12", "change": "Strong growth", "dir": "up"},
+      {"metric": "Palmdale Health Center", "before": "1", "after": "≈ 9", "change": "Strong growth", "dir": "up"},
+      {"metric": "Rehab2Go (mobile physio)", "before": "7", "after": "≈ 9", "change": "Early growth", "dir": "up"}
+    ]
+  },
+  "benchmark": "* Rehab Clinic's earlier account tracked map and page actions rather than genuine leads, so its pre-rebuild lead count isn't directly comparable. The portfolio mixes long-managed clinics (True Life since 2023, Rehab Clinic since late 2022) with accounts launched in 2026, which are still ramping.",
+  "early_stage": {
+    "title": "Cost & Efficiency by Clinic (Q2 2026)",
+    "intro": "Each clinic runs on the same playbook but at its own budget and maturity. Cost per lead reflects local competition and how long the account has been optimized.",
+    "headers": ["Clinic", "Cost per lead", "Conversion rate", "Managed since"],
+    "rows": [
+      ["True Life Wellness Physio", "≈ $36", "≈ 7%", "Apr 2023"],
+      ["Rehab Clinic", "≈ $63", "≈ 4.3%", "Late 2022"],
+      ["NorthYork Healthcare", "≈ $35", "≈ 14%", "Feb 2026"],
+      ["Palmdale Health Center", "≈ $59", "≈ 9%", "Feb 2026"],
+      ["Blockline Physiotherapy", "≈ $56", "≈ 13%", "May 2026"],
+      ["Rehab2Go (mobile physio)", "≈ $84", "—", "Mar 2026"]
+    ]
+  },
+  "spotlight": {
+    "title": "Why Booking-System Tracking Matters for Clinics",
+    "body": "Several of these clinics schedule patients through JaneApp or similar systems. Where the system supports it, PPC Guru imports completed bookings back into Google Ads as offline conversions, so automated bidding optimizes toward patients who actually book — not toward whoever clicks a 'Book' button or a Google Business Profile map pin. That closed loop is the single biggest reason the clinics generate genuine enquiries efficiently instead of paying for low-value actions."
+  },
+  "lessons_title": "Lessons for Physiotherapy Clinic Owners",
+  "lessons": [
+    "Track phone calls and completed appointments — not button clicks, map views or page visits.",
+    "Separate treatment-intent searches from informational and general-wellness queries.",
+    "Let a new account gather enough conversions before trusting automated bidding.",
+    "Scale budget only after genuine lead volume and cost per lead are proven.",
+    "Review the actual search terms continuously and keep the negative-keyword list current."
+  ],
+  "why_it_worked": [
+    "One repeatable, measurement-first playbook applied to every clinic.",
+    "Genuine call-and-booking tracking so budget chases real patients.",
+    "High-intent local targeting matched to each clinic's services and area.",
+    "Per-clinic budget decisions grounded in booking data, not guesswork."
+  ],
+  "outcome_title": "The Portfolio Today",
+  "outcome": "Across six physiotherapy and rehabilitation clinics, PPC Guru now delivers roughly 105 genuine patient enquiries a month at an average of about $55 per lead in the most recent quarter — with the longest-managed clinics running most efficiently and the 2026 launches still ramping. PPC Guru also runs Meta lead-generation for physiotherapy (for example, True Life Wellness Physio's Meta account grew from 32 to 50 lead-form enquiries a month), giving clinics an omnichannel option. The common thread is measurement: because every clinic tracks leads through to a booking, each one can scale with confidence.",
+  "cta": "Run a physiotherapy or rehabilitation clinic? PPC Guru builds conversion-focused Google Ads for clinics across Canada, with genuine call-and-booking tracking and transparent reporting.",
+  "methodology": "Figures are pulled directly from each clinic's Google Ads account and shown as genuine leads (phone calls, form submissions and completed bookings) — Google Business Profile local actions and booking-page clicks are excluded. 'Now' is the most recent complete quarter (Apr–Jun 2026). Clinics launched in 2026 are shown at their current early-stage figures.",
+  "teaser": "📈 Physiotherapy Google Ads: PPC Guru manages 6 physio & rehab clinics generating ~105 genuine patient enquiries a month (Q2 2026) at ~$55/lead — one measurement-first playbook, clinic by clinic.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Monthly Leads by Clinic (Q2 2026)",
+      "period": "Genuine leads (calls, forms & bookings) · Google Ads · CAD",
+      "labels": ["True Life", "Rehab Clinic", "Blockline", "NorthYork", "Palmdale", "Rehab2Go"],
+      "values": [39, 22, 14, 12, 9, 9],
+      "colors": ["green", "blue", "blue", "blue", "blue", "blue"]
+    }
+  ]
+}

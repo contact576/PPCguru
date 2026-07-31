@@ -1,0 +1,61 @@
+{
+  "method": "Method B — launch story. PPC Guru launched/rebuilt Account A ~Feb 2026. Baseline = first month under management (Feb 2026). 'Now' = most recent complete quarter Q2 2026 (Apr-Jun).",
+  "genuine_lead_definition": "Genuine leads = PHONE_CALL_LEAD conversions (website call + calls from ads). Excludes OUTBOUND_CLICK (janeapp_click booking-button clicks) and all Google Business Profile local actions, which inflate raw metrics.conversions and all_conversions.",
+  "monthly_genuine_leads": {
+    "2026-02": 1,
+    "2026-03": 2,
+    "2026-04": 5,
+    "2026-05": 11,
+    "2026-06": 12,
+    "2026-07": 7
+  },
+  "monthly_cost_cad": {
+    "2026-02": 293.39,
+    "2026-03": 462.19,
+    "2026-04": 487.87,
+    "2026-05": 429.05,
+    "2026-06": 748.31,
+    "2026-07": 743.59
+  },
+  "monthly_clicks": {
+    "2026-02": 48, "2026-03": 74, "2026-04": 96, "2026-05": 86, "2026-06": 131, "2026-07": 127
+  },
+  "quarterly_genuine_leads": {
+    "Q1_2026_partial_FebMar": 3,
+    "Q2_2026_AprJun": 28,
+    "note": "Q1 2026 is a partial launch quarter (data begins Feb 2026)."
+  },
+  "then_baseline_feb_2026": {
+    "period": "2026-02 (first month under management)",
+    "genuine_leads": 1,
+    "cost_cad": 293.39,
+    "clicks": 48,
+    "cost_per_lead": 293.39,
+    "conversion_rate_pct": 2.08,
+    "arithmetic": "CPL = 293.39 / 1 = 293.39; CVR = 1 / 48 = 2.08%"
+  },
+  "now_q2_2026": {
+    "period": "2026-04 to 2026-06 (most recent complete quarter)",
+    "genuine_leads_total": 28,
+    "avg_leads_per_month": 9.33,
+    "cost_cad_total": 1665.23,
+    "avg_monthly_spend": 555.08,
+    "clicks_total": 313,
+    "cost_per_lead": 59.47,
+    "conversion_rate_pct": 8.95,
+    "arithmetic": "leads 5+11+12=28; avg 28/3=9.33; cost 487.87+429.05+748.31=1665.23; CPL 1665.23/28=59.47; CVR 28/313=8.95%; avg spend 1665.23/3=555.08"
+  },
+  "early_stage_first_90_days": [
+    {"period": "First 30 days (Feb 2026)", "spend_cad": 293.39, "genuine_leads": 1, "cost_per_lead": 293.39},
+    {"period": "Days 31-60 (Mar 2026)", "spend_cad": 462.19, "genuine_leads": 2, "cost_per_lead": 231.10},
+    {"period": "Days 61-90 (Apr 2026)", "spend_cad": 487.87, "genuine_leads": 5, "cost_per_lead": 97.57}
+  ],
+  "changes_summary": {
+    "leads_per_month": "1 (Feb) to ~9 (Q2 avg), peaking 12 in Jun",
+    "cost_per_lead": "$293 (Feb) to ~$59 (Q2)",
+    "conversion_rate": "2.1% (Feb) to ~9.0% (Q2)",
+    "monthly_spend": "$293 (Feb) to ~$555 (Q2 avg) — scaled with results"
+  },
+  "confidence": "Medium",
+  "presentation_note": "July 2026 genuine phone leads dipped to 7 (natural month-to-month variation) while raw conversions read 33 due to janeapp_click inflation. Headline uses Q2 2026 genuine phone leads only."
+}

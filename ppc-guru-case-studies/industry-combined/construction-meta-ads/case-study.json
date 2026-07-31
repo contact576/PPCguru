@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Construction & Renovation Companies",
+    "slug": "/case-studies/construction-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Construction & Renovation",
+    "market": "Canada",
+    "seo_title": "Construction Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru builds Meta Ads lead pipelines for construction and renovation companies — about 100 homeowner conversations a month across two firms.",
+    "primary_keyword": "construction Meta Ads",
+    "secondary_keywords": ["construction lead generation", "renovation Facebook Ads", "home services Meta Ads", "Messenger lead generation", "Facebook advertising agency"],
+    "pdf_filename": "construction-companies-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "2026",
+    "comparison_period": "Per firm: first full month vs latest quarter",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How PPC Guru Builds Meta Ads Lead Pipelines for Construction Companies",
+  "kpis": [
+    {"value": "2", "label": "Companies managed", "note": "construction & renovation"},
+    {"value": "~100", "label": "Conversations / month", "note": "combined, latest"},
+    {"value": "~$20", "label": "Cost per conversation", "note": "lead firm"}
+  ],
+  "summary_line": "PPC Guru runs Meta (Facebook & Instagram) lead campaigns for construction and renovation companies, turning local homeowner interest into direct conversations. Across two firms, the accounts generate roughly 100 messaging conversations a month in the latest period, at a cost per conversation around $20 for the mature account.",
+  "client_context": "This study covers construction and home-renovation companies that PPC Guru manages on Meta. Their customers are local homeowners planning basements, additions and renovations — people who respond well to visual proof of work and an easy way to start a conversation. Meta's reach and Messenger flow make it a strong fit for turning that interest into direct enquiries.",
+  "background": "Both companies came to PPC Guru to build a predictable local lead pipeline on Meta. One (Projects Pioneer) launched with PPC Guru in early 2026 and now has a full quarter of optimized delivery; the other (GCAD Construction) launched in mid-2026 and is in its first month. Both run a messaging objective so homeowners can start a conversation directly from the ad.",
+  "analysis": "PPC Guru's approach for each company is to lead with real project imagery, target local homeowners in the service area, and optimize toward started conversations rather than cheap clicks — then refine audiences and creative as conversation data comes in.",
+  "analysis_points": [
+    "Run a messaging objective so homeowners can enquire directly from the ad.",
+    "Target local homeowners in each company's service radius.",
+    "Lead with genuine project photos and clear service offers.",
+    "Optimize toward started conversations and refine audiences/creative continuously."
+  ],
+  "changes": [
+    {"change": "Messaging objective", "why": "Lets homeowners start a conversation instantly — the natural first step for a renovation enquiry."},
+    {"change": "Local homeowner targeting", "why": "Focused each company's budget on its real service area."},
+    {"change": "Real project creative", "why": "Photos of actual work build trust faster than stock imagery."},
+    {"change": "Conversation-based optimization", "why": "Bidding toward started conversations, not just cheap reach or clicks."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objective", "value": "Messaging / Engagement"},
+    {"label": "Primary result", "value": "Started conversations"},
+    {"label": "Targeting", "value": "Local homeowners"},
+    {"label": "Companies in portfolio", "value": "2 (this study)"}
+  ],
+  "comparison": {
+    "col_before": "First full month",
+    "col_after": "Latest (conversations/mo)",
+    "rows": [
+      {"metric": "Projects Pioneer", "before": "43", "after": "≈ 71", "change": "Strong growth", "dir": "up"},
+      {"metric": "GCAD Construction", "before": "Launch", "after": "≈ 30", "change": "New account", "dir": "up"}
+    ]
+  },
+  "benchmark": "Projects Pioneer has a full optimized quarter (Q2 2026) and is the mature example; GCAD Construction launched in July 2026 and is shown at its first-month figures while it gathers data.",
+  "early_stage": {
+    "title": "Snapshot by Company",
+    "intro": "Both companies run a messaging objective; figures reflect account maturity.",
+    "headers": ["Company", "Conversations / mo", "Cost per conversation", "Managed since"],
+    "rows": [
+      ["Projects Pioneer", "≈ 71", "≈ $20", "Feb 2026"],
+      ["GCAD Construction", "≈ 30", "≈ $70", "Jul 2026"]
+    ]
+  },
+  "spotlight": {
+    "title": "Why Messaging Beats Forms for Renovation Leads",
+    "body": "Homeowners planning a renovation want a conversation, not a form. A messaging objective lets them ask a question straight from the ad, which lowers the barrier to enquire and gives the company a warm thread to follow up on. For local trades, that direct conversation is usually a higher-quality first touch than a cold form fill — which is why both companies optimize toward started conversations."
+  },
+  "lessons_title": "Lessons for Construction & Renovation Owners",
+  "lessons": [
+    "Make it easy to start a conversation — messaging lowers the barrier for renovation enquiries.",
+    "Lead with real photos of your work; homeowners buy trust before they buy a build.",
+    "Target your true service radius so budget isn't wasted on out-of-area reach.",
+    "Give a new account a few weeks of data before judging cost per conversation.",
+    "Follow up on conversations fast — speed to reply drives booked site visits."
+  ],
+  "why_it_worked": [
+    "Messaging objective that matches how homeowners actually enquire.",
+    "Local targeting focused on each company's service area.",
+    "Real project creative that builds trust quickly.",
+    "Optimization toward started conversations, not vanity reach."
+  ],
+  "outcome_title": "The Portfolio Today",
+  "outcome": "Across two construction and renovation companies, PPC Guru generates roughly 100 homeowner conversations a month in the latest period. Projects Pioneer, with a full optimized quarter, runs at about 71 conversations a month near $20 each; GCAD Construction is a newer launch still gathering data. Both give the companies a direct, local lead pipeline they can scale as the conversation data matures.",
+  "cta": "Run a construction or renovation company? PPC Guru builds Meta Ads lead pipelines for local trades across Canada, optimized for real homeowner conversations.",
+  "methodology": "Figures are pulled directly from each account via the Meta Ads MCP and shown at the campaign level (account-level results were unavailable due to mixed attribution). Projects Pioneer 'latest' is Q2 2026 (avg/mo); GCAD is shown at its first complete month (July 2026) and is flagged as early-stage.",
+  "teaser": "📈 Construction Meta Ads: PPC Guru runs 2 construction/renovation companies generating ~100 homeowner conversations a month — messaging-first, local, real project creative.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Monthly Conversations by Company (Latest)",
+      "period": "Started conversations · Meta Ads · CAD",
+      "labels": ["Projects Pioneer", "GCAD Construction"],
+      "values": [71, 30],
+      "colors": ["green", "blue"]
+    }
+  ]
+}

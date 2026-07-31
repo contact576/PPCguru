@@ -1,0 +1,459 @@
+{
+  "account": {
+    "name": "True Life Wellness Physio",
+    "customer_id": "1270388392",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "timezone": "America/Toronto",
+    "platform": "Google Ads"
+  },
+  "match_confirmation": {
+    "by_name": "True Life Wellness Physio",
+    "by_currency": "CAD",
+    "by_history": "5+ years of Search data"
+  },
+  "notes": "metrics.conversions used as primary lead metric. allConversions inflated from ~2026-04 due to additional conversion actions being tracked (tracking change) \u2014 excluded from primary comparison. Data gap May 2022\u2013Mar 2023 (legacy account paused) indicates account rebuild/transition ~Apr 2023.",
+  "query": "SELECT segments.year,segments.month,metrics.cost_micros,metrics.impressions,metrics.clicks,metrics.conversions,metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2021-01-01' AND '2026-07-31'",
+  "monthly": [
+    {
+      "month": "2021-01",
+      "clicks": 137,
+      "conversions": 3,
+      "cost_micros": 320180000,
+      "cost_cad": 320.18,
+      "impressions": 3061
+    },
+    {
+      "month": "2021-02",
+      "clicks": 174,
+      "conversions": 3,
+      "cost_micros": 584744900,
+      "cost_cad": 584.74,
+      "impressions": 3514
+    },
+    {
+      "month": "2021-03",
+      "clicks": 161,
+      "conversions": 10,
+      "cost_micros": 607700000,
+      "cost_cad": 607.7,
+      "impressions": 2966
+    },
+    {
+      "month": "2021-04",
+      "clicks": 119,
+      "conversions": 2,
+      "cost_micros": 611760000,
+      "cost_cad": 611.76,
+      "impressions": 2852
+    },
+    {
+      "month": "2021-05",
+      "clicks": 114,
+      "conversions": 2,
+      "cost_micros": 588960000,
+      "cost_cad": 588.96,
+      "impressions": 3041
+    },
+    {
+      "month": "2021-06",
+      "clicks": 137,
+      "conversions": 0,
+      "cost_micros": 617390000,
+      "cost_cad": 617.39,
+      "impressions": 3434
+    },
+    {
+      "month": "2021-07",
+      "clicks": 128,
+      "conversions": 2,
+      "cost_micros": 584310000,
+      "cost_cad": 584.31,
+      "impressions": 3829
+    },
+    {
+      "month": "2021-08",
+      "clicks": 168,
+      "conversions": 3,
+      "cost_micros": 596410000,
+      "cost_cad": 596.41,
+      "impressions": 5444
+    },
+    {
+      "month": "2021-09",
+      "clicks": 117,
+      "conversions": 1,
+      "cost_micros": 472870000,
+      "cost_cad": 472.87,
+      "impressions": 4730
+    },
+    {
+      "month": "2021-10",
+      "clicks": 425,
+      "conversions": 7,
+      "cost_micros": 1349870000,
+      "cost_cad": 1349.87,
+      "impressions": 17280
+    },
+    {
+      "month": "2021-11",
+      "clicks": 148,
+      "conversions": 0,
+      "cost_micros": 549360000,
+      "cost_cad": 549.36,
+      "impressions": 8446
+    },
+    {
+      "month": "2021-12",
+      "clicks": 247,
+      "conversions": 0,
+      "cost_micros": 633590000,
+      "cost_cad": 633.59,
+      "impressions": 7469
+    },
+    {
+      "month": "2022-01",
+      "clicks": 280,
+      "conversions": 2,
+      "cost_micros": 607320000,
+      "cost_cad": 607.32,
+      "impressions": 7930
+    },
+    {
+      "month": "2022-02",
+      "clicks": 286,
+      "conversions": 1,
+      "cost_micros": 607460000,
+      "cost_cad": 607.46,
+      "impressions": 6662
+    },
+    {
+      "month": "2022-03",
+      "clicks": 337,
+      "conversions": 1,
+      "cost_micros": 605686000,
+      "cost_cad": 605.69,
+      "impressions": 7943
+    },
+    {
+      "month": "2022-04",
+      "clicks": 62,
+      "conversions": 0,
+      "cost_micros": 106300000,
+      "cost_cad": 106.3,
+      "impressions": 1326
+    },
+    {
+      "month": "2023-04",
+      "clicks": 63,
+      "conversions": 8,
+      "cost_micros": 153887853,
+      "cost_cad": 153.89,
+      "impressions": 1893
+    },
+    {
+      "month": "2023-05",
+      "clicks": 218,
+      "conversions": 4,
+      "cost_micros": 439050486,
+      "cost_cad": 439.05,
+      "impressions": 21328
+    },
+    {
+      "month": "2023-06",
+      "clicks": 150,
+      "conversions": 25,
+      "cost_micros": 605810105,
+      "cost_cad": 605.81,
+      "impressions": 58149
+    },
+    {
+      "month": "2023-07",
+      "clicks": 201,
+      "conversions": 26,
+      "cost_micros": 582673798,
+      "cost_cad": 582.67,
+      "impressions": 67513
+    },
+    {
+      "month": "2023-08",
+      "clicks": 212,
+      "conversions": 30,
+      "cost_micros": 607489600,
+      "cost_cad": 607.49,
+      "impressions": 90573
+    },
+    {
+      "month": "2023-09",
+      "clicks": 228,
+      "conversions": 15,
+      "cost_micros": 577984449,
+      "cost_cad": 577.98,
+      "impressions": 62642
+    },
+    {
+      "month": "2023-10",
+      "clicks": 147,
+      "conversions": 8,
+      "cost_micros": 669309993,
+      "cost_cad": 669.31,
+      "impressions": 9912
+    },
+    {
+      "month": "2023-11",
+      "clicks": 174,
+      "conversions": 17,
+      "cost_micros": 745355192,
+      "cost_cad": 745.36,
+      "impressions": 9193
+    },
+    {
+      "month": "2023-12",
+      "clicks": 184,
+      "conversions": 31,
+      "cost_micros": 584208995,
+      "cost_cad": 584.21,
+      "impressions": 13352
+    },
+    {
+      "month": "2024-01",
+      "clicks": 170,
+      "conversions": 12,
+      "cost_micros": 677160046,
+      "cost_cad": 677.16,
+      "impressions": 3194
+    },
+    {
+      "month": "2024-02",
+      "clicks": 207,
+      "conversions": 11,
+      "cost_micros": 746924696,
+      "cost_cad": 746.92,
+      "impressions": 2951
+    },
+    {
+      "month": "2024-03",
+      "clicks": 49,
+      "conversions": 4,
+      "cost_micros": 157646426,
+      "cost_cad": 157.65,
+      "impressions": 889
+    },
+    {
+      "month": "2024-05",
+      "clicks": 121,
+      "conversions": 4,
+      "cost_micros": 383149973,
+      "cost_cad": 383.15,
+      "impressions": 2321
+    },
+    {
+      "month": "2024-06",
+      "clicks": 166,
+      "conversions": 24,
+      "cost_micros": 616958189,
+      "cost_cad": 616.96,
+      "impressions": 5111
+    },
+    {
+      "month": "2024-07",
+      "clicks": 116,
+      "conversions": 15,
+      "cost_micros": 681928200,
+      "cost_cad": 681.93,
+      "impressions": 3555
+    },
+    {
+      "month": "2024-08",
+      "clicks": 134,
+      "conversions": 8,
+      "cost_micros": 650328586,
+      "cost_cad": 650.33,
+      "impressions": 4195
+    },
+    {
+      "month": "2024-09",
+      "clicks": 129,
+      "conversions": 13,
+      "cost_micros": 627787421,
+      "cost_cad": 627.79,
+      "impressions": 7521
+    },
+    {
+      "month": "2024-10",
+      "clicks": 118,
+      "conversions": 17,
+      "cost_micros": 673912678,
+      "cost_cad": 673.91,
+      "impressions": 4041
+    },
+    {
+      "month": "2024-11",
+      "clicks": 114,
+      "conversions": 15,
+      "cost_micros": 833206508,
+      "cost_cad": 833.21,
+      "impressions": 3347
+    },
+    {
+      "month": "2024-12",
+      "clicks": 116,
+      "conversions": 14,
+      "cost_micros": 765427672,
+      "cost_cad": 765.43,
+      "impressions": 2746
+    },
+    {
+      "month": "2025-01",
+      "clicks": 119,
+      "conversions": 15,
+      "cost_micros": 878202641,
+      "cost_cad": 878.2,
+      "impressions": 2826
+    },
+    {
+      "month": "2025-02",
+      "clicks": 58,
+      "conversions": 6,
+      "cost_micros": 353259363,
+      "cost_cad": 353.26,
+      "impressions": 1470
+    },
+    {
+      "month": "2025-03",
+      "clicks": 418,
+      "conversions": 30,
+      "cost_micros": 1209344581,
+      "cost_cad": 1209.34,
+      "impressions": 18268
+    },
+    {
+      "month": "2025-04",
+      "clicks": 406,
+      "conversions": 20,
+      "cost_micros": 1295827359,
+      "cost_cad": 1295.83,
+      "impressions": 11579
+    },
+    {
+      "month": "2025-05",
+      "clicks": 1783,
+      "conversions": 26,
+      "cost_micros": 1897035903,
+      "cost_cad": 1897.04,
+      "impressions": 138787
+    },
+    {
+      "month": "2025-06",
+      "clicks": 785,
+      "conversions": 23,
+      "cost_micros": 1627617447,
+      "cost_cad": 1627.62,
+      "impressions": 47337
+    },
+    {
+      "month": "2025-07",
+      "clicks": 449,
+      "conversions": 16,
+      "cost_micros": 1799821394,
+      "cost_cad": 1799.82,
+      "impressions": 9165
+    },
+    {
+      "month": "2025-08",
+      "clicks": 717,
+      "conversions": 26,
+      "cost_micros": 2843910152,
+      "cost_cad": 2843.91,
+      "impressions": 23090
+    },
+    {
+      "month": "2025-09",
+      "clicks": 888,
+      "conversions": 37,
+      "cost_micros": 3004669406,
+      "cost_cad": 3004.67,
+      "impressions": 30788
+    },
+    {
+      "month": "2025-10",
+      "clicks": 740,
+      "conversions": 15,
+      "cost_micros": 2668104875,
+      "cost_cad": 2668.1,
+      "impressions": 33063
+    },
+    {
+      "month": "2025-11",
+      "clicks": 547,
+      "conversions": 4,
+      "cost_micros": 1763206631,
+      "cost_cad": 1763.21,
+      "impressions": 26365
+    },
+    {
+      "month": "2025-12",
+      "clicks": 547,
+      "conversions": 11,
+      "cost_micros": 1599467487,
+      "cost_cad": 1599.47,
+      "impressions": 10630
+    },
+    {
+      "month": "2026-01",
+      "clicks": 471,
+      "conversions": 6,
+      "cost_micros": 1450201938,
+      "cost_cad": 1450.2,
+      "impressions": 8766
+    },
+    {
+      "month": "2026-02",
+      "clicks": 116,
+      "conversions": 3,
+      "cost_micros": 926810771,
+      "cost_cad": 926.81,
+      "impressions": 1512
+    },
+    {
+      "month": "2026-03",
+      "clicks": 566,
+      "conversions": 35,
+      "cost_micros": 1865951783,
+      "cost_cad": 1865.95,
+      "impressions": 15523
+    },
+    {
+      "month": "2026-04",
+      "clicks": 515,
+      "conversions": 49,
+      "cost_micros": 1493439843,
+      "cost_cad": 1493.44,
+      "impressions": 10064
+    },
+    {
+      "month": "2026-05",
+      "clicks": 547,
+      "conversions": 41,
+      "cost_micros": 1453897259,
+      "cost_cad": 1453.9,
+      "impressions": 12304
+    },
+    {
+      "month": "2026-06",
+      "clicks": 624,
+      "conversions": 117,
+      "cost_micros": 1339500989,
+      "cost_cad": 1339.5,
+      "impressions": 12616
+    },
+    {
+      "month": "2026-07",
+      "clicks": 796,
+      "conversions": 208,
+      "cost_micros": 1463415321,
+      "cost_cad": 1463.42,
+      "impressions": 13221
+    }
+  ]
+}

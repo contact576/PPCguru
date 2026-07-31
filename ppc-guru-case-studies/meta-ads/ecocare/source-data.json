@@ -1,0 +1,43 @@
+{
+  "account": {
+    "name": "ecocare",
+    "ad_account_id": "1806978566910515",
+    "platform": "Meta Ads",
+    "currency": "CAD",
+    "objective_detected": "OUTCOME_LEADS (Leads — Instant Forms + website leads)"
+  },
+  "match_confirmation": {
+    "by_account_id": "1806978566910515",
+    "by_account_name": "ecocare",
+    "by_campaign_names": "EC | HVAC + Water Heater | CBO | PPC Guru; EcoCare_WaterHeater | Leads | JET; EcoCare_Furnace/HeatPump | Leads | JET; EC | EV Charger | PPC Guru; EC | Water Treatment | PPC Guru",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Campaign names reference furnaces, heat pumps, water heaters, water treatment/softeners, air conditioners, tankless and EV chargers across the GTA and Ottawa — confirms HVAC / home-comfort services in Ontario, Canada.",
+  "notes": "Meta Ads LAUNCH story. Account-level monthly data returns only months with delivery: first month with spend is Aug 2025, so PPC Guru launched the Meta account ~Aug 2025 (managed_since Aug 2025). Twelve consecutive complete months Aug 2025 through Jul 2026. Objective is OUTCOME_LEADS; the account-level 'lead' metric counts genuine form-lead submissions (Instant Forms + website pixel leads). A handful of small early campaigns used OUTCOME_ENGAGEMENT (messaging) or OUTCOME_AWARENESS objectives — those do not contribute to the 'lead' count, so no vanity-action inflation is present in the lead series. Genuine leads = account 'lead' metric per month. 'Now' = most recent COMPLETE quarter Q2 2026 (Apr-Jun). July 2026 is a complete month but a partial quarter, reported in the trend but not used as the headline quarter. Values from Meta are formatted strings and were parsed (amount_spent 'CA$593.20 CAD' -> 593.20; impressions '18,379' -> 18379; ctr '1.63%' -> 1.63).",
+  "queries": {
+    "monthly_account_trend": "ads_get_ad_entities(ad_account_id=1806978566910515, level=ad_account, fields=[amount_spent,impressions,reach,clicks,ctr,cpc,frequency,actions:link_click,lead,results,landing_page_view,cost_per_lead], time_range={since:2022-01-01,until:2026-07-31}, time_increment=monthly)",
+    "campaigns": "ads_get_ad_entities(ad_account_id=1806978566910515, level=campaign, fields=[name,objective,amount_spent,impressions,reach,lead,results,cpc,ctr,actions:link_click], time_range={since:2022-01-01,until:2026-07-31}, limit=100)"
+  },
+  "monthly": [
+    {"month": "2025-08", "spend_cad": 593.20, "impressions": 18379, "reach": 11637, "clicks": 300, "ctr_pct": 1.63, "cpc_cad": 1.98, "frequency": 1.58, "link_clicks": 138, "landing_page_views": 2, "leads": 32, "cost_per_lead_cad": 18.54},
+    {"month": "2025-09", "spend_cad": 547.36, "impressions": 22992, "reach": 14219, "clicks": 245, "ctr_pct": 1.07, "cpc_cad": 2.23, "frequency": 1.62, "link_clicks": 126, "landing_page_views": 11, "leads": 26, "cost_per_lead_cad": 21.05},
+    {"month": "2025-10", "spend_cad": 2944.03, "impressions": 218534, "reach": 83671, "clicks": 2105, "ctr_pct": 0.96, "cpc_cad": 1.40, "frequency": 2.61, "link_clicks": 1519, "landing_page_views": 411, "leads": 107, "cost_per_lead_cad": 27.51},
+    {"month": "2025-11", "spend_cad": 3484.71, "impressions": 186821, "reach": 114778, "clicks": 1299, "ctr_pct": 0.70, "cpc_cad": 2.68, "frequency": 1.63, "link_clicks": 751, "landing_page_views": 19, "leads": 101, "cost_per_lead_cad": 34.50},
+    {"month": "2025-12", "spend_cad": 2842.56, "impressions": 72473, "reach": 33597, "clicks": 1146, "ctr_pct": 1.58, "cpc_cad": 2.48, "frequency": 2.16, "link_clicks": 530, "landing_page_views": 1, "leads": 44, "cost_per_lead_cad": 64.60},
+    {"month": "2026-01", "spend_cad": 4329.26, "impressions": 158472, "reach": 60013, "clicks": 2366, "ctr_pct": 1.49, "cpc_cad": 1.83, "frequency": 2.64, "link_clicks": 1418, "landing_page_views": 3, "leads": 215, "cost_per_lead_cad": 20.14},
+    {"month": "2026-02", "spend_cad": 6684.86, "impressions": 191629, "reach": 71076, "clicks": 2498, "ctr_pct": 1.30, "cpc_cad": 2.68, "frequency": 2.70, "link_clicks": 1519, "landing_page_views": 6, "leads": 205, "cost_per_lead_cad": 32.61},
+    {"month": "2026-03", "spend_cad": 4581.04, "impressions": 98846, "reach": 42278, "clicks": 1678, "ctr_pct": 1.70, "cpc_cad": 2.73, "frequency": 2.34, "link_clicks": 1069, "landing_page_views": 127, "leads": 154, "cost_per_lead_cad": 29.75},
+    {"month": "2026-04", "spend_cad": 3985.46, "impressions": 88795, "reach": 36575, "clicks": 1453, "ctr_pct": 1.64, "cpc_cad": 2.74, "frequency": 2.43, "link_clicks": 845, "landing_page_views": 6, "leads": 141, "cost_per_lead_cad": 28.27},
+    {"month": "2026-05", "spend_cad": 9027.02, "impressions": 438491, "reach": 196577, "clicks": 5825, "ctr_pct": 1.33, "cpc_cad": 1.55, "frequency": 2.23, "link_clicks": 3531, "landing_page_views": 7, "leads": 493, "cost_per_lead_cad": 18.31},
+    {"month": "2026-06", "spend_cad": 17804.59, "impressions": 709295, "reach": 288301, "clicks": 8338, "ctr_pct": 1.18, "cpc_cad": 2.14, "frequency": 2.46, "link_clicks": 5235, "landing_page_views": 5, "leads": 553, "cost_per_lead_cad": 32.20},
+    {"month": "2026-07", "spend_cad": 16698.54, "impressions": 637707, "reach": 283736, "clicks": 7577, "ctr_pct": 1.19, "cpc_cad": 2.20, "frequency": 2.25, "link_clicks": 4604, "landing_page_views": 11, "leads": 577, "cost_per_lead_cad": 28.94}
+  ],
+  "campaigns_sample": [
+    {"name": "EcoCare_WaterHeater | Leads | JET", "objective": "OUTCOME_LEADS", "spend_cad": 12206.53, "leads": 513},
+    {"name": "EC | HVAC + Water Heater | CBO | PPC Guru - New", "objective": "OUTCOME_LEADS", "spend_cad": 11190.60, "leads": 300},
+    {"name": "EcoCare_Furnace/HeatPump | Leads | JET", "objective": "OUTCOME_LEADS", "spend_cad": 4959.07, "leads": 170},
+    {"name": "PPC Guru - Whatsapp", "objective": "OUTCOME_LEADS", "spend_cad": 3758.81, "leads": 21},
+    {"name": "EC | EV Charger | PPC Guru", "objective": "OUTCOME_LEADS", "spend_cad": 2628.03, "leads": 119},
+    {"name": "EcoCare | Water Heater & Purification | Instant Forms | Leads | JET", "objective": "OUTCOME_LEADS", "spend_cad": 1440.10, "leads": 53}
+  ]
+}

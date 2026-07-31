@@ -1,0 +1,60 @@
+{
+  "account": {
+    "name": "Blockline Physiotherapy & Wellness",
+    "customer_id": "1281665850",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "industry": "Physiotherapy & Wellness Clinic"
+  },
+  "match_confirmation": {
+    "by_conversion_action": "Submit lead form (blocklinephysio.com/) and GA4 'Blockline Physiotherapy & Wellness (web) book_appointment_click'",
+    "by_campaign_name": "Blockline Physio - Search - Leads - Kitchener",
+    "by_currency": "CAD",
+    "by_phone": "Calls From Websites - (+1 519-576-1777) — Kitchener-Waterloo (519) area code"
+  },
+  "queries": {
+    "monthly_trend": "SELECT segments.year, segments.month, metrics.cost_micros, metrics.impressions, metrics.clicks, metrics.conversions, metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year, segments.month",
+    "conversion_actions": "SELECT conversion_action.name, conversion_action.type, conversion_action.category, conversion_action.status FROM conversion_action WHERE conversion_action.status='ENABLED'",
+    "genuine_leads_by_category": "SELECT segments.month, segments.conversion_action_category, metrics.conversions FROM customer WHERE segments.date BETWEEN '2025-01-01' AND '2026-07-31' ORDER BY segments.month",
+    "campaigns": "SELECT campaign.name, campaign.advertising_channel_type, campaign.bidding_strategy_type, campaign.status FROM campaign WHERE campaign.status='ENABLED'"
+  },
+  "conversion_actions": [
+    {"name": "Lead form - Submit", "type": "LEAD_FORM_SUBMIT", "category": "SUBMIT_LEAD_FORM", "counted": true},
+    {"name": "Contact Us Form", "type": "WEBPAGE", "category": "SUBMIT_LEAD_FORM", "counted": true},
+    {"name": "Submit lead form (blocklinephysio.com/)", "type": "WEBPAGE_CODELESS", "category": "SUBMIT_LEAD_FORM", "counted": true},
+    {"name": "Calls From Websites - (+1 519-576-1777)", "type": "WEBSITE_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "Calls from Ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "Calls from ads", "type": "AD_CALL", "category": "PHONE_CALL_LEAD", "counted": true},
+    {"name": "book_appointment_click (GA4)", "type": "GOOGLE_ANALYTICS_4_CUSTOM", "category": "OUTBOUND_CLICK", "counted": false, "reason": "booking-button click, not a genuine lead"},
+    {"name": "Clicks to call", "type": "GOOGLE_HOSTED", "category": "CONTACT", "counted": false, "reason": "GBP local action"},
+    {"name": "Local actions - Directions", "type": "GOOGLE_HOSTED", "category": "GET_DIRECTIONS", "counted": false, "reason": "GBP local action"},
+    {"name": "Local actions - Other engagements", "type": "GOOGLE_HOSTED", "category": "ENGAGEMENT", "counted": false, "reason": "GBP local action"},
+    {"name": "Local actions - Website visits", "type": "GOOGLE_HOSTED", "category": "PAGE_VIEW", "counted": false, "reason": "GBP local action"},
+    {"name": "Local actions - Menu views", "type": "GOOGLE_HOSTED", "category": "PAGE_VIEW", "counted": false, "reason": "GBP local action"},
+    {"name": "YouTube channel subscriptions", "type": "UNKNOWN", "category": "ENGAGEMENT", "counted": false},
+    {"name": "YouTube follow-on views", "type": "UNKNOWN", "category": "YOUTUBE_FOLLOW_ON_VIEWS", "counted": false}
+  ],
+  "genuine_lead_categories_counted": ["PHONE_CALL_LEAD", "SUBMIT_LEAD_FORM"],
+  "campaigns": [
+    {"name": "Blockline Physio - Search - Leads - Kitchener", "channel": "SEARCH", "bidding": "MAXIMIZE_CONVERSIONS", "status": "ENABLED"}
+  ],
+  "monthly_raw": [
+    {"month": "2026-05", "clicks": 82, "conversions": 12, "all_conversions": 100, "cost_cad": 722.59, "impressions": 1063},
+    {"month": "2026-06", "clicks": 112, "conversions": 35, "all_conversions": 223, "cost_cad": 747.55, "impressions": 1807},
+    {"month": "2026-07", "clicks": 104, "conversions": 30, "all_conversions": 211, "cost_cad": 721.00, "impressions": 1607}
+  ],
+  "genuine_leads_by_month": {
+    "2026-05": {"PHONE_CALL_LEAD": 12, "SUBMIT_LEAD_FORM": 0, "genuine": 12, "excluded_outbound_click": 0},
+    "2026-06": {"PHONE_CALL_LEAD": 14, "SUBMIT_LEAD_FORM": 0, "genuine": 14, "excluded_outbound_click": 21},
+    "2026-07": {"PHONE_CALL_LEAD": 6, "SUBMIT_LEAD_FORM": 1, "genuine": 7, "excluded_outbound_click": 23}
+  },
+  "detected_launch": "PPC Guru Search launch ~May 2026 (first spend May 2026). Account has only three months of data (May-Jul 2026).",
+  "notes": [
+    "THIN DATA: only three months of history (May, Jun, Jul 2026). No complete pre-management or full-quarter baseline exists, so status is Needs Review and confidence is Low.",
+    "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM only. Raw metrics.conversions (12/35/30) and especially all_conversions (100/223/211) are heavily inflated by GBP local actions (directions, website visits, menu views, other engagements, clicks-to-call) and by a GA4 book_appointment_click OUTBOUND_CLICK category (21 in Jun, 23 in Jul). Those are all excluded.",
+    "Genuine monthly leads: May 12, Jun 14, Jul 7. Leads are almost entirely phone calls to the Kitchener 519 line.",
+    "July 2026 (7 genuine leads) is the current in-progress month at time of pull (2026-07-31); call/offline conversion imports commonly finalize a few days later, so July is treated as still settling and June is used as the latest fully settled month.",
+    "Baseline = first complete month (May 2026); comparison uses May vs June (first two settled months). Recommend re-pull once Q3 2026 completes for a fuller story."
+  ]
+}

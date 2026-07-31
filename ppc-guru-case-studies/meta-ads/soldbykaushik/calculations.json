@@ -1,0 +1,43 @@
+{
+  "story_type": "Launch snapshot (single month). PPC Guru began delivery in July 2026; only one month of data exists, so no before/after comparison is possible.",
+  "data_sufficiency": "THIN - one complete month (July 2026). Confidence Low, status Needs Review.",
+  "genuine_lead_definition": "Instant-Form leads ('Leads (form)') counted as leads. WhatsApp messaging conversations reported separately as conversations.",
+  "period_now": {
+    "label": "July 2026 (first month of delivery under PPC Guru)",
+    "months": ["2026-07"]
+  },
+  "july_2026": {
+    "account_spend_cad": 496.25,
+    "account_impressions": 17444,
+    "account_reach": 6374,
+    "account_clicks": 159,
+    "account_ctr_pct": 0.91,
+    "account_cpc_cad": 3.12,
+    "account_frequency": 2.74,
+    "account_link_clicks": 72,
+    "form_leads": 8,
+    "whatsapp_conversations": 8,
+    "total_enquiries": 16,
+    "form_campaign": {
+      "name": "PPC - Sold by kaushik - Instant Form",
+      "spend_cad": 154.65,
+      "leads": 8,
+      "cost_per_lead_cad": 19.33,
+      "cpl_arithmetic": "154.65 / 8 = 19.33"
+    },
+    "whatsapp_campaign": {
+      "name": "PPC - Sold by kaushik - Whatsapp",
+      "spend_cad": 341.60,
+      "conversations": 8,
+      "cost_per_conversation_cad": 42.70,
+      "cpc_conv_arithmetic": "341.60 / 8 = 42.70"
+    },
+    "blended_cost_per_enquiry_cad": 31.02,
+    "blended_arithmetic": "496.25 / 16 enquiries = 31.02",
+    "spend_check": "154.65 + 341.60 = 496.25 (matches account total)",
+    "lead_check": "8 form leads = account-level lead field"
+  },
+  "chart_series": {
+    "first_month_enquiries_by_type": {"labels": ["Instant-Form leads", "WhatsApp chats"], "values": [8, 8]}
+  }
+}

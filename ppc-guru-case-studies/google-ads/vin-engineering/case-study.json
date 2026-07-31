@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Vin Engineering INC",
+    "slug": "/case-studies/engineering-company-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Engineering Services",
+    "market": "Toronto, Ontario, Canada",
+    "managed_since": "Jun 2026",
+    "seo_title": "Engineering Company Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a Toronto engineering firm on Google Ads, delivering 12 genuine call and quote-request leads in its first full month with tracking built in from day one.",
+    "primary_keyword": "engineering company Google Ads",
+    "secondary_keywords": ["engineering lead generation", "permit drawings marketing", "Google Ads case study", "conversion tracking", "Google Ads agency in Toronto"],
+    "pdf_filename": "engineering-company-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jun 2026 – Jul 2026",
+    "comparison_period": "First full month (Jul 2026)",
+    "currency": "CAD",
+    "confidence": "Low",
+    "status": "Needs Review"
+  },
+  "headline": "Launching an Engineering Firm to 12 Google Ads Leads in Month One",
+  "kpis": [
+    {"value": "12", "label": "Genuine leads", "note": "First full month (Jul 2026)"},
+    {"value": "~$124", "label": "Cost per lead", "note": "Jul 2026"},
+    {"value": "8 + 4", "label": "Quote requests + calls", "note": "Jul 2026 lead mix"}
+  ],
+  "summary_line": "PPC Guru launched Vin Engineering on Google Ads with call and quote-form tracking in place, and the firm's first full month (July 2026) delivered 12 genuine leads — eight online quote requests and four phone calls — from a single focused permit-offer Search campaign.",
+  "client_context": "Vin Engineering INC is an engineering-services firm based in Toronto, Ontario, Canada, offering city-permit and engineering-drawing services to homeowners and contractors. Its enquiries are considered, higher-value requests — a call or a quote form from someone who needs stamped drawings or permit support for a project. Google Ads reaches those searchers at the point of need, so capturing each call and quote request accurately is central to the account from the very first month.",
+  "background": "Vin Engineering partnered with PPC Guru in mid-2026 to launch its Google Ads presence. As a fresh build, the plan was a single, tightly focused Search campaign around a clear city-permit offer, paired with call and lead-form tracking so every genuine enquiry could be measured from day one.",
+  "analysis": "PPC Guru built the account around one focused Search campaign tied to a specific permit offer, and set up conversion tracking first: website and ad call tracking, plus lead-form conversions for the site's main and pop-up quote forms. With a clear offer and clean tracking, early budget could be judged on genuine enquiries rather than clicks.",
+  "analysis_points": [
+    "Launch a single, focused Search campaign around a clear city-permit offer.",
+    "Set up call tracking for both website calls and ad calls to the Toronto line.",
+    "Add lead-form conversions for the main and pop-up quote forms.",
+    "Judge early spend on genuine calls and quote requests, not clicks."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Jun 2026", "what": "PPC Guru launch — permit-offer Search campaign live with call and form tracking; a short ramp month as the campaign entered learning."},
+    {"when": "Jul 2026", "what": "First full month delivered 12 genuine leads — eight online quote requests and four phone calls."}
+  ],
+  "challenge": "As a brand-new account with a specialized, higher-value service, Vin Engineering had to build genuine demand from a standing start, with no history for bidding to learn from and lower monthly enquiry volumes than a high-frequency consumer service. That makes clean tracking of every call and quote request essential, so early budget decisions rest on real enquiries rather than raw clicks.",
+  "changes": [
+    {"change": "Single focused Search campaign", "why": "Concentrated budget on a clear city-permit offer instead of spreading it thin."},
+    {"change": "Call tracking (website + ads)", "why": "Captured phone enquiries to the Toronto line as measurable conversions."},
+    {"change": "Quote-form conversions", "why": "Tracked both the main and pop-up lead forms so quote requests counted as leads."},
+    {"change": "Maximize Conversions bidding", "why": "Pointed bidding at genuine calls and quote requests as early data accumulated."}
+  ],
+  "technical": [
+    {"label": "Campaign type", "value": "Search"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Offer", "value": "City-permit / engineering-drawing offer"},
+    {"label": "Lead signals", "value": "Website calls · Ad calls · Quote forms"},
+    {"label": "Monthly budget (Jul 2026)", "value": "≈ $1,486 CAD"},
+    {"label": "Market", "value": "Toronto, Ontario"}
+  ],
+  "comparison": {
+    "col_before": "Launch ramp (Jun 2026)",
+    "col_after": "First full month (Jul 2026)",
+    "rows": [
+      {"metric": "Genuine leads (calls + quote forms)", "before": "2", "after": "12", "change": "Ramped up", "dir": "up"},
+      {"metric": "Quote-form requests", "before": "2", "after": "8", "change": "Growing", "dir": "up"},
+      {"metric": "Phone calls", "before": "0", "after": "4", "change": "Calls now landing", "dir": "up"}
+    ]
+  },
+  "benchmark": "June 2026 was a short launch-ramp month while the campaign entered learning, so it is shown for context, not as a like-for-like comparison. The headline is the first full month (July 2026): 12 genuine leads at about $124 each — reasonable for a specialized, higher-value engineering service. This is a very early snapshot on a young account.",
+  "gradual": "The account moved from a brief launch ramp in June 2026 — when the campaign was still entering Google's learning phase — to a first full month in July 2026 that produced 12 genuine leads, split between eight online quote requests and four phone calls. It is an encouraging opening month, but a single full month is not yet a trend; the picture should be re-confirmed once the account completes a full quarter.",
+  "lessons_title": "Lessons for Professional-Services Firms",
+  "lessons": [
+    "Track calls and quote requests from day one — for higher-value services, every enquiry counts.",
+    "Anchor a new campaign to one clear offer so budget and messaging stay focused.",
+    "Expect a short learning ramp before a new account's first full month of volume.",
+    "Judge early spend on genuine enquiries, not clicks.",
+    "Give a specialized, lower-volume account a full quarter before drawing conclusions."
+  ],
+  "why_it_worked": [
+    "Call and quote-form tracking was in place from the first day of spend.",
+    "A single focused Search campaign kept budget on a clear permit offer.",
+    "Both online quote requests and phone calls were captured as genuine leads.",
+    "The first full month produced measurable enquiries, not just clicks."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "Vin Engineering has an early but working Google Ads lead engine: after a short launch ramp in June 2026, its first full month (July 2026) delivered 12 genuine leads — eight online quote requests and four phone calls — at about $124 each from a single focused permit-offer campaign. This is a very early snapshot on a young account. PPC Guru's recommended next step is to let the account complete a full quarter and re-confirm the trend before scaling budget.",
+  "cta": "PPC Guru helps Canadian professional-services and engineering firms turn search demand into tracked calls and quote requests with focused Google Ads.",
+  "methodology": "All figures are pulled directly from the client's Google Ads account and shown on a monthly basis. 'Genuine leads' are phone calls and quote-form submissions only. The account has only two months of history (Jun–Jul 2026); June is a partial launch-ramp month, so July 2026 is treated as the first full month.",
+  "lead_quality": "Genuine leads are a mix of online quote requests and direct phone calls to the firm's Toronto line — considered, higher-value enquiries typical of engineering and permit services.",
+  "teaser": "📐 Engineering Google Ads launch: PPC Guru started Vin Engineering on a focused permit-offer campaign and delivered 12 genuine leads (8 quote requests + 4 calls) in its first full month (Jul 2026) — tracking built in from day one.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Genuine Leads",
+      "period": "Jun – Jul 2026 · calls & quote-form submissions (Jun = launch ramp)",
+      "x": ["Jun'26", "Jul'26"],
+      "series": [
+        {"name": "Genuine leads", "color": "green", "values": [2, 12]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Genuine Leads by Month Since PPC Guru Launch",
+      "period": "Genuine leads (calls + quote forms) per month · Google Ads · Jun = launch ramp",
+      "labels": ["Jun'26", "Jul'26"],
+      "values": [2, 12],
+      "colors": ["blue", "green"]
+    }
+  ]
+}

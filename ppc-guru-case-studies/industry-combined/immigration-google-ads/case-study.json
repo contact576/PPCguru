@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Immigration Consultancies",
+    "slug": "/case-studies/immigration-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Immigration Consultancy",
+    "market": "Canada",
+    "seo_title": "Immigration Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru grows immigration consultancies with Google Ads — about 150 genuine enquiries a month across two firms at a low cost per lead.",
+    "primary_keyword": "immigration consultant Google Ads",
+    "secondary_keywords": ["immigration lead generation", "immigration marketing", "Google Ads for consultants", "paid search campaign", "Google Ads agency in Canada"],
+    "pdf_filename": "immigration-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "2025 – Jul 2026",
+    "comparison_period": "Per firm: launch vs latest quarter",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How PPC Guru Grows Immigration Consultancies with Google Ads",
+  "kpis": [
+    {"value": "2", "label": "Firms managed", "note": "immigration consultants"},
+    {"value": "~150", "label": "Combined leads / month", "note": "latest quarter"},
+    {"value": "~$13", "label": "Avg. cost per lead", "note": "across firms"}
+  ],
+  "summary_line": "PPC Guru manages Google Ads for immigration consultancies, turning high-intent searches into phone-and-form enquiries. Across two firms, the accounts together generate roughly 150 genuine enquiries a month in the latest quarter at an average of about $13 per lead — with cost per lead falling as each account is optimized.",
+  "client_context": "This study covers immigration consultancies that PPC Guru manages on Google Ads. Their prospective clients search Google at the moment they need help — study permits, work permits, PR, sponsorship — and expect to reach a consultant quickly, usually by phone. That makes call tracking and high-intent keyword targeting the core of each account.",
+  "background": "Both firms came to PPC Guru to build measurable lead generation from paid search. One launched with PPC Guru in late 2025; the other scaled up in 2026. In each case the account was built around genuine enquiry tracking rather than raw clicks, so the consultancy could see how many real enquiries its budget produced.",
+  "analysis": "PPC Guru's plan for each firm was the same: track calls and form submissions cleanly, target the specific immigration services the firm offers, filter out unrelated 'how to' and news searches, and scale budget only where the enquiry cost held up.",
+  "analysis_points": [
+    "Set up call and lead-form tracking, excluding pop-up and page-view actions that inflate raw conversion counts.",
+    "Target specific, high-intent service searches and separate them from informational queries.",
+    "Concentrate budget on the services and locations that produce genuine enquiries.",
+    "Scale spend per firm only after cost per enquiry proved sustainable."
+  ],
+  "changes": [
+    {"change": "Genuine-enquiry tracking", "why": "Calls and form submissions tracked cleanly so bidding targets real enquiries, not clicks."},
+    {"change": "High-intent service targeting", "why": "Campaigns focused on the exact services each firm offers, in its target regions."},
+    {"change": "Maximize Conversions bidding", "why": "Automated bidding toward enquiries once tracking was trustworthy."},
+    {"change": "Negative-keyword discipline", "why": "Filtered unrelated news, 'how-to' and DIY searches to protect budget."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Google Ads (Search & PMax)"},
+    {"label": "Bidding", "value": "Maximize Conversions"},
+    {"label": "Lead signals", "value": "Calls · Lead forms"},
+    {"label": "Measurement", "value": "Genuine enquiries (vanity actions excluded)"},
+    {"label": "Firms in portfolio", "value": "2 (this study)"}
+  ],
+  "comparison": {
+    "col_before": "At launch",
+    "col_after": "Latest (leads/mo)",
+    "rows": [
+      {"metric": "Westway Immigration", "before": "55", "after": "≈ 95", "change": "About 1.7× growth", "dir": "up"},
+      {"metric": "Bindra World Immigration", "before": "6", "after": "≈ 56", "change": "Strong growth", "dir": "up"}
+    ]
+  },
+  "benchmark": "Cost per lead fell at both firms as the accounts were optimized — Westway from about $13 to $8, and Bindra from about $35 to $18 — even as enquiry volume grew.",
+  "early_stage": {
+    "title": "Cost & Efficiency by Firm",
+    "intro": "Both accounts run the same playbook; cost per lead reflects budget, region and account maturity.",
+    "headers": ["Firm", "Cost per lead", "Conversion rate", "Managed since"],
+    "rows": [
+      ["Westway Immigration", "≈ $8", "≈ 22%", "Sep 2025"],
+      ["Bindra World Immigration", "≈ $18", "≈ 16%", "Mar 2026"]
+    ]
+  },
+  "spotlight": {
+    "title": "Why Call Tracking Is Critical for Immigration Firms",
+    "body": "Immigration enquiries are overwhelmingly phone calls — a prospective client wants to speak to a consultant now. If an account only counts form fills or button clicks, it optimizes toward the wrong thing. PPC Guru tracks calls as the primary conversion for these firms and excludes pop-up and page-view actions, so bidding and budget chase genuine consultations."
+  },
+  "lessons_title": "Lessons for Immigration Consultants",
+  "lessons": [
+    "Track phone calls as the primary enquiry — they are the dominant lead type in immigration.",
+    "Exclude pop-up, page-view and 'arrange consultation' button clicks from your conversion counts.",
+    "Target specific services (study permit, PR, sponsorship) rather than broad 'immigration' terms.",
+    "Add negatives aggressively to filter news, DIY and unrelated searches.",
+    "Scale budget only once cost per genuine enquiry is proven."
+  ],
+  "why_it_worked": [
+    "Clean call-and-form tracking so budget targets real enquiries.",
+    "Specific, high-intent service targeting in each firm's regions.",
+    "Disciplined negative keywords protecting spend from unrelated searches.",
+    "Budget scaled per firm on proven enquiry cost."
+  ],
+  "outcome_title": "The Portfolio Today",
+  "outcome": "Across two immigration consultancies, PPC Guru now delivers roughly 150 genuine enquiries a month in the latest quarter at an average of about $13 per lead, with cost per lead falling as each account matures. Because both firms track calls and forms cleanly, they can see exactly how many real consultations their budget produces — and scale with confidence.",
+  "cta": "Run an immigration practice? PPC Guru builds conversion-focused Google Ads for consultancies across Canada, with call tracking and transparent reporting.",
+  "methodology": "Figures are pulled directly from each firm's Google Ads account and shown as genuine leads (phone calls and form submissions) — pop-up, page-view and local actions are excluded. Westway 'now' is Q2 2026 (avg/mo); Bindra is a newer 2026 scale-up shown at its latest month.",
+  "teaser": "📈 Immigration Google Ads: PPC Guru manages 2 consultancies generating ~150 genuine enquiries a month at ~$13/lead — call-first tracking, high-intent targeting.",
+  "charts": [
+    {
+      "type": "bar",
+      "title": "Monthly Leads by Firm (Latest Quarter)",
+      "period": "Genuine leads (calls + forms) · Google Ads · CAD",
+      "labels": ["Westway Immigration", "Bindra World Immigration"],
+      "values": [95, 56],
+      "colors": ["green", "blue"]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "pre_period": "2021-05 to 2022-04 (12 mo, legacy structure)",
+  "post_period": "2023-04 to 2024-03 (first 12 mo under PPC Guru)",
+  "pre": {
+    "clicks": 2449,
+    "conv": 19,
+    "cost": 7319.525999999999,
+    "imp": 77534,
+    "ctr": 3.1586142853457835,
+    "cpc": 2.988781543487137,
+    "cvr": 0.7758268681094325,
+    "cpl": 385.23821052631575
+  },
+  "post": {
+    "clicks": 2003,
+    "conv": 191,
+    "cost": 6547.501639,
+    "imp": 341589,
+    "ctr": 0.5863771959869901,
+    "cpc": 3.2688475481777335,
+    "cvr": 9.535696455317025,
+    "cpl": 34.280113293193715
+  },
+  "changes": {
+    "conversions_pct_inc": 905,
+    "cpl_pct_red": 91,
+    "cvr_pct_inc": 1129,
+    "ctr_pct_inc": -81
+  },
+  "presentation_note": "Per client request: no cumulative-since-2023 figure; all data shown on a monthly basis. 'Now' = most recent complete quarter (Q2 2026, Apr-Jun): ~39 genuine leads/mo (calls+forms+bookings), ~$36 CPL, ~7% CVR. Jun/Jul 2026 raw account 'Conversions' are inflated by janeapp_click (booking-button clicks) + GBP local actions, so genuine-lead counts are used.",
+  "genuine_lead_analysis": {
+    "definition": "Leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM + BOOK_APPOINTMENT conversion categories. Excludes GBP 'Local actions' and janeapp_click (booking-page clicks / OUTBOUND_CLICK) which inflate raw metrics.conversions in 2026.",
+    "monthly_genuine_leads": {
+      "2024": {
+        "Jan": 7,
+        "Feb": 10,
+        "Mar": 4,
+        "May": 4,
+        "Jun": 24,
+        "Jul": 15,
+        "Aug": 8,
+        "Sep": 13,
+        "Oct": 17,
+        "Nov": 15,
+        "Dec": 14,
+        "total": 131,
+        "months": 11,
+        "avg": 11.9
+      },
+      "2025": {
+        "Jan": 15,
+        "Feb": 6,
+        "Mar": 30,
+        "Apr": 20,
+        "May": 26,
+        "Jun": 23,
+        "Jul": 16,
+        "Aug": 26,
+        "Sep": 36,
+        "Oct": 10,
+        "Nov": 4,
+        "Dec": 11,
+        "total": 223,
+        "months": 12,
+        "avg": 18.6
+      },
+      "2026_JanJul": {
+        "Jan": 6,
+        "Feb": 3,
+        "Mar": 35,
+        "Apr": 49,
+        "May": 41,
+        "Jun": 28,
+        "Jul": 16,
+        "total": 178,
+        "months": 7,
+        "avg": 25.4
+      }
+    },
+    "then_2021": {
+      "conversions_total": 33,
+      "months": 12,
+      "avg_per_month": 2.75,
+      "clicks": 2075,
+      "conv_rate_pct": 1.59,
+      "spend_cad": 7517.14,
+      "avg_monthly_spend": 626.4
+    },
+    "now_2026_JanJul": {
+      "genuine_leads": 178,
+      "avg_per_month": 25.4,
+      "clicks": 3636,
+      "conv_rate_pct": 4.9,
+      "spend_cad": 9993.97,
+      "avg_monthly_spend": 1427.7,
+      "cost_per_lead": 56.1
+    },
+    "budget_scale_x": 2.28
+  },
+  "current_basis_q2_2026": {
+    "period": "Apr-Jun 2026 (most recent complete quarter)",
+    "genuine_leads": {
+      "Apr": 49,
+      "May": 41,
+      "Jun": 28,
+      "total": 118,
+      "avg_per_month": 39.3
+    },
+    "cost_cad": {
+      "Apr": 1493.44,
+      "May": 1453.9,
+      "Jun": 1339.5,
+      "total": 4286.84,
+      "avg_per_month": 1428.9
+    },
+    "clicks": 1686,
+    "cost_per_lead": 36.3,
+    "conv_rate_pct": 7.0,
+    "then_2021_avg": {
+      "leads_per_month": 2.75,
+      "cost_per_month": 626.4,
+      "cost_per_lead": 227.8,
+      "conv_rate_pct": 1.59
+    }
+  }
+}

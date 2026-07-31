@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "Projects Pioneer",
+    "slug": "/case-studies/construction-meta-ads-case-study-projects-pioneer",
+    "platform": "Meta Ads",
+    "industry": "Construction & Home Renovation",
+    "market": "Canada",
+    "managed_since": "Feb 2026",
+    "seo_title": "Construction Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a construction and home-renovation client on Meta Ads and scaled to about 71 messaging conversations a month at roughly $20 each in Q2 2026.",
+    "primary_keyword": "construction Meta Ads",
+    "secondary_keywords": ["Facebook Ads for construction", "home renovation lead generation", "Meta Ads case study", "messaging conversations", "Facebook Ads agency in Toronto"],
+    "pdf_filename": "construction-meta-ads-case-study-projects-pioneer-ppc-guru.pdf",
+    "reporting_period": "Feb 2026 – Jul 2026",
+    "comparison_period": "Mar 2026 (first full month) vs Q2 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How a Construction Firm Launched on Meta Ads and Scaled to ~71 Conversations a Month",
+  "kpis": [
+    {"value": "~71", "label": "Conversations / month", "note": "Q2 2026 (Apr–Jun)"},
+    {"value": "~$20", "label": "Cost per conversation", "note": "▼ ~15% vs first full month"},
+    {"value": "+65%", "label": "Conversation volume", "note": "vs first full month (Mar 2026)"}
+  ],
+  "summary_line": "PPC Guru launched Projects Pioneer on Meta Ads and grew it into a steady enquiry engine — from 43 messaging conversations in the first full month (March 2026) to about 71 direct conversations a month across the most recent complete quarter (Apr–Jun 2026), at roughly $20 per conversation and with cost per conversation about 15% lower than at launch.",
+  "client_context": "Projects Pioneer is a construction and home-renovation company serving homeowners in Canada. Its growth depends on a reliable flow of project enquiries from homeowners planning renovations, basement builds and larger construction work. Meta Ads (Facebook and Instagram) is used to reach those homeowners where they spend their time and to open a direct conversation at the moment they are considering a project, so the number and cost of genuine conversations is the measure that matters most for the account.",
+  "background": "Projects Pioneer came to PPC Guru to build a paid-social presence from the ground up. Rather than pushing traffic to a form and hoping for follow-up, the account was launched around a messaging objective so that interested homeowners could start a direct conversation with the business. The first weeks of February 2026 were a short pilot to validate the offer and audience before spend was scaled.",
+  "analysis": "PPC Guru started with a small validation budget to confirm that the messaging approach produced real conversations at a workable cost, then scaled deliberately once the early data held up. The focus was on conversation volume and cost per conversation rather than surface metrics like reach or clicks.",
+  "analysis_points": [
+    "Launch on a messaging objective so high-intent renovation enquiries become direct conversations, not cold form fills.",
+    "Validate the offer and audience with a small pilot budget before scaling.",
+    "Scale budget only after cost per conversation proved stable and affordable.",
+    "Track cost per conversation month over month as the primary efficiency signal."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "Feb 2026", "what": "Pilot launch — a short validation period produced 10 conversations while the offer and audience were tested."},
+    {"when": "Mar 2026", "what": "First complete month — 43 messaging conversations at about $24 each as the campaign found its footing."},
+    {"when": "Q2 2026 (Apr–Jun)", "what": "About 71 conversations a month, peaking at 80 in May, at roughly $20 each as budget was scaled on proven results."},
+    {"when": "Jul 2026", "what": "38 conversations in a quieter month — the natural month-to-month variation of a live account."}
+  ],
+  "challenge": "Projects Pioneer was starting from zero on paid social, with no existing Meta Ads history, audience data or proven creative. The challenge was to build a dependable stream of genuine project enquiries from a standing start, and to do it at a cost per conversation low enough to scale with confidence rather than burning budget while the account learned.",
+  "changes": [
+    {"change": "Messaging-first campaign structure", "why": "Routed high-intent homeowners into a direct conversation with the business instead of a passive form, capturing enquiries at the moment of interest."},
+    {"change": "Pilot-then-scale budget approach", "why": "Validated the offer with a small February budget, then scaled monthly spend to about $1,430 once cost per conversation held."},
+    {"change": "Audience and creative refinement", "why": "As monthly reach grew from about 12,000 to roughly 37,000 homeowners, targeting and creative were tightened to keep conversations flowing efficiently."},
+    {"change": "Efficiency-first optimization", "why": "Managed to cost per conversation rather than clicks, so added budget bought proportionally more genuine enquiries."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objective", "value": "Messaging conversations"},
+    {"label": "Result signal", "value": "Direct messaging conversations"},
+    {"label": "Monthly budget (Q2 2026)", "value": "≈ $1,430 CAD"},
+    {"label": "Market", "value": "Canada"},
+    {"label": "Currency", "value": "CAD"}
+  ],
+  "comparison": {
+    "col_before": "First full month (Mar 2026)",
+    "col_after": "Now (Q2 2026, avg/mo)",
+    "rows": [
+      {"metric": "Messaging conversations / month", "before": "43", "after": "≈ 71", "change": "Strong growth", "dir": "up"},
+      {"metric": "Cost per conversation", "before": "≈ $24", "after": "≈ $20", "change": "Lower", "dir": "down-good"},
+      {"metric": "Monthly reach", "before": "≈ 12,200", "after": "≈ 34,900", "change": "Wider reach", "dir": "up"},
+      {"metric": "Monthly ad spend", "before": "≈ $1,020", "after": "≈ $1,430", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "All figures are messaging conversations reported directly by Meta. 'Now' is the most recent complete quarter (Apr–Jun 2026); March 2026 is the first complete month under management. Cost per conversation fell about 15% from the first full month to the most recent quarter even as budget was scaled.",
+  "early_stage": {
+    "title": "The First Full Months",
+    "intro": "After a short February pilot that produced 10 conversations while the offer was validated, the account scaled quickly. March delivered 43 conversations at about $24 each, and the following two months confirmed the pattern with 63 and 80 conversations as budget was increased on proven results.",
+    "headers": ["Period", "Spend", "Conversations", "Cost / Conversation"],
+    "rows": [
+      ["Pilot (Feb 2026)", "$105", "10", "$10.54"],
+      ["First full month (Mar 2026)", "$1,020", "43", "$23.72"],
+      ["Apr 2026", "$1,426", "63", "$22.63"],
+      ["May 2026", "$1,437", "80", "$17.97"]
+    ]
+  },
+  "gradual": "From the first full month onward, conversation volume climbed steadily rather than spiking once and fading. March opened at 43 conversations, April rose to 63, and May peaked at 80 as budget was scaled. June held strong at 70, and July settled at 38 in a quieter month — the ordinary month-to-month variation of a live account. Across the most recent complete quarter the account averaged about 71 genuine conversations a month at roughly $20 each. The monthly trend below shows the launch ramp and the natural variation that follows.",
+  "lessons_title": "Lessons for Construction & Renovation Firms",
+  "lessons": [
+    "Open a direct conversation with homeowners rather than relying on passive form fills — intent is highest in the moment.",
+    "Validate the offer and audience with a small pilot budget before scaling spend.",
+    "Judge paid social on cost per genuine conversation, not on clicks or reach alone.",
+    "Scale budget only after the cost per conversation proves stable and affordable.",
+    "Expect month-to-month variation on a live account and manage to the quarterly trend."
+  ],
+  "why_it_worked": [
+    "A messaging objective captured high-intent homeowners at the moment they were considering a project.",
+    "A pilot-then-scale approach meant budget grew only after cost per conversation was proven.",
+    "Managing to cost per conversation kept added budget efficient as volume rose.",
+    "Steady creative and audience refinement widened reach without inflating cost."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In under six months Projects Pioneer went from no paid-social presence to a dependable enquiry engine. Across the most recent complete quarter (April–June 2026) the account generated about 71 messaging conversations a month — peaking at 80 in May — at roughly $20 per conversation, with cost per conversation about 15% lower than in the first full month even as monthly budget was scaled to about $1,430. With a proven, efficient channel in place, the company has a clear, data-backed basis for continued growth on Meta.",
+  "cta": "PPC Guru helps Canadian construction and renovation firms turn Facebook and Instagram into a steady stream of homeowner enquiries with conversion-focused Meta Ads and transparent reporting.",
+  "methodology": "All figures are pulled directly from the client's Meta Ads account and shown on a monthly basis. The headline metric is 'messaging conversations started' — genuine direct enquiries from homeowners — reported by Meta for this click-to-message campaign. 'Now' is the most recent complete quarter (April–June 2026); March 2026 is the first complete month under management. February 2026 was a short pilot launch and is excluded from the baseline.",
+  "teaser": "🏗️ Construction Meta Ads case study: PPC Guru launched Projects Pioneer on Facebook & Instagram and scaled to ~71 homeowner conversations a month at ~$20 each in Q2 2026 — with cost per conversation ~15% lower than at launch.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Messaging Conversations",
+      "period": "Feb–Jul 2026 · direct homeowner conversations",
+      "x": ["Feb'26","Mar","Apr","May","Jun","Jul"],
+      "series": [
+        {"name": "Conversations", "color": "green", "values": [10,43,63,80,70,38]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Monthly Messaging Conversations Since Launch",
+      "period": "Direct homeowner conversations per month · Meta Ads · Q2 2026 highlighted",
+      "labels": ["Feb'26","Mar","Apr","May","Jun","Jul"],
+      "values": [10,43,63,80,70,38],
+      "colors": ["blue","blue","green","green","green","blue"]
+    }
+  ]
+}

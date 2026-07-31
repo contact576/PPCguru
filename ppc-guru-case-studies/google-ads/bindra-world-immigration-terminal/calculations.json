@@ -1,0 +1,59 @@
+{
+  "method": "Method B — launch story. PPC Guru launched the account ~Mar 2026. Genuine phone-call tracking began firing in May 2026. Primary comparison: first tracked month (May 2026) vs most recent complete month (Jul 2026). Q2 2026 quarterly total is also reported.",
+  "genuine_lead_definition": "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM conversions. Excludes OUTBOUND_CLICK (WhatsApp button clicks) and all Google Business Profile local actions, which inflate raw metrics.conversions and all_conversions.",
+  "monthly_genuine_leads": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 6,
+    "2026-06": 44,
+    "2026-07": 56,
+    "note": "April raw conversions (10) were all WhatsApp button clicks; genuine phone/form leads not yet tracked. Phone-call tracking live from May 2026."
+  },
+  "monthly_cost_cad": {
+    "2026-03": 40.56,
+    "2026-04": 511.33,
+    "2026-05": 210.58,
+    "2026-06": 962.77,
+    "2026-07": 988.16
+  },
+  "monthly_clicks": {"2026-03": 8, "2026-04": 83, "2026-05": 57, "2026-06": 278, "2026-07": 346},
+  "quarterly_genuine_leads": {
+    "Q1_2026_partial_Mar": 0,
+    "Q2_2026_AprJun": 50,
+    "note": "Q2 includes April (genuine 0, pre-call-tracking) + May 6 + June 44."
+  },
+  "then_first_tracked_month_may_2026": {
+    "period": "2026-05 (first month with genuine phone-call tracking)",
+    "genuine_leads": 6,
+    "cost_cad": 210.58,
+    "clicks": 57,
+    "cost_per_lead": 35.10,
+    "conversion_rate_pct": 10.53,
+    "arithmetic": "CPL = 210.58 / 6 = 35.10; CVR = 6 / 57 = 10.53%"
+  },
+  "now_jul_2026": {
+    "period": "2026-07 (most recent complete month)",
+    "genuine_leads": 56,
+    "cost_cad": 988.16,
+    "clicks": 346,
+    "cost_per_lead": 17.65,
+    "conversion_rate_pct": 16.18,
+    "arithmetic": "CPL = 988.16 / 56 = 17.65; CVR = 56 / 346 = 16.18%"
+  },
+  "june_2026_reference": {
+    "period": "2026-06 (Q2 close)",
+    "genuine_leads": 44,
+    "cost_cad": 962.77,
+    "cost_per_lead": 21.88,
+    "conversion_rate_pct": 15.83
+  },
+  "changes_summary": {
+    "leads_per_month": "6 (May, first tracked) to 56 (Jul)",
+    "cost_per_lead": "$35 (May) to ~$18 (Jul) — roughly halved as volume scaled",
+    "conversion_rate": "10.5% (May) to 16.2% (Jul)",
+    "monthly_spend": "$211 (May) to $988 (Jul) — scaled with results"
+  },
+  "confidence": "Medium",
+  "status": "Completed",
+  "presentation_note": "Genuine phone/form leads only. April's raw 10 conversions (all WhatsApp clicks) and the heavy local-action inflation of all_conversions are excluded. The ramp 6 -> 44 -> 56 with a falling cost per lead is real and taken directly from category-segmented conversion data."
+}

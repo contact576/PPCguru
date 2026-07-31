@@ -1,0 +1,894 @@
+{
+  "account": {
+    "name": "BAC Rehab Clinic",
+    "customer_id": "9086531239",
+    "login_customer_id": "1632013729",
+    "currency": "CAD",
+    "platform": "Google Ads",
+    "website": "bacrehabclinic.janeapp.com"
+  },
+  "match_confirmation": {
+    "by_conversion_action_domain": "bacrehabclinic.janeapp.com - GA4 (web) booked_appointments / booking_page",
+    "by_campaigns": "Physiotherapy ($1400), Massage Therapy ($600) \u2014 Search, Maximize Conversions",
+    "by_booking_system": "JaneApp offline import ('Confimed Booking - Janeapp Integration', UPLOAD_CLICKS/PURCHASE)",
+    "by_currency": "CAD"
+  },
+  "industry": "Rehabilitation / physiotherapy & massage therapy clinic",
+  "queries": {
+    "monthly_trend": "SELECT segments.year,segments.month,metrics.cost_micros,metrics.impressions,metrics.clicks,metrics.conversions,metrics.all_conversions FROM customer WHERE segments.date BETWEEN '2019-01-01' AND '2026-07-31' ORDER BY segments.year,segments.month",
+    "conversion_actions": "SELECT conversion_action.name,conversion_action.type,conversion_action.category,conversion_action.status FROM conversion_action",
+    "genuine_leads": "SELECT segments.month,segments.conversion_action_category,metrics.conversions FROM customer WHERE segments.date BETWEEN '2020-01-01' AND '2026-07-31' AND segments.conversion_action_category IN ('PHONE_CALL_LEAD','SUBMIT_LEAD_FORM','BOOK_APPOINTMENT')",
+    "campaigns": "SELECT campaign.name,campaign.advertising_channel_type,campaign.bidding_strategy_type,campaign.status FROM campaign WHERE campaign.status='ENABLED'"
+  },
+  "campaigns_enabled": [
+    {
+      "name": "Physiotherapy ($1400)",
+      "type": "SEARCH",
+      "bidding": "MAXIMIZE_CONVERSIONS",
+      "status": "ENABLED"
+    },
+    {
+      "name": "Massage Therapy ($600)",
+      "type": "SEARCH",
+      "bidding": "MAXIMIZE_CONVERSIONS",
+      "status": "ENABLED"
+    }
+  ],
+  "conversion_actions_summary": {
+    "counted_as_genuine_leads": [
+      "Calls from ads / Calls From Ads (AD_CALL, PHONE_CALL_LEAD)",
+      "Calls From Website (WEBSITE_CALL, PHONE_CALL_LEAD)",
+      "Calls from Smart Campaign Ads (PHONE_CALL_LEAD)"
+    ],
+    "tracked_but_excluded_from_lead_count": [
+      "BAC Analytics (web) appointment_booked (BOOK_APPOINTMENT, GA4) \u2014 0 GA-attributed conversions in window",
+      "Confimed Booking - Janeapp Integration (UPLOAD_CLICKS/PURCHASE)",
+      "GA4 booking_page / booked_appointments (DEFAULT)",
+      "Book An Appointment (Clicks) (OUTBOUND_CLICK)",
+      "Local actions - Directions/Website visits/Menu views/Other engagements (GET_DIRECTIONS/PAGE_VIEW/ENGAGEMENT)",
+      "Smart campaign map directions / clicks to call (GET_DIRECTIONS/CONTACT)"
+    ]
+  },
+  "genuine_phone_lead_by_month": {
+    "2022-09": 1,
+    "2022-10": 10,
+    "2022-11": 6,
+    "2022-12": 23,
+    "2023-01": 25,
+    "2023-02": 28,
+    "2023-03": 19,
+    "2023-04": 22,
+    "2023-05": 49,
+    "2023-06": 45,
+    "2023-07": 2,
+    "2023-08": 30,
+    "2023-10": 6,
+    "2023-11": 9,
+    "2023-12": 8,
+    "2024-01": 9,
+    "2024-02": 8,
+    "2024-03": 7,
+    "2024-04": 15,
+    "2024-05": 17,
+    "2024-06": 23,
+    "2024-07": 32,
+    "2024-08": 15,
+    "2024-09": 15,
+    "2024-10": 17,
+    "2024-11": 24,
+    "2024-12": 25,
+    "2025-01": 13,
+    "2025-02": 17,
+    "2025-03": 19,
+    "2025-04": 18,
+    "2025-05": 23,
+    "2025-06": 24,
+    "2025-07": 32,
+    "2025-08": 24,
+    "2025-09": 16,
+    "2025-10": 24,
+    "2025-11": 21,
+    "2025-12": 22,
+    "2026-01": 19,
+    "2026-02": 17,
+    "2026-03": 30,
+    "2026-04": 28,
+    "2026-05": 9,
+    "2026-06": 30,
+    "2026-07": 8
+  },
+  "monthly": [
+    {
+      "month": "2019-01",
+      "clicks": 63,
+      "conversions": 8,
+      "cost_micros": 69430000,
+      "cost_cad": 69.43,
+      "all_conversions": 8,
+      "impressions": 2109
+    },
+    {
+      "month": "2019-02",
+      "clicks": 59,
+      "conversions": 18,
+      "cost_micros": 69910000,
+      "cost_cad": 69.91,
+      "all_conversions": 18,
+      "impressions": 1791
+    },
+    {
+      "month": "2019-03",
+      "clicks": 70,
+      "conversions": 8,
+      "cost_micros": 69800000,
+      "cost_cad": 69.8,
+      "all_conversions": 8,
+      "impressions": 1733
+    },
+    {
+      "month": "2019-04",
+      "clicks": 49,
+      "conversions": 3,
+      "cost_micros": 69780000,
+      "cost_cad": 69.78,
+      "all_conversions": 3,
+      "impressions": 2192
+    },
+    {
+      "month": "2019-05",
+      "clicks": 59,
+      "conversions": 2,
+      "cost_micros": 68680969,
+      "cost_cad": 68.68,
+      "all_conversions": 2,
+      "impressions": 2471
+    },
+    {
+      "month": "2019-06",
+      "clicks": 52,
+      "conversions": 2,
+      "cost_micros": 67929712,
+      "cost_cad": 67.93,
+      "all_conversions": 2,
+      "impressions": 3910
+    },
+    {
+      "month": "2019-07",
+      "clicks": 73,
+      "conversions": 2,
+      "cost_micros": 67453796,
+      "cost_cad": 67.45,
+      "all_conversions": 2,
+      "impressions": 8377
+    },
+    {
+      "month": "2019-08",
+      "clicks": 78,
+      "conversions": 6,
+      "cost_micros": 68270000,
+      "cost_cad": 68.27,
+      "all_conversions": 6,
+      "impressions": 3313
+    },
+    {
+      "month": "2019-09",
+      "clicks": 84,
+      "conversions": 11,
+      "cost_micros": 69830000,
+      "cost_cad": 69.83,
+      "all_conversions": 11,
+      "impressions": 2497
+    },
+    {
+      "month": "2019-10",
+      "clicks": 62,
+      "conversions": 9,
+      "cost_micros": 68590000,
+      "cost_cad": 68.59,
+      "all_conversions": 9,
+      "impressions": 2735
+    },
+    {
+      "month": "2019-11",
+      "clicks": 100,
+      "conversions": 14,
+      "cost_micros": 69988576,
+      "cost_cad": 69.99,
+      "all_conversions": 14,
+      "impressions": 1948
+    },
+    {
+      "month": "2019-12",
+      "clicks": 69,
+      "conversions": 5,
+      "cost_micros": 60430013,
+      "cost_cad": 60.43,
+      "all_conversions": 5,
+      "impressions": 2217
+    },
+    {
+      "month": "2020-01",
+      "clicks": 116,
+      "conversions": 11,
+      "cost_micros": 68259568,
+      "cost_cad": 68.26,
+      "all_conversions": 11,
+      "impressions": 6214
+    },
+    {
+      "month": "2020-02",
+      "clicks": 118,
+      "conversions": 6,
+      "cost_micros": 68106952,
+      "cost_cad": 68.11,
+      "all_conversions": 6,
+      "impressions": 4601
+    },
+    {
+      "month": "2020-03",
+      "clicks": 37,
+      "conversions": 1,
+      "cost_micros": 26787778,
+      "cost_cad": 26.79,
+      "all_conversions": 1,
+      "impressions": 1374
+    },
+    {
+      "month": "2020-05",
+      "clicks": 40,
+      "conversions": 1,
+      "cost_micros": 35810057,
+      "cost_cad": 35.81,
+      "all_conversions": 1,
+      "impressions": 9846
+    },
+    {
+      "month": "2020-06",
+      "clicks": 116,
+      "conversions": 11,
+      "cost_micros": 70011549,
+      "cost_cad": 70.01,
+      "all_conversions": 12,
+      "impressions": 13189
+    },
+    {
+      "month": "2020-07",
+      "clicks": 337,
+      "conversions": 95,
+      "cost_micros": 273514367,
+      "cost_cad": 273.51,
+      "all_conversions": 95,
+      "impressions": 8616
+    },
+    {
+      "month": "2020-08",
+      "clicks": 356,
+      "conversions": 101,
+      "cost_micros": 304296072,
+      "cost_cad": 304.3,
+      "all_conversions": 101,
+      "impressions": 7192
+    },
+    {
+      "month": "2020-09",
+      "clicks": 310,
+      "conversions": 63,
+      "cost_micros": 299942000,
+      "cost_cad": 299.94,
+      "all_conversions": 63,
+      "impressions": 6974
+    },
+    {
+      "month": "2020-10",
+      "clicks": 242,
+      "conversions": 35,
+      "cost_micros": 300258790,
+      "cost_cad": 300.26,
+      "all_conversions": 35,
+      "impressions": 13596
+    },
+    {
+      "month": "2020-11",
+      "clicks": 272,
+      "conversions": 38,
+      "cost_micros": 304098116,
+      "cost_cad": 304.1,
+      "all_conversions": 38,
+      "impressions": 15257
+    },
+    {
+      "month": "2020-12",
+      "clicks": 242,
+      "conversions": 34,
+      "cost_micros": 298879362,
+      "cost_cad": 298.88,
+      "all_conversions": 34,
+      "impressions": 27062
+    },
+    {
+      "month": "2021-01",
+      "clicks": 269,
+      "conversions": 61,
+      "cost_micros": 303931572,
+      "cost_cad": 303.93,
+      "all_conversions": 61,
+      "impressions": 48763
+    },
+    {
+      "month": "2021-02",
+      "clicks": 218,
+      "conversions": 46,
+      "cost_micros": 292105859,
+      "cost_cad": 292.11,
+      "all_conversions": 46,
+      "impressions": 21286
+    },
+    {
+      "month": "2021-03",
+      "clicks": 249,
+      "conversions": 54,
+      "cost_micros": 299210428,
+      "cost_cad": 299.21,
+      "all_conversions": 54,
+      "impressions": 20206
+    },
+    {
+      "month": "2021-04",
+      "clicks": 230,
+      "conversions": 52,
+      "cost_micros": 298583181,
+      "cost_cad": 298.58,
+      "all_conversions": 52,
+      "impressions": 19208
+    },
+    {
+      "month": "2021-05",
+      "clicks": 232,
+      "conversions": 66,
+      "cost_micros": 278923574,
+      "cost_cad": 278.92,
+      "all_conversions": 66,
+      "impressions": 12555
+    },
+    {
+      "month": "2021-08",
+      "clicks": 236,
+      "conversions": 59,
+      "cost_micros": 250468288,
+      "cost_cad": 250.47,
+      "all_conversions": 59,
+      "impressions": 6216
+    },
+    {
+      "month": "2021-09",
+      "clicks": 209,
+      "conversions": 40,
+      "cost_micros": 303148725,
+      "cost_cad": 303.15,
+      "all_conversions": 40,
+      "impressions": 6340
+    },
+    {
+      "month": "2021-10",
+      "clicks": 341,
+      "conversions": 132,
+      "cost_micros": 297455929,
+      "cost_cad": 297.46,
+      "all_conversions": 132,
+      "impressions": 6341
+    },
+    {
+      "month": "2021-11",
+      "clicks": 351,
+      "conversions": 131,
+      "cost_micros": 304275608,
+      "cost_cad": 304.28,
+      "all_conversions": 131,
+      "impressions": 8143
+    },
+    {
+      "month": "2021-12",
+      "clicks": 322,
+      "conversions": 86,
+      "cost_micros": 304086809,
+      "cost_cad": 304.09,
+      "all_conversions": 86,
+      "impressions": 10847
+    },
+    {
+      "month": "2022-01",
+      "clicks": 288,
+      "conversions": 104,
+      "cost_micros": 299751674,
+      "cost_cad": 299.75,
+      "all_conversions": 104,
+      "impressions": 18675
+    },
+    {
+      "month": "2022-02",
+      "clicks": 131,
+      "conversions": 35,
+      "cost_micros": 154753460,
+      "cost_cad": 154.75,
+      "all_conversions": 35,
+      "impressions": 9076
+    },
+    {
+      "month": "2022-03",
+      "clicks": 252,
+      "conversions": 70,
+      "cost_micros": 301284266,
+      "cost_cad": 301.28,
+      "all_conversions": 70,
+      "impressions": 28275
+    },
+    {
+      "month": "2022-04",
+      "clicks": 256,
+      "conversions": 38,
+      "cost_micros": 303018270,
+      "cost_cad": 303.02,
+      "all_conversions": 38,
+      "impressions": 48251
+    },
+    {
+      "month": "2022-05",
+      "clicks": 295,
+      "conversions": 10,
+      "cost_micros": 304780842,
+      "cost_cad": 304.78,
+      "all_conversions": 10,
+      "impressions": 41711
+    },
+    {
+      "month": "2022-06",
+      "clicks": 375,
+      "conversions": 10,
+      "cost_micros": 303986689,
+      "cost_cad": 303.99,
+      "all_conversions": 10,
+      "impressions": 58276
+    },
+    {
+      "month": "2022-07",
+      "clicks": 5,
+      "conversions": 0,
+      "cost_micros": 2400099,
+      "cost_cad": 2.4,
+      "all_conversions": 0,
+      "impressions": 793
+    },
+    {
+      "month": "2022-08",
+      "clicks": 273,
+      "conversions": 11,
+      "cost_micros": 301504305,
+      "cost_cad": 301.5,
+      "all_conversions": 11,
+      "impressions": 50470
+    },
+    {
+      "month": "2022-09",
+      "clicks": 338,
+      "conversions": 12,
+      "cost_micros": 331047149,
+      "cost_cad": 331.05,
+      "all_conversions": 12,
+      "impressions": 49896
+    },
+    {
+      "month": "2022-10",
+      "clicks": 1260,
+      "conversions": 11,
+      "cost_micros": 731727075,
+      "cost_cad": 731.73,
+      "all_conversions": 11,
+      "impressions": 197602
+    },
+    {
+      "month": "2022-11",
+      "clicks": 1117,
+      "conversions": 7,
+      "cost_micros": 689329047,
+      "cost_cad": 689.33,
+      "all_conversions": 7,
+      "impressions": 138755
+    },
+    {
+      "month": "2022-12",
+      "clicks": 315,
+      "conversions": 25,
+      "cost_micros": 916569400,
+      "cost_cad": 916.57,
+      "all_conversions": 25,
+      "impressions": 17707
+    },
+    {
+      "month": "2023-01",
+      "clicks": 388,
+      "conversions": 54,
+      "cost_micros": 912780000,
+      "cost_cad": 912.78,
+      "all_conversions": 54,
+      "impressions": 29129
+    },
+    {
+      "month": "2023-02",
+      "clicks": 349,
+      "conversions": 39,
+      "cost_micros": 910608848,
+      "cost_cad": 910.61,
+      "all_conversions": 39,
+      "impressions": 23030
+    },
+    {
+      "month": "2023-03",
+      "clicks": 282,
+      "conversions": 33,
+      "cost_micros": 763585843,
+      "cost_cad": 763.59,
+      "all_conversions": 33,
+      "impressions": 12517
+    },
+    {
+      "month": "2023-04",
+      "clicks": 189,
+      "conversions": 32,
+      "cost_micros": 482999875,
+      "cost_cad": 483.0,
+      "all_conversions": 32,
+      "impressions": 6719
+    },
+    {
+      "month": "2023-05",
+      "clicks": 435,
+      "conversions": 58,
+      "cost_micros": 1550606517,
+      "cost_cad": 1550.61,
+      "all_conversions": 58,
+      "impressions": 40430
+    },
+    {
+      "month": "2023-06",
+      "clicks": 465,
+      "conversions": 63,
+      "cost_micros": 1498817810,
+      "cost_cad": 1498.82,
+      "all_conversions": 63,
+      "impressions": 41002
+    },
+    {
+      "month": "2023-07",
+      "clicks": 36,
+      "conversions": 2,
+      "cost_micros": 102645684,
+      "cost_cad": 102.65,
+      "all_conversions": 2,
+      "impressions": 2990
+    },
+    {
+      "month": "2023-08",
+      "clicks": 352,
+      "conversions": 33,
+      "cost_micros": 1358786368,
+      "cost_cad": 1358.79,
+      "all_conversions": 36,
+      "impressions": 25436
+    },
+    {
+      "month": "2023-10",
+      "clicks": 220,
+      "conversions": 35,
+      "cost_micros": 1488225362,
+      "cost_cad": 1488.23,
+      "all_conversions": 39,
+      "impressions": 8068
+    },
+    {
+      "month": "2023-11",
+      "clicks": 661,
+      "conversions": 156,
+      "cost_micros": 1492661233,
+      "cost_cad": 1492.66,
+      "all_conversions": 156,
+      "impressions": 13475
+    },
+    {
+      "month": "2023-12",
+      "clicks": 187,
+      "conversions": 46,
+      "cost_micros": 905155628,
+      "cost_cad": 905.16,
+      "all_conversions": 46,
+      "impressions": 3761
+    },
+    {
+      "month": "2024-01",
+      "clicks": 356,
+      "conversions": 83,
+      "cost_micros": 1514440921,
+      "cost_cad": 1514.44,
+      "all_conversions": 83,
+      "impressions": 8612
+    },
+    {
+      "month": "2024-02",
+      "clicks": 721,
+      "conversions": 134,
+      "cost_micros": 1479479783,
+      "cost_cad": 1479.48,
+      "all_conversions": 134,
+      "impressions": 11203
+    },
+    {
+      "month": "2024-03",
+      "clicks": 468,
+      "conversions": 113,
+      "cost_micros": 976486888,
+      "cost_cad": 976.49,
+      "all_conversions": 113,
+      "impressions": 8483
+    },
+    {
+      "month": "2024-04",
+      "clicks": 258,
+      "conversions": 77,
+      "cost_micros": 940803245,
+      "cost_cad": 940.8,
+      "all_conversions": 77,
+      "impressions": 6223
+    },
+    {
+      "month": "2024-05",
+      "clicks": 259,
+      "conversions": 90,
+      "cost_micros": 896466580,
+      "cost_cad": 896.47,
+      "all_conversions": 90,
+      "impressions": 4743
+    },
+    {
+      "month": "2024-06",
+      "clicks": 277,
+      "conversions": 123,
+      "cost_micros": 848345613,
+      "cost_cad": 848.35,
+      "all_conversions": 123,
+      "impressions": 6579
+    },
+    {
+      "month": "2024-07",
+      "clicks": 537,
+      "conversions": 216,
+      "cost_micros": 1293227316,
+      "cost_cad": 1293.23,
+      "all_conversions": 222,
+      "impressions": 12294
+    },
+    {
+      "month": "2024-08",
+      "clicks": 377,
+      "conversions": 118,
+      "cost_micros": 1005750027,
+      "cost_cad": 1005.75,
+      "all_conversions": 123,
+      "impressions": 9355
+    },
+    {
+      "month": "2024-09",
+      "clicks": 526,
+      "conversions": 170,
+      "cost_micros": 1398217478,
+      "cost_cad": 1398.22,
+      "all_conversions": 191,
+      "impressions": 11370
+    },
+    {
+      "month": "2024-10",
+      "clicks": 573,
+      "conversions": 223,
+      "cost_micros": 1472901392,
+      "cost_cad": 1472.9,
+      "all_conversions": 236,
+      "impressions": 13556
+    },
+    {
+      "month": "2024-11",
+      "clicks": 645,
+      "conversions": 284.008007,
+      "cost_micros": 1947222597,
+      "cost_cad": 1947.22,
+      "all_conversions": 316.008007,
+      "impressions": 18012
+    },
+    {
+      "month": "2024-12",
+      "clicks": 603,
+      "conversions": 234,
+      "cost_micros": 1900793416,
+      "cost_cad": 1900.79,
+      "all_conversions": 249,
+      "impressions": 17605
+    },
+    {
+      "month": "2025-01",
+      "clicks": 501,
+      "conversions": 173.996966,
+      "cost_micros": 1485439792,
+      "cost_cad": 1485.44,
+      "all_conversions": 203.996966,
+      "impressions": 15149
+    },
+    {
+      "month": "2025-02",
+      "clicks": 546,
+      "conversions": 214,
+      "cost_micros": 1942935244,
+      "cost_cad": 1942.94,
+      "all_conversions": 253,
+      "impressions": 15582
+    },
+    {
+      "month": "2025-03",
+      "clicks": 595,
+      "conversions": 229.002731,
+      "cost_micros": 1694722127,
+      "cost_cad": 1694.72,
+      "all_conversions": 256.002731,
+      "impressions": 14348
+    },
+    {
+      "month": "2025-04",
+      "clicks": 859,
+      "conversions": 322.407653,
+      "cost_micros": 1648259076,
+      "cost_cad": 1648.26,
+      "all_conversions": 360.740986,
+      "impressions": 11436
+    },
+    {
+      "month": "2025-05",
+      "clicks": 713,
+      "conversions": 239.036115,
+      "cost_micros": 1719380056,
+      "cost_cad": 1719.38,
+      "all_conversions": 292.536115,
+      "impressions": 15217
+    },
+    {
+      "month": "2025-06",
+      "clicks": 706,
+      "conversions": 270.667972,
+      "cost_micros": 1803233264,
+      "cost_cad": 1803.23,
+      "all_conversions": 314.834639,
+      "impressions": 19089
+    },
+    {
+      "month": "2025-07",
+      "clicks": 835,
+      "conversions": 313.052434,
+      "cost_micros": 1885515986,
+      "cost_cad": 1885.52,
+      "all_conversions": 375.520814,
+      "impressions": 21361
+    },
+    {
+      "month": "2025-08",
+      "clicks": 721,
+      "conversions": 289.876334,
+      "cost_micros": 1711636015,
+      "cost_cad": 1711.64,
+      "all_conversions": 306.407954,
+      "impressions": 21440
+    },
+    {
+      "month": "2025-09",
+      "clicks": 683,
+      "conversions": 267.028462,
+      "cost_micros": 1541710730,
+      "cost_cad": 1541.71,
+      "all_conversions": 300.028458,
+      "impressions": 16553
+    },
+    {
+      "month": "2025-10",
+      "clicks": 650,
+      "conversions": 265.94584,
+      "cost_micros": 1527917754,
+      "cost_cad": 1527.92,
+      "all_conversions": 292.945844,
+      "impressions": 15590
+    },
+    {
+      "month": "2025-11",
+      "clicks": 815,
+      "conversions": 369.238248,
+      "cost_micros": 1745661769,
+      "cost_cad": 1745.66,
+      "all_conversions": 393.47634,
+      "impressions": 19649
+    },
+    {
+      "month": "2025-12",
+      "clicks": 703,
+      "conversions": 286.756998,
+      "cost_micros": 1536233877,
+      "cost_cad": 1536.23,
+      "all_conversions": 299.99509,
+      "impressions": 21294
+    },
+    {
+      "month": "2026-01",
+      "clicks": 882,
+      "conversions": 293.001562,
+      "cost_micros": 1996327698,
+      "cost_cad": 1996.33,
+      "all_conversions": 309.525378,
+      "impressions": 26516
+    },
+    {
+      "month": "2026-02",
+      "clicks": 668,
+      "conversions": 242.004484,
+      "cost_micros": 1673596502,
+      "cost_cad": 1673.6,
+      "all_conversions": 246.004484,
+      "impressions": 13629
+    },
+    {
+      "month": "2026-03",
+      "clicks": 813,
+      "conversions": 330.508289,
+      "cost_micros": 1995782687,
+      "cost_cad": 1995.78,
+      "all_conversions": 354.508289,
+      "impressions": 15026
+    },
+    {
+      "month": "2026-04",
+      "clicks": 765,
+      "conversions": 330.494582,
+      "cost_micros": 1990914602,
+      "cost_cad": 1990.91,
+      "all_conversions": 644.494582,
+      "impressions": 14609
+    },
+    {
+      "month": "2026-05",
+      "clicks": 218,
+      "conversions": 91.001745,
+      "cost_micros": 562721362,
+      "cost_cad": 562.72,
+      "all_conversions": 321.001745,
+      "impressions": 4551
+    },
+    {
+      "month": "2026-06",
+      "clicks": 586,
+      "conversions": 223.972782,
+      "cost_micros": 1671322501,
+      "cost_cad": 1671.32,
+      "all_conversions": 475.972782,
+      "impressions": 11829
+    },
+    {
+      "month": "2026-07",
+      "clicks": 274,
+      "conversions": 76.998796,
+      "cost_micros": 808747700,
+      "cost_cad": 808.75,
+      "all_conversions": 96.998796,
+      "impressions": 5996
+    }
+  ],
+  "detected_takeover": "Late 2022. Genuine phone-call lead tracking (AD_CALL/WEBSITE_CALL) first records Sep 2022; monthly spend steps up from ~$300 (Smart Campaign era) toward ~$900 in Dec 2022 and ~$1,500-2,000 across two dedicated Search campaigns from mid-2023. Earlier history (2019-mid 2022) is a minimal-budget Smart Campaign whose recorded conversions are predominantly Google local actions (map directions, click-to-call taps), not separately tracked enquiries.",
+  "notes": [
+    "Genuine leads defined as PHONE_CALL_LEAD conversions (direct phone calls). BOOK_APPOINTMENT/SUBMIT_LEAD_FORM/PURCHASE returned 0 GA-attributed conversions across 2024-2026, so phone calls are the primary measured genuine lead. Booked appointments are additionally tracked via GA4 and the JaneApp offline import but are not added to the lead count to avoid double-counting / DEFAULT-category ambiguity.",
+    "metrics.all_conversions is inflated from Apr 2026 (e.g. 2026-04 conv 330 vs allConv 644; 2026-05 91 vs 321; 2026-06 224 vs 476) by Google local actions and booking-page button clicks \u2014 excluded from the lead count.",
+    "Pre-rebuild conversions (2020-2022, e.g. 95-132/mo) are dominated by Smart Campaign local actions (map directions / clicks-to-call) and are NOT genuine phone-call leads; they are excluded from the before/after so the baseline is not over-stated.",
+    "Data gaps: no rows for 2020-04, 2021-06/07, 2023-09 (account/tracking transitions).",
+    "May 2026 is a reduced-spend month ($563 vs ~$1,900 typical), which lowers that month's lead count and drags the Q2 2026 average.",
+    "'Now' = Q2 2026 (Apr-Jun): 67 genuine phone leads (avg 22.3/mo) at $4,224.96 spend (avg $1,408/mo), CPL $63.06, genuine-lead conv rate 4.3%."
+  ]
+}

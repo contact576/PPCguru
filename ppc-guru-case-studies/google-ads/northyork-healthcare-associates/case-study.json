@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "NorthYork Healthcare Associates",
+    "slug": "/case-studies/healthcare-clinic-google-ads-case-study",
+    "platform": "Google Ads",
+    "industry": "Physiotherapy & Sports Injury Clinic",
+    "market": "North York, Toronto, Canada",
+    "managed_since": "Feb 2026",
+    "seo_title": "Healthcare Clinic Google Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru launched a North York physiotherapy clinic's Google Ads to about 12 tracked phone-call leads a month at roughly $35 each, down from $144 at launch.",
+    "primary_keyword": "physiotherapy clinic Google Ads",
+    "secondary_keywords": ["healthcare Google Ads", "clinic lead generation", "call tracking", "Google Ads case study", "Google Ads agency in Toronto"],
+    "pdf_filename": "healthcare-clinic-google-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Feb 2026 – Jul 2026",
+    "comparison_period": "Launch month (Feb 2026) vs Q2 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How a North York Physiotherapy Clinic Cut Cost per Call from $144 to $35",
+  "kpis": [
+    {"value": "~12", "label": "Call leads / month", "note": "Q2 2026 (Apr–Jun)"},
+    {"value": "~$35", "label": "Cost per lead", "note": "▼ from ~$144 at launch"},
+    {"value": "~14%", "label": "Conversion rate", "note": "▲ from ~4% at launch"}
+  ],
+  "summary_line": "PPC Guru launched a Google Ads account for a North York physiotherapy and sports-injury clinic with call tracking from the start. Across its first complete quarter (Apr–Jun 2026) the account grew to about 12 tracked phone-call leads a month at roughly $35 each — down from about $144 per call in the launch month — as budget concentrated on high-intent local physiotherapy searches.",
+  "client_context": "NorthYork Healthcare Associates is a physiotherapy and sports-injury clinic based in North York, Toronto, offering hands-on physiotherapy and rehabilitation with online booking through JaneApp. New-patient growth depends on reaching people searching for physiotherapy nearby and getting them on the phone, so reliable call tracking is central to the account.",
+  "background": "The clinic came to PPC Guru to build a measurable Google Ads presence focused on new-patient calls. Rather than chase clicks, the goal was a lean Search account aimed at high-intent local physiotherapy searches, with every phone call tracked so the clinic could see cost per genuine enquiry and scale from there.",
+  "analysis": "Because physiotherapy patients overwhelmingly reach out by phone, PPC Guru built the account around call tracking first, then focused budget on local, treatment-intent searches. The plan was to launch lean, let the account gather clean conversion data, and bring cost per call down as Maximize Conversions bidding learned.",
+  "analysis_points": [
+    "Track calls from both ads and the website as the primary lead signal.",
+    "Focus budget on high-intent local searches like 'physiotherapy near me' and 'North York physiotherapy clinic'.",
+    "Run a single focused Search campaign so the account gathers conversion data quickly.",
+    "Use Maximize Conversions bidding and let cost per call settle as data builds."
+  ],
+  "timeline_title": "The Launch Timeline",
+  "timeline": [
+    {"when": "February 2026", "what": "Account launch — call tracking wired up; first month produced 2 tracked calls at about $144 each while the account gathered data."},
+    {"when": "March 2026", "what": "4 tracked calls as the campaign warmed up and cost per call started falling."},
+    {"when": "April 2026", "what": "9 tracked calls at about $38 each — the account found efficient footing."},
+    {"when": "Q2 2026 (Apr–Jun)", "what": "About 12 tracked calls a month, peaking at 20 in June, at roughly $35 per call and a conversion rate near 14%."}
+  ],
+  "challenge": "A brand-new account has no history for the system to learn from, and early cost per lead is almost always high while it gathers data — the launch month came in around $144 per call. For a physiotherapy clinic, the account also has to capture phone calls reliably from week one, because that is how most patients book. The task was to bring cost per call down quickly while growing call volume, without letting spend drift onto low-intent searches.",
+  "changes": [
+    {"change": "Call-first conversion tracking", "why": "Tracked calls from ads and the website so the clinic's main enquiry type is measured from day one."},
+    {"change": "Focused local Search campaign", "why": "Concentrated budget on high-intent North York and Toronto physiotherapy searches instead of spreading it thin."},
+    {"change": "High-intent keyword targeting", "why": "Prioritized 'physiotherapy near me' style searches from people ready to book treatment nearby."},
+    {"change": "Maximize Conversions bidding", "why": "Let automated bidding drive down cost per call as clean conversion data accumulated."},
+    {"change": "JaneApp booking ready", "why": "Booking and confirmed-appointment tracking is in place to extend measurement from call to booked visit as volume grows."}
+  ],
+  "technical": [
+    {"label": "Campaign type", "value": "Search"},
+    {"label": "Bidding strategy", "value": "Maximize Conversions"},
+    {"label": "Monthly budget (Q2 2026)", "value": "≈ $430 CAD"},
+    {"label": "Lead signals", "value": "Website calls · Ad calls"},
+    {"label": "Booking system", "value": "JaneApp (booking tracking ready)"},
+    {"label": "Measurement", "value": "Call tracking from launch"}
+  ],
+  "comparison": {
+    "col_before": "Launch month (Feb 2026)",
+    "col_after": "Now (Q2 2026, avg/mo)",
+    "rows": [
+      {"metric": "Tracked call leads / month", "before": "2", "after": "≈ 12", "change": "Strong growth", "dir": "up"},
+      {"metric": "Cost per lead (call)", "before": "≈ $144", "after": "≈ $35", "change": "Much lower", "dir": "down-good"},
+      {"metric": "Conversion rate", "before": "≈ 4%", "after": "≈ 14%", "change": "Higher", "dir": "up"},
+      {"metric": "Monthly ad spend", "before": "≈ $288", "after": "≈ $428", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "Leads are inbound phone calls tracked from ads and the website. From June 2026 a JaneApp booking-button click began counting in the raw account total; those button clicks are excluded here so figures reflect genuine calls only (June = 20 calls, not the raw 23).",
+  "early_stage": {
+    "title": "The First 90 Days",
+    "intro": "Like most new accounts, the clinic's first month carried a high cost per lead — 2 calls at about $144 each — while the campaign gathered data. It came down fast: March delivered 4 calls, and by April the account was producing 9 calls at under $40 each. That early curve is exactly what a healthy launch looks like.",
+    "headers": ["Period", "Spend", "Tracked Calls", "Cost / Call"],
+    "rows": [
+      ["First 30 days (Feb 2026)", "$287.99", "2", "$144.00"],
+      ["Days 31–60 (Mar 2026)", "$500.91", "4", "$125.23"],
+      ["Days 61–90 (Apr 2026)", "$338.89", "9", "$37.65"]
+    ]
+  },
+  "gradual": "From there call volume climbed while cost per call held low. April, May and June produced 9, 8 and 20 tracked calls — about 12 a month — at roughly $35 each, with June the strongest month. The monthly trend below shows a steady ramp from a lean launch into efficient, growing call volume, with the natural month-to-month variation of a real account.",
+  "lessons_title": "Lessons for Clinic Owners",
+  "lessons": [
+    "Track phone calls from day one — for a physiotherapy clinic, calls are how most patients book.",
+    "Expect a high cost per lead in the first weeks and give the account time to gather data before judging it.",
+    "Keep budget on high-intent local searches so spend reaches people ready to book treatment nearby.",
+    "Let Maximize Conversions bidding learn on clean call data to bring cost per call down.",
+    "Have booking tracking ready so measurement can extend from call to booked appointment as volume grows."
+  ],
+  "why_it_worked": [
+    "Call tracking from launch meant bidding optimized toward real phone enquiries, not clicks.",
+    "A single focused Search campaign gathered clean conversion data quickly.",
+    "Budget stayed on high-intent local physiotherapy searches.",
+    "Cost per call fell from about $144 to roughly $35 as the account matured."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "In its first complete quarter under PPC Guru (April–June 2026) NorthYork Healthcare Associates was generating about 12 tracked phone-call leads a month — peaking at 20 in June — at roughly $35 per call, with a conversion rate near 14%. That is a sharp improvement from the launch month's 2 calls at about $144 each. With clean call tracking and a focused local Search account, the clinic now has an efficient, growing source of new-patient calls and a clear basis for scaling budget as demand builds.",
+  "cta": "PPC Guru helps Canadian clinics turn local search demand into tracked patient calls with conversion-focused Google Ads.",
+  "methodology": "All figures are pulled directly from the client's Google Ads account and shown on a monthly basis. 'Leads' are inbound phone calls tracked from ads and the website; a JaneApp booking-button click that began counting in June is excluded so figures reflect genuine calls. 'Now' is the most recent complete quarter (April–June 2026); the baseline is the launch month (February 2026). July 2026 is shown for trend context only.",
+  "lead_quality": "Every tracked lead in the period is an inbound phone call — the highest-intent enquiry for a physiotherapy clinic — with JaneApp booking tracking in place to follow calls through to booked visits.",
+  "teaser": "🏥 Healthcare Google Ads case study: PPC Guru launched a North York physiotherapy clinic and cut cost per call from ~$144 to ~$35, reaching ~12 tracked calls a month (peaking at 20 in June) in Q2 2026.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Tracked Call Leads",
+      "period": "2026 · inbound phone calls",
+      "x": ["Feb'26", "Mar", "Apr", "May", "Jun", "Jul"],
+      "series": [
+        {"name": "Tracked calls", "color": "green", "values": [2, 4, 9, 8, 20, 10]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Quarterly Tracked Call Leads Under PPC Guru",
+      "period": "Genuine phone-call leads per quarter · Google Ads",
+      "labels": ["Q1'26", "Q2'26"],
+      "values": [6, 37],
+      "colors": ["blue", "green"]
+    }
+  ]
+}

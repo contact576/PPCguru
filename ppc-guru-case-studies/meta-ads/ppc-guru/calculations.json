@@ -1,0 +1,44 @@
+{
+  "method": "Method A/B hybrid (relaunch story). The account has a genuine 2024 pilot baseline and a 2026 scale-up under active management. 'Then' = first complete pilot month (Jul 2024); 'now' = most recent complete month (Jul 2026).",
+  "metric_definition": "Genuine lead = 'lead' (Meta instant-form submission). Account-level results.value is 'Not available' every month (aggregated across attribution settings for mixed objectives), so it is not used. Months running only messaging campaigns (Mar/Apr 2026) report no instant-form leads.",
+  "periods": {
+    "pilot_baseline_then": "2024-07 (July 2024, first complete pilot month)",
+    "pause": "2024-11 to 2026-02 (account paused, no delivery)",
+    "scale_up": "2026-05 to 2026-07 (instant-form lead volume ramp)",
+    "now_month": "2026-07 (July 2026, most recent complete month)"
+  },
+  "form_lead_series": {
+    "2024-06": 1,
+    "2024-07": 8,
+    "2024-08": 8,
+    "2024-09": 3,
+    "2026-05": 54,
+    "2026-06": 54,
+    "2026-07": 80
+  },
+  "then_jul_2024": {
+    "form_leads": 8,
+    "amount_spent_cad": 632.68,
+    "cost_per_lead_cad": 79.09,
+    "arithmetic": "632.68 / 8 = 79.09"
+  },
+  "now_jul_2026": {
+    "form_leads": 80,
+    "amount_spent_cad": 1487.09,
+    "cost_per_lead_cad": 18.59,
+    "arithmetic": "1487.09 / 80 = 18.59"
+  },
+  "changes_then_to_now": {
+    "form_leads_pct_increase": {"value": 900, "arithmetic": "(80 - 8) / 8 * 100 = 900"},
+    "cost_per_lead_pct_reduction": {"value": -76.5, "arithmetic": "(18.59 - 79.09) / 79.09 * 100 = -76.5"},
+    "budget_scale_x": {"value": 2.35, "arithmetic": "1487.09 / 632.68 = 2.35"}
+  },
+  "scale_up_2026": {
+    "May": {"form_leads": 54, "spend_cad": 1083.42, "cpl_cad": 20.06},
+    "Jun": {"form_leads": 54, "spend_cad": 1282.62, "cpl_cad": 23.75},
+    "Jul": {"form_leads": 80, "spend_cad": 1487.09, "cpl_cad": 18.59},
+    "avg_cpl_cad": 20.63,
+    "note": "Instant-form lead volume across the three scale-up months; average CPL = (1083.42+1282.62+1487.09)/(54+54+80) = 3853.13/188 = 20.49"
+  },
+  "presentation_note": "A ~16-month pause (Nov 2024-Feb 2026) separates the two eras; disclosed openly. March and April 2026 ran messaging-objective campaigns, so their instant-form lead counts are not shown (they were not the objective those months). Story is kept honest as a pilot-to-scale relaunch, not a continuous run."
+}

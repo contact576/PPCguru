@@ -1,0 +1,63 @@
+{
+  "method": "Method B — launch story. PPC Guru launched the account ~Mar 2026 (first data month). Baseline = first complete month (Mar 2026). Most recent complete quarter is Q2 2026 (Apr-Jun); most recent complete month is Jul 2026. Because lead volume is low and roughly flat, the study is treated as early-stage (Needs Review, Low confidence).",
+  "genuine_lead_definition": "Genuine leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM conversions. This account records no vanity local actions or outbound clicks, so metrics.conversions already equals genuine leads.",
+  "monthly_genuine_leads": {
+    "2026-03": 7,
+    "2026-04": 4,
+    "2026-05": 5,
+    "2026-06": 7,
+    "2026-07": 9
+  },
+  "monthly_cost_cad": {
+    "2026-03": 365.78,
+    "2026-04": 496.83,
+    "2026-05": 487.33,
+    "2026-06": 540.03,
+    "2026-07": 757.29
+  },
+  "monthly_clicks": {"2026-03": 67, "2026-04": 72, "2026-05": 71, "2026-06": 154, "2026-07": 275},
+  "monthly_impressions": {"2026-03": 475, "2026-04": 643, "2026-05": 527, "2026-06": 6506, "2026-07": 18021},
+  "quarterly_genuine_leads": {
+    "Q1_2026_partial_Mar": 7,
+    "Q2_2026_AprJun": 16,
+    "note": "Q1 2026 is a single partial launch month (Mar)."
+  },
+  "then_first_month_mar_2026": {
+    "period": "2026-03 (first month under management)",
+    "genuine_leads": 7,
+    "cost_cad": 365.78,
+    "clicks": 67,
+    "impressions": 475,
+    "cost_per_lead": 52.25,
+    "conversion_rate_pct": 10.45,
+    "arithmetic": "CPL = 365.78 / 7 = 52.25; CVR = 7 / 67 = 10.45%"
+  },
+  "now_jul_2026": {
+    "period": "2026-07 (most recent complete month)",
+    "genuine_leads": 9,
+    "cost_cad": 757.29,
+    "clicks": 275,
+    "impressions": 18021,
+    "cost_per_lead": 84.14,
+    "conversion_rate_pct": 3.27,
+    "arithmetic": "CPL = 757.29 / 9 = 84.14; CVR = 9 / 275 = 3.27%"
+  },
+  "q2_2026_reference": {
+    "period": "2026-04 to 2026-06",
+    "genuine_leads_total": 16,
+    "avg_leads_per_month": 5.33,
+    "cost_cad_total": 1524.19,
+    "cost_per_lead": 95.26,
+    "clicks_total": 297,
+    "conversion_rate_pct": 5.39
+  },
+  "changes_summary": {
+    "leads_per_month": "7 (Mar) to 9 (Jul) — modest growth in count",
+    "reach_impressions": "475 (Mar) to 18,021 (Jul) — ~38x expansion after Performance Max added",
+    "clicks_per_month": "67 (Mar) to 275 (Jul)",
+    "cost_per_lead": "$52 (Mar) to $84 (Jul) — rose as reach scaled (neutral)"
+  },
+  "confidence": "Low",
+  "status": "Needs Review",
+  "presentation_note": "Only ~5 months of data and low, roughly flat lead volume. The story is an early-stage launch with a clean tracking foundation and a sharply expanded reach base in July; more months are needed to prove a scaled cost per lead. No metric is inflated or spun."
+}
