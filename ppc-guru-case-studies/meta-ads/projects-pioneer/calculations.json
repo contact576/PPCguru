@@ -1,0 +1,47 @@
+{
+  "method": "Method B (launch story). PPC Guru launched the account, so baseline = first complete month; 'now' = most recent complete quarter (Q2 2026 exists in full).",
+  "metric_definition": "Genuine result = 'Messaging conversations started' (Meta results.value) for this click-to-message campaign, reported as 'conversations/leads'. Small secondary instant-form leads excluded from the headline.",
+  "periods": {
+    "launch_partial": "2026-02 (Feb 2026, partial launch month, excluded from baseline)",
+    "baseline_then": "2026-03 (March 2026, first complete month)",
+    "now_quarter": "2026-04 to 2026-06 (Q2 2026, most recent complete quarter)",
+    "most_recent_complete_month": "2026-07 (July 2026, shown for transparency; conversation volume dipped)"
+  },
+  "monthly_conversations_series": {
+    "2026-02": 10,
+    "2026-03": 43,
+    "2026-04": 63,
+    "2026-05": 80,
+    "2026-06": 70,
+    "2026-07": 38
+  },
+  "then_march_2026": {
+    "messaging_conversations": 43,
+    "amount_spent_cad": 1020.03,
+    "cost_per_conversation_cad": 23.72,
+    "arithmetic": "1020.03 / 43 = 23.72"
+  },
+  "now_q2_2026": {
+    "months": ["2026-04", "2026-05", "2026-06"],
+    "messaging_conversations_total": 213,
+    "avg_conversations_per_month": 71.0,
+    "amount_spent_total_cad": 4284.11,
+    "avg_spend_per_month_cad": 1428.04,
+    "cost_per_conversation_cad": 20.11,
+    "arithmetic": {
+      "conversations": "63 + 80 + 70 = 213; 213 / 3 = 71.0",
+      "spend": "1425.79 + 1437.34 + 1420.98 = 4284.11; 4284.11 / 3 = 1428.04",
+      "cpl": "4284.11 / 213 = 20.11"
+    }
+  },
+  "changes_then_to_now": {
+    "conversations_per_month_pct_increase": {"value": 65.1, "arithmetic": "(71.0 - 43) / 43 * 100 = 65.1"},
+    "cost_per_conversation_pct_change": {"value": -15.2, "arithmetic": "(20.11 - 23.72) / 23.72 * 100 = -15.2 (lower is better)"},
+    "budget_scale_x": {"value": 1.4, "arithmetic": "1428.04 / 1020.03 = 1.40"}
+  },
+  "totals_feb_jul_2026": {
+    "amount_spent_cad": 6999.13,
+    "messaging_conversations": 304,
+    "note": "Reconciles with all-time campaign result (304 conversations, CA$6,999.13)."
+  }
+}

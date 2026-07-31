@@ -1,0 +1,46 @@
+{
+  "account": {
+    "name": "GCAD Construction - New",
+    "ad_account_id": "819921644385618",
+    "platform": "Meta Ads",
+    "currency": "CAD",
+    "objective": "Mixed: Messaging conversations + Leads (instant form)",
+    "industry": "Construction (basement finishing / renovation)"
+  },
+  "match_confirmation": {
+    "by_ad_account_id": "819921644385618",
+    "by_name": "GCAD Construction - New",
+    "by_currency": "CAD",
+    "by_campaign_names": "Campaigns explicitly named 'Gcad Construction Lead Campaign - Basement ($1500)' confirm the construction/basement-renovation industry",
+    "ignored_duplicate": "Disabled duplicate account 1383154433409427 was ignored per assignment"
+  },
+  "detected_launch": "First and only month with delivery is July 2026. The account launched in July 2026 — a single complete month of data. No prior history and no baseline exist.",
+  "notes": "THIN DATA: only one complete month (July 2026) exists, so an honest before/after case study is not yet possible. Status set to 'Needs Review' / confidence 'Low'; a first-month launch snapshot is provided. Account-level 'results' and 'lead' return 'Not available' because results were aggregated across different attribution settings (mixed objectives); campaign-level data resolves the objective breakdown: two 'Basement' campaigns run a Messaging-conversations objective (23 + 7 = 30 conversations) and one 'IF' campaign runs a Leads (instant-form) objective (0 form leads in the first month). Genuine first-month result = 30 messaging conversations started. Values are formatted strings and were parsed; amount_spent_cents=230261 (CA$2,302.61). WHAT IS MISSING for a full case study: at least 2-3 more complete months to establish a trend and a stable cost per conversation, plus a baseline period; instant-form campaign needs time to produce leads.",
+  "queries": {
+    "monthly_account_trend": "ads_get_ad_entities(ad_account_id='819921644385618', level='ad_account', fields=['name','amount_spent','impressions','reach','clicks','ctr','cpc','frequency','actions:link_click','lead','results','landing_page_view','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly') -> returned ONLY July 2026",
+    "campaign_breakdown": "ads_get_ad_entities(ad_account_id='819921644385618', level='campaign', fields=['name','amount_spent','impressions','reach','clicks','ctr','cpc','lead','results','actions:link_click','cost_per_lead'], time_range={since:'2022-01-01',until:'2026-07-31'}, time_increment='monthly') -> 3 campaigns, all July 2026"
+  },
+  "account_july_2026": {
+    "amount_spent_cad": 2302.61,
+    "impressions": 105635,
+    "reach": 30553,
+    "clicks": 1071,
+    "ctr_pct": 1.01,
+    "cpc_cad": 2.15,
+    "frequency": 3.46,
+    "link_clicks": 451,
+    "results_account_level": "Not available (aggregated across attribution settings)"
+  },
+  "campaigns_july_2026": [
+    {"name": "Gcad Construction Lead Campaign - Basement ($1500) - V", "objective": "Messaging conversations", "amount_spent_cad": 1229.89, "impressions": 49198, "reach": 21501, "clicks": 623, "ctr_pct": 1.27, "cpc_cad": 1.97, "link_clicks": 166, "messaging_conversations": 23},
+    {"name": "Gcad Construction Lead Campaign - Basement ($1500) - S", "objective": "Messaging conversations", "amount_spent_cad": 870.00, "impressions": 49336, "reach": 9819, "clicks": 386, "ctr_pct": 0.78, "cpc_cad": 2.25, "link_clicks": 249, "messaging_conversations": 7},
+    {"name": "Gcad Construction Lead Campaign - IF ($1000)", "objective": "Leads (instant form)", "amount_spent_cad": 202.72, "impressions": 7101, "reach": 1892, "clicks": 62, "ctr_pct": 0.87, "cpc_cad": 3.27, "link_clicks": 36, "form_leads": 0}
+  ],
+  "first_month_totals": {
+    "messaging_conversations": 30,
+    "form_leads": 0,
+    "messaging_spend_cad": 2099.89,
+    "cost_per_conversation_cad": 70.00,
+    "arithmetic": "(1229.89 + 870.00) / (23 + 7) = 2099.89 / 30 = 70.00"
+  }
+}

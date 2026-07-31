@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "layout": "compact",
+    "client_display": "PPC Guru",
+    "slug": "/case-studies/digital-marketing-agency-meta-ads-case-study",
+    "platform": "Meta Ads",
+    "industry": "Digital Marketing Agency",
+    "market": "Canada",
+    "managed_since": "Jun 2024",
+    "seo_title": "Digital Marketing Agency Meta Ads Case Study | PPC Guru",
+    "meta_description": "How PPC Guru scaled its own Meta Ads lead engine from about 8 form leads a month at ~$79 each to 80 leads at ~$19 each in July 2026.",
+    "primary_keyword": "digital marketing agency Meta Ads",
+    "secondary_keywords": ["Facebook lead generation", "Meta Ads case study", "agency lead generation", "instant form leads", "Facebook Ads agency in Toronto"],
+    "pdf_filename": "digital-marketing-agency-meta-ads-case-study-ppc-guru.pdf",
+    "reporting_period": "Jun 2024 – Jul 2026",
+    "comparison_period": "Jul 2024 (pilot) vs Jul 2026 (per month)",
+    "currency": "CAD",
+    "confidence": "Medium",
+    "status": "Completed"
+  },
+  "headline": "How PPC Guru Scaled Its Own Meta Ads Lead Engine to 80 Leads a Month at ~$19 Each",
+  "kpis": [
+    {"value": "80", "label": "Form leads / month", "note": "July 2026"},
+    {"value": "~$19", "label": "Cost per lead", "note": "▼ from ~$79 in 2024 pilot"},
+    {"value": "▼ 76%", "label": "Cost per lead", "note": "vs the 2024 pilot"}
+  ],
+  "summary_line": "PPC Guru applied its own methodology to its own Meta Ads account — turning a small 2024 pilot that produced about 8 instant-form leads a month at roughly $79 each into a scaled 2026 engine delivering 80 genuine form leads in July 2026 at about $19 each, a cost per lead roughly 76% lower even as monthly budget more than doubled.",
+  "client_context": "PPC Guru is a Canadian digital marketing agency that runs paid search and paid social for clients across a range of local-service industries. This case study covers the agency's own Meta Ads account — the lead engine it uses to generate new-client enquiries. Because it is PPC Guru's own account, it doubles as a live test bed for the instant-form lead-generation approach the agency deploys for clients, which makes the cost and volume of genuine form leads the metric that matters.",
+  "background": "The account began as a small pilot in mid-2024 to validate a Meta instant-form approach for agency lead generation. After the pilot proved the concept, the account was paused while attention went to client work, then relaunched and scaled in 2026 with a refined campaign structure and a clear instant-form lead objective. This case study compares the original pilot with the scaled 2026 engine.",
+  "analysis": "PPC Guru treated its own account the way it treats a client's: prove the lead mechanism at small budget, then scale only once the cost per genuine lead is low and stable. The 2026 relaunch concentrated on instant-form campaigns so every dollar could be measured against a real, countable lead rather than a surface engagement.",
+  "analysis_points": [
+    "Use Meta instant forms so leads are genuine, countable submissions rather than clicks or reach.",
+    "Prove the mechanism at pilot budget before committing to scale.",
+    "Concentrate the 2026 relaunch on lead-objective campaigns and manage to cost per lead.",
+    "Scale monthly budget only after cost per lead proved low and repeatable."
+  ],
+  "timeline_title": "The Account Timeline",
+  "timeline": [
+    {"when": "2024 pilot (Jun–Sep)", "what": "A small validation run averaged a handful of instant-form leads a month; July 2024 delivered 8 leads at about $79 each."},
+    {"when": "Late 2024 – early 2026", "what": "Account paused while focus shifted to client work — no delivery for about 16 months."},
+    {"when": "Mar–Apr 2026", "what": "Relaunch — messaging and lead campaigns rebuilt and audiences re-established at low CPCs."},
+    {"when": "May–Jul 2026", "what": "Instant-form volume scaled to 54, 54 and 80 leads a month at roughly $19–24 each."}
+  ],
+  "challenge": "As with many agencies, PPC Guru's own marketing competes for attention with client work, and the early 2024 pilot — while it proved the concept — carried a high cost per lead of around $79 and only a handful of leads a month. The challenge on relaunch was to rebuild the account into a dependable, low-cost lead engine that could scale without the cost per lead climbing.",
+  "changes": [
+    {"change": "Instant-form lead campaigns", "why": "Captured genuine, countable enquiries directly inside Meta so every dollar maps to a real lead, not a click."},
+    {"change": "Pilot-then-scale discipline", "why": "Validated the mechanism at small budget in 2024, then scaled spend in 2026 only after cost per lead proved low and stable."},
+    {"change": "Rebuilt campaign structure on relaunch", "why": "Re-established audiences and creative in early 2026 at low CPCs before pushing volume."},
+    {"change": "Managed to cost per lead", "why": "Kept efficiency the target as budget scaled, so more spend bought proportionally more leads."}
+  ],
+  "technical": [
+    {"label": "Platform", "value": "Meta (Facebook & Instagram)"},
+    {"label": "Objective", "value": "Lead generation (instant forms) + messaging"},
+    {"label": "Lead signal", "value": "Instant-form submissions"},
+    {"label": "Monthly budget (2026)", "value": "≈ $1,300–1,500 CAD"},
+    {"label": "Markets", "value": "Canada (+ some USA tests)"},
+    {"label": "Currency", "value": "CAD"}
+  ],
+  "comparison": {
+    "col_before": "2024 pilot (Jul, /mo)",
+    "col_after": "Now (Jul 2026)",
+    "rows": [
+      {"metric": "Instant-form leads / month", "before": "8", "after": "80", "change": "Strong growth", "dir": "up"},
+      {"metric": "Cost per lead", "before": "≈ $79", "after": "≈ $19", "change": "Much lower", "dir": "down-good"},
+      {"metric": "Click-through rate", "before": "≈ 1.1%", "after": "≈ 1.9%", "change": "Higher", "dir": "up"},
+      {"metric": "Monthly ad spend", "before": "≈ $633", "after": "≈ $1,487", "change": "Scaled with results", "dir": "neutral"}
+    ]
+  },
+  "benchmark": "Leads are Meta instant-form submissions reported directly by the account. The 2024 pilot and the 2026 scale-up are separated by a roughly 16-month pause, so this is a pilot-to-scale relaunch rather than a continuous run. Cost per lead fell from about $79 in the pilot to about $19 in the most recent month while monthly budget more than doubled.",
+  "early_stage": {
+    "title": "Pilot vs Scale-Up",
+    "intro": "The 2024 pilot proved the instant-form mechanism at a modest budget, delivering 8 leads in July 2024 at about $79 each. After the 2026 relaunch, instant-form volume scaled sharply while cost per lead fell to roughly a quarter of the pilot level.",
+    "headers": ["Period", "Spend", "Form Leads", "Cost / Lead"],
+    "rows": [
+      ["Pilot (Jul 2024)", "$633", "8", "$79.09"],
+      ["Scale-up (May 2026)", "$1,083", "54", "$20.06"],
+      ["Scale-up (Jun 2026)", "$1,283", "54", "$23.75"],
+      ["Now (Jul 2026)", "$1,487", "80", "$18.59"]
+    ]
+  },
+  "gradual": "The two eras tell a clear pilot-to-scale story. In 2024 the account produced a handful of instant-form leads a month at a high cost per lead, enough to prove the approach worked. After a pause and a 2026 relaunch — which re-established audiences through lower-cost messaging and lead campaigns in March and April — instant-form volume scaled to 54 leads in May, held at 54 in June, and reached 80 in July at about $19 each. The chart below shows the leap from the pilot to the scaled engine; the gap between the eras reflects the paused period and is shown honestly.",
+  "lessons_title": "Lessons for Agencies & Service Businesses",
+  "lessons": [
+    "Use instant forms so you count genuine leads, not clicks or reach.",
+    "Prove the lead mechanism at a small budget before you scale spend.",
+    "Judge the account on cost per genuine lead, not on impressions or engagement.",
+    "Scale budget only after cost per lead is low and repeatable across months.",
+    "Practise on your own account what you deploy for clients — it keeps the method honest."
+  ],
+  "why_it_worked": [
+    "Instant forms produced genuine, countable leads that spend could be measured against.",
+    "A pilot-first approach de-risked the scale-up and kept cost per lead in check.",
+    "The 2026 rebuild re-established audiences at low CPCs before pushing volume.",
+    "Managing to cost per lead meant more than double the budget delivered ten times the leads."
+  ],
+  "outcome_title": "Where They Stand Today",
+  "outcome": "PPC Guru's own Meta Ads account now runs as a dependable, low-cost lead engine. In the most recent complete month (July 2026) it delivered 80 genuine instant-form leads at about $19 each — up from roughly 8 leads a month at about $79 each in the 2024 pilot, a cost per lead roughly 76% lower even as monthly budget more than doubled. Just as importantly, the account proves in practice the instant-form lead approach the agency deploys for its clients.",
+  "cta": "PPC Guru helps Canadian businesses turn Facebook and Instagram into a predictable, low-cost lead engine with conversion-focused Meta Ads and transparent reporting.",
+  "methodology": "All figures are pulled directly from PPC Guru's own Meta Ads account and shown on a monthly basis. 'Leads' are Meta instant-form submissions — genuine, countable enquiries. Account-level 'results' are reported by Meta as unavailable because they were aggregated across different attribution settings, so instant-form submissions are used as the clean lead metric. 'Now' is the most recent complete month (July 2026); the 2024 pilot is the earlier baseline. A pause between the two eras is disclosed.",
+  "teaser": "📊 Digital marketing agency Meta Ads case study: PPC Guru scaled its own account from ~8 form leads a month at ~$79 to 80 leads at ~$19 in July 2026 — cost per lead down about 76% as budget more than doubled.",
+  "charts": [
+    {
+      "type": "line",
+      "title": "Monthly Instant-Form Leads",
+      "period": "2024 pilot → 2026 scale-up · Meta instant forms",
+      "x": ["Jun'24","Jul'24","Aug'24","Sep'24","May'26","Jun'26","Jul'26"],
+      "series": [
+        {"name": "Form leads", "color": "green", "values": [1,8,8,3,54,54,80]}
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "Instant-Form Leads: Pilot vs Scale-Up",
+      "period": "Genuine instant-form leads per month · Meta Ads",
+      "labels": ["Jul'24","Aug'24","Sep'24","May'26","Jun'26","Jul'26"],
+      "values": [8,8,3,54,54,80],
+      "colors": ["blue","blue","blue","blue","blue","green"]
+    }
+  ]
+}
