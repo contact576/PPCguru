@@ -8,69 +8,68 @@
     "market": "Ontario, Canada",
     "managed_since": "Apr 2023",
     "seo_title": "Physiotherapy Google Ads Case Study | PPC Guru",
-    "meta_description": "How PPC Guru rebuilt a physiotherapy clinic's Google Ads with closed-loop tracking to deliver ~16 booked leads a month at ~$34 each on a similar budget.",
+    "meta_description": "How PPC Guru grew a physiotherapy clinic from ~3 tracked conversions a month in 2021 to ~25 genuine Google Ads leads a month in 2026 with closed-loop tracking.",
     "primary_keyword": "physiotherapy Google Ads",
     "secondary_keywords": ["Google Ads case study", "physiotherapy lead generation", "conversion tracking", "Google Ads management", "Google Ads agency in Toronto"],
     "pdf_filename": "physiotherapy-google-ads-case-study-ppc-guru.pdf",
     "reporting_period": "Jan 2021 – Jul 2026",
-    "comparison_period": "Legacy period vs first 12 months under PPC Guru",
+    "comparison_period": "2021 (before) vs 2026 (current)",
     "currency": "CAD",
     "confidence": "Medium",
     "status": "Completed"
   },
-  "headline": "Physiotherapy Clinic: A Steadier, Lower-Cost Google Ads Lead Pipeline",
+  "headline": "How a Physiotherapy Clinic Scaled to ~25 Tracked Leads a Month with Google Ads",
   "kpis": [
-    {"value": "~16", "label": "Tracked leads / month", "note": "under management"},
-    {"value": "~$34", "label": "Cost per lead", "note": "▼ efficient & stable"},
-    {"value": "~9%", "label": "Conversion rate", "note": "▲ from under 1%"}
+    {"value": "~25", "label": "Genuine leads / month", "note": "▲ from ~3 in 2021"},
+    {"value": "~5%", "label": "Conversion rate (2026)", "note": "▲ from ~1.6% in 2021"},
+    {"value": "~$56", "label": "Cost per genuine lead", "note": "calls · forms · bookings"}
   ],
-  "summary_line": "PPC Guru rebuilt an established but under-tracked physiotherapy account into a dependable source of booked appointments — roughly 16 tracked leads a month at about $34 each, on a similar budget.",
-  "challenge": "The clinic had advertised on Google Ads for years and earned steady traffic, but the account tracked only a couple of measurable enquiries a month — a conversion rate under 1%. Spend was working hard for clicks, but there was no reliable line of sight from ad click to booked appointment, which made it impossible to optimize toward real patients.",
+  "summary_line": "PPC Guru rebuilt an under-tracked physiotherapy account and scaled it into a dependable lead engine — from about three tracked conversions a month in 2021 to roughly 25 genuine phone, form and booking leads a month in 2026, with full closed-loop tracking.",
+  "challenge": "The clinic had advertised on Google Ads for years and earned steady traffic, but in 2021 the account tracked only about three measurable conversions a month at a conversion rate near 1.6%. Spend was working hard for clicks, but there was no reliable line of sight from an ad click through to a booked appointment — which made it impossible to know which searches produced real patients, or to scale with confidence.",
   "changes": [
     {"change": "Single focused Search campaign", "why": "Consolidated budget onto high-intent physiotherapy and injury-treatment queries instead of spreading it thin."},
     {"change": "Closed-loop conversion tracking", "why": "Wired up call tracking (ads + website), lead-form submissions, and GA4 events for the JaneApp online booking flow."},
     {"change": "Offline conversion import", "why": "Fed actual booked appointments (JaneApp) back into Google Ads so bidding optimizes toward patients, not just form fills."},
     {"change": "Maximize Conversions bidding", "why": "Once the conversion signals were trustworthy, automated bidding could chase booked appointments efficiently."},
-    {"change": "Negative-keyword programme", "why": "Filtered low-intent and irrelevant searches to protect budget and lift relevance."},
-    {"change": "Local ad copy & assets", "why": "Aligned messaging and extensions with the clinic's core services and service area."}
+    {"change": "Scaled budget on proof", "why": "As genuine leads grew, monthly budget was increased roughly 2.3× — investing into a channel that was demonstrably working."},
+    {"change": "Ongoing search-term hygiene", "why": "Continuous negative-keyword and search-term work kept traffic relevant as volume grew."}
   ],
   "technical": [
     {"label": "Campaign type", "value": "Search"},
     {"label": "Bidding strategy", "value": "Maximize Conversions"},
-    {"label": "Monthly budget", "value": "≈ $1,500 CAD"},
-    {"label": "Conversion signals", "value": "Calls · Lead forms · GA4 booking"},
+    {"label": "Monthly budget (2026)", "value": "≈ $1,430 CAD"},
+    {"label": "Lead signals", "value": "Calls · Lead forms · Bookings"},
     {"label": "Booking system", "value": "JaneApp (offline import)"},
     {"label": "Measurement", "value": "Closed-loop: click → lead → booking"}
   ],
   "comparison": {
-    "col_before": "Before (2021)",
-    "col_after": "Under PPC Guru (Apr 23–Mar 24)",
+    "col_before": "Then (2021)",
+    "col_after": "Now (2026, Jan–Jul)",
     "rows": [
-      {"metric": "Avg. monthly tracked leads", "before": "≈ 2", "after": "≈ 16", "change": "Consistent flow", "dir": "up"},
-      {"metric": "Cost per tracked lead", "before": "Not reliably tracked", "after": "≈ $34", "change": "Efficient & stable", "dir": "down-good"},
-      {"metric": "Conversion rate", "before": "Under 1%", "after": "≈ 9%", "change": "Higher", "dir": "up"},
-      {"metric": "Avg. monthly ad spend", "before": "≈ $610", "after": "≈ $545", "change": "≈11% lower", "dir": "down-good"}
+      {"metric": "Avg. monthly leads (calls / forms / bookings)", "before": "≈ 3", "after": "≈ 25", "change": "Sustained growth", "dir": "up"},
+      {"metric": "Conversion rate", "before": "≈ 1.6%", "after": "≈ 5%", "change": "Higher", "dir": "up"},
+      {"metric": "Avg. monthly ad spend", "before": "≈ $625", "after": "≈ $1,430", "change": "Scaled with results", "dir": "neutral"},
+      {"metric": "Cost per genuine lead", "before": "Not reliably tracked", "after": "≈ $56", "change": "Now fully measured", "dir": "neutral"}
     ]
   },
-  "benchmark": "Cost per lead held near $34 even as monthly lead volume climbed into the double digits — the structure added volume without inflating cost.",
+  "benchmark": "As results proved out, monthly budget was scaled roughly 2.3× (≈$625 → ≈$1,430). The extra investment brought proportionally more genuine leads — not just more clicks.",
   "why_it_worked": [
     "Reliable, closed-loop tracking let bidding optimize toward booked appointments rather than clicks.",
     "Budget concentrated on high-intent searches from patients ready to book.",
-    "Offline import connected ad spend to real bookings, not just online form fills.",
-    "Ongoing search-term and negative-keyword work kept traffic relevant and costs stable."
+    "Offline import connected ad spend to real bookings, so scaling was based on genuine demand.",
+    "Ongoing search-term and negative-keyword work kept traffic relevant as volume grew."
   ],
-  "outcome": "The clinic now runs on a predictable local lead pipeline: around 16 tracked booking enquiries a month at a stable ~$34 each, on a similar budget to before. Just as important, every dollar of spend is now measurable all the way to a booked appointment — giving the practice a clear, data-backed basis for deciding when to scale.",
+  "outcome": "Today the clinic runs on a predictable, scalable lead engine: roughly 25 genuine phone, form and booking enquiries a month in 2026, at a conversion rate near 5% — up from about three tracked conversions a month in 2021. Because every dollar of spend is now measurable all the way to a booked appointment, the clinic scaled its budget with confidence and has a clear, data-backed basis for growing further.",
   "cta": "PPC Guru helps Canadian clinics turn search traffic into booked appointments with conversion-focused Google Ads and transparent reporting.",
-  "methodology": "All figures are pulled directly from the client's Google Ads account. Comparison periods are equal length (12 months before vs the first 12 months under PPC Guru). Conversion tracking was strengthened during the transition, so the earlier period is shown using absolute monthly averages rather than percentage change.",
+  "methodology": "All figures are pulled directly from the client's Google Ads account. 'Leads' are phone calls, form submissions and completed bookings only — Google Business Profile local actions and booking-page clicks are excluded so counts reflect genuine enquiries. 2021 is the pre-management baseline; 2026 covers January–July.",
   "charts": [
     {
-      "type": "line",
-      "title": "Monthly Tracked Leads Under PPC Guru",
-      "period": "Apr 2023 – Dec 2024 · Google Ads · CAD",
-      "x": ["Apr'23","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan'24","Feb","Mar","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
-      "series": [
-        {"name": "Tracked conversions", "color": "green", "values": [8,4,25,26,30,15,8,17,31,12,11,4,4,24,15,8,13,17,15,14]}
-      ]
+      "type": "bar",
+      "title": "Average Monthly Genuine Leads by Year",
+      "period": "Calls, forms & bookings · Google Ads · CAD",
+      "labels": ["2021", "2024", "2025", "2026 YTD"],
+      "values": [3, 12, 19, 25],
+      "colors": ["navy", "blue", "blue", "green"]
     }
   ]
 }

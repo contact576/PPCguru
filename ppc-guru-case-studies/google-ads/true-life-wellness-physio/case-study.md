@@ -2,20 +2,20 @@
 
 ## SEO
 - **Title:** Physiotherapy Google Ads Case Study | PPC Guru
-- **Meta description:** How PPC Guru rebuilt a physiotherapy clinic's Google Ads with closed-loop tracking to deliver ~16 booked leads a month at ~$34 each on a similar budget.
+- **Meta description:** How PPC Guru grew a physiotherapy clinic from ~3 tracked conversions a month in 2021 to ~25 genuine Google Ads leads a month in 2026 with closed-loop tracking.
 - **Slug:** `/case-studies/physiotherapy-google-ads-case-study`
 - **Primary keyword:** physiotherapy Google Ads
 - **Secondary keywords:** Google Ads case study, physiotherapy lead generation, conversion tracking, Google Ads management, Google Ads agency in Toronto
 - **Confidence:** Medium | **Status:** Completed
 
-## Physiotherapy Clinic: A Steadier, Lower-Cost Google Ads Lead Pipeline
+## How a Physiotherapy Clinic Scaled to ~25 Tracked Leads a Month with Google Ads
 
-**Headline results:** ~16 Tracked leads / month · ~$34 Cost per lead · ~9% Conversion rate
+**Headline results:** ~25 Genuine leads / month · ~5% Conversion rate (2026) · ~$56 Cost per genuine lead
 
-PPC Guru rebuilt an established but under-tracked physiotherapy account into a dependable source of booked appointments — roughly 16 tracked leads a month at about $34 each, on a similar budget.
+PPC Guru rebuilt an under-tracked physiotherapy account and scaled it into a dependable lead engine — from about three tracked conversions a month in 2021 to roughly 25 genuine phone, form and booking leads a month in 2026, with full closed-loop tracking.
 
 ### The Challenge
-The clinic had advertised on Google Ads for years and earned steady traffic, but the account tracked only a couple of measurable enquiries a month — a conversion rate under 1%. Spend was working hard for clicks, but there was no reliable line of sight from ad click to booked appointment, which made it impossible to optimize toward real patients.
+The clinic had advertised on Google Ads for years and earned steady traffic, but in 2021 the account tracked only about three measurable conversions a month at a conversion rate near 1.6%. Spend was working hard for clicks, but there was no reliable line of sight from an ad click through to a booked appointment — which made it impossible to know which searches produced real patients, or to scale with confidence.
 
 ### What PPC Guru Did & Why
 | Change | Why |
@@ -24,35 +24,35 @@ The clinic had advertised on Google Ads for years and earned steady traffic, but
 | Closed-loop conversion tracking | Wired up call tracking (ads + website), lead-form submissions, and GA4 events for the JaneApp online booking flow. |
 | Offline conversion import | Fed actual booked appointments (JaneApp) back into Google Ads so bidding optimizes toward patients, not just form fills. |
 | Maximize Conversions bidding | Once the conversion signals were trustworthy, automated bidding could chase booked appointments efficiently. |
-| Negative-keyword programme | Filtered low-intent and irrelevant searches to protect budget and lift relevance. |
-| Local ad copy & assets | Aligned messaging and extensions with the clinic's core services and service area. |
+| Scaled budget on proof | As genuine leads grew, monthly budget was increased roughly 2.3× — investing into a channel that was demonstrably working. |
+| Ongoing search-term hygiene | Continuous negative-keyword and search-term work kept traffic relevant as volume grew. |
 
 ### Under the Hood (account configuration)
 - **Campaign type:** Search
 - **Bidding strategy:** Maximize Conversions
-- **Monthly budget:** ≈ $1,500 CAD
-- **Conversion signals:** Calls · Lead forms · GA4 booking
+- **Monthly budget (2026):** ≈ $1,430 CAD
+- **Lead signals:** Calls · Lead forms · Bookings
 - **Booking system:** JaneApp (offline import)
 - **Measurement:** Closed-loop: click → lead → booking
 
 ### Results
-| Metric | Before (2021) | Under PPC Guru (Apr 23–Mar 24) | Change |
+| Metric | Then (2021) | Now (2026, Jan–Jul) | Change |
 | --- | --- | --- | --- |
-| Avg. monthly tracked leads | ≈ 2 | ≈ 16 | Consistent flow |
-| Cost per tracked lead | Not reliably tracked | ≈ $34 | Efficient & stable |
-| Conversion rate | Under 1% | ≈ 9% | Higher |
-| Avg. monthly ad spend | ≈ $610 | ≈ $545 | ≈11% lower |
+| Avg. monthly leads (calls / forms / bookings) | ≈ 3 | ≈ 25 | Sustained growth |
+| Conversion rate | ≈ 1.6% | ≈ 5% | Higher |
+| Avg. monthly ad spend | ≈ $625 | ≈ $1,430 | Scaled with results |
+| Cost per genuine lead | Not reliably tracked | ≈ $56 | Now fully measured |
 
-_Cost per lead held near $34 even as monthly lead volume climbed into the double digits — the structure added volume without inflating cost._
+_As results proved out, monthly budget was scaled roughly 2.3× (≈$625 → ≈$1,430). The extra investment brought proportionally more genuine leads — not just more clicks._
 
 ### Why It Worked
 - Reliable, closed-loop tracking let bidding optimize toward booked appointments rather than clicks.
 - Budget concentrated on high-intent searches from patients ready to book.
-- Offline import connected ad spend to real bookings, not just online form fills.
-- Ongoing search-term and negative-keyword work kept traffic relevant and costs stable.
+- Offline import connected ad spend to real bookings, so scaling was based on genuine demand.
+- Ongoing search-term and negative-keyword work kept traffic relevant as volume grew.
 
 ### The Outcome
-The clinic now runs on a predictable local lead pipeline: around 16 tracked booking enquiries a month at a stable ~$34 each, on a similar budget to before. Just as important, every dollar of spend is now measurable all the way to a booked appointment — giving the practice a clear, data-backed basis for deciding when to scale.
+Today the clinic runs on a predictable, scalable lead engine: roughly 25 genuine phone, form and booking enquiries a month in 2026, at a conversion rate near 5% — up from about three tracked conversions a month in 2021. Because every dollar of spend is now measurable all the way to a booked appointment, the clinic scaled its budget with confidence and has a clear, data-backed basis for growing further.
 
 ### Get in touch
 PPC Guru helps Canadian clinics turn search traffic into booked appointments with conversion-focused Google Ads and transparent reporting.

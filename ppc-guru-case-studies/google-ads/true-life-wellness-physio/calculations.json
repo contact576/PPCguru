@@ -27,5 +27,74 @@
     "cvr_pct_inc": 1129,
     "ctr_pct_inc": -81
   },
-  "presentation_note": "Legacy period had limited conversion tracking (conversion rate <1%), so raw before/after percentages (e.g. +905% conversions, -91% CPL) overstate the true change and read as unrealistic. Public case study instead uses absolute monthly averages (~2 -> ~16 conversions/month; ~$34 CPL under management) and notes tracking was strengthened. Raw computed changes retained below for internal verification only."
+  "presentation_note": "Public case study compares 2021 (pre-management baseline) vs 2026 YTD using a CONSISTENT genuine-lead definition (calls+forms+bookings), excluding GBP local actions and booking-page clicks that inflate raw 2026 conversions. This is the honest 'then vs now' the client requested. Earlier 2021-vs-2023/24 draft retained below for reference.",
+  "genuine_lead_analysis": {
+    "definition": "Leads = PHONE_CALL_LEAD + SUBMIT_LEAD_FORM + BOOK_APPOINTMENT conversion categories. Excludes GBP 'Local actions' and janeapp_click (booking-page clicks / OUTBOUND_CLICK) which inflate raw metrics.conversions in 2026.",
+    "monthly_genuine_leads": {
+      "2024": {
+        "Jan": 7,
+        "Feb": 10,
+        "Mar": 4,
+        "May": 4,
+        "Jun": 24,
+        "Jul": 15,
+        "Aug": 8,
+        "Sep": 13,
+        "Oct": 17,
+        "Nov": 15,
+        "Dec": 14,
+        "total": 131,
+        "months": 11,
+        "avg": 11.9
+      },
+      "2025": {
+        "Jan": 15,
+        "Feb": 6,
+        "Mar": 30,
+        "Apr": 20,
+        "May": 26,
+        "Jun": 23,
+        "Jul": 16,
+        "Aug": 26,
+        "Sep": 36,
+        "Oct": 10,
+        "Nov": 4,
+        "Dec": 11,
+        "total": 223,
+        "months": 12,
+        "avg": 18.6
+      },
+      "2026_JanJul": {
+        "Jan": 6,
+        "Feb": 3,
+        "Mar": 35,
+        "Apr": 49,
+        "May": 41,
+        "Jun": 28,
+        "Jul": 16,
+        "total": 178,
+        "months": 7,
+        "avg": 25.4
+      }
+    },
+    "then_2021": {
+      "conversions_total": 33,
+      "months": 12,
+      "avg_per_month": 2.75,
+      "clicks": 2075,
+      "conv_rate_pct": 1.59,
+      "spend_cad": 7517.14,
+      "avg_monthly_spend": 626.4
+    },
+    "now_2026_JanJul": {
+      "genuine_leads": 178,
+      "avg_per_month": 25.4,
+      "clicks": 3636,
+      "conv_rate_pct": 4.9,
+      "spend_cad": 9993.97,
+      "avg_monthly_spend": 1427.7,
+      "cost_per_lead": 56.1
+    },
+    "budget_scale_x": 2.28
+  }
 }
