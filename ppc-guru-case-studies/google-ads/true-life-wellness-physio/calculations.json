@@ -26,5 +26,6 @@
     "cpl_pct_red": 91,
     "cvr_pct_inc": 1129,
     "ctr_pct_inc": -81
-  }
+  },
+  "presentation_note": "Legacy period had limited conversion tracking (conversion rate <1%), so raw before/after percentages (e.g. +905% conversions, -91% CPL) overstate the true change and read as unrealistic. Public case study instead uses absolute monthly averages (~2 -> ~16 conversions/month; ~$34 CPL under management) and notes tracking was strengthened. Raw computed changes retained below for internal verification only."
 }
