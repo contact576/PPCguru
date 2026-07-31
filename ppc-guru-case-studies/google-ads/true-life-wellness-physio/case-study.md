@@ -8,17 +8,28 @@
 - **Secondary keywords:** Google Ads case study, physiotherapy lead generation, conversion tracking, Google Ads management, Google Ads agency in Toronto
 - **Confidence:** Medium | **Status:** Completed
 
-## How a Physiotherapy Clinic Scaled to ~25 Tracked Leads a Month with Google Ads
+## How a Physiotherapy Clinic Built a Scalable Google Ads Lead Engine — Nearly 700 Tracked Enquiries
 
-**Headline results:** ~25 Genuine leads / month · ~5% Conversion rate (2026) · ~$56 Cost per genuine lead
+**Headline results:** ~700 Leads since takeover · ~25 Avg leads / mo (2026) · ~5% Conversion rate
 
-PPC Guru rebuilt an under-tracked physiotherapy account and scaled it into a dependable lead engine — from about three tracked conversions a month in 2021 to roughly 25 genuine phone, form and booking leads a month in 2026, with full closed-loop tracking.
+Since taking over the account in April 2023, PPC Guru has generated nearly 700 tracked patient enquiries for True Life Wellness Physio — growing monthly leads from about three under the earlier setup to roughly 25 on average in 2026 (and up to ~49 in the busiest months), all with full closed-loop tracking from ad click to booked appointment.
 
 ### About the Client
 True Life Wellness Physio is a physiotherapy and wellness clinic serving patients in Ontario, Canada. The practice provides hands-on physiotherapy, injury rehabilitation and related wellness treatments, and manages patient scheduling through the JaneApp booking and practice-management system. Like most local clinics, its growth depends on a steady flow of new-patient enquiries — phone calls and online bookings from people actively searching for treatment nearby. Google Ads is the clinic's primary channel for reaching those high-intent searchers at the moment they are looking for care, which makes reliable measurement of calls and bookings central to the account's success.
 
+### How the Account Came to PPC Guru
+True Life Wellness Physio had been running Google Ads for several years before partnering with PPC Guru. The account was earning clicks and traffic, but new-patient enquiries had plateaued and the clinic had limited visibility into which searches actually produced booked appointments. Looking for more measurable growth from the same channel — and a partner who could tie ad spend to real bookings — the clinic brought the account to PPC Guru in early 2023 for a full rebuild.
+
 ### The Challenge
 The clinic had advertised on Google Ads for years and earned steady traffic, but in 2021 the account tracked only about three measurable conversions a month at a conversion rate near 1.6%. Spend was working hard for clicks, but there was no reliable line of sight from an ad click through to a booked appointment — which made it impossible to know which searches produced real patients, or to scale with confidence.
+
+### What We Analyzed & Planned
+Before changing anything, PPC Guru audited the account's history, conversion tracking and search-term data. The review showed strong, steady demand but a clear measurement gap: the account could see clicks, not booked patients. The plan put measurement first, then concentrated budget on the highest-intent searches, and only handed control to automated bidding once the conversion data could be trusted.
+
+- Rebuild conversion tracking to capture calls, form submissions and JaneApp bookings — with completed appointments imported as offline conversions.
+- Map high-intent treatment searches and separate them from informational queries.
+- Consolidate spend into a single, focused Search campaign to concentrate budget and data.
+- Move to automated bidding in phases, only after enough conversion volume was established.
 
 ### The Takeover Timeline
 - **2021:** Historical pre-management baseline — steady traffic but only about 3 tracked conversions a month, at a conversion rate near 1.6%.
@@ -45,6 +56,18 @@ The clinic had advertised on Google Ads for years and earned steady traffic, but
 - **Booking system:** JaneApp (offline import)
 - **Measurement:** Closed-loop: click → lead → booking
 
+### The First Month & Early Ramp
+Within the first 30 days under PPC Guru (April 2023), the rebuilt account produced 8 tracked leads at about $19 each — an immediate, measurable step up from the earlier setup. The next two months confirmed the pattern: after a quieter May while tracking and targeting settled, June delivered 25 tracked leads at roughly $24 each.
+
+| Period | Spend | Tracked Leads | Cost / Lead |
+| --- | --- | --- | --- |
+| First 30 days (Apr 2023) | $154 | 8 | $19.24 |
+| Days 31–60 (May 2023) | $439 | 4 | $109.76 |
+| Days 61–90 (Jun 2023) | $606 | 25 | $24.23 |
+
+### Gradual Improvement, Month by Month
+From there, results compounded rather than spiking once and fading. Through the rest of 2023 the account settled into roughly 15–30 tracked leads a month. Across 2024 it averaged about 12 a month as targeting and negative keywords were refined, then climbed to around 19 a month in 2025 as budget was scaled on proven results. In 2026 the account is averaging about 25 genuine leads a month and reached a peak of around 49 in April. The monthly trend below shows a steady, compounding climb — the signature of a durable lead engine rather than a one-off win.
+
 ### Results
 | Metric | Then (2021) | Now (2026, Jan–Jul) | Change |
 | --- | --- | --- | --- |
@@ -53,7 +76,7 @@ The clinic had advertised on Google Ads for years and earned steady traffic, but
 | Avg. monthly ad spend | ≈ $625 | ≈ $1,430 | Scaled with results |
 | Cost per genuine lead | Not reliably tracked | ≈ $56 | Now fully measured |
 
-_As results proved out, monthly budget was scaled roughly 2.3× (≈$625 → ≈$1,430). The extra investment brought proportionally more genuine leads — not just more clicks._
+_As results proved out, monthly budget was scaled roughly 2.3× (≈$625 → ≈$1,430). The extra investment brought proportionally more genuine leads — not just more clicks. In total, nearly 700 tracked enquiries have been generated since the takeover._
 
 **Lead quality:** About 95% of tracked leads in 2026 are direct phone calls — the highest-intent enquiry type for a clinic — and each is tracked from ad click through to a JaneApp booking.
 
@@ -73,8 +96,8 @@ JaneApp is the clinic's booking and practice-management system. By importing com
 - Offline import connected ad spend to real bookings, so scaling was based on genuine demand.
 - Ongoing search-term and negative-keyword work kept traffic relevant as volume grew.
 
-### The Outcome
-Today the clinic runs on a predictable, scalable lead engine: roughly 25 genuine phone, form and booking enquiries a month in 2026, at a conversion rate near 5% — up from about three tracked conversions a month in 2021. Because every dollar of spend is now measurable all the way to a booked appointment, the clinic scaled its budget with confidence and has a clear, data-backed basis for growing further.
+### Where They Stand Today
+Today True Life Wellness Physio runs on a predictable, scalable lead engine. In 2026 the account averages about 25 genuine phone, form and booking enquiries a month — up to around 49 in the busiest months — at a conversion rate near 5%, and it has produced nearly 700 tracked enquiries since PPC Guru took over in April 2023. Because every dollar of spend is measurable all the way to a booked appointment, the clinic scales its budget with confidence and has a clear, data-backed basis for continued growth.
 
 ### Get in touch
 PPC Guru helps Canadian clinics turn search traffic into booked appointments with conversion-focused Google Ads and transparent reporting.

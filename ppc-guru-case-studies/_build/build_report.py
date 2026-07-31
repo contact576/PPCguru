@@ -418,6 +418,27 @@ def build_compact(folder, d, m):
     if lessons:
         li = "".join(f"<li>{esc(x)}</li>" for x in lessons)
         lessons_html = f'<h2 class="s">{esc(d.get("lessons_title","Lessons for Business Owners"))}</h2><ol class="lessons">{li}</ol>'
+    # --- detailed narrative sections (all optional) ---
+    background = f'<h2 class="s">How the Account Came to PPC Guru</h2>{para(d.get("background",""))}' if d.get("background") else ""
+    analysis = ""
+    if d.get("analysis") or d.get("analysis_points"):
+        ap = bullet_list(d.get("analysis_points", [])) if d.get("analysis_points") else ""
+        analysis = f'<h2 class="s">What We Analyzed &amp; Planned</h2>{para(d.get("analysis",""))}{ap}'
+    early = ""
+    if d.get("early_stage"):
+        es = d["early_stage"]
+        early = (f'<h2 class="s">{esc(es.get("title","The First Month & Early Results"))}</h2>'
+                 f'{para(es.get("intro",""))}{simple_table(es)}')
+    # chart placement: in detailed mode put the trend chart under "Gradual Improvement", the summary chart under Results
+    first_chart = rendered[0] if rendered else ""
+    second_chart = rendered[1] if len(rendered) > 1 else ""
+    gradual_html = ""
+    if d.get("gradual"):
+        gradual_html = (f'<h2 class="s">Gradual Improvement, Month by Month</h2>{para(d.get("gradual",""))}'
+                        f'<div class="avoid">{first_chart}</div>')
+        results_chart = f'<div class="avoid">{second_chart}</div>' if second_chart else ""
+    else:
+        results_chart = f'<div class="avoid">{chart_html}</div>'
     # QR code CTA -> tracked contact link
     slug_tail = (m.get("slug", "") or "").rstrip("/").split("/")[-1] or "case-study"
     qr_url = f'https://ppcguru.ca/contact?utm_source=case_study&utm_medium=pdf&utm_campaign={slug_tail}'
@@ -442,17 +463,21 @@ def build_compact(folder, d, m):
     parts.append(_kpi_band(d.get("kpis", [])))
     parts.append(f'<div class="lead">{esc(d.get("summary_line",""))}</div>')
     parts.append(client_ctx)
-    parts.append(f'<h2 class="s">The Challenge</h2><p>{esc(d.get("challenge",""))}</p>')
+    parts.append(background)
+    parts.append(f'<h2 class="s">{esc(d.get("challenge_title","The Challenge"))}</h2><p>{esc(d.get("challenge",""))}</p>')
+    parts.append(analysis)
     parts.append('<div class="cols avoid">')
     parts.append(f'<div><h2 class="s">What PPC Guru Did &amp; Why</h2>{_changes_table(d.get("changes",[]))}</div>')
     parts.append(f'<div>{_hood_panel(d.get("technical",[]))}</div>')
     parts.append('</div>')
     parts.append(timeline_html)
-    parts.append(f'<h2 class="s">Results</h2>{_cmp_compact(d.get("comparison"))}{bench}{quality}<div class="avoid">{chart_html}</div>')
+    parts.append(early)
+    parts.append(gradual_html)
+    parts.append(f'<h2 class="s">Results</h2>{_cmp_compact(d.get("comparison"))}{bench}{quality}{results_chart}')
+    parts.append(f'<h2 class="s">Why It Worked</h2><ul class="why">{why}</ul>')
     parts.append(spotlight_html)
     parts.append(lessons_html)
-    parts.append(f'<h2 class="s">Why It Worked</h2><ul class="why">{why}</ul>')
-    parts.append(f'<h2 class="s">The Outcome</h2><p>{esc(d.get("outcome",""))}</p>')
+    parts.append(f'<h2 class="s">{esc(d.get("outcome_title","The Outcome"))}</h2><p>{esc(d.get("outcome",""))}</p>')
     parts.append(f'''<div class="cta"><div><b>Want results like these?</b><p>{esc(d.get("cta",""))}</p></div>
       {qr_html}</div>''')
     disc = ("Advertising results vary based on industry, market conditions, competition, budget, campaign history, offer, "

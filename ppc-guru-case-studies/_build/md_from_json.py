@@ -30,8 +30,18 @@ def build_compact_md(folder, d, m):
     if d.get("client_context"):
         L.append("### About the Client")
         L.append(d["client_context"] + "\n")
-    L.append("### The Challenge")
+    if d.get("background"):
+        L.append("### How the Account Came to PPC Guru")
+        L.append(d["background"] + "\n")
+    L.append(f"### {d.get('challenge_title','The Challenge')}")
     L.append(d.get("challenge", "") + "\n")
+    if d.get("analysis") or d.get("analysis_points"):
+        L.append("### What We Analyzed & Planned")
+        if d.get("analysis"):
+            L.append(d["analysis"] + "\n")
+        for p in d.get("analysis_points", []):
+            L.append(f"- {p}")
+        L.append("")
     if d.get("timeline"):
         L.append(f"### {d.get('timeline_title','Engagement Timeline')}")
         for i in d["timeline"]:
@@ -46,6 +56,17 @@ def build_compact_md(folder, d, m):
         for t in d["technical"]:
             L.append(f"- **{t.get('label','')}:** {t.get('value','')}")
         L.append("")
+    if d.get("early_stage"):
+        es = d["early_stage"]
+        L.append(f"### {es.get('title','The First Month & Early Results')}")
+        if es.get("intro"):
+            L.append(es["intro"] + "\n")
+        if es.get("rows"):
+            L.append(md_table(es.get("headers", []), es["rows"]))
+        L.append("")
+    if d.get("gradual"):
+        L.append("### Gradual Improvement, Month by Month")
+        L.append(d["gradual"] + "\n")
     L.append("### Results")
     cmp = d.get("comparison", {})
     if cmp.get("rows"):
@@ -68,7 +89,7 @@ def build_compact_md(folder, d, m):
     for w in d.get("why_it_worked", []):
         L.append(f"- {w}")
     L.append("")
-    L.append("### The Outcome")
+    L.append(f"### {d.get('outcome_title','The Outcome')}")
     L.append(d.get("outcome", "") + "\n")
     L.append("### Get in touch")
     L.append(d.get("cta", "") + "\n")
