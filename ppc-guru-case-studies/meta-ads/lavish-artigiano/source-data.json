@@ -1,0 +1,31 @@
+{
+  "account": {
+    "name": "Lavish Artigiano",
+    "ad_account_id": "27192246937136197",
+    "platform": "Meta Ads",
+    "currency": "CAD",
+    "objective_detected": "OUTCOME_LEADS (Leads (form))"
+  },
+  "match_confirmation": {
+    "by_account_id": "27192246937136197",
+    "by_account_name": "Lavish Artigiano",
+    "by_campaign_name": "Lavish - Cabinates - Forms & Calls",
+    "by_currency": "CAD"
+  },
+  "industry_confirmation": "Single campaign 'Lavish - Cabinates - Forms & Calls' ('Cabinates' = cabinets) plus the brand name 'Artigiano' (Italian for 'artisan') confirm a custom cabinetry / artisan millwork business. Slug, keywords and PDF set to custom cabinetry.",
+  "notes": "INSUFFICIENT DATA for a before/after story. Account-level monthly data returns only ONE complete month with delivery: July 2026. The Meta program launched ~July 2026, so there is no baseline month and no full quarter to compare against. A single lead campaign (objective OUTCOME_LEADS, results 'Leads (form)') is running; the account 'lead' metric equals genuine Instant Form submissions. This case study is written as an honest first-month launch snapshot and marked Needs Review / Low confidence. What is missing: at least one more complete month (ideally a full quarter) to establish a trend and a stable cost-per-lead average. Meta values are formatted strings and were parsed (e.g. 'CA$623.85 CAD' -> 623.85, '2.22%' -> 2.22).",
+  "queries": {
+    "monthly_account_trend": "ads_get_ad_entities(ad_account_id=27192246937136197, level=ad_account, fields=[amount_spent,impressions,reach,clicks,ctr,cpc,frequency,actions:link_click,lead,results,landing_page_view,cost_per_lead], time_range={since:2022-01-01,until:2026-07-31}, time_increment=monthly)",
+    "campaigns": "ads_get_ad_entities(ad_account_id=27192246937136197, level=campaign, fields=[name,objective,amount_spent,impressions,reach,lead,results,cpc,ctr,actions:link_click], time_range={since:2022-01-01,until:2026-07-31}, limit=100)"
+  },
+  "monthly": [
+    {"month": "2026-07", "spend_cad": 623.85, "impressions": 35366, "reach": 18490, "clicks": 785, "ctr_pct": 2.22, "cpc_cad": 0.79, "frequency": 1.91, "link_clicks": 415, "leads": 118, "cost_per_lead_cad": 5.29, "results": "118 (Leads (form))"}
+  ],
+  "campaign": {
+    "name": "Lavish - Cabinates - Forms & Calls",
+    "objective": "OUTCOME_LEADS",
+    "results": "118 (Leads (form))",
+    "spend_cad": 623.85,
+    "leads": 118
+  }
+}

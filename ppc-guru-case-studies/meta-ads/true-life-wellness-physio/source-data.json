@@ -1,0 +1,31 @@
+{
+  "account": {
+    "name": "True Life Wellness Physio",
+    "ad_account_id": "1563486338469079",
+    "platform": "Meta Ads",
+    "currency": "CAD",
+    "objective_detected": "OUTCOME_LEADS (Leads (form))"
+  },
+  "match_confirmation": {
+    "by_account_id": "1563486338469079",
+    "by_account_name": "True Life Wellness Physio",
+    "by_campaign_name": "PPC Guru - True life Wellness - Instant Form",
+    "by_currency": "CAD"
+  },
+  "notes": "Very short-history Meta Ads LAUNCH. Account-level monthly data returns only two complete months with delivery: June 2026 and July 2026, so the Meta program launched ~June 2026 (this is separate from the client's longer-running Google Ads account). Single lead campaign, objective OUTCOME_LEADS with results reported as 'Leads (form)'; the account 'lead' metric equals genuine Instant Form submissions — no vanity-action inflation. Story uses a launch first-complete-month (Jun 2026) vs most-recent-complete-month (Jul 2026) comparison. Confidence is LOW because only two months exist and no full quarter is available yet. Meta values are formatted strings and were parsed (e.g. 'CA$499.79 CAD' -> 499.79, '2.87%' -> 2.87).",
+  "queries": {
+    "monthly_account_trend": "ads_get_ad_entities(ad_account_id=1563486338469079, level=ad_account, fields=[amount_spent,impressions,reach,clicks,ctr,cpc,frequency,actions:link_click,lead,results,landing_page_view,cost_per_lead], time_range={since:2022-01-01,until:2026-07-31}, time_increment=monthly)",
+    "campaigns": "ads_get_ad_entities(ad_account_id=1563486338469079, level=campaign, fields=[name,objective,amount_spent,impressions,reach,lead,results,cpc,ctr,actions:link_click], time_range={since:2022-01-01,until:2026-07-31}, limit=100)"
+  },
+  "monthly": [
+    {"month": "2026-06", "spend_cad": 499.79, "impressions": 11296, "reach": 4440, "clicks": 324, "ctr_pct": 2.87, "cpc_cad": 1.54, "frequency": 2.54, "link_clicks": 179, "leads": 32, "cost_per_lead_cad": 15.62, "results": "32 (Leads (form))"},
+    {"month": "2026-07", "spend_cad": 497.45, "impressions": 14931, "reach": 5676, "clicks": 452, "ctr_pct": 3.03, "cpc_cad": 1.10, "frequency": 2.63, "link_clicks": 224, "leads": 50, "cost_per_lead_cad": 9.95, "results": "50 (Leads (form))"}
+  ],
+  "campaign": {
+    "name": "PPC Guru - True life Wellness - Instant Form",
+    "objective": "OUTCOME_LEADS",
+    "results": "82 (Leads (form)) lifetime",
+    "spend_cad": 997.24,
+    "leads": 82
+  }
+}

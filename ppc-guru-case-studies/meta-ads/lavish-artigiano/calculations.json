@@ -1,0 +1,24 @@
+{
+  "story_type": "Meta Ads launch — single-month snapshot (insufficient data for a before/after comparison)",
+  "genuine_lead_definition": "Genuine leads = Meta 'lead' metric = Instant Form submissions for the single OUTCOME_LEADS campaign. No messaging or awareness activity to exclude.",
+  "available_period": "2026-07 only (July 2026, first complete month of delivery)",
+  "baseline_period": "none available — no prior month of data",
+  "now_period": "2026-07 (July 2026)",
+  "first_month_jul_2026": {
+    "leads": 118,
+    "spend_cad": 623.85,
+    "cost_per_lead_cad": 5.29,
+    "ctr_pct": 2.22,
+    "cpc_cad": 0.79,
+    "clicks": 785,
+    "link_clicks": 415,
+    "impressions": 35366,
+    "reach": 18490,
+    "frequency": 1.91
+  },
+  "derived_checks": {
+    "cost_per_lead": "623.85 / 118 = 5.29 CAD (matches Meta cost_per_lead)",
+    "ctr": "785 clicks / 35366 impressions = 2.22%"
+  },
+  "confidence_note": "LOW confidence / Needs Review. Only one complete month exists, so no before/after change can be computed. Figures are reported as a first-month snapshot only. At least one more complete month is required before a trend or a stable cost-per-lead average can be stated."
+}
