@@ -27,8 +27,16 @@ def build_compact_md(folder, d, m):
     if d.get("kpis"):
         L.append("**Headline results:** " + " · ".join(f"{k.get('value','')} {k.get('label','')}" for k in d["kpis"]) + "\n")
     L.append(d.get("summary_line", "") + "\n")
+    if d.get("client_context"):
+        L.append("### About the Client")
+        L.append(d["client_context"] + "\n")
     L.append("### The Challenge")
     L.append(d.get("challenge", "") + "\n")
+    if d.get("timeline"):
+        L.append(f"### {d.get('timeline_title','Engagement Timeline')}")
+        for i in d["timeline"]:
+            L.append(f"- **{i.get('when','')}:** {i.get('what','')}")
+        L.append("")
     L.append("### What PPC Guru Did & Why")
     if d.get("changes"):
         L.append(md_table(["Change", "Why"], [[c.get("change",""), c.get("why","")] for c in d["changes"]]))
@@ -45,7 +53,17 @@ def build_compact_md(folder, d, m):
         L.append(md_table(["Metric", cmp.get("col_before","Before"), cmp.get("col_after","After"), "Change"], rows))
     if d.get("benchmark"):
         L.append(f"\n_{d['benchmark']}_")
+    if d.get("lead_quality"):
+        L.append(f"\n**Lead quality:** {d['lead_quality']}")
     L.append("")
+    if d.get("spotlight") and d["spotlight"].get("body"):
+        L.append(f"### {d['spotlight'].get('title','Why It Matters')}")
+        L.append(d["spotlight"]["body"] + "\n")
+    if d.get("lessons"):
+        L.append(f"### {d.get('lessons_title','Lessons for Business Owners')}")
+        for i, x in enumerate(d["lessons"], 1):
+            L.append(f"{i}. {x}")
+        L.append("")
     L.append("### Why It Worked")
     for w in d.get("why_it_worked", []):
         L.append(f"- {w}")

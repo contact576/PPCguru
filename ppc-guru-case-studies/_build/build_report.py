@@ -324,6 +324,21 @@ table.cmp td.m{{font-weight:600;}}
 .quality{{background:#eaf7f0;border:1px solid #bfe6d0;border-left:4px solid var(--green);border-radius:8px;
   padding:8px 12px;font-size:9.4pt;margin:8px 0 2px;color:#14603a;}}
 .quality b{{color:#0f5c37;}}
+.timeline{{margin:6px 0 2px;border-left:2px solid var(--border);padding-left:18px;}}
+.tl-item{{position:relative;padding:5px 0;font-size:9.6pt;}}
+.tl-item:before{{content:"";position:absolute;left:-25px;top:8px;width:9px;height:9px;border-radius:50%;
+  background:var(--blue);box-shadow:0 0 0 3px #fff,0 0 0 4px var(--blue);}}
+.tl-when{{font-weight:800;color:var(--navy);margin-right:10px;}}
+.tl-what{{color:#3a4658;}}
+.spotlight{{background:#eef4fd;border:1px solid #cddffb;border-left:4px solid var(--blue);border-radius:9px;
+  padding:11px 14px;margin:8px 0;}}
+.spotlight h3{{font-size:10pt;color:var(--blue);margin-bottom:4px;}}
+.spotlight p{{margin:0;font-size:9.5pt;color:#26405f;}}
+ol.lessons{{margin:4px 0;padding-left:0;list-style:none;counter-reset:l;}}
+ol.lessons li{{position:relative;padding:5px 0 5px 32px;font-size:9.6pt;counter-increment:l;border-bottom:1px solid var(--border);}}
+ol.lessons li:last-child{{border-bottom:none;}}
+ol.lessons li:before{{content:counter(l);position:absolute;left:0;top:5px;width:21px;height:21px;background:var(--navy);
+  color:#fff;border-radius:50%;font-size:9pt;font-weight:700;text-align:center;line-height:21px;}}
 ul.why{{margin:4px 0;padding-left:0;list-style:none;}}
 ul.why li{{position:relative;padding:4px 0 4px 22px;font-size:9.6pt;}}
 ul.why li:before{{content:"✔";position:absolute;left:2px;top:4px;color:var(--green);font-weight:800;}}
@@ -384,6 +399,25 @@ def build_compact(folder, d, m):
     why = "".join(f"<li>{esc(w)}</li>" for w in d.get("why_it_worked", [])[:4])
     bench = f'<div class="bench">{esc(d.get("benchmark",""))}</div>' if d.get("benchmark") else ""
     quality = f'<div class="quality"><b>Lead quality:</b> {esc(d.get("lead_quality",""))}</div>' if d.get("lead_quality") else ""
+    # About the client
+    client_ctx = f'<h2 class="s">About the Client</h2>{para(d.get("client_context",""))}' if d.get("client_context") else ""
+    # Engagement timeline (as indexable text)
+    tl = d.get("timeline", [])
+    timeline_html = ""
+    if tl:
+        items = "".join(f'<div class="tl-item"><span class="tl-when">{esc(i.get("when",""))}</span>'
+                        f'<span class="tl-what">{esc(i.get("what",""))}</span></div>' for i in tl)
+        timeline_html = f'<h2 class="s">{esc(d.get("timeline_title","Engagement Timeline"))}</h2><div class="timeline">{items}</div>'
+    # Spotlight callout (e.g. why the integration matters)
+    sp = d.get("spotlight")
+    spotlight_html = (f'<div class="spotlight"><h3>{esc(sp.get("title",""))}</h3>{para(sp.get("body",""))}</div>'
+                      if sp and sp.get("body") else "")
+    # Lessons for owners
+    lessons = d.get("lessons", [])
+    lessons_html = ""
+    if lessons:
+        li = "".join(f"<li>{esc(x)}</li>" for x in lessons)
+        lessons_html = f'<h2 class="s">{esc(d.get("lessons_title","Lessons for Business Owners"))}</h2><ol class="lessons">{li}</ol>'
     # QR code CTA -> tracked contact link
     slug_tail = (m.get("slug", "") or "").rstrip("/").split("/")[-1] or "case-study"
     qr_url = f'https://ppcguru.ca/contact?utm_source=case_study&utm_medium=pdf&utm_campaign={slug_tail}'
@@ -407,12 +441,16 @@ def build_compact(folder, d, m):
       <div class="sub">{esc(" · ".join(sub_bits))}</div></div>''')
     parts.append(_kpi_band(d.get("kpis", [])))
     parts.append(f'<div class="lead">{esc(d.get("summary_line",""))}</div>')
+    parts.append(client_ctx)
     parts.append(f'<h2 class="s">The Challenge</h2><p>{esc(d.get("challenge",""))}</p>')
     parts.append('<div class="cols avoid">')
     parts.append(f'<div><h2 class="s">What PPC Guru Did &amp; Why</h2>{_changes_table(d.get("changes",[]))}</div>')
     parts.append(f'<div>{_hood_panel(d.get("technical",[]))}</div>')
     parts.append('</div>')
+    parts.append(timeline_html)
     parts.append(f'<h2 class="s">Results</h2>{_cmp_compact(d.get("comparison"))}{bench}{quality}<div class="avoid">{chart_html}</div>')
+    parts.append(spotlight_html)
+    parts.append(lessons_html)
     parts.append(f'<h2 class="s">Why It Worked</h2><ul class="why">{why}</ul>')
     parts.append(f'<h2 class="s">The Outcome</h2><p>{esc(d.get("outcome",""))}</p>')
     parts.append(f'''<div class="cta"><div><b>Want results like these?</b><p>{esc(d.get("cta",""))}</p></div>
