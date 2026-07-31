@@ -1,4 +1,4 @@
-# Health Centre Google Ads Case Study — Palmdale Health Center
+# Physiotherapy & Massage Health Centre Google Ads Case Study — Palmdale Health Center
 
 ## SEO
 - **Title:** Health Centre Google Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## How a Toronto Health Centre Launched on Google Ads and Grew to ~9 Phone Leads a Month
 
-**Headline results:** ~9 phone leads / month · ~$59 cost per lead · ~9% conversion rate (Q2 2026)
+**Headline results:** ~9 Phone leads / month · ~$59 Cost per lead · ~9% Conversion rate
 
 PPC Guru launched a fresh Google Ads account for a Toronto physiotherapy and massage health centre in early 2026 and, in the first full quarter under management (April–June 2026), grew it to about nine genuine phone-call leads a month at roughly $59 each — up from a single tracked call in the launch month, with a conversion rate near 9%.
 
@@ -28,7 +28,7 @@ Because this was a launch rather than a turnaround, PPC Guru put measurement fir
 
 - Stand up call tracking (website calls and calls from ads) plus lead-form and JaneApp booking signals from launch.
 - Separate genuine phone-call leads from Google Business Profile local actions and booking-button clicks so reporting reflects real enquiries.
-- Concentrate budget on high-intent local searches such as "physiotherapy near me" and "massage therapy near me".
+- Concentrate budget on high-intent local searches such as 'physiotherapy near me' and 'massage therapy near me'.
 - Grow spend gradually, only as monthly phone-lead volume confirmed the channel was converting.
 
 ### The Launch Timeline
@@ -64,7 +64,7 @@ The launch quarter showed a clear, compounding ramp. The first month produced a 
 | Days 61–90 (Apr 2026) | $488 | 5 | $97.57 |
 
 ### Gradual Improvement, Month by Month
-From there, genuine phone leads compounded month over month rather than spiking once and fading: 1 in February, 2 in March, 5 in April, 11 in May and 12 in June, before a quieter July (7) as part of the natural month-to-month variation of a real account. Cost per lead fell in step, from roughly $293 in the launch month to about $59 across the most recent complete quarter. The trend shows a steady early climb rather than a one-off spike.
+From there, genuine phone leads compounded month over month rather than spiking once and fading: 1 in February, 2 in March, 5 in April, 11 in May and 12 in June, before a quieter July (7) as part of the natural month-to-month variation of a real account. Cost per lead fell in step, from roughly $293 in the launch month to about $59 across the most recent complete quarter. The trend below shows a steady early climb rather than a one-off spike.
 
 ### Results
 | Metric | Launch (Feb 2026) | Now (Q2 2026, avg/mo) | Change |
@@ -74,7 +74,7 @@ From there, genuine phone leads compounded month over month rather than spiking 
 | Conversion rate | ≈ 2% | ≈ 9% | Higher |
 | Monthly ad spend | ≈ $293 | ≈ $555 | Scaled with results |
 
-_Figures use genuine phone-call leads only. Raw account "Conversions" read higher from June 2026 because a booking-page button-click action (janeapp_click) and Google Business Profile local actions are also recorded — those are excluded here so the numbers reflect real patient calls._
+_Figures use genuine phone-call leads only. Raw account 'Conversions' read higher from June 2026 because a booking-page button-click action (janeapp_click) and Google Business Profile local actions are also recorded — those are excluded here so the numbers reflect real patient calls._
 
 **Lead quality:** Every tracked lead in this study is a phone call to the clinic — the highest-intent enquiry type for a local health centre — captured from both website and ad call extensions.
 

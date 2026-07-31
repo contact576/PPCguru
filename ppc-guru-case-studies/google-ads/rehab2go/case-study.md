@@ -1,4 +1,4 @@
-# Mobile Physiotherapy Google Ads Case Study — Rehab2Go
+# Mobile Physiotherapy / Rehabilitation Google Ads Case Study — Rehab2Go
 
 ## SEO
 - **Title:** Mobile Physiotherapy Google Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## Launching a Mobile Physiotherapy Service on Google Ads
 
-**Headline snapshot:** 4–9 genuine leads / month · ~38x reach expansion · Search + Performance Max live (Mar–Jul 2026)
+**Headline results:** 4–9 Genuine leads / month · ~38x Reach expansion · 2 Campaign types live
 
 PPC Guru launched a Toronto mobile physiotherapy service on Google Ads in early 2026 with clean lead tracking in place from day one. In its first five months the account has produced a steady early flow of four to nine genuine phone and form leads a month, and reach expanded sharply after a Performance Max campaign was added — an early-stage foundation now being scaled.
 
@@ -27,7 +27,7 @@ Starting a brand-new mobile-physiotherapy account means building demand and data
 As a brand-new account, the priority was a clean measurement foundation and tightly relevant early traffic. PPC Guru set up genuine-lead tracking first, focused Search on high-intent at-home queries, and then introduced Performance Max to expand reach once the tracking was trusted.
 
 - Set up genuine-lead tracking (phone calls and form submissions) before scaling spend.
-- Focus Search on high-intent at-home queries such as "in home physiotherapy toronto" and "mobile physiotherapist".
+- Focus Search on high-intent at-home queries such as 'in home physiotherapy toronto' and 'mobile physiotherapist'.
 - Add a Performance Max campaign to widen reach beyond core Search once tracking was trusted.
 - Keep early traffic relevant with ongoing search-term and negative-keyword work.
 

@@ -52,20 +52,14 @@ Because this is a fresh launch, the priority was to stand up clean lead capture 
 - **Data window:** 1 month (Jul 2026)
 
 ### Results
-| Metric | Month one (Jul 2026) | Detail |
-| --- | --- | --- |
-| Instant-Form leads | 8 | ≈ $19.33 / lead |
-| WhatsApp conversations | 8 | ≈ $42.70 / chat |
-| Total enquiries | 16 | ≈ $31 blended |
-| Ad spend | ≈ $496 | Launch month |
+| Metric | Metric | Month one (Jul 2026) | Change |
+| --- | --- | --- | --- |
+| Instant-Form leads | Instant-Form leads | 8 | ≈ $19.33 / lead |
+| WhatsApp conversations | WhatsApp conversations | 8 | ≈ $42.70 / chat |
+| Total enquiries | Total enquiries | 16 | ≈ $31 blended |
+| Ad spend | Ad spend | ≈ $496 | Launch month |
 
 _These figures cover a single launch month (July 2026), so they are an early snapshot rather than a trend. Cost per enquiry should be read as a starting baseline that PPC Guru will work to improve as the account gathers more data._
-
-### Why It Worked
-- Two lead objectives launched together gave the agent both form leads and live conversations.
-- On-platform capture kept enquiries fast and frictionless for a mobile audience.
-- Clean measurement from day one set an honest cost-per-enquiry baseline.
-- The form campaign delivered leads at about $19.33 each in its first month.
 
 ### Lessons for Real Estate Agents
 1. Give prospects two ways to reach you — a form for details and WhatsApp for a quick chat.
@@ -73,6 +67,12 @@ _These figures cover a single launch month (July 2026), so they are an early sna
 3. Measure cost per genuine enquiry from day one, not clicks or reach.
 4. Treat the first month as a baseline and optimise from real data rather than assumptions.
 5. Follow up with new leads fast — speed to contact matters in real estate.
+
+### Why It Worked
+- Two lead objectives launched together gave the agent both form leads and live conversations.
+- On-platform capture kept enquiries fast and frictionless for a mobile audience.
+- Clean measurement from day one set an honest cost-per-enquiry baseline.
+- The form campaign delivered leads at about $19.33 each in its first month.
 
 ### Where They Stand Today
 In its first month on Meta with PPC Guru (July 2026), Sold by Kaushik generated 16 genuine enquiries — 8 Instant-Form leads at about $19.33 each and 8 WhatsApp conversations. As a launch snapshot from a single month, these results are an encouraging start rather than a settled trend. PPC Guru will confirm cost per enquiry over a fuller window and scale the objective that proves most efficient.

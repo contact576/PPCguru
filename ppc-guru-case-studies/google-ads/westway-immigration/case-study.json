@@ -1,7 +1,7 @@
 {
   "meta": {
     "layout": "compact",
-    "client_display": "Immigration Consultancy",
+    "client_display": "Westway Immigration",
     "slug": "/case-studies/immigration-consultant-google-ads-case-study",
     "platform": "Google Ads",
     "industry": "Immigration Consultancy",
@@ -10,7 +10,13 @@
     "seo_title": "Immigration Google Ads Case Study | PPC Guru",
     "meta_description": "How PPC Guru launched an immigration consultancy on Google Ads and scaled it to about 95 genuine leads a month at roughly $8 each within its first year.",
     "primary_keyword": "immigration consultant Google Ads",
-    "secondary_keywords": ["immigration lead generation", "Google Ads case study", "cost per lead", "Performance Max", "Google Ads agency in Toronto"],
+    "secondary_keywords": [
+      "immigration lead generation",
+      "Google Ads case study",
+      "cost per lead",
+      "Performance Max",
+      "Google Ads agency in Toronto"
+    ],
     "pdf_filename": "immigration-consultant-google-ads-case-study-ppc-guru.pdf",
     "reporting_period": "Sep 2025 – Jul 2026",
     "comparison_period": "Launch (Sep 2025) vs Q2 2026 (per month)",
@@ -20,9 +26,21 @@
   },
   "headline": "How an Immigration Consultancy Scaled to ~95 Google Ads Leads a Month",
   "kpis": [
-    {"value": "~95", "label": "Leads / month", "note": "Q2 2026 (Apr–Jun)"},
-    {"value": "~$8", "label": "Cost per lead", "note": "▼ from ~$13 at launch"},
-    {"value": "~22%", "label": "Conversion rate", "note": "▲ from ~14% at launch"}
+    {
+      "value": "~95",
+      "label": "Leads / month",
+      "note": "Q2 2026 (Apr–Jun)"
+    },
+    {
+      "value": "~$8",
+      "label": "Cost per lead",
+      "note": "▼ from ~$13 at launch"
+    },
+    {
+      "value": "~22%",
+      "label": "Conversion rate",
+      "note": "▲ from ~14% at launch"
+    }
   ],
   "summary_line": "PPC Guru launched an immigration consultancy on Google Ads in September 2025 and, on a flat budget of around $760 a month, scaled it from 55 genuine leads in its first month to roughly 95 a month in the most recent quarter (Apr–Jun 2026) — at a cost per lead of about $8, driven mainly by high-intent phone calls.",
   "client_context": "The client is an immigration consultancy based in Toronto, Canada, helping individuals and families with visa, residency and immigration applications. Its enquiries are overwhelmingly phone calls from people actively researching their options — a high-intent, time-sensitive service where speaking to a consultant quickly matters. Google Ads is the firm's primary channel for reaching those searchers at the moment they need help.",
@@ -36,47 +54,139 @@
   ],
   "timeline_title": "The Launch & Growth Timeline",
   "timeline": [
-    {"when": "Sep 2025", "what": "Launch month — 55 genuine leads at about $13 each, on a ~$720 budget."},
-    {"when": "Q4 2025", "what": "First full quarter — about 179 genuine leads (roughly 60 a month) as the account settled in."},
-    {"when": "Q1 2026", "what": "Scaled to about 291 genuine leads (roughly 97 a month) on the same flat budget."},
-    {"when": "Apr 2026", "what": "Peak month — about 124 genuine leads."},
-    {"when": "Q2 2026 (Apr–Jun)", "what": "About 95 genuine leads a month at roughly $8 each."}
+    {
+      "when": "Sep 2025",
+      "what": "Launch month — 55 genuine leads at about $13 each, on a ~$720 budget."
+    },
+    {
+      "when": "Q4 2025",
+      "what": "First full quarter — about 179 genuine leads (roughly 60 a month) as the account settled in."
+    },
+    {
+      "when": "Q1 2026",
+      "what": "Scaled to about 291 genuine leads (roughly 97 a month) on the same flat budget."
+    },
+    {
+      "when": "Apr 2026",
+      "what": "Peak month — about 124 genuine leads."
+    },
+    {
+      "when": "Q2 2026 (Apr–Jun)",
+      "what": "About 95 genuine leads a month at roughly $8 each."
+    }
   ],
   "challenge": "Launching a brand-new account in a competitive, high-value category like immigration means starting with no conversion history and keeping cost per lead low enough for a modest budget to work hard. Early clicks needed to be converted into genuine phone calls efficiently, and the reporting had to stay honest — the account also records plenty of Google local actions and pop-up clicks that can flatter the numbers if they are counted as leads.",
   "changes": [
-    {"change": "Search + Performance Max launch", "why": "A Search campaign captured high-intent immigration queries while Performance Max extended reach across Google's inventory."},
-    {"change": "Genuine call + form tracking", "why": "Measured real phone calls and lead-form submissions, keeping Google local actions and pop-up clicks out of the lead count."},
-    {"change": "Maximize Conversions bidding", "why": "With clean lead signals, automated bidding pushed cost per lead down as volume grew."},
-    {"change": "Budget concentrated on converters", "why": "Spend was steered toward the searches and placements that produced genuine enquiries."},
-    {"change": "Grew volume on a flat budget", "why": "Leads nearly doubled from launch while monthly spend stayed near $760 — the gains came from efficiency."}
+    {
+      "change": "Search + Performance Max launch",
+      "why": "A Search campaign captured high-intent immigration queries while Performance Max extended reach across Google's inventory."
+    },
+    {
+      "change": "Genuine call + form tracking",
+      "why": "Measured real phone calls and lead-form submissions, keeping Google local actions and pop-up clicks out of the lead count."
+    },
+    {
+      "change": "Maximize Conversions bidding",
+      "why": "With clean lead signals, automated bidding pushed cost per lead down as volume grew."
+    },
+    {
+      "change": "Budget concentrated on converters",
+      "why": "Spend was steered toward the searches and placements that produced genuine enquiries."
+    },
+    {
+      "change": "Grew volume on a flat budget",
+      "why": "Leads nearly doubled from launch while monthly spend stayed near $760 — the gains came from efficiency."
+    }
   ],
   "technical": [
-    {"label": "Campaign types", "value": "Search + Performance Max"},
-    {"label": "Bidding strategy", "value": "Maximize Conversions"},
-    {"label": "Monthly budget", "value": "≈ $760 CAD (flat)"},
-    {"label": "Lead signals", "value": "Phone calls + lead forms"},
-    {"label": "Primary action", "value": "Phone calls (high intent)"},
-    {"label": "Measurement", "value": "Call tracking + GA4"}
+    {
+      "label": "Campaign types",
+      "value": "Search + Performance Max"
+    },
+    {
+      "label": "Bidding strategy",
+      "value": "Maximize Conversions"
+    },
+    {
+      "label": "Monthly budget",
+      "value": "≈ $760 CAD (flat)"
+    },
+    {
+      "label": "Lead signals",
+      "value": "Phone calls + lead forms"
+    },
+    {
+      "label": "Primary action",
+      "value": "Phone calls (high intent)"
+    },
+    {
+      "label": "Measurement",
+      "value": "Call tracking + GA4"
+    }
   ],
   "comparison": {
     "col_before": "Then (Sep 2025, launch)",
     "col_after": "Now (Q2 2026, avg/mo)",
     "rows": [
-      {"metric": "Genuine leads / month (mostly calls)", "before": "55", "after": "≈ 95", "change": "About 1.7× growth", "dir": "up"},
-      {"metric": "Cost per lead", "before": "≈ $13", "after": "≈ $8", "change": "Lower", "dir": "down-good"},
-      {"metric": "Conversion rate", "before": "≈ 14%", "after": "≈ 22%", "change": "Higher", "dir": "up"},
-      {"metric": "Monthly ad spend", "before": "≈ $720", "after": "≈ $760", "change": "Held flat", "dir": "neutral"}
+      {
+        "metric": "Genuine leads / month (mostly calls)",
+        "before": "55",
+        "after": "≈ 95",
+        "change": "About 1.7× growth",
+        "dir": "up"
+      },
+      {
+        "metric": "Cost per lead",
+        "before": "≈ $13",
+        "after": "≈ $8",
+        "change": "Lower",
+        "dir": "down-good"
+      },
+      {
+        "metric": "Conversion rate",
+        "before": "≈ 14%",
+        "after": "≈ 22%",
+        "change": "Higher",
+        "dir": "up"
+      },
+      {
+        "metric": "Monthly ad spend",
+        "before": "≈ $720",
+        "after": "≈ $760",
+        "change": "Held flat",
+        "dir": "neutral"
+      }
     ]
   },
   "benchmark": "All figures are genuine phone-call and lead-form conversions. From April 2026 the account's all-conversions total is heavily inflated by Google local actions and pop-up/button clicks (for example, one month recorded 84 genuine leads against nearly 490 total actions); those non-lead actions are excluded so the counts reflect real enquiries. Because budget stayed near $760 a month, the growth in leads and the fall in cost per lead reflect improving efficiency rather than extra spend.",
   "early_stage": {
     "title": "The First Quarter",
     "intro": "The account produced genuine leads from its very first month and grew steadily as the campaigns gathered data. Cost per lead was already low at launch and edged lower as conversion rate improved.",
-    "headers": ["Period", "Spend", "Genuine Leads", "Cost / Lead"],
+    "headers": [
+      "Period",
+      "Spend",
+      "Genuine Leads",
+      "Cost / Lead"
+    ],
     "rows": [
-      ["Month 1 (Sep 2025)", "$724.22", "55", "$13.17"],
-      ["Month 2 (Oct 2025)", "$778.75", "66", "$11.80"],
-      ["Month 3 (Nov 2025)", "$698.79", "56", "$12.48"]
+      [
+        "Month 1 (Sep 2025)",
+        "$724.22",
+        "55",
+        "$13.17"
+      ],
+      [
+        "Month 2 (Oct 2025)",
+        "$778.75",
+        "66",
+        "$11.80"
+      ],
+      [
+        "Month 3 (Nov 2025)",
+        "$698.79",
+        "56",
+        "$12.48"
+      ]
     ]
   },
   "gradual": "From a solid launch the account climbed month over month. It averaged about 60 genuine leads a month in its first full quarter (Q4 2025), then stepped up to roughly 95–97 a month across Q1 and Q2 2026 — peaking near 124 in April — all on the same modest budget. The monthly trend below shows a genuine growth curve with the normal variation of a live account, not a one-off spike.",
@@ -109,18 +219,58 @@
       "type": "line",
       "title": "Monthly Genuine Leads (Mostly Phone Calls)",
       "period": "Sep 2025 – Jul 2026 · phone calls & lead forms",
-      "x": ["Sep'25","Oct","Nov","Dec","Jan'26","Feb","Mar","Apr","May","Jun","Jul"],
+      "x": [
+        "Sep'25",
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan'26",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul"
+      ],
       "series": [
-        {"name": "Genuine leads", "color": "green", "values": [55,66,56,57,75,96,120,124,84,78,61]}
+        {
+          "name": "Genuine leads",
+          "color": "green",
+          "values": [
+            55,
+            66,
+            56,
+            57,
+            75,
+            96,
+            120,
+            124,
+            84,
+            78,
+            61
+          ]
+        }
       ]
     },
     {
       "type": "bar",
       "title": "Quarterly Tracked Leads Since PPC Guru Launch",
       "period": "Genuine leads (calls + forms) per full quarter · Google Ads",
-      "labels": ["Q4'25","Q1'26","Q2'26"],
-      "values": [179,291,286],
-      "colors": ["blue","blue","green"]
+      "labels": [
+        "Q4'25",
+        "Q1'26",
+        "Q2'26"
+      ],
+      "values": [
+        179,
+        291,
+        286
+      ],
+      "colors": [
+        "blue",
+        "blue",
+        "green"
+      ]
     }
   ]
 }

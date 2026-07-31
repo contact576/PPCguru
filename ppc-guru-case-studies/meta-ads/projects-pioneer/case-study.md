@@ -1,4 +1,4 @@
-# Construction Meta Ads Case Study — Projects Pioneer
+# Construction & Home Renovation Meta Ads Case Study — Projects Pioneer
 
 ## SEO
 - **Title:** Construction Meta Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## How a Construction Firm Launched on Meta Ads and Scaled to ~71 Conversations a Month
 
-**Headline results:** ~71 Conversations / month · ~$20 Cost per conversation · +65% conversation volume vs first full month
+**Headline results:** ~71 Conversations / month · ~$20 Cost per conversation · +65% Conversation volume
 
 PPC Guru launched Projects Pioneer on Meta Ads and grew it into a steady enquiry engine — from 43 messaging conversations in the first full month (March 2026) to about 71 direct conversations a month across the most recent complete quarter (Apr–Jun 2026), at roughly $20 per conversation and with cost per conversation about 15% lower than at launch.
 
@@ -64,7 +64,7 @@ After a short February pilot that produced 10 conversations while the offer was 
 | May 2026 | $1,437 | 80 | $17.97 |
 
 ### Gradual Improvement, Month by Month
-From the first full month onward, conversation volume climbed steadily rather than spiking once and fading. March opened at 43 conversations, April rose to 63, and May peaked at 80 as budget was scaled. June held strong at 70, and July settled at 38 in a quieter month — the ordinary month-to-month variation of a live account. Across the most recent complete quarter the account averaged about 71 genuine conversations a month at roughly $20 each. The monthly trend shows the launch ramp and the natural variation that follows.
+From the first full month onward, conversation volume climbed steadily rather than spiking once and fading. March opened at 43 conversations, April rose to 63, and May peaked at 80 as budget was scaled. June held strong at 70, and July settled at 38 in a quieter month — the ordinary month-to-month variation of a live account. Across the most recent complete quarter the account averaged about 71 genuine conversations a month at roughly $20 each. The monthly trend below shows the launch ramp and the natural variation that follows.
 
 ### Results
 | Metric | First full month (Mar 2026) | Now (Q2 2026, avg/mo) | Change |

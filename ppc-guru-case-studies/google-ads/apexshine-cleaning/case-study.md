@@ -1,4 +1,4 @@
-# Cleaning Company Google Ads Case Study — Apexshine Cleaning Inc.
+# Cleaning Services Google Ads Case Study — Apexshine Cleaning Inc.
 
 ## SEO
 - **Title:** Cleaning Company Google Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## Launching a Cleaning Company to 38 Google Ads Leads a Month
 
-**Headline results:** 38 Genuine leads (Jul 2026) · ~$50 Cost per lead · +27% vs first month
+**Headline results:** 38 Genuine leads · ~$50 Cost per lead · +27% More leads vs first month
 
 PPC Guru launched Apexshine Cleaning on Google Ads across Local Services and Search, and in just its second full month the account produced 38 genuine phone and form leads at about $50 each — a 27% increase over its first month, with cost per lead down roughly a quarter.
 

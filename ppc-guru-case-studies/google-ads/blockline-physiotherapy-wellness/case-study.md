@@ -1,4 +1,4 @@
-# Physiotherapy Clinic Google Ads Case Study — Blockline Physiotherapy & Wellness
+# Physiotherapy & Wellness Clinic Google Ads Case Study — Blockline Physiotherapy & Wellness
 
 ## SEO
 - **Title:** Physiotherapy Clinic Google Ads Case Study | PPC Guru

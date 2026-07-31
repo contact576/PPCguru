@@ -10,7 +10,7 @@
 
 ## A Custom Cabinetry Brand's Meta Ads Launch: 118 Leads in Month One
 
-**Headline results:** 118 Leads · $5.29 Cost per lead · 2.22% Click-through rate (first month, Jul 2026)
+**Headline results:** 118 Leads · $5.29 Cost per lead · 2.22% Click-through rate
 
 PPC Guru launched a Meta Ads lead program for Lavish Artigiano, a custom cabinetry brand. In its first complete month (July 2026) the account generated 118 lead-form enquiries at $5.29 each on a $624 budget. This is an early-stage snapshot: with only one month of data live, it shows a promising start rather than an established trend.
 
@@ -57,6 +57,8 @@ In its first complete month of delivery (July 2026), the account produced 118 le
 | Period | Spend | Leads | Cost / Lead |
 | --- | --- | --- | --- |
 | First month (Jul 2026) | $623.85 | 118 | $5.29 |
+
+### Results
 
 _This is a first-month snapshot. With only one complete month of delivery, there is no prior period to compare against and no quarterly average yet. The result is a promising start; a second and third month are needed before it can be read as a settled performance level._
 

@@ -1,4 +1,4 @@
-# Physiotherapy Meta Ads Case Study — True Life Wellness Physio
+# Physiotherapy Clinic Meta Ads Case Study — True Life Wellness Physio
 
 ## SEO
 - **Title:** Physiotherapy Meta Ads Case Study | PPC Guru

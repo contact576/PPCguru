@@ -1,4 +1,4 @@
-# Construction Meta Ads Case Study — GCAD Construction
+# Construction & Basement Renovation Meta Ads Case Study — GCAD Construction
 
 ## SEO
 - **Title:** Construction Meta Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## A Construction Firm's First Month on Meta Ads: ~30 Homeowner Conversations
 
-**Headline results:** ~30 Conversations · ~$70 Cost per conversation · 30,553 homeowners reached (first month, Jul 2026)
+**Headline results:** ~30 Conversations · ~$70 Cost per conversation · 30,553 Homeowners reached
 
 PPC Guru launched GCAD Construction on Meta Ads in July 2026. In its first complete month the account reached about 30,600 homeowners and produced roughly 30 direct messaging conversations about basement and renovation projects at about $70 each. This is an early launch snapshot — more months of data are needed before growth can be measured.
 
@@ -64,7 +64,6 @@ In July 2026, its first complete month, the account reached about 30,600 homeown
 This is a first-month launch snapshot rather than a growth story. In July 2026 the account established reach among about 30,600 homeowners and opened roughly 30 direct conversations about basement and renovation projects. Cost per conversation of about $70 is a typical starting point for a brand-new construction account and is expected to improve as the audience and creative mature. A full before-and-after case study will follow once several more months of data are available.
 
 ### Results
-_This is a first-month launch snapshot. With only one complete month (July 2026) and no prior baseline, no before-and-after comparison is drawn. Genuine first-month result: about 30 direct homeowner conversations at roughly $70 each, from 30,553 homeowners reached._
 
 ### Lessons for Construction & Renovation Firms
 1. Open a direct conversation with homeowners rather than relying on passive form fills.

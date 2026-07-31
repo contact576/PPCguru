@@ -1,4 +1,4 @@
-# HVAC Meta Ads Case Study — EcoCare
+# HVAC & Home Comfort Meta Ads Case Study — EcoCare
 
 ## SEO
 - **Title:** HVAC Meta Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## How an HVAC Company Scaled to ~396 Meta Ads Leads a Month
 
-**Headline results:** ~396 Leads / month · ~$26 Cost per lead · ~12× Lead growth since launch
+**Headline results:** ~396 Leads / month · ~$26 Cost per lead · ~12× Lead growth
 
 PPC Guru launched EcoCare's Meta Ads program and grew it into a dependable lead engine for home-comfort services — from 32 lead-form enquiries in the first month (Aug 2025) to roughly 396 genuine leads a month in the most recent complete quarter (Apr–Jun 2026), at about $26 per lead across furnaces, heat pumps and water heaters.
 

@@ -1,4 +1,4 @@
-# Engineering Company Google Ads Case Study — Vin Engineering INC
+# Engineering Services Google Ads Case Study — Vin Engineering INC
 
 ## SEO
 - **Title:** Engineering Company Google Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## Launching an Engineering Firm to 12 Google Ads Leads in Month One
 
-**Headline results:** 12 Genuine leads (Jul 2026) · ~$124 Cost per lead · 8 quote requests + 4 calls
+**Headline results:** 12 Genuine leads · ~$124 Cost per lead · 8 + 4 Quote requests + calls
 
 PPC Guru launched Vin Engineering on Google Ads with call and quote-form tracking in place, and the firm's first full month (July 2026) delivered 12 genuine leads — eight online quote requests and four phone calls — from a single focused permit-offer Search campaign.
 

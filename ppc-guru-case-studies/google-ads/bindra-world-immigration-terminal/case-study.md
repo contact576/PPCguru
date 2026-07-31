@@ -10,7 +10,7 @@
 
 ## How an Ontario Immigration Consultancy Scaled to ~56 Google Ads Leads a Month
 
-**Headline results:** ~56 genuine leads / month · ~$18 cost per lead · ~16% conversion rate (July 2026)
+**Headline results:** ~56 Genuine leads / month · ~$18 Cost per lead · ~16% Conversion rate
 
 PPC Guru launched an Ontario immigration consultancy on Google Ads in early 2026 and, once genuine call tracking was live, scaled it from 6 tracked phone and form leads in May to about 56 a month by July — while cutting cost per lead from roughly $35 to about $18 and lifting the conversion rate to around 16%.
 
@@ -26,7 +26,7 @@ For an immigration consultancy, the enquiries that matter are phone calls and fo
 ### What We Analyzed & Planned
 The plan was to capture high-intent immigration searches on Search, wire up genuine lead tracking (calls and forms), and then scale budget as the real enquiry data proved out — keeping WhatsApp button clicks and Google Business Profile local actions separate from the true lead count.
 
-- Focus a Search campaign on high-intent queries like "immigration consultant near me" and work-permit searches.
+- Focus a Search campaign on high-intent queries like 'immigration consultant near me' and work-permit searches.
 - Establish genuine phone-call and form tracking so reporting reflects real client enquiries.
 - Separate WhatsApp button clicks and local actions from the genuine lead count.
 - Scale budget as tracked phone and form leads grew and cost per lead fell.
@@ -54,9 +54,6 @@ The plan was to capture high-intent immigration searches on Search, wire up genu
 - **Lead signals:** Phone calls · Form submissions
 - **Reporting:** Genuine leads only (WhatsApp / local actions excluded)
 
-### Why Call Tracking Changed the Picture
-For the first weeks after launch, the account could see WhatsApp button clicks but not phone calls — so the true number of client enquiries was understated. Once website-call and call-from-ads tracking was firing in May 2026, the account could finally optimize toward real phone enquiries rather than button taps. That is what let Maximize Conversions bidding find more of the searches that turn into genuine immigration consultations, and it is why lead volume climbed while cost per lead fell.
-
 ### Gradual Improvement, Month by Month
 Once phone-call tracking went live in May, genuine leads scaled quickly: 6 in May, 44 in June and about 56 in July. Crucially, this was not just more spend buying more clicks — cost per lead roughly halved over the same window, from about $35 to $18, and the conversion rate rose from around 11% to 16%. The added budget brought proportionally more genuine enquiries, not just more traffic.
 
@@ -71,6 +68,9 @@ Once phone-call tracking went live in May, genuine leads scaled quickly: 6 in Ma
 _Figures use genuine phone and form leads only. April's raw conversions were entirely WhatsApp button clicks (phone tracking was not yet firing), and the account's all-conversions total is heavily inflated by Google Business Profile local actions — both are excluded so the numbers reflect real client enquiries._
 
 **Lead quality:** The large majority of tracked leads are direct phone calls — the highest-intent enquiry type for an immigration consultancy — alongside contact-form submissions.
+
+### Why Call Tracking Changed the Picture
+For the first weeks after launch, the account could see WhatsApp button clicks but not phone calls — so the true number of client enquiries was understated. Once website-call and call-from-ads tracking was firing in May 2026, the account could finally optimize toward real phone enquiries rather than button taps. That is what let Maximize Conversions bidding find more of the searches that turn into genuine immigration consultations, and it is why lead volume climbed while cost per lead fell.
 
 ### Lessons for Immigration Consultants
 1. Track phone calls and form submissions — for a consultancy, those are the enquiries worth measuring.

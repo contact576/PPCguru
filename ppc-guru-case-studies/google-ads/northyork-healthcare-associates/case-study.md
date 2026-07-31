@@ -1,4 +1,4 @@
-# Healthcare Clinic Google Ads Case Study — NorthYork Healthcare Associates
+# Physiotherapy & Sports Injury Clinic Google Ads Case Study — NorthYork Healthcare Associates
 
 ## SEO
 - **Title:** Healthcare Clinic Google Ads Case Study | PPC Guru

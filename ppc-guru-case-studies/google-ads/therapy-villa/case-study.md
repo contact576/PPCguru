@@ -1,4 +1,4 @@
-# Psychotherapy Google Ads Case Study — Therapy Villa
+# Psychotherapy Practice Google Ads Case Study — Therapy Villa
 
 ## SEO
 - **Title:** Psychotherapy Google Ads Case Study | PPC Guru

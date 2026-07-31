@@ -52,20 +52,14 @@ As a fresh launch, the focus was on clean lead capture and measurement from day 
 - **Data window:** 1 month (Jul 2026)
 
 ### Results
-| Metric | Month one (Jul 2026) | Detail |
-| --- | --- | --- |
-| Instant-Form leads | 5 | ≈ $45.17 / lead |
-| WhatsApp conversations | 11 | ≈ $53 / chat |
-| Total tracked leads | 9 | Form + messaging |
-| Ad spend | ≈ $812 | Launch month |
+| Metric | Metric | Month one (Jul 2026) | Change |
+| --- | --- | --- | --- |
+| Instant-Form leads | Instant-Form leads | 5 | ≈ $45.17 / lead |
+| WhatsApp conversations | WhatsApp conversations | 11 | ≈ $53 / chat |
+| Total tracked leads | Total tracked leads | 9 | Form + messaging |
+| Ad spend | Ad spend | ≈ $812 | Launch month |
 
 _These figures cover a single launch month (July 2026), so they are an early snapshot rather than a trend. Cost per enquiry should be read as a starting baseline that PPC Guru will work to improve as the account gathers more data and creative and audience testing matures._
-
-### Why It Worked
-- Two lead objectives launched together gave the firm both form leads and live conversations.
-- On-platform capture kept enquiries fast and frictionless for a mobile audience.
-- Clean measurement from day one set an honest cost-per-enquiry baseline.
-- The launch produced 16 genuine enquiries across form and WhatsApp in the first month.
 
 ### Lessons for Financial Services Firms
 1. Give prospects two ways to reach you — a form for details and WhatsApp for a quick chat.
@@ -73,6 +67,12 @@ _These figures cover a single launch month (July 2026), so they are an early sna
 3. Measure cost per genuine enquiry from day one, not clicks or reach.
 4. Treat the first month as a baseline and optimise from real data rather than assumptions.
 5. Follow up quickly — in financial services, timely, trusted contact wins the conversation.
+
+### Why It Worked
+- Two lead objectives launched together gave the firm both form leads and live conversations.
+- On-platform capture kept enquiries fast and frictionless for a mobile audience.
+- Clean measurement from day one set an honest cost-per-enquiry baseline.
+- The launch produced 16 genuine enquiries across form and WhatsApp in the first month.
 
 ### Where They Stand Today
 In its first month on Meta with PPC Guru (July 2026), Ace Equity generated 5 Instant-Form leads at about $45.17 each and 11 WhatsApp conversations. As a launch snapshot from a single month, these results are an encouraging start rather than a settled trend. PPC Guru will confirm cost per enquiry over a fuller window and scale the objective that proves most efficient.

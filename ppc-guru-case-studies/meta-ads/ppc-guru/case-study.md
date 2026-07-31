@@ -10,7 +10,7 @@
 
 ## How PPC Guru Scaled Its Own Meta Ads Lead Engine to 80 Leads a Month at ~$19 Each
 
-**Headline results:** 80 Form leads / month · ~$19 Cost per lead · ▼ 76% cost per lead vs the 2024 pilot
+**Headline results:** 80 Form leads / month · ~$19 Cost per lead · ▼ 76% Cost per lead
 
 PPC Guru applied its own methodology to its own Meta Ads account — turning a small 2024 pilot that produced about 8 instant-form leads a month at roughly $79 each into a scaled 2026 engine delivering 80 genuine form leads in July 2026 at about $19 each, a cost per lead roughly 76% lower even as monthly budget more than doubled.
 
@@ -64,7 +64,7 @@ The 2024 pilot proved the instant-form mechanism at a modest budget, delivering 
 | Now (Jul 2026) | $1,487 | 80 | $18.59 |
 
 ### Gradual Improvement, Month by Month
-The two eras tell a clear pilot-to-scale story. In 2024 the account produced a handful of instant-form leads a month at a high cost per lead, enough to prove the approach worked. After a pause and a 2026 relaunch — which re-established audiences through lower-cost messaging and lead campaigns in March and April — instant-form volume scaled to 54 leads in May, held at 54 in June, and reached 80 in July at about $19 each. The chart shows the leap from the pilot to the scaled engine; the gap between the eras reflects the paused period and is shown honestly.
+The two eras tell a clear pilot-to-scale story. In 2024 the account produced a handful of instant-form leads a month at a high cost per lead, enough to prove the approach worked. After a pause and a 2026 relaunch — which re-established audiences through lower-cost messaging and lead campaigns in March and April — instant-form volume scaled to 54 leads in May, held at 54 in June, and reached 80 in July at about $19 each. The chart below shows the leap from the pilot to the scaled engine; the gap between the eras reflects the paused period and is shown honestly.
 
 ### Results
 | Metric | 2024 pilot (Jul, /mo) | Now (Jul 2026) | Change |

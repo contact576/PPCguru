@@ -1,4 +1,4 @@
-# HVAC Google Ads Case Study — EcoCare Home Comfort
+# HVAC / Home Comfort Google Ads Case Study — EcoCare Home Comfort
 
 ## SEO
 - **Title:** HVAC Google Ads Case Study | PPC Guru
@@ -10,7 +10,7 @@
 
 ## How an HVAC Company Grew to ~14 Google Ads Leads a Month in Two Quarters
 
-**Headline results:** ~14 Genuine leads / month · +35% vs prior quarter · ~7 in 10 leads by phone call
+**Headline results:** ~14 Genuine leads / month · +35% More leads vs prior quarter · ~7 in 10 Leads by phone call
 
 PPC Guru launched EcoCare Home Comfort on Google Ads with call and form tracking wired in from day one, then grew it from about 10 genuine leads a month in its first full quarter to roughly 14 a month in the most recent quarter (Apr–Jun 2026) — a 35% quarter-over-quarter increase, with about seven in ten leads arriving as direct phone calls.
 
@@ -56,7 +56,7 @@ Before spending began, PPC Guru set up the measurement first: call tracking on a
 - **Market:** Ontario, Canada
 
 ### Gradual Improvement, Month by Month
-The account did not spike once and fade. After a strong first full month (about 19 leads in December 2025, almost all phone calls), it settled through Q1 2026 into roughly 10 genuine leads a month while targeting and negative keywords were refined. As homeowner demand picked up into spring and budget was scaled, Q2 2026 climbed to about 14 genuine leads a month. The monthly trend shows the natural month-to-month variation of a real, seasonal HVAC account rather than a manufactured straight line.
+The account did not spike once and fade. After a strong first full month (about 19 leads in December 2025, almost all phone calls), it settled through Q1 2026 into roughly 10 genuine leads a month while targeting and negative keywords were refined. As homeowner demand picked up into spring and budget was scaled, Q2 2026 climbed to about 14 genuine leads a month. The monthly trend below shows the natural month-to-month variation of a real, seasonal HVAC account rather than a manufactured straight line.
 
 ### Results
 | Metric | First quarter (Q1 2026, avg/mo) | Now (Q2 2026, avg/mo) | Change |

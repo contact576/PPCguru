@@ -1,4 +1,4 @@
-# Wellness Meta Ads Case Study — Living Well with Muydor
+# Health & Wellness Coaching Meta Ads Case Study — Living Well with Muydor
 
 ## SEO
 - **Title:** Wellness Meta Ads Case Study | PPC Guru
@@ -64,18 +64,18 @@ The contrast is stark rather than gradual, because the account changed what it w
 
 _* Before the lead campaign, spend was aimed at engagement, so the few leads that appeared in May and June were incidental — that ≈$79 figure is the cost of those occasional leads, not an optimised lead rate. With a dedicated Instant-Form campaign the first month captured 112 genuine leads at about $4.07 each._
 
-### Why It Worked
-- The objective moved from engagement to genuine lead capture, so spend produced enquiries instead of likes.
-- A native Meta Instant Form made it easy for a mobile wellness audience to leave contact details.
-- Budget was concentrated on the lead campaign rather than page-like ads.
-- Performance was measured on real form leads and cost per lead from the first day.
-
 ### Lessons for Coaches & Wellness Brands
 1. Likes and reach are not leads — optimise campaigns for the contact details you can actually follow up with.
 2. A native Instant Form removes friction for a mobile audience and lifts completion rates.
 3. Concentrate budget on the objective that produces enquiries rather than spreading it across engagement ads.
 4. Measure cost per genuine lead from day one so you know what an enquiry really costs.
 5. Audience interest built by earlier content can be redirected into lead capture with the right campaign structure.
+
+### Why It Worked
+- The objective moved from engagement to genuine lead capture, so spend produced enquiries instead of likes.
+- A native Meta Instant Form made it easy for a mobile wellness audience to leave contact details.
+- Budget was concentrated on the lead campaign rather than page-like ads.
+- Performance was measured on real form leads and cost per lead from the first day.
 
 ### Where They Stand Today
 In its first full month on Meta with PPC Guru (July 2026), Living Well with Muydor captured 112 genuine leads at about $4.07 each — a step-change from the earlier engagement campaigns that had produced almost none. The account now has a repeatable lead engine and clear cost-per-lead visibility. As the first complete month of a newly launched campaign, these results are an encouraging starting point that PPC Guru will confirm and refine over the coming months.

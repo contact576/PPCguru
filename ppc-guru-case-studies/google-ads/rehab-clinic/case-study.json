@@ -1,7 +1,7 @@
 {
   "meta": {
     "layout": "compact",
-    "client_display": "Rehabilitation Clinic",
+    "client_display": "Rehab Clinic",
     "slug": "/case-studies/rehabilitation-clinic-google-ads-case-study",
     "platform": "Google Ads",
     "industry": "Rehabilitation Clinic",
@@ -10,7 +10,13 @@
     "seo_title": "Rehab Clinic Google Ads Case Study | PPC Guru",
     "meta_description": "How PPC Guru rebuilt a rehabilitation clinic's Google Ads into a measured engine delivering about 22 genuine phone-call leads a month with full call and booking tracking.",
     "primary_keyword": "rehabilitation clinic Google Ads",
-    "secondary_keywords": ["physiotherapy Google Ads", "Google Ads case study", "clinic lead generation", "conversion tracking", "Google Ads agency in Toronto"],
+    "secondary_keywords": [
+      "physiotherapy Google Ads",
+      "Google Ads case study",
+      "clinic lead generation",
+      "conversion tracking",
+      "Google Ads agency in Toronto"
+    ],
     "pdf_filename": "rehabilitation-clinic-google-ads-case-study-ppc-guru.pdf",
     "reporting_period": "Jan 2019 – Jul 2026",
     "comparison_period": "Pre-rebuild (2021) vs Q2 2026 (per month)",
@@ -20,9 +26,21 @@
   },
   "headline": "How a Rehab Clinic Rebuilt Its Google Ads Into a Measured Phone-Lead Engine",
   "kpis": [
-    {"value": "~22", "label": "Phone leads / month", "note": "Q2 2026 (Apr–Jun)"},
-    {"value": "~$63", "label": "Cost per lead", "note": "Apr–Jun 2026"},
-    {"value": "~4.3%", "label": "Lead conversion rate", "note": "Genuine calls ÷ clicks, Q2 2026"}
+    {
+      "value": "~22",
+      "label": "Phone leads / month",
+      "note": "Q2 2026 (Apr–Jun)"
+    },
+    {
+      "value": "~$63",
+      "label": "Cost per lead",
+      "note": "Apr–Jun 2026"
+    },
+    {
+      "value": "~4.3%",
+      "label": "Lead conversion rate",
+      "note": "Genuine calls ÷ clicks, Q2 2026"
+    }
   ],
   "summary_line": "PPC Guru took a rehabilitation clinic off a minimal-budget Smart Campaign — one whose recorded 'conversions' were mostly Google Maps directions and button taps — and rebuilt it into two focused Search campaigns with genuine call and JaneApp booking tracking. The result is a dependable, measurable stream of around 22 real phone-call leads a month in the most recent quarter (Apr–Jun 2026), at roughly $63 per lead.",
   "client_context": "The client is a rehabilitation clinic in Ontario, Canada offering physiotherapy and massage therapy, with patient scheduling handled through the JaneApp booking and practice-management system. Like most local clinics, its growth depends on a steady flow of new-patient enquiries — mainly phone calls from people searching for treatment nearby. Google Ads is the clinic's primary channel for reaching those high-intent searchers, which makes reliable measurement of calls and bookings central to the account's success.",
@@ -36,48 +54,139 @@
   ],
   "timeline_title": "The Takeover Timeline",
   "timeline": [
-    {"when": "2019–2021", "what": "Pre-rebuild baseline — a minimal-budget Smart Campaign (~$300/mo) whose recorded conversions were mostly Google local actions, not separately tracked calls."},
-    {"when": "Late 2022", "what": "PPC Guru rebuild — genuine call tracking wired up (first tracked phone-call leads from Sep 2022) and the account moved toward dedicated Search campaigns."},
-    {"when": "2023", "what": "First full year of measured leads; the new Search structure and budget were established at roughly $1,500–2,000 a month."},
-    {"when": "2024–2025", "what": "The account settled into a steady ~17–22 genuine phone-call leads a month with call and JaneApp booking tracking in place."},
-    {"when": "Q2 2026 (Apr–Jun)", "what": "About 22 genuine phone-call leads a month at roughly $63 per lead, from two focused Search campaigns."}
+    {
+      "when": "2019–2021",
+      "what": "Pre-rebuild baseline — a minimal-budget Smart Campaign (~$300/mo) whose recorded conversions were mostly Google local actions, not separately tracked calls."
+    },
+    {
+      "when": "Late 2022",
+      "what": "PPC Guru rebuild — genuine call tracking wired up (first tracked phone-call leads from Sep 2022) and the account moved toward dedicated Search campaigns."
+    },
+    {
+      "when": "2023",
+      "what": "First full year of measured leads; the new Search structure and budget were established at roughly $1,500–2,000 a month."
+    },
+    {
+      "when": "2024–2025",
+      "what": "The account settled into a steady ~17–22 genuine phone-call leads a month with call and JaneApp booking tracking in place."
+    },
+    {
+      "when": "Q2 2026 (Apr–Jun)",
+      "what": "About 22 genuine phone-call leads a month at roughly $63 per lead, from two focused Search campaigns."
+    }
   ],
   "challenge": "The account had years of history and a healthy-looking conversion count, but the numbers were misleading. Running as a low-budget Smart Campaign, it recorded mostly Google Maps directions and click-to-call taps — local actions, not measurable enquiries. There was no reliable line of sight from ad spend to a genuine phone call or a booked appointment, which made it impossible to know what was actually working or to scale with confidence.",
   "changes": [
-    {"change": "Moved off Smart Campaign to Search", "why": "Two dedicated Search campaigns (physiotherapy and massage therapy) gave full control over keywords, budget and negatives instead of an automated black box."},
-    {"change": "Genuine call tracking", "why": "Separated real phone-call leads (from ads and the website) from Google local actions so reporting reflected actual enquiries."},
-    {"change": "JaneApp booking measurement", "why": "Wired completed bookings from JaneApp back into the account so optimisation could aim at patients, not button taps."},
-    {"change": "Maximize Conversions bidding", "why": "Once genuine call signals were trustworthy, automated bidding could chase real enquiries efficiently."},
-    {"change": "Budget scaled on proof", "why": "Spend was increased from ~$300/mo toward ~$1,400/mo only after measured phone leads confirmed the channel worked."},
-    {"change": "Ongoing search-term hygiene", "why": "Continuous negative-keyword work kept traffic relevant to treatment-intent searches as volume grew."}
+    {
+      "change": "Moved off Smart Campaign to Search",
+      "why": "Two dedicated Search campaigns (physiotherapy and massage therapy) gave full control over keywords, budget and negatives instead of an automated black box."
+    },
+    {
+      "change": "Genuine call tracking",
+      "why": "Separated real phone-call leads (from ads and the website) from Google local actions so reporting reflected actual enquiries."
+    },
+    {
+      "change": "JaneApp booking measurement",
+      "why": "Wired completed bookings from JaneApp back into the account so optimisation could aim at patients, not button taps."
+    },
+    {
+      "change": "Maximize Conversions bidding",
+      "why": "Once genuine call signals were trustworthy, automated bidding could chase real enquiries efficiently."
+    },
+    {
+      "change": "Budget scaled on proof",
+      "why": "Spend was increased from ~$300/mo toward ~$1,400/mo only after measured phone leads confirmed the channel worked."
+    },
+    {
+      "change": "Ongoing search-term hygiene",
+      "why": "Continuous negative-keyword work kept traffic relevant to treatment-intent searches as volume grew."
+    }
   ],
   "technical": [
-    {"label": "Campaign type", "value": "Search (2 campaigns)"},
-    {"label": "Bidding strategy", "value": "Maximize Conversions"},
-    {"label": "Campaigns", "value": "Physiotherapy · Massage Therapy"},
-    {"label": "Monthly budget (2026)", "value": "≈ $1,410 CAD"},
-    {"label": "Lead signals", "value": "Phone calls (ads + website)"},
-    {"label": "Booking system", "value": "JaneApp (GA4 + offline import)"}
+    {
+      "label": "Campaign type",
+      "value": "Search (2 campaigns)"
+    },
+    {
+      "label": "Bidding strategy",
+      "value": "Maximize Conversions"
+    },
+    {
+      "label": "Campaigns",
+      "value": "Physiotherapy · Massage Therapy"
+    },
+    {
+      "label": "Monthly budget (2026)",
+      "value": "≈ $1,410 CAD"
+    },
+    {
+      "label": "Lead signals",
+      "value": "Phone calls (ads + website)"
+    },
+    {
+      "label": "Booking system",
+      "value": "JaneApp (GA4 + offline import)"
+    }
   ],
   "comparison": {
     "col_before": "Then (pre-rebuild, 2021)",
     "col_after": "Now (Q2 2026, avg/mo)",
     "rows": [
-      {"metric": "Genuine phone-call leads / month", "before": "Not separately tracked*", "after": "≈ 22", "change": "Now measured", "dir": "up"},
-      {"metric": "Conversion tracking", "before": "Google local actions", "after": "Calls + JaneApp bookings", "change": "Honest signals", "dir": "up"},
-      {"metric": "Campaign structure", "before": "Smart Campaign", "after": "Search · Max Conversions", "change": "Full control", "dir": "up"},
-      {"metric": "Monthly ad spend", "before": "≈ $290", "after": "≈ $1,410", "change": "Scaled with results", "dir": "neutral"}
+      {
+        "metric": "Genuine phone-call leads / month",
+        "before": "Not separately tracked*",
+        "after": "≈ 22",
+        "change": "Now measured",
+        "dir": "up"
+      },
+      {
+        "metric": "Conversion tracking",
+        "before": "Google local actions",
+        "after": "Calls + JaneApp bookings",
+        "change": "Honest signals",
+        "dir": "up"
+      },
+      {
+        "metric": "Campaign structure",
+        "before": "Smart Campaign",
+        "after": "Search · Max Conversions",
+        "change": "Full control",
+        "dir": "up"
+      },
+      {
+        "metric": "Monthly ad spend",
+        "before": "≈ $290",
+        "after": "≈ $1,410",
+        "change": "Scaled with results",
+        "dir": "neutral"
+      }
     ]
   },
   "benchmark": "* In the pre-rebuild era the account ran as a low-budget Smart Campaign, and genuine phone-call leads were not tracked separately from Google local actions (map directions and click-to-call taps). The comparison therefore contrasts the earlier setup with today's measured program rather than two identical lead counts. Since genuine tracking began, quarterly phone-call leads have grown from about 13 a month in the first tracked quarter to about 22 a month in Q2 2026.",
   "early_stage": {
     "title": "The First Measured Quarter",
     "intro": "Once genuine call tracking was in place, the account began recording real phone-call leads for the first time. The first full tracked quarter (Q4 2022) produced about 39 genuine calls — roughly 13 a month — a modest but honest starting point that the rebuilt Search structure grew from.",
-    "headers": ["Period", "Genuine Phone Leads", "Avg / Month"],
+    "headers": [
+      "Period",
+      "Genuine Phone Leads",
+      "Avg / Month"
+    ],
     "rows": [
-      ["Q4 2022 (first tracked)", "39", "13"],
-      ["2024 (full year)", "≈ 207", "≈ 17"],
-      ["Q2 2026", "67", "≈ 22"]
+      [
+        "Q4 2022 (first tracked)",
+        "39",
+        "13"
+      ],
+      [
+        "2024 (full year)",
+        "≈ 207",
+        "≈ 17"
+      ],
+      [
+        "Q2 2026",
+        "67",
+        "≈ 22"
+      ]
     ]
   },
   "gradual": "Rather than spiking once and fading, the account matured into a steady lead engine. Through 2024 it averaged about 17 genuine phone-call leads a month, climbing to roughly 20–22 a month across 2025 and into 2026 as targeting and negatives tightened. The monthly trend below shows the natural month-to-month variation of a real clinic account — including a quieter May 2026 when spend was reduced — around a consistent, measurable baseline of genuine calls.",
@@ -110,18 +219,134 @@
       "type": "line",
       "title": "Monthly Genuine Phone-Call Leads",
       "period": "2024–2026 · direct phone calls (ads + website)",
-      "x": ["Jan'24","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan'25","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec","Jan'26","Feb","Mar","Apr","May","Jun","Jul"],
+      "x": [
+        "Jan'24",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan'25",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+        "Jan'26",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul"
+      ],
       "series": [
-        {"name": "Phone-call leads", "color": "green", "values": [9,8,7,15,17,23,32,15,15,17,24,25,13,17,19,18,23,24,32,24,16,24,21,22,19,17,30,28,9,30,8]}
+        {
+          "name": "Phone-call leads",
+          "color": "green",
+          "values": [
+            9,
+            8,
+            7,
+            15,
+            17,
+            23,
+            32,
+            15,
+            15,
+            17,
+            24,
+            25,
+            13,
+            17,
+            19,
+            18,
+            23,
+            24,
+            32,
+            24,
+            16,
+            24,
+            21,
+            22,
+            19,
+            17,
+            30,
+            28,
+            9,
+            30,
+            8
+          ]
+        }
       ]
     },
     {
       "type": "bar",
       "title": "Quarterly Tracked Leads Since PPC Guru Takeover",
       "period": "Genuine phone-call leads per quarter · Google Ads",
-      "labels": ["Q4'22","Q1'23","Q2'23","Q3'23","Q4'23","Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26","Q2'26"],
-      "values": [39,72,116,32,23,24,55,62,66,49,65,72,67,66,67],
-      "colors": ["blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green"]
+      "labels": [
+        "Q4'22",
+        "Q1'23",
+        "Q2'23",
+        "Q3'23",
+        "Q4'23",
+        "Q1'24",
+        "Q2'24",
+        "Q3'24",
+        "Q4'24",
+        "Q1'25",
+        "Q2'25",
+        "Q3'25",
+        "Q4'25",
+        "Q1'26",
+        "Q2'26"
+      ],
+      "values": [
+        39,
+        72,
+        116,
+        32,
+        23,
+        24,
+        55,
+        62,
+        66,
+        49,
+        65,
+        72,
+        67,
+        66,
+        67
+      ],
+      "colors": [
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "green"
+      ]
     }
   ]
 }
